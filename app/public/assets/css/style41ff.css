@@ -1,0 +1,5199 @@
+/* Global Styles */
+* {
+    box-sizing: border-box;
+}
+
+::selection {
+    background: #bf1e2e;
+    color: #fff;
+}
+
+body {
+    color: #020202;
+    font-size: 100%;
+    font-family: "Mukta", sans-serif;
+    margin: 0;
+}
+
+html {
+    color: #111;
+    font-family: "Mukta", sans-serif;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
+
+img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+a:hover,
+a,
+a:active {
+    text-decoration: none;
+    outline: none;
+}
+
+p {
+    margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 600;
+    font-family: "Mukta", sans-serif;
+    margin: 0;
+}
+
+.elc-container {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1250px;
+    padding: 0;
+}
+
+@media (max-width: 1200px) {
+    .elc-container {
+        padding: 0 20px;
+    }
+}
+
+.elc-container-small {
+    max-width: 960px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+h1 a:hover,
+h2 a:hover,
+h3 a:hover,
+h5 a:hover,
+h4 a:hover,
+h6 a:hover {
+    color: #bf1e2e;
+    margin-bottom: 0;
+    --transition: 0.48s;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.flex-inline {
+    display: inline-flex;
+}
+
+.flex-inline::after,
+.flex-inline::before,
+.flex::after,
+.flex::before {
+    display: none;
+}
+
+.flex-left {
+    justify-content: flex-start;
+}
+
+.flex-center {
+    justify-content: center;
+}
+
+.flex-right {
+    justify-content: flex-end;
+}
+
+.flex-between {
+    justify-content: space-between;
+}
+
+.flex-around {
+    justify-content: space-around;
+}
+
+.flex-middle {
+    align-items: center;
+}
+
+.flex-bottom {
+    align-items: flex-end;
+}
+
+.flex-row {
+    flex-direction: row;
+}
+
+.flex-row-reverse {
+    flex-direction: row-reverse;
+}
+
+.dn-grid {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-gap: 25px;
+}
+
+.mt-40,
+.section {
+    margin-top: 17px;
+}
+
+.section-bottom {
+    margin-bottom: 40px;
+}
+
+.white .news-title {
+    color: #fff;
+}
+
+.news--wrap {
+    flex: 2;
+}
+
+.aside {
+    flex: 1;
+    max-width: 300px;
+    margin-left: 30px;
+}
+
+.sticky {
+    position: sticky;
+    top: 100px;
+}
+
+a:hover .news-title {
+    color: #bf1e2e;
+}
+
+.news-title.news-title-small {
+    line-height: 1.45;
+    font-size: 19px;
+    font-weight: 600;
+}
+
+.news-title-large,
+.news-title-large a {
+    font-size: 30px;
+    line-height: 1.4;
+    font-weight: 700;
+}
+
+g path,
+g polygon {
+    transition: fill 0.25s ease;
+}
+
+g:hover {
+    cursor: pointer;
+}
+
+/* Global Styles */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Mukta", sans-serif;
+}
+
+.news-title,
+.news-title a {
+    font-weight: 400;
+    transition: all 0.3s ease;
+    text-decoration: none;
+    color: #020202;
+    text-decoration: none;
+    margin: 0;
+    line-height: 1.4;
+    font-size: 20px;
+}
+
+.news-title-large,
+.news-title-large a {
+    line-height: 1.354;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.news-title.news-title-medium {
+    font-size: 28px;
+}
+
+.news-title.news-title-small {
+    line-height: 1.45;
+    font-size: 19px;
+    font-weight: 400;
+}
+
+.header-section {
+    padding-top: 10px;
+    color: white;
+    position: relative;
+}
+
+.header-section .elc-container {
+    position: relative;
+    z-index: 1;
+}
+
+.header-section .header-logo a {
+    display: block;
+}
+
+.header-section .header-logo a img {
+    object-fit: cover;
+    width: 200px;
+}
+
+.header-section .btn-search {
+    display: none;
+}
+
+.navigation {
+    color: white;
+    background: #bf1e2e;
+    z-index: 3;
+    position: sticky;
+    top: 0;
+}
+
+.navigation .menu-container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.navigation .menu-container > ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    align-self: stretch;
+    align-items: center;
+}
+
+.navigation .menu-container > ul > li {
+    display: flex;
+    align-items: center;
+    position: relative;
+    justify-content: center;
+    padding: 9px 13px 4px 13px;
+    height: 100%;
+}
+
+.navigation .menu-container > ul > li.dropdown {
+    padding-right: 25px;
+}
+
+.navigation .menu-container > ul > li > span {
+    font-size: 11px;
+    position: absolute;
+    right: 9px;
+    top: 21px;
+}
+
+.navigation .menu-container > ul > li > a {
+    color: white;
+    margin: 7px 0;
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: 600;
+    font-family: "Anek Devanagari", sans-serif;
+    line-height: 1;
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+
+.navigation .menu-container > ul > li.active {
+    background: rgba(9, 0, 0, 0.11);
+}
+
+.navigation .menu-container > ul > li:hover {
+    background: rgba(9, 0, 0, 0.11);
+}
+
+.navigation .menu-container > ul > li:hover > ul {
+    opacity: 1;
+    visibility: visible;
+    top: 100%;
+    transition: 0.3s ease-in;
+    margin-top: 0;
+    background: #ab1a28;
+}
+
+.navigation .menu-container > ul > li > ul {
+    position: absolute;
+    top: 110%;
+    left: 0;
+    margin: 15px 0 0 0;
+    padding: 0;
+    list-style: none;
+    background: #bf1e2e;
+    z-index: 1;
+    width: 220px;
+    transition: 0.2s linear;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.231372549);
+    opacity: 0;
+    visibility: hidden;
+    border-radius: 0 0 3px 3px;
+}
+
+.navigation .menu-container > ul > li > ul > li {
+    border-top: 1px solid rgba(255, 255, 255, 0.08);
+    margin-right: 0;
+}
+
+.navigation .menu-container > ul > li > ul > li:first-child {
+    border-top: none;
+}
+
+.navigation .menu-container > ul > li > ul > li > a {
+    color: #fff;
+    margin: 0;
+    display: flex;
+    padding: 12px 0 4px 14px;
+    text-transform: uppercase;
+    font-weight: 600;
+    align-items: center;
+    font-size: 14px;
+    line-height: 1.44;
+    gap: 10px;
+    font-family: "Anek Devanagari", sans-serif;
+}
+
+.navigation .menu-container > ul > li > ul > li > a img {
+    width: 38px;
+    height: 38px;
+    object-fit: cover;
+    border-radius: 100%;
+    padding: 1px;
+    transition: all 0.35s ease-in-out;
+    background: rgba(43, 58, 80, 0.231372549);
+}
+
+.navigation .menu-container > ul > li > ul > li:hover, .navigation .menu-container > ul > li > ul > li.active {
+    background: rgba(255, 255, 255, 0.0588235294);
+}
+
+.navigation .menu-container .nav-right {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    gap: 12px;
+}
+
+.navigation .menu-container .nav-right .btn-search {
+    font-size: 16px;
+    cursor: pointer;
+    border: 1px solid rgba(255, 255, 255, 0.368627451);
+    height: 35px;
+    width: 35px;
+    border-radius: 10px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navigation .menu-container .nav-right .btn-search:hover {
+    background: rgba(0, 0, 0, 0.168627451);
+}
+
+.navigation .menu-container .nav-right .button {
+    margin-left: auto;
+    background: rgba(251, 251, 251, 0.1411764706);
+    text-align: center;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    position: relative;
+    font-size: 16px;
+    font-family: "Anek Devanagari", sans-serif;
+    font-weight: 600;
+    padding: 9px 15px 3px 15px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    border-radius: 11px;
+    overflow: hidden;
+}
+
+.navigation .menu-container .nav-right .button:before {
+    position: absolute;
+    content: "";
+    background: rgba(255, 254, 254, 0.05);
+    width: 110%;
+    min-height: 200px;
+    z-index: -1;
+    border-radius: 15%;
+    top: 100%;
+    left: 100%;
+    -webkit-transition: 0.4s all ease;
+    transition: 0.4s all ease;
+}
+
+.navigation .menu-container .nav-right .button:hover::before {
+    top: -75px;
+    left: -1px;
+}
+
+.candidate-search-form {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    color: #000;
+    z-index: 101;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+    text-align: left;
+}
+
+.candidate-search-form > div {
+    align-items: center;
+    height: 100%;
+    justify-content: center;
+    width: 100%;
+}
+
+.candidate-search-form .elc-container {
+    max-width: 900px;
+    border-radius: 15px;
+    justify-content: center;
+    padding: 22px;
+    background: #fff;
+    box-shadow: rgba(0, 0, 0, 0.1) 0 0 24px;
+    position: relative;
+    z-index: 101;
+}
+
+.candidate-search-form .form-label {
+    font-weight: 700;
+    font-size: 18px;
+    font-family: "Anek Devanagari", sans-serif;
+    color: #531700;
+    text-align: left;
+    display: flex;
+    line-height: 1.27;
+    align-items: center;
+    gap: 8px;
+    justify-content: space-between;
+}
+
+.candidate-search-form .form-label .trigger-close {
+    cursor: pointer;
+    background: none;
+    width: 40px;
+    margin: 0;
+    border: none;
+    padding: 0;
+    height: 40px;
+    opacity: 0.7;
+}
+
+.candidate-search-form .input-wrap {
+    position: relative;
+    margin-top: 5px;
+}
+
+.candidate-search-form .input-wrap input {
+    background: #f7f7f7;
+    border: 1px solid #d1d5db;
+    border-radius: 0.5rem;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.0509803922);
+    color: #000;
+    font-family: "Mukta", sans-serif;
+    font-size: 16px;
+    line-height: 1.25rem;
+    padding: 0.625rem 1rem 0.428rem 2.6rem;
+    width: 100%;
+    font-weight: 500;
+}
+
+.candidate-search-form .input-wrap input:focus {
+    outline: none;
+}
+
+.candidate-search-form .input-wrap:before {
+    background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' fill='none' stroke='currentColor' stroke-linecap='round' stroke-linejoin='round' stroke-width='.75' class='lucide lucide-search-icon lucide-search' viewBox='0 0 24 24'%3E%3Cpath d='m21 21-4.34-4.34'/%3E%3Ccircle cx='11' cy='11' r='8'/%3E%3C/svg%3E");
+    content: "";
+    height: 24px;
+    left: 11px;
+    position: absolute;
+    top: 12px;
+    width: 24px;
+}
+
+.candidate-search-form .input-wrap .form-autocomplete {
+    border-radius: 9px;
+    left: 0;
+    overflow-y: auto;
+    padding: 20px 0px 0px;
+    grid-gap: 10px;
+}
+
+.candidate-search-form .input-wrap .form-autocomplete .search-result-list {
+    margin-top: 14px;
+    display: grid;
+    max-height: 400px;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.candidate-search-form .input-wrap .form-autocomplete .counter {
+    display: block;
+    line-height: 1;
+    font-size: 15px;
+    margin-bottom: 5px;
+    text-align: left;
+    opacity: 0.8;
+    grid-column: span 3;
+    font-weight: 500;
+}
+
+.candidate-search-form .input-wrap .form-autocomplete .election-card {
+    box-shadow: none;
+}
+
+.candidate-search-form .input-wrap .form-autocomplete .election-card:hover {
+    transform: none;
+}
+
+.candidate-search-form .input-wrap .form-autocomplete .election-card .mx-height {
+    max-height: inherit;
+}
+
+.candidate-search-form .input-wrap .form-autocomplete .candidate-row {
+    padding: 8px 15px 8px 10px;
+    border: 1px solid rgba(0, 0, 0, 0.0588235294);
+    border-radius: 6px;
+}
+
+.candidate-search-form .input-wrap .form-autocomplete .candidate-row .candidate-media a {
+    color: inherit;
+}
+
+.candidate-search-form .input-wrap .form-autocomplete .candidate-row .candidate-media img {
+    width: 43px !important;
+    height: 43px;
+    padding: 2px;
+}
+
+.candidate-search-form .input-wrap .form-autocomplete .candidate-row .candidate-media .party {
+    bottom: -11px;
+}
+
+.candidate-search-form .input-wrap .form-autocomplete .candidate-row .candidate-media .party img {
+    height: 25px !important;
+    width: 25px !important;
+}
+
+.candidate-search-form .input-wrap .form-autocomplete .candidate-row .votes {
+    font-size: 18px;
+}
+
+.candidate-search-form .input-wrap .form-autocomplete .candidate-row .votes img {
+    width: 18px;
+    height: 18px;
+}
+
+.candidate-search-form .input-wrap .form-autocomplete .candidate-row .candidate-detail .party-flag {
+    --size: 30px;
+}
+
+.candidate-search-form .search-overlay {
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    display: none;
+    background: rgba(0, 0, 0, 0.7019607843);
+    z-index: 100;
+}
+
+.site-footer {
+    line-height: 1.4;
+    background: -webkit-linear-gradient(to left, #dc281e, #bf1e2e);
+    background: linear-gradient(to left, #dc281e, #bf1e2e);
+    bottom: 0;
+    left: 0;
+    z-index: 0;
+}
+
+.site-footer .dn-grid {
+    grid-gap: 15px;
+}
+
+.site-footer .first-footer {
+    padding: 30px 0 10px 0;
+    background: #f5f5f5;
+}
+
+.site-footer .first-footer .copyright-content .col3 {
+    border-bottom: none;
+    border-right: none;
+    padding-bottom: 0;
+    position: relative;
+}
+
+.site-footer .first-footer .copyright-content .col3:before {
+    content: "";
+    width: 1px;
+    height: 100%;
+    background: none;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.site-footer .first-footer .col9 {
+    padding-left: 0;
+}
+
+.site-footer .first-footer .col9 .quicklinks {
+    margin-top: 0;
+}
+
+.site-footer .first-footer .col9 .quicklinks > div ul {
+    display: block;
+}
+
+.site-footer .first-footer ul {
+    margin: 0 0 20px 0;
+    padding: 0;
+    list-style: none;
+}
+
+.site-footer .first-footer ul li,
+.site-footer .first-footer ul b {
+    line-height: 1.25;
+    font-size: 15px;
+    margin-bottom: 7px;
+    color: rgba(17, 17, 17, 0.7607843137);
+}
+
+.site-footer .first-footer p {
+    font-size: 14px;
+    color: rgba(17, 17, 17, 0.7607843137);
+    line-height: 1.8;
+    font-family: "Anek Devanagari", sans-serif;
+    font-weight: 400;
+}
+
+.quicklinks {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    margin-top: 20px;
+    grid-gap: 15px;
+}
+
+.quicklinks > div {
+    order: 2;
+    grid-column: span 3;
+}
+
+.quicklinks > div ul {
+    display: block;
+}
+
+.quicklinks > div ul li a {
+    padding-bottom: 0px;
+    line-height: 1.5;
+}
+
+.quicklinks ul {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 5px;
+    grid-column: span 9;
+    margin-top: 10px !important;
+    order: 1;
+}
+
+.quicklinks ul li a {
+    color: rgba(35, 37, 45, 0.9490196078);
+    display: inline-block;
+    position: relative;
+    margin-bottom: 0;
+    opacity: 0.75;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 1;
+    -webkit-transition: all 0.1s ease-in-out;
+    -moz-transition: all 0.1s ease-in-out;
+    -ms-transition: all 0.1s ease-in-out;
+    -o-transition: all 0.1s ease-in-out;
+    transition: all 0.1s ease-in-out;
+}
+
+.quicklinks ul li a:before {
+    width: 100%;
+    height: 1px;
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background: #bf1e2e;
+    transition: all 0.1s ease-in-out;
+    transform: scaleX(0);
+    transform-origin: bottom right;
+    transition: transform 0.3s;
+}
+
+.quicklinks ul li a:hover {
+    -webkit-transition: all 0.1s ease-in-out;
+    -moz-transition: all 0.1s ease-in-out;
+    -ms-transition: all 0.1s ease-in-out;
+    -o-transition: all 0.1s ease-in-out;
+    transition: all 0.1s ease-in-out;
+    opacity: 1;
+    color: #bf1e2e;
+}
+
+.quicklinks ul li a:hover:before {
+    transition: transform 0.3s;
+    transform-origin: bottom left;
+    transform: scaleX(1);
+}
+
+.footer-heading {
+    font-size: 20px;
+    margin: 8px 0 0px 0;
+    font-family: "Anek Devanagari", sans-serif;
+    color: #bf1e2e;
+    font-weight: 600;
+}
+
+.social-media {
+    margin-top: 18px;
+}
+
+.social-media a {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 4px;
+    font-size: 16px;
+    color: #fff;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    line-height: 35px;
+    border-radius: 100%;
+    transition: all 0.1s ease-in-out;
+    opacity: 1;
+    background: rgba(255, 255, 255, 0.2901960784);
+}
+
+.social-media a:last-child {
+    margin-right: 0;
+}
+
+.social-media a:hover {
+    color: #bf1e2e;
+    background: #fff;
+}
+
+.last-footer {
+    color: #fff;
+    padding: 15px 0;
+}
+
+.last-footer .footer-logo {
+    position: relative;
+    line-height: 1;
+    padding-right: 20px;
+}
+
+.last-footer .footer-logo img {
+    width: 150px;
+    margin: auto;
+}
+
+.last-footer .footer-logo::before {
+    height: 40px;
+    width: 1px;
+    content: "";
+    position: absolute;
+    right: 0;
+    background: rgba(255, 255, 255, 0.2901960784);
+    top: 20px;
+}
+
+.last-footer .footer-info {
+    font-weight: 500;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-left: 30px;
+    text-align: left;
+}
+
+.last-footer .footer-info p {
+    font-weight: 500;
+    display: block;
+    font-size: 15px;
+    line-height: 1.6;
+    opacity: 1;
+    color: #fff;
+}
+
+.last-footer .footer-info p span {
+    display: block;
+}
+
+.last-footer .social-media {
+    margin-top: 15px;
+    text-align: center;
+}
+
+.site-credit {
+    text-align: center;
+    background: rgba(17, 17, 17, 0.1294117647);
+    padding: 12px 0;
+    font-size: 13px;
+    text-transform: capitalize;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.6509803922);
+}
+
+.site-credit a {
+    text-decoration: underline;
+    color: #fff;
+    font-size: 13px;
+}
+
+.site-credit a:hover {
+    color: #fff;
+}
+
+.site-credit img {
+    width: 130px;
+    display: inline-block;
+    vertical-align: middle;
+    filter: brightness(0) invert(1);
+    margin-left: 11px;
+}
+
+.heading-title-wrap {
+    margin-bottom: 20px;
+}
+
+.bg-white {
+    display: block;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 5px 12px rgba(0, 0, 0, 0.0705882353);
+}
+
+.select-box {
+    font-family: "Mukta", sans-serif;
+    flex: 1;
+}
+
+.select-box select {
+    padding: 8px 25px 10px 16px;
+    font-family: "Mukta", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    background-color: rgba(204, 204, 204, 0.2784313725);
+    border: 1px solid rgba(12, 12, 13, 0.0901960784);
+    height: 40px;
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTIiIGhlaWdodD0iNiIgdmlld0JveD0iMCAwIDEyIDYiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxwYXRoIGQ9Ik02IDZMMC44MDM4NDcgMC43NUwxMS4xOTYyIDAuNzUwMDAxTDYgNloiIGZpbGw9ImJsYWNrIi8+Cjwvc3ZnPgo=);
+    background-position: calc(100% - 14px) 50%;
+    background-repeat: no-repeat;
+    background-size: 12px 7px;
+    -webkit-appearance: none;
+    border-radius: 8px;
+    -moz-appearance: none;
+    text-overflow: "";
+    min-width: 160px;
+    height: 40px;
+    width: 100%;
+    color: rgba(17, 17, 17, 0.7882352941);
+}
+
+.btn-submit {
+    width: 100%;
+    height: 40px;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 7px;
+    border: none;
+    overflow: hidden;
+    font-family: "Anek Devanagari", sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    background: #bf1e2e;
+    text-align: center;
+    line-height: 45px;
+    position: relative;
+}
+
+.btn-submit:before {
+    position: absolute;
+    content: "";
+    background: rgb(172, 27, 42);
+    width: 110%;
+    min-height: 200px;
+    z-index: -1;
+    border-radius: 15%;
+    top: 100%;
+    left: 100%;
+    -webkit-transition: 0.4s all ease;
+    transition: 0.4s all ease;
+}
+
+.btn-submit:hover::before {
+    top: -75px;
+    left: -1px;
+    z-index: 2;
+}
+
+.btn-submit:hover span {
+    z-index: 2;
+    position: relative;
+}
+
+.heading-title {
+    font-size: 24px;
+    font-family: "Anek Devanagari", sans-serif;
+    color: #531700;
+    line-height: 1;
+    margin: auto 0;
+    font-weight: 700;
+}
+
+.heading-title a {
+    color: inherit;
+}
+
+.heading-title a:hover {
+    color: #bf1e2e;
+}
+
+.candidate-card-header {
+    background: rgba(191, 30, 46, 0.08);
+    color: #bf1e2e;
+    border-radius: 7px 7px 0 0;
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding: 12px 18px 9px 17px;
+    border-bottom: 2px solid #bf1e2e;
+    gap: 15px;
+    justify-content: space-between;
+}
+
+.candidate-card-header h3 {
+    color: #bf1e2e;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.candidate-card-header h3 a {
+    color: inherit;
+}
+
+.candidate-card-header .small {
+    color: #bf1e2e;
+    font-size: 15px;
+    font-weight: 500;
+    text-decoration: underline;
+    font-family: "Mukta", sans-serif;
+}
+
+.candidate-card {
+    border-radius: 8px;
+    border: 1px solid rgba(0, 0, 0, 0.0705882353);
+}
+
+.candidate-card .candidate-holder {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    gap: 10px;
+    border-radius: 0 0 8px 8px;
+    padding: 14px;
+    background: linear-gradient(175deg, rgba(251, 44, 54, 0.1215686275) 0%, rgba(255, 255, 255, 0.15) 21.96%);
+    box-shadow: none;
+}
+
+.candidate-card .candidate-holder .vs {
+    display: none;
+}
+
+.candidate-card .candidate-holder .candidate {
+    max-width: 110px;
+}
+
+.candidate-card .candidate-holder .candidate > a {
+    line-height: 1.2;
+}
+
+.candidate-card .candidate-holder .candidate .profile a > img {
+    width: 80px !important;
+    height: 80px;
+}
+
+.candidate-card .candidate-holder .candidate .profile .party img {
+    width: 28px !important;
+    height: 28px !important;
+}
+
+.candidate {
+    text-align: center;
+    font-family: "Mukta", sans-serif;
+    font-weight: 600;
+    color: rgba(3, 0, 0, 0.56);
+    font-size: 12px;
+}
+
+.candidate .votes {
+    color: #000;
+}
+
+.candidate .chip {
+    display: inline-block;
+    margin: 11px 0 0 0;
+    padding: 7px 13px;
+    font-weight: 700;
+    color: rgba(0, 0, 0, 0.7098039216);
+    background: rgba(0, 0, 0, 0.0784313725);
+}
+
+.candidate a {
+    color: inherit;
+    line-height: 1;
+    font-weight: 600;
+    display: block;
+}
+
+.candidate a:hover {
+    color: #bf1e2e;
+}
+
+.candidate.candidate-win {
+    background: none;
+}
+
+.candidate .profile {
+    position: relative;
+}
+
+.candidate .profile a {
+    display: block;
+    overflow: hidden;
+}
+
+.candidate .profile a > img {
+    width: 140px !important;
+    height: 140px;
+    object-fit: cover;
+    border-radius: 100%;
+    transition: 0.3s ease-in;
+    margin: 0 auto;
+    border: 1px solid rgba(191, 30, 46, 0.1215686275);
+    padding: 3px;
+}
+
+.candidate .profile a:hover img {
+    transform: scale(1.02);
+}
+
+.candidate .profile .party {
+    position: absolute;
+    bottom: -13px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.candidate .profile .party img {
+    width: 28px !important;
+    height: 28px !important;
+    object-fit: cover;
+    border-radius: 100%;
+    padding: 3px;
+    background: #fff;
+}
+
+.candidate span {
+    display: block;
+    color: rgba(0, 0, 0, 0.85);
+    line-height: 1;
+    font-weight: 700;
+    font-size: 15px;
+    margin: 17px 0 5px 0;
+}
+
+.candidate.candidate-win .profile > img {
+    border-color: #2fa12f 1px solid;
+    padding: 3px;
+}
+
+.candidate.famous-candidate-col {
+    border-radius: 8px;
+    border: solid 1px rgba(18, 8, 8, 0.11);
+    padding: 15px;
+    position: relative;
+    transition: 0.3s ease;
+}
+
+.candidate.famous-candidate-col:hover {
+    transform: translateY(-5px) scale(1.02);
+    transition: 0.3s ease;
+}
+
+.candidate.famous-candidate-col:hover span {
+    color: #bf1e2e;
+}
+
+.candidate.famous-candidate-col .result-grid .result-vote h5 {
+    font-weight: 700;
+    font-size: 18px;
+    margin-bottom: 2px;
+}
+
+.candidate.famous-candidate-col .result-grid .result-vote:first-child {
+    color: #2fa12f;
+}
+
+.candidate.famous-candidate-col .result-grid .result-vote:first-child h5 {
+    color: #2fa12f;
+}
+
+.candidate.famous-candidate-col .result-grid .result-vote:last-child {
+    color: #5f060f;
+}
+
+.candidate.famous-candidate-col .votes {
+    font-size: 22px;
+}
+
+.candidate.famous-candidate-col .votes img {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    width: auto;
+    height: auto;
+}
+
+.candidate.famous-candidate-col span {
+    display: block;
+    margin: 12px 0 7px 0;
+}
+
+.candidate.famous-candidate-col .party-total {
+    font-weight: 600;
+    justify-content: center;
+    font-size: 14px;
+}
+
+.candidate.famous-candidate-col .party-total .value {
+    font-weight: 800;
+    color: #bf1e2e;
+    font-size: 17px;
+}
+
+.candidate.famous-candidate-col .underline {
+    font-weight: 700;
+    margin-top: 5px;
+    display: inline-block;
+    padding-bottom: 3px;
+    font-size: 12px;
+    text-decoration: underline;
+}
+
+.candidate.famous-candidate-col:before {
+    position: absolute;
+    content: "";
+    background: linear-gradient(180deg, rgba(253, 138, 93, 0.18) 0%, rgba(255, 255, 255, 0) 100%);
+    width: 100%;
+    height: 120px;
+    z-index: -1;
+    top: 0%;
+    left: 0;
+    -webkit-transition: 0.4s all ease;
+    transition: 0.4s all ease;
+    border-radius: 4px;
+}
+
+.candidate.famous-party a .profile > img {
+    padding: 3px;
+    width: 80px !important;
+    height: 80px;
+    margin-bottom: 7px;
+    background: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.0901960784);
+    border-radius: 100%;
+}
+
+.candidate.famous-party span {
+    font-size: 15px;
+    margin: 0px 0 2px 0;
+    line-height: 1.2;
+}
+
+.votes {
+    font-size: 20px;
+    display: inline-flex;
+    gap: 8px;
+    font-family: "Mukta", sans-serif;
+    align-items: center;
+    font-weight: 800;
+    margin-top: 2px;
+}
+
+.votes img {
+    display: inline-block;
+    vertical-align: middle;
+    width: 20px;
+    height: 20px;
+}
+
+.vs {
+    background: #e77a3c;
+    font-size: 12px;
+    font-weight: 900;
+    padding: 3px 8px;
+    border-radius: 4px;
+}
+
+.candidate-win .votes {
+    color: #2fa12f;
+}
+
+.election-card {
+    background: linear-gradient(180deg, rgba(252, 222, 221, 0.23) 0%, rgba(255, 255, 255, 0.89) 21.96%);
+    border-radius: 7px;
+    overflow: hidden;
+    transition: all 0.1s ease-in-out;
+    box-shadow: 0 5px 12px rgba(0, 0, 0, 0.1294117647);
+}
+
+.election-card:hover {
+    transform: translateY(-5px);
+}
+
+.election-card .candidate-card-header {
+    background: rgba(191, 30, 46, 0.04);
+    border-bottom: 2px solid #bf1e2e;
+    color: #bf1e2e;
+}
+
+.election-card .candidate-card-header h3 {
+    color: #bf1e2e;
+}
+
+.election-card .candidate-card-header .small {
+    color: #bf1e2e;
+}
+
+.mx-height {
+    max-height: 320px;
+    overflow: auto;
+}
+
+.candidate-row {
+    font-size: 12px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.07);
+    font-weight: 500;
+    color: rgba(3, 0, 0, 0.7294117647);
+    line-height: 1.3;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 6px 10px;
+    transition: 0.3s ease;
+}
+
+.candidate-row.candidate-win {
+    border-left: 3px solid #2fa12f;
+}
+
+.candidate-row:hover {
+    background: rgba(0, 0, 0, 0.031372549);
+}
+
+.candidate-row .candidate-media {
+    position: relative;
+    color: inherit;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    line-height: 1;
+    font-weight: 600;
+}
+
+.candidate-row .candidate-media img {
+    border-radius: 100%;
+    width: 48px;
+    height: 48px;
+    object-fit: cover;
+    margin: 0 0 auto 0;
+}
+
+.candidate-row .candidate-media .title {
+    display: block;
+    color: rgba(0, 0, 0, 0.7882352941);
+    line-height: 1;
+    font-weight: 700;
+    font-size: 15px;
+    margin: 0 0 6px 0;
+}
+
+.candidate-row .candidate-media .title a {
+    color: rgba(0, 0, 0, 0.7882352941);
+}
+
+.candidate-row .candidate-media .title a:hover {
+    color: #bf1e2e;
+}
+
+.candidate-row .candidate-detail {
+    align-items: center;
+    margin-left: auto;
+    font-size: 18px;
+    display: flex;
+    gap: 3px;
+    margin-top: 0;
+    justify-content: center;
+}
+
+.candidate-row .candidate-detail .party-flag {
+    --size: 35px;
+    padding: 3px;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: var(--size);
+    width: var(--size);
+    background: 0 0;
+    border-radius: 100%;
+    box-shadow: none;
+}
+
+.candidate-row .candidate-detail .votes {
+    margin: 0;
+}
+
+.candidate-row.candidate-win .candidate-media img {
+    border: 1px solid #2fa12f;
+    padding: 2px;
+}
+
+.candidate-row.pradesh-row {
+    gap: 14px;
+    padding: 12px 10px;
+}
+
+.candidate-row.pradesh-row .candidate-media {
+    flex: 2;
+}
+
+.candidate-row.pradesh-row .candidate-media img {
+    width: 35px;
+    height: 35px;
+    padding: 3px;
+}
+
+.candidate-row.pradesh-row .candidate-media .title {
+    font-size: 14px;
+    line-height: 1.3;
+}
+
+.candidate-row.pradesh-row .candidate-media > div {
+    flex: 2;
+}
+
+.candidate-row.pradesh-row .candidate-media > div .progress-bar {
+    margin: 0;
+    height: 12px;
+}
+
+.candidate-row.pradesh-row .candidate-detail {
+    margin-top: 0;
+    justify-content: flex-end;
+    width: 35px;
+    text-align: right;
+}
+
+.candidate-row.pradesh-row .candidate-detail .votes {
+    font-size: 17px;
+    font-weight: 800;
+}
+
+.candidate-row.pradesh-row.candidate-win:hover {
+    background: rgba(47, 161, 47, 0.1);
+}
+
+.load-more {
+    border-top: solid 1px rgba(0, 0, 0, 0.1);
+    padding: 9px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.more {
+    font-size: 14px;
+    font-weight: 800;
+    color: rgba(0, 0, 0, 0.68);
+    line-height: 35px;
+    padding: 0px 18px;
+    border-radius: 5px;
+    overflow: hidden;
+    text-decoration: none;
+    background: rgba(51, 51, 51, 0.07);
+    transition: 0.3s linear;
+    display: inline-flex;
+    align-items: center;
+    position: relative;
+    gap: 10px;
+    border-bottom: 2px solid #bf1e2e;
+}
+
+.more:hover {
+    color: #fff !important;
+    transition: 0.3s linear;
+}
+
+.more:hover:before {
+    top: -75px;
+    left: -1px;
+}
+
+.more:before {
+    position: absolute;
+    content: "";
+    background: #bf1e2e;
+    width: 110%;
+    min-height: 200px;
+    z-index: -1;
+    border-radius: 15%;
+    top: 100%;
+    left: 100%;
+    -webkit-transition: 0.4s all ease;
+    transition: 0.4s all ease;
+}
+
+.share-links a {
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.4117647059);
+    display: inline-block;
+    margin-left: 1px;
+    height: 28px;
+    width: 28px;
+    border-radius: 4px;
+    text-align: center;
+    line-height: 28px;
+    position: relative;
+}
+
+.share-links a img {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.filter-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
+    flex-wrap: wrap;
+    margin-left: auto;
+}
+
+.filter-row .btn-submit {
+    padding: 0 20px;
+}
+
+.btn {
+    display: inline-block;
+    font-size: 16px;
+    text-transform: uppercase;
+    line-height: 34px;
+    padding: 2px 24px;
+    border-radius: 7px;
+    position: relative;
+    overflow: hidden;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    text-decoration: none;
+    background-color: #bf1e2e;
+    color: white;
+}
+
+.btn:hover {
+    opacity: 0.9;
+}
+
+.btn:hover::before {
+    top: -75px;
+    left: -1px;
+    background: #9a1320;
+}
+
+.btn:before {
+    position: absolute;
+    content: "";
+    background: rgb(172, 27, 42);
+    width: 110%;
+    min-height: 200px;
+    z-index: -1;
+    border-radius: 15%;
+    top: 100%;
+    left: 100%;
+    -webkit-transition: 0.4s all ease;
+    transition: 0.4s all ease;
+}
+
+.adv-item {
+    margin-bottom: 10px;
+}
+
+.adv-item:last-child {
+    margin-bottom: 0;
+}
+
+.adv-item a {
+    line-height: 1;
+    display: block;
+}
+
+.adv-item a img {
+    border-radius: 5px;
+    width: 100%;
+}
+
+.all-parties-candidates .candidate-wrapper {
+    display: none;
+}
+
+.all-parties-candidates .candidate-wrapper.active {
+    display: block;
+}
+
+#samanupatik .votes {
+    flex: 1;
+}
+
+.result-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    position: relative;
+    z-index: 2;
+}
+
+.result-container .title {
+    font-size: 22px;
+    font-weight: 700;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.result-container .title .counter {
+    text-align: center;
+    font-weight: 700;
+    border-radius: 4px;
+    font-family: "Anek Devanagari", sans-serif;
+    background: #bf1e2e;
+    font-size: 15px;
+    display: inline-flex;
+    align-items: center;
+    color: #fff;
+    justify-content: center;
+    padding: 7px 7px 4px 7px;
+    line-height: 1.2;
+}
+
+.result-container .title .mbl-toggle {
+    font-size: 15px;
+    margin-left: auto;
+    display: none;
+}
+
+.party-container-wrap {
+    grid-gap: 15px;
+}
+
+.party-container {
+    background: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.17);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    padding: 5px 10px;
+    transition: 0.3s ease;
+}
+
+.party-container .chip {
+    margin-right: 10px;
+}
+
+.party-container .counter {
+    flex: 1;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    font-weight: 700;
+    border-radius: 100%;
+    margin: 0 10px 0 5px;
+    font-family: "Anek Devanagari", sans-serif;
+    color: #140c0c;
+    font-size: 15px;
+    max-width: 15px;
+    max-height: 25px;
+    line-height: 31px;
+}
+
+.party-container .party-info {
+    flex: 1;
+    flex-wrap: wrap;
+}
+
+.party-container .party-wrap {
+    flex: 2;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-right: 10px;
+}
+
+.party-container.candidate-win {
+    border: 1px solid #2fa12f;
+}
+
+.party-container.candidate-win .party-logo img {
+    border: #2fa12f 1px solid;
+    padding: 2px;
+}
+
+.party-container:hover {
+    transform: scale(1.025);
+}
+
+.party-container .party-logo {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.party-container .party-logo img {
+    width: 42px;
+    border-radius: 100%;
+    object-fit: cover;
+    height: 42px;
+}
+
+.party-container .party-logo:hover .party-name {
+    color: #bf1e2e;
+}
+
+.party-container .party-name {
+    display: block;
+    color: rgba(0, 0, 0, 0.7882352941);
+    line-height: 1;
+    font-weight: 700;
+    font-size: 14px;
+    margin: 0;
+}
+
+.party-container .party-name a {
+    color: inherit;
+}
+
+.party-container .votes {
+    text-align: left;
+    justify-content: flex-end;
+}
+
+.progress-bar {
+    flex: 6;
+    height: 18px;
+    background: rgba(224, 230, 235, 0.6509803922);
+    border-radius: 4px;
+    overflow: hidden;
+    margin-right: 10px;
+}
+
+.progress-bar .progress-fill {
+    height: 100%;
+    transition: width 0.6s ease;
+}
+
+a.parties-card {
+    padding: 8px 0;
+}
+
+a.parties-card:hover {
+    background: #fff;
+}
+
+a.parties-card:hover div {
+    color: #bf1e2e;
+}
+
+a.parties-card div {
+    padding: 0 10px 10px 10px;
+    gap: 10px;
+    flex-wrap: wrap;
+    text-align: center;
+    line-height: 1.2;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.73);
+    margin-bottom: 10px;
+    font-weight: 700;
+    border-bottom: 2px solid #bf1e2e;
+}
+
+a.parties-card div img {
+    margin: 0 auto 3px auto;
+    width: 50px;
+    padding: 4px;
+    height: 50px;
+}
+
+a.parties-card span {
+    font-weight: 700;
+    align-items: center;
+    padding: 4px 15px;
+    justify-content: space-between;
+    gap: 10px;
+    font-size: 17px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+a.parties-card span i {
+    font-size: 13px;
+    opacity: 0.8;
+    font-style: normal;
+}
+
+.parties-card {
+    flex-wrap: wrap;
+    border-radius: 7px;
+    flex-direction: column;
+    position: relative;
+    display: flex;
+    background: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+    color: rgba(17, 34, 51, 0.6588235294);
+    transition: 0.5s ease;
+}
+
+.parties-card:hover {
+    transform: scale(1.05);
+    background: rgba(241, 241, 241, 0.3019607843);
+}
+
+.parties-card > a {
+    border-bottom: 3px solid #bf1e2e;
+    padding: 4px;
+    font-size: 18px;
+    color: rgba(17, 17, 17, 0.6196078431);
+    font-weight: 800;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.parties-card > a img {
+    width: 48px;
+    height: 48px;
+    margin: 0;
+    padding: 3px;
+}
+
+.parties-card img {
+    width: 62px;
+    background: rgba(204, 204, 204, 0.2784313725);
+    height: 62px;
+    padding: 5px;
+    display: block;
+    margin: 8px auto 8px auto;
+    object-fit: cover;
+    border-radius: 100%;
+}
+
+.parties-card span {
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 1;
+    padding: 0 5px;
+    color: rgba(0, 0, 0, 0.73);
+}
+
+.parties-card .title {
+    font-size: 14px;
+    font-weight: 700;
+    display: block;
+}
+
+.parties-card table {
+    padding: 6px 8px;
+    color: #000;
+    background: rgba(241, 241, 241, 0.3490196078);
+    opacity: 0.87;
+}
+
+.parties-card table tr th {
+    font-weight: 700;
+    text-align: left;
+    line-height: 1.2;
+    font-size: 12px;
+}
+
+.parties-card table tr th a {
+    color: #000;
+}
+
+.parties-card table tr th:first-child {
+    color: #2fa12f;
+}
+
+.parties-card table tr th:first-child a {
+    color: #2fa12f;
+}
+
+.parties-card table tr th:last-child {
+    text-align: right;
+    color: #a17b00;
+}
+
+.parties-card table tr th:last-child a {
+    text-align: right;
+    color: #a17b00;
+}
+
+.parties-card table tr td {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 1;
+    opacity: 0.98;
+    text-align: left;
+}
+
+.parties-card table tr td a {
+    color: #000;
+}
+
+.parties-card table tr td:first-child {
+    color: #2fa12f;
+    text-align: left;
+}
+
+.parties-card table tr td:first-child a {
+    color: #2fa12f;
+}
+
+.parties-card table tr td:last-child {
+    color: #a17b00;
+    text-align: right;
+}
+
+.parties-card table tr td:last-child a {
+    color: #a17b00;
+    text-align: right;
+}
+
+.parties-card p {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    justify-content: space-between;
+    padding: 6px 10px;
+    font-size: 12px;
+    background: rgba(137, 40, 140, 0.0509803922);
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.7490196078);
+}
+
+.parties-card p span {
+    font-weight: 800;
+    font-size: 16px;
+    color: #5f060f;
+}
+
+.parties-card .total-seat {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 12px;
+    justify-content: space-between;
+    background: #979797;
+    color: #fff;
+    padding: 5px 8px 5px 10px;
+}
+
+.parties-card .total-seat strong {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.is-border {
+    border: 1px solid rgba(0, 0, 0, 0.0784313725);
+}
+
+.overlay-news {
+    position: relative;
+    height: 100%;
+    min-height: 380px;
+    overflow: hidden;
+    border-radius: 3px;
+}
+
+.overlay-news > a {
+    height: 100%;
+    overflow: hidden;
+    border-radius: 3px 0 0 3px;
+    display: block;
+}
+
+.overlay-news > a::before {
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.2) 30%, #000 100%);
+    left: 0;
+    bottom: -1px;
+    position: absolute;
+    content: "";
+    border-radius: 3px;
+    height: 100%;
+    z-index: 1;
+}
+
+.overlay-news > a img {
+    transition: all 0.5s;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    right: 0;
+    bottom: 0;
+    object-fit: cover;
+    border-radius: 3px;
+}
+
+.overlay-news > a .overlay-news-content {
+    position: absolute;
+    padding: 30px 30px 22px 30px;
+    left: 0;
+    bottom: 0;
+    z-index: 2;
+    width: 100%;
+    color: #fff;
+    border-radius: 3px 0 0 3px;
+    text-align: left;
+}
+
+.overlay-news > a .overlay-news-content .news-title {
+    font-size: 25px;
+    transition: all 0.1s ease-in-out;
+    font-weight: 600;
+    line-height: 1.35;
+    color: #fff;
+}
+
+.thumbnail-news a img {
+    max-width: 100px;
+    min-width: 100px;
+    margin-right: 15px;
+    height: 75px;
+}
+
+.thumbnail-news a .news-title {
+    font-weight: 500;
+    line-height: 1.4;
+    font-size: 18px;
+}
+
+.backward {
+    line-height: 1;
+    gap: 14px;
+}
+
+.backward .back {
+    display: inline-flex;
+    align-items: center;
+    gap: 15px;
+    font-weight: 600;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.631372549);
+}
+
+.backward .back i {
+    border: 1px solid #bf1e2e;
+    color: #bf1e2e;
+    height: 30px;
+    width: 30px;
+    font-size: 12px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    transition: all 0.1s ease-in-out;
+}
+
+.backward .back:hover {
+    color: #bf1e2e;
+}
+
+.backward .back:hover i {
+    background: #bf1e2e;
+    transition: all 0.1s ease-in-out;
+    color: #fff;
+}
+
+.backward .back:hover i:before {
+    transition: all 0.1s ease-in-out;
+    animation: bounceAlpha 0.7s ease-in-out;
+}
+
+@keyframes bounceAlpha {
+    0% {
+        opacity: 1;
+        transform: translateX(0) scale(1);
+    }
+    25% {
+        opacity: 0;
+        transform: translateX(10px) scale(0.9);
+    }
+    26% {
+        opacity: 0;
+        transform: translateX(-10px) scale(0.9);
+    }
+    55% {
+        opacity: 1;
+        transform: translateX(0) scale(1);
+    }
+}
+
+.candidate-detail-wrapper .page-header .votes {
+    color: #2fa12f;
+}
+
+.page-description {
+    font-size: 19px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    color: #000;
+    line-height: 1.67;
+}
+
+.page-header {
+    gap: 15px;
+    margin: 15px 0 16px 0;
+}
+
+.page-header .page-title {
+    font-weight: 700;
+    color: #bf1e2e;
+    font-size: 26px;
+    line-height: 1;
+    display: inline-flex;
+    align-items: center;
+    gap: 15px;
+    vertical-align: middle;
+    margin-right: 8px;
+    font-family: "Anek Devanagari", sans-serif;
+}
+
+.page-header .page-title img {
+    background: #fff;
+    border-radius: 100%;
+    height: 52px;
+    position: relative;
+    width: 52px;
+    padding: 4px;
+    background: #fff;
+    object-fit: cover;
+    box-shadow: 0 5px 12px rgba(0, 0, 0, 0.0901960784);
+}
+
+.page-header .info {
+    margin-right: auto;
+    display: inline-flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.page-header .heading-title-wrap {
+    margin-bottom: 0;
+}
+
+.page-header > div {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.page-header > div .sign {
+    border: solid 1px rgba(0, 0, 0, 0.14);
+    width: 54px;
+    height: 54px;
+    display: block;
+    text-align: center;
+    border-radius: 100%;
+}
+
+.page-header > div .sign img {
+    border-radius: 100%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    padding: 3px;
+    background: rgba(0, 0, 0, 0.031372549);
+}
+
+.page-header > div > div {
+    display: flex;
+    line-height: 1;
+    font-size: 14px;
+    font-weight: 600;
+    flex-wrap: wrap;
+}
+
+.page-header > div > div span {
+    display: inline-flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.page-header > div > div span > a:not(chip) {
+    color: rgba(17, 17, 17, 0.7098039216);
+    line-height: 1.4;
+}
+
+.page-header > div > div span > a:not(chip):hover {
+    color: #bf1e2e;
+}
+
+.page-header > div > div span .chip {
+    line-height: 30px !important;
+}
+
+.page-header .votes {
+    font-size: 23px;
+    gap: 8px;
+}
+
+.page-header .votes img {
+    width: auto;
+    height: auto;
+}
+
+.page-header .result-grid {
+    border-top: none;
+    margin-top: 0;
+    align-items: center;
+    gap: 8px !important;
+    justify-content: center;
+}
+
+.page-header .result-grid .result-vote {
+    background: #fff;
+    font-size: 13px;
+    padding: 12px;
+    border-radius: 5px;
+    color: #333;
+    box-shadow: 5px 5px 16px rgba(0, 0, 0, 0.0784313725);
+    align-items: center;
+    justify-content: center;
+}
+
+.page-header .result-grid .result-vote h5 {
+    font-size: 22px;
+    margin: 0;
+}
+
+.page-header .result-grid .result-vote h5 a {
+    color: #333;
+}
+
+.page-header .result-grid .result-vote a {
+    text-decoration: underline;
+    color: #333;
+    font-size: 13px;
+}
+
+.share-counter {
+    font-size: 12px;
+    padding-right: 10px;
+    font-weight: 600;
+    text-align: center;
+    margin-left: auto;
+    color: #555;
+    font-family: "Mukta", sans-serif;
+    line-height: 0;
+}
+
+.share-counter .label {
+    font-size: 24px;
+    font-family: "Anek Devanagari", sans-serif;
+    text-align: center;
+    line-height: 1;
+    display: block;
+    padding: 0;
+    font-weight: 700;
+}
+
+.chip {
+    display: inline-block;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.73);
+    line-height: 30px;
+    padding: 0 18px;
+    border-radius: 68px;
+    background-color: #f2f2f2;
+    font-weight: 700;
+}
+
+.chip i {
+    font-style: normal;
+    font-weight: 500;
+}
+
+a.chip:hover {
+    color: #bf1e2e;
+}
+
+.stats {
+    margin: 20px;
+    position: sticky;
+    top: 70px;
+    padding: 0;
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+}
+
+.stats li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3px;
+    padding: 15px;
+    background: #fff;
+    justify-content: center;
+    text-align: center;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.16);
+}
+
+.stats li img {
+    width: 48px;
+}
+
+.stats li h5 {
+    font-weight: 700;
+    font-size: 23px;
+    opacity: 1;
+    color: rgba(0, 0, 0, 0.7411764706);
+    line-height: 1.4;
+}
+
+.stats li span {
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.7098039216);
+    font-weight: 500;
+    display: block;
+}
+
+.party-info {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.party-info .party-sign {
+    color: rgba(1, 8, 20, 0.568627451);
+    font-weight: 700;
+    font-size: 12px;
+}
+
+.party-info .party-sign:hover {
+    color: #bf1e2e;
+}
+
+.party-info .party-sign img {
+    height: 30px;
+    width: 30px;
+    padding: 2px;
+    margin-right: 6px;
+    background: #fff;
+    box-shadow: 0 5px 12px rgba(0, 0, 0, 0.0901960784);
+    border-radius: 50%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.party-info .party-sign + a {
+    display: inline-flex;
+    padding-left: 7px;
+    color: rgba(48, 4, 8, 0.6980392157);
+    font-weight: 700;
+    font-size: 13px;
+    border-left: 2px solid rgba(0, 0, 0, 0.2509803922);
+    line-height: 1;
+    margin-left: 1px;
+    vertical-align: middle;
+    align-items: center;
+}
+
+.candidate-win {
+    background: rgba(47, 161, 47, 0.1);
+}
+
+.result-container.dn-grid {
+    display: grid;
+    grid-gap: 13px;
+}
+
+.columnnews {
+    background: rgba(191, 30, 46, 0.0509803922);
+    border-radius: 10px;
+    border: 1px solid rgba(191, 30, 46, 0.1215686275);
+}
+
+.columnnews > a {
+    position: relative;
+    display: block;
+}
+
+.columnnews > a img {
+    object-fit: cover;
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+    margin-bottom: 4px;
+    max-height: 400px;
+}
+
+.columnnews > a .columnnews-wrap {
+    padding: 5px 30px 15px 20px;
+}
+
+.columnnews > a .columnnews-wrap .news-title {
+    font-weight: 700;
+    font-size: 17px;
+    text-align: center;
+}
+
+.columnnews > a .columnnews-wrap .news-title a {
+    color: inherit;
+}
+
+.result-card {
+    background: #fff;
+    border-radius: 8px;
+    border: 1px solid rgba(0, 0, 0, 0.0784313725);
+    font-family: "Mukta", sans-serif;
+    padding: 10px 17px 20px 17px;
+    box-shadow: 0 8px 2px rgba(0, 0, 0, 0.0588235294);
+    position: relative;
+    z-index: 1;
+}
+
+.result-card .total {
+    background: rgba(235, 239, 242, 0.5882352941);
+    padding: 1px 10px;
+    border-radius: 4px;
+    font-size: 14px;
+    color: #d63333;
+    font-weight: 500;
+}
+
+.result-card .total b {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.result-card .party-info .party-logo {
+    width: 40px;
+    height: 40px;
+    margin-right: 5px;
+    background: rgba(204, 204, 204, 0.2784313725);
+    border-radius: 100%;
+    padding: 3px;
+}
+
+.result-card .party-info .party-name {
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 1;
+    color: #333;
+}
+
+.result-card .result-bars {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding-top: 6px;
+    margin-top: 10px;
+    border-top: 1px solid rgba(0, 0, 0, 0.1098039216);
+}
+
+.result-card .result-bars .bar .label {
+    font-weight: 600;
+    margin-bottom: 2px;
+    display: inline-flex;
+    color: #222;
+    font-size: 13px;
+    width: 100%;
+    font-family: "Anek Devanagari", sans-serif;
+    align-items: center;
+    gap: 8px;
+    justify-content: space-between;
+}
+
+.result-card .result-bars .bar .label .value {
+    font-size: 15px;
+    font-weight: 600;
+    font-family: "Mukta", sans-serif;
+    opacity: 0.89;
+}
+
+.result-card .result-bars .bar .progress-bar {
+    margin-right: 0;
+    gap: 10px;
+}
+
+.flyout-card {
+    position: absolute;
+    top: 90px;
+    right: 30px;
+    background-color: #fff;
+    z-index: 1000;
+    color: #111;
+    width: 300px;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.3294117647);
+    border-radius: 9px;
+}
+
+.flyout-card .district-name {
+    display: block;
+    color: #fff;
+    border-radius: 9px 9px 0 0;
+    padding: 12px;
+    text-align: left;
+    font-size: 18px;
+    font-family: "Anek Devanagari", sans-serif;
+    background: #bf1e2e;
+}
+
+.flyout-card .candidate-card-header {
+    background: rgba(191, 30, 46, 0.08);
+    border-bottom: 2px solid #bf1e2e;
+    color: #bf1e2e;
+}
+
+.flyout-card .candidate-card-header a,
+.flyout-card .candidate-card-header h3,
+.flyout-card .candidate-card-header .small {
+    color: inherit;
+}
+
+.flyout-card .candidate-row {
+    padding: 5px 10px;
+}
+
+.flyout-card .candidate-row .candidate-media .title {
+    font-weight: 800;
+    font-size: 14px;
+    margin: 0 0 4px 0;
+}
+
+.flyout-card .candidate-row .candidate-media a {
+    color: inherit;
+}
+
+.flyout-card .candidate-row .votes {
+    font-size: 17px;
+    gap: 5px;
+}
+
+.flyout-card .candidate-row .party-flag {
+    --size: 32px;
+    padding: 3px;
+}
+
+.full-banner-adv .elc-container > div > div:first-child {
+    margin-top: 15px;
+}
+
+.share-counter-wrap .st-btn {
+    display: inline-block !important;
+    border-radius: 100% !important;
+    height: 30px !important;
+    width: 30px !important;
+    padding: 0 !important;
+}
+
+.share-counter-wrap .st-btn > img {
+    height: 18px !important;
+    width: 30px !important;
+    top: 6px !important;
+}
+
+.contentarea {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.8;
+}
+
+.contentarea p:not(:last-child) {
+    margin: 0 0 15px 0;
+}
+
+.contentarea h1,
+.contentarea h2,
+.contentarea h3,
+.contentarea h4,
+.contentarea h5,
+.contentarea h6 {
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+.contentarea ul,
+.contentarea ol {
+    margin: 0;
+    padding: 0 0 0 23px;
+}
+
+.contentarea ul li,
+.contentarea ol li {
+    font-size: 19px;
+    font-weight: 600;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+.contentarea h2 {
+    font-size: 30px;
+}
+
+.contentarea h3 {
+    font-size: 25px;
+}
+
+.contentarea h4 {
+    font-size: 25px;
+}
+
+.contentarea h5 {
+    font-size: 20px;
+}
+
+.contentarea iframe {
+    width: 100%;
+}
+
+.others-candidate .heading-title {
+    margin-bottom: 18px;
+}
+
+.sidebar {
+    position: sticky;
+    top: 100px;
+}
+
+.sidebar-candidate:not(:last-child) {
+    margin-bottom: 28px;
+}
+
+.sidebar-candidate .heading-title {
+    font-size: 21px;
+    margin-bottom: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
+}
+
+.sidebar-candidate .heading-title .all {
+    background: #bf1e2e;
+    font-weight: 800;
+    height: 22px;
+    width: 22px;
+    color: #fff;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: 10px;
+    align-items: center;
+}
+
+.sidebar-candidate .candidate-row {
+    border: 1px solid rgba(0, 0, 0, 0.1098039216);
+    margin-bottom: 12px;
+    border-radius: 4px;
+}
+
+.sidebar-candidate .candidate-row .votes {
+    font-size: 19px;
+    gap: 6px;
+}
+
+.sidebar-candidate .candidate-row .party-flag {
+    --size: 33px;
+}
+
+.sidebar-candidate .candidate-row .candidate-media .title + a {
+    color: inherit;
+}
+
+.sidebar-candidate .candidate-row .candidate-media .title + a:hover {
+    color: #bf1e2e;
+}
+
+.district-detail {
+    background: linear-gradient(180deg, rgba(0, 13, 77, 0.03) 0%, rgba(172, 27, 42, 0.03) 100%);
+    border-radius: 11px;
+    flex: 1;
+}
+
+.district-detail .dn-grid {
+    gap: 15px;
+}
+
+.district-detail figure {
+    margin: 0;
+    padding: 8px 0 0 0;
+}
+
+.district-detail .contentarea {
+    padding: 15px 30px 20px 30px;
+    margin-top: 0;
+    color: rgba(17, 17, 17, 0.92);
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 1.65;
+}
+
+.district-detail .contentarea p {
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.highcharts-credits {
+    display: none;
+}
+
+.tab-nav {
+    gap: 7px !important;
+}
+
+.tab-nav .tab-nav-item {
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 800;
+    color: rgba(0, 0, 0, 0.68);
+    line-height: 32px;
+    padding: 0 18px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    border: 1px solid rgba(0, 0, 0, 0.1411764706);
+    border-radius: 28px;
+    cursor: pointer;
+}
+
+.tab-nav .tab-nav-item.active-nav, .tab-nav .tab-nav-item:hover {
+    background-color: rgba(191, 30, 46, 0.1019607843);
+    color: #bf1e2e;
+    border: 1px solid rgba(191, 30, 46, 0.1019607843);
+    border-radius: 68px;
+}
+
+.tab-container {
+    display: none;
+}
+
+.tab-container.active-container {
+    display: block;
+}
+
+.result-table table {
+    border-collapse: collapse;
+    table-layout: auto;
+    width: 100%;
+}
+
+.result-table table thead tr {
+    background-color: rgb(241, 244, 249);
+}
+
+.result-table table thead tr th {
+    text-align: left;
+    padding: 9px 15px;
+    font-size: 15px;
+}
+
+.candidate-wrapper.dn-grid {
+    grid-gap: 30px;
+    display: flex;
+}
+
+.candidate-wrapper.dn-grid .result-container {
+    flex: 1;
+}
+
+.candidate-wrapper.dn-grid .result-container:nth-child(2n) {
+    padding-left: 25px;
+    border-left: 2px dashed #ccc;
+}
+
+.np-map svg,
+.province-map svg {
+    width: 100%;
+    height: 100%;
+}
+
+.map-wrapper .np-map {
+    margin: 0 auto;
+    justify-content: center;
+    display: flex;
+}
+
+.map-wrapper .np-map svg {
+    width: 100%;
+}
+
+g text {
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.stats-wrap h3 {
+    font-size: 19px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.mataantar-card {
+    border-radius: 8px;
+    position: relative;
+    border: 1px solid #ccc;
+    background: #fdfdfd;
+}
+
+.mataantar-card .mataantar-header {
+    padding: 9px 18px 8px 18px;
+    border-bottom: 1px solid rgba(13, 11, 11, 0.13);
+    border-radius: 8px 8px 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
+}
+
+.mataantar-card .mataantar-header h2 {
+    font-size: 17px;
+    font-weight: 700;
+    margin: 0;
+    color: #531700;
+}
+
+.mataantar-card .mataantar-header h2 a {
+    color: inherit;
+}
+
+.mataantar-card .mataantar-header .small {
+    font-size: 13px;
+    color: #531700;
+    font-weight: 500;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+.mataantar-card .mataantar-body {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+}
+
+.mataantar-card .mataantar-body .candidate {
+    background: rgba(255, 255, 255, 0.03);
+    padding: 10px 14px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: all 0.3s ease;
+    position: relative;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1019607843);
+}
+
+.mataantar-card .mataantar-body .candidate:last-child {
+    border-bottom: none;
+}
+
+.mataantar-card .mataantar-body .candidate:hover {
+    background: rgba(0, 0, 0, 0.03);
+}
+
+.mataantar-card .mataantar-body .candidate.candidate-win {
+    background: rgba(47, 161, 47, 0.1);
+    border-left: 3px solid rgb(47, 161, 47);
+}
+
+.mataantar-card .mataantar-body .candidate.candidate-win .profile h3::after {
+    border-bottom: 8px solid rgb(47, 161, 47);
+    animation: upArrow 1s infinite alternate;
+}
+
+.mataantar-card .mataantar-body .candidate .profile {
+    display: flex;
+    gap: 10px;
+}
+
+.mataantar-card .mataantar-body .candidate .profile a {
+    overflow: inherit;
+}
+
+.mataantar-card .mataantar-body .candidate .profile > a {
+    width: 48px;
+    height: 48px;
+    border-radius: 100%;
+}
+
+.mataantar-card .mataantar-body .candidate .profile > a img {
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+    object-fit: cover;
+}
+
+.mataantar-card .mataantar-body .candidate .profile div h3 {
+    font-size: 15px;
+    font-weight: 600;
+    margin: 0 0 3px 0;
+    text-align: left;
+    color: #000;
+}
+
+.mataantar-card .mataantar-body .candidate .profile div h3 a {
+    color: inherit;
+}
+
+.mataantar-card .mataantar-body .candidate .profile div h3:hover a {
+    color: #bf1e2e;
+}
+
+.mataantar-card .mataantar-body .candidate .profile div .party {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    position: static;
+    transform: inherit;
+}
+
+.mataantar-card .mataantar-body .candidate .profile div .party:hover {
+    color: #bf1e2e;
+}
+
+.mataantar-card .mataantar-body .candidate .profile div .party img {
+    width: 20px !important;
+    height: 20px !important;
+    border-radius: 100%;
+    background: rgba(13, 12, 12, 0.231372549);
+    padding: 1px;
+    margin: 0;
+}
+
+.mataantar-card .mataantar-body .candidate .profile div .party span {
+    font-size: 12px;
+    font-family: "Mukta", sans-serif;
+    font-weight: 700;
+    margin: 0;
+}
+
+.mataantar-card .mataantar-body .candidate .votes {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-weight: 700;
+    font-size: 18px;
+    position: relative;
+    margin: 0;
+}
+
+.mataantar-card .mataantar-body .candidate .votes img {
+    width: 18px;
+    height: 18px;
+}
+
+.mataantar-card .mataantar-footer {
+    text-align: center;
+    background: rgba(191, 30, 46, 0.03);
+    border-top: 2px solid rgb(172, 27, 42);
+    padding: 10px 0;
+    font-weight: 600;
+    font-size: 14px;
+    color: rgba(17, 17, 17, 0.6588235294);
+    border-radius: 0 0 8px 8px;
+}
+
+.mataantar-card .mataantar-footer strong {
+    color: #bf1e2e;
+    font-size: 17px;
+}
+
+.detail {
+    padding-right: 30px;
+    flex: 2;
+}
+
+.detail .page-header > div > div {
+    flex-direction: column;
+}
+
+.detail .info-grid {
+    margin-top: 15px;
+    display: grid !important;
+    grid-gap: 10px;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.detail .info-grid > div {
+    background: #fff;
+}
+
+.candidate-sidebar {
+    flex: 1;
+    max-width: 320px;
+}
+
+.breadcrumb {
+    display: inline-flex;
+    gap: 8px;
+    font-size: 13px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.breadcrumb a {
+    color: inherit;
+    opacity: 0.7;
+    font-weight: 600;
+}
+
+.breadcrumb a:hover {
+    color: #bf1e2e;
+    opacity: 1;
+}
+
+.breadcrumb span.sep {
+    font-size: 10px;
+    font-weight: 800;
+}
+
+.breadcrumb span:not(.sep) {
+    color: #bf1e2e;
+    font-weight: 700;
+    opacity: 1;
+}
+
+.party-stats.stats-card.col6 {
+    background: #fdf8f8;
+    padding: 30px 25px;
+    border: 1px solid rgba(0, 0, 0, 0.0588235294);
+    border-radius: 10px;
+}
+
+.party-stats.stats-card.col6 .famous-candidate-list {
+    grid-gap: 15px;
+}
+
+.party-stats.stats-card.col6 .famous-candidate-list .candidate.famous-candidate-col {
+    background: #fff;
+}
+
+.pradesh-description,
+.chart-description {
+    margin: 20px;
+    padding: 10px 0;
+    background: #fff;
+    border-radius: 8px;
+    flex: 1;
+    box-shadow: 0 5px 12px rgba(0, 0, 0, 0.08);
+}
+
+.pradesh-description .title,
+.chart-description .title {
+    font-weight: 600;
+    font-size: 22px;
+    text-align: center;
+    font-family: "Anek Devanagari", sans-serif;
+    color: #bf1e2e;
+    margin-bottom: 15px;
+}
+
+.pradesh-description .stats,
+.chart-description .stats {
+    margin: 0 15px 15px 15px;
+    padding: 0;
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 12px;
+    justify-content: center;
+}
+
+.pradesh-description .stats li,
+.chart-description .stats li {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border: none;
+    padding: 0;
+}
+
+.pradesh-description .stats li img,
+.chart-description .stats li img {
+    width: 38px;
+}
+
+.pradesh-description .stats li h5,
+.chart-description .stats li h5 {
+    font-weight: 700;
+    font-size: 20px;
+    opacity: 1;
+    color: rgba(0, 0, 0, 0.7411764706);
+    line-height: 1.4;
+    display: flex;
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+}
+
+.pradesh-description .stats li h5 span,
+.chart-description .stats li h5 span {
+    font-size: 13px;
+    color: rgba(0, 0, 0, 0.7098039216);
+    font-weight: 500;
+    display: block;
+}
+
+.pradesh-description {
+    margin: 20px 30px auto 0px;
+    border-radius: 10px;
+}
+
+.chart-description {
+    margin: 0;
+    padding: 15px;
+}
+
+.chart-description .title,
+.chart-description .apexcharts-title-text {
+    fill: #531700;
+    font-size: 22px;
+    font-weight: 700;
+    font-family: "Anek Devanagari", sans-serif !important;
+}
+
+.province-map svg g:hover text {
+    font-weight: 500;
+}
+
+.province-map svg g:hover path:hover {
+    fill: rgba(244, 191, 123, 0.4196078431);
+}
+
+.candidate-detail-wrapper {
+    position: sticky;
+    top: 80px;
+}
+
+.candidate-detail-wrapper .page-header {
+    margin: 0;
+    position: relative;
+    width: 100%;
+    padding: 18px;
+    padding-left: 0;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.candidate-detail-wrapper .page-header > div {
+    display: block;
+}
+
+.candidate-detail-wrapper .page-header > div .sign {
+    margin-bottom: 15px;
+    width: 48px;
+    padding: 0;
+    height: 48px;
+    background: #fff;
+}
+
+.candidate-detail-wrapper .page-header .page-title {
+    width: 100%;
+    color: #302121;
+}
+
+.candidate-detail-wrapper .page-header span a {
+    font-weight: 600;
+    font-size: 15px;
+    color: rgba(17, 17, 17, 0.6980392157);
+}
+
+.candidate-detail-wrapper .page-header span a:hover {
+    color: #bf1e2e;
+}
+
+.candidate-detail-wrapper .page-header span a.chip {
+    background: #fff;
+    line-height: 27px;
+    padding: 0 15px;
+    margin-left: 4px;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.candidate-detail-wrapper .page-header .votes {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    margin-top: 0;
+}
+
+.candidate-bio {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    border-radius: 8px;
+    background: linear-gradient(120deg, rgb(255, 198, 197) 46%, rgba(234, 234, 234, 0) 100%);
+    border: 1px solid rgba(191, 30, 46, 0.08);
+    position: relative;
+}
+
+.candidate-bio .contentarea {
+    margin-top: 13px;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 1.65;
+    color: rgba(0, 0, 0, 0.7411764706);
+}
+
+.candidate-bio .contentarea .bio-title {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #111;
+    line-height: 1;
+    font-weight: 600;
+    font-family: "Anek Devanagari", sans-serif;
+}
+
+.candidate-bio .candidate-featured-img {
+    position: relative;
+    background: #fff;
+    z-index: 1;
+    display: flex;
+    border-radius: 4px;
+    justify-content: center;
+}
+
+.candidate-bio .candidate-featured-img img {
+    object-fit: cover;
+    border-radius: 5px 0 0 5px;
+}
+
+.candidate-info {
+    margin-top: 28px;
+}
+
+.candidate-info .candidate-info-title {
+    font-weight: 700;
+    font-size: 22px;
+    margin-bottom: 12px;
+    font-family: "Anek Devanagari", sans-serif;
+}
+
+.candidate-info .contentarea {
+    margin-top: 0;
+    font-size: 20px;
+}
+
+.info-grid {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 12px;
+}
+
+.info-grid .info-card {
+    background: #f9fafb;
+    padding: 12px;
+    border-radius: 12px;
+    font-size: 14px;
+    border: 1px solid rgba(26, 22, 22, 0.25);
+    color: #0f1116;
+    text-transform: uppercase;
+    line-height: 1.3;
+    transition: 0.3s linear;
+    position: relative;
+}
+
+.info-grid .info-card svg {
+    position: absolute;
+    right: 15px;
+    top: 15px;
+}
+
+.info-grid .info-card:hover {
+    transform: translateY(-5px);
+}
+
+.info-grid .info-card strong {
+    display: block;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.all-parties-candidates {
+    background: rgba(253, 231, 230, 0.2196078431);
+    padding: 38px 0;
+    border-top: 1px solid rgba(191, 30, 46, 0.08);
+}
+
+.all-parties-candidates .heading-title-wrap {
+    margin-bottom: 10px;
+}
+
+.section-candidates .detail .sidebar-candidate {
+    margin-top: 25px;
+}
+
+.section-candidates .detail .sidebar-candidate .heading-title {
+    margin-bottom: 14px;
+}
+
+.section-candidates .sidebar-candidate .famous-candidate-list {
+    display: flex;
+    flex-wrap: wrap;
+    grid-gap: 8px;
+    background: rgba(0, 0, 0, 0.0392156863);
+    padding: 15px;
+}
+
+.section-candidates .sidebar-candidate .famous-candidate-list > div {
+    padding: 10px;
+    width: 100%;
+    flex: 24%;
+    background: #fff;
+}
+
+.section-candidates .sidebar-candidate .famous-candidate-list > div:before {
+    height: 100%;
+    background: none;
+}
+
+.section-candidates .sidebar-candidate .famous-candidate-list > div span {
+    font-size: 13px;
+    margin: 0;
+    line-height: 1.2;
+}
+
+.section-candidates .sidebar-candidate .famous-candidate-list > div a .profile > img {
+    width: 60px !important;
+    height: 60px !important;
+    margin-bottom: 3px;
+    border-radius: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.1098039216);
+}
+
+.error-404 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 270px);
+    background: rgba(0, 0, 0, 0.0196078431);
+}
+
+.error-404 .heading-title-wrap .heading-title {
+    font-size: 40px;
+    color: #531700;
+    line-height: 1;
+    margin: auto 0;
+    font-weight: 700;
+}
+
+.error-404 p {
+    font-size: 22px;
+    margin: 8px 0 10px 0;
+    color: rgba(17, 17, 17, 0.61);
+}
+
+.spinner {
+    width: 35px;
+    height: 35px;
+    margin: 5px 0;
+    border-radius: 50%;
+    border: 5px solid rgba(0, 0, 0, 0.15);
+    border-top-color: #bf1e2e;
+    animation: spin 0.8s linear infinite;
+}
+
+@keyframes spin {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.mobile-mode {
+    display: none;
+}
+
+.elec-content-wrap .full-banner-adv .elc-container > div > div:first-child {
+    margin-top: 20px;
+}
+
+.mainvideo-wrapper {
+    background: rgba(253, 231, 230, 0.2196078431);
+    border-radius: 8px;
+    margin-bottom: 25px;
+    border: 1px solid rgba(191, 30, 46, 0.08);
+}
+
+.mainvideo-wrapper .video-player {
+    height: 440px;
+}
+
+.mainvideo-wrapper iframe,
+.mainvideo-wrapper img {
+    width: 100%;
+    height: 100%;
+    border-radius: 8px 0 0 8px;
+    object-fit: cover;
+}
+
+.mainvideo-wrapper .video-detail {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.mainvideo-wrapper .video-detail h3 {
+    font-size: 30px;
+    line-height: 1.35;
+    color: #111;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.mainvideo-wrapper .video-detail h3 a {
+    color: inherit;
+}
+
+.trigger-player {
+    cursor: pointer;
+}
+
+.lists-video {
+    grid-gap: 18px;
+}
+
+.trigger-player {
+    display: block;
+    overflow: hidden;
+    border-radius: 8px;
+}
+
+.trigger-player .video-cover {
+    aspect-ratio: 16/9;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 12px;
+    transition: 0.3s ease-in-out;
+}
+
+.trigger-player .video-cover img {
+    transition: opacity 0.25s ease;
+}
+
+.trigger-player .video-cover frame {
+    transition: opacity 0.25s ease;
+}
+
+.trigger-player .video-cover img,
+.trigger-player .video-cover iframe {
+    height: 100%;
+    border-radius: 8px;
+    width: 100%;
+    transition: 0.3s ease-in-out;
+    position: absolute;
+    object-fit: cover;
+    inset: 0;
+}
+
+.trigger-player .video-cover.is-playing img,
+.trigger-player .video-cover.is-playing .fa-play {
+    opacity: 0;
+    pointer-events: none;
+}
+
+.trigger-player .video-cover.is-playing iframe {
+    opacity: 1;
+}
+
+.trigger-player .fa-play {
+    position: absolute;
+    bottom: 10px;
+    font-size: 14px;
+    height: 35px;
+    width: 35px;
+    border-radius: 10px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    left: 10px;
+    color: #fff;
+    background: rgba(18, 0, 0, 0.5);
+}
+
+.trigger-player:hover .video-cover img {
+    transform: scale(1.1);
+}
+
+.trigger-player:hover .video-cover .fa-play {
+    background: rgba(191, 30, 46, 0.6588235294);
+}
+
+.frame .section-lead-table .elc-container {
+    background: rgba(253, 231, 230, 0.2196078431);
+    padding: 25px;
+    border-radius: 8px;
+    border: 1px solid rgba(191, 30, 46, 0.08);
+}
+
+.frame .heading-title-wrap {
+    margin-bottom: 12px;
+}
+
+.candidates-column .heading-title-wrap {
+    margin-bottom: 14px;
+}
+
+.candidates-column .btn {
+    margin-top: 15px;
+}
+
+.candidates-column .candidate .profile a > img {
+    width: 95px !important;
+    height: 95px;
+}
+
+.candidates-column .candidate .profile .party img {
+    width: 30px !important;
+}
+
+.candidates-column .candidate .votes img {
+    top: 10px;
+    right: 10px;
+    width: 18px;
+    height: 18px;
+}
+
+.candidates-column .dn-grid-small {
+    grid-gap: 15px;
+}
+
+@media (max-width: 959px) {
+    .frame .candidates-column .elc-container > .dn-grid {
+        grid-gap: 18px;
+    }
+
+    .frame .candidates-column .hotseat-row,
+    .frame .candidates-column .popular-candidate-row {
+        grid-column: span 12;
+    }
+}
+
+@media (max-width: 600px) {
+    .frame .candidates-column .elc-container > .dn-grid {
+        grid-gap: 18px;
+    }
+
+    .frame .candidates-column .hotseat-row,
+    .frame .candidates-column .popular-candidate-row {
+        grid-column: span 12;
+    }
+
+    .frame .candidates-column .hotseat-row > .dn-grid .col6,
+    .frame .candidates-column .popular-candidate-row > .dn-grid .col6 {
+        grid-column: span 12;
+    }
+}
+
+@media (max-width: 480px) {
+    .frame .candidates-column .btn {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+.winner-by-party .elc-container {
+    padding: 30px 10px 0 10px;
+    background: rgba(191, 30, 46, 0.03);
+    border-radius: 8px;
+    border: 1px solid rgba(0, 0, 0, 0.0588235294);
+    width: 100%;
+}
+
+.winner-by-party .highcharts-background {
+    fill: none !important;
+}
+
+.result-grid {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-top: 10px;
+    margin-top: 10px;
+    border-top: 2px solid #bf1e2e;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.result-grid .result-vote {
+    line-height: 1.3;
+    font-size: 12px;
+    color: #000;
+    text-align: center;
+    font-weight: 500;
+    flex: 1;
+}
+
+.result-grid .result-vote h5 {
+    font-weight: 700;
+    font-size: 18px;
+    margin-bottom: 2px;
+}
+
+.election-type-btn {
+    display: inline-flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.election-type-btn span {
+    font-size: 13px;
+    padding: 5px 12px;
+    transition: all 0.3s ease-in-out;
+    border-radius: 6px;
+    border: 1px solid rgba(0, 0, 0, 0.0705882353);
+    background-color: #fff;
+    box-shadow: 0px 7px 15px rgba(0, 0, 0, 0.04);
+    font-weight: 700;
+    cursor: pointer;
+    color: rgba(51, 51, 51, 0.9411764706);
+}
+
+.election-type-btn span:hover, .election-type-btn span.active {
+    transform: scale(1.03);
+    background: #bf1e2e;
+    color: #fff;
+}
+
+.last-updated {
+    font-size: 11px;
+    margin-top: auto;
+    opacity: 0.9;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    margin-left: auto;
+}
+
+.last-updated i {
+    font-size: 11px;
+}
+
+.col1 {
+    grid-column: span 1;
+}
+
+.row1 {
+    grid-row: span 1;
+}
+
+.col2 {
+    grid-column: span 2;
+}
+
+.row2 {
+    grid-row: span 2;
+}
+
+.col3 {
+    grid-column: span 3;
+}
+
+.row3 {
+    grid-row: span 3;
+}
+
+.col4 {
+    grid-column: span 4;
+}
+
+.row4 {
+    grid-row: span 4;
+}
+
+.col5 {
+    grid-column: span 5;
+}
+
+.row5 {
+    grid-row: span 5;
+}
+
+.col6 {
+    grid-column: span 6;
+}
+
+.row6 {
+    grid-row: span 6;
+}
+
+.col7 {
+    grid-column: span 7;
+}
+
+.row7 {
+    grid-row: span 7;
+}
+
+.col8 {
+    grid-column: span 8;
+}
+
+.row8 {
+    grid-row: span 8;
+}
+
+.col9 {
+    grid-column: span 9;
+}
+
+.row9 {
+    grid-row: span 9;
+}
+
+.col10 {
+    grid-column: span 10;
+}
+
+.row10 {
+    grid-row: span 10;
+}
+
+.col11 {
+    grid-column: span 11;
+}
+
+.row11 {
+    grid-row: span 11;
+}
+
+.col12 {
+    grid-column: span 12;
+}
+
+.row12 {
+    grid-row: span 12;
+}
+
+.elec-content-wrap {
+    z-index: 1;
+    position: relative;
+}
+
+.section {
+    margin-top: 30px;
+}
+
+.smart-filter {
+    background-color: #fff;
+    padding: 25px 0 0px 0;
+}
+
+.smart-filter .smart-filter-form {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.smart-filter .smart-filter-form > div {
+    flex: 1 1 auto;
+}
+
+.mapcontainer {
+    position: relative;
+    border: 1px solid rgba(0, 0, 0, 0.0588235294);
+    border-radius: 10px;
+}
+
+.mapcontainer p {
+    font-size: 1rem;
+    opacity: 0.8;
+    font-weight: 600;
+    text-align: right;
+}
+
+.popular-candidate .owl-nav {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+}
+
+.popular-candidate .owl-nav button {
+    font-size: 14px !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 32px;
+    color: #bf1e2e !important;
+    width: 32px;
+    text-align: center;
+    background: #fff !important;
+    overflow: hidden;
+    line-height: 32px;
+    border-radius: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.1098039216) !important;
+    transition: transform 0.3s ease;
+    font-weight: 600;
+    transition: 0.5s ease;
+    position: absolute;
+}
+
+.popular-candidate .owl-nav button:before {
+    font-family: var(--fa-style-family, "Font Awesome 6 Free");
+    font-weight: var(--fa-style, 600);
+}
+
+.popular-candidate .owl-nav button:before {
+    content: "\f053";
+}
+
+.popular-candidate .owl-nav button.owl-prev {
+    left: -15px;
+}
+
+.popular-candidate .owl-nav button.owl-next {
+    right: -18px;
+}
+
+.popular-candidate .owl-nav button.owl-next:before {
+    content: "\f054";
+}
+
+.popular-candidate .owl-nav button:hover {
+    background: #bf1e2e !important;
+    color: #fff !important;
+}
+
+.famous-candidate-list {
+    grid-gap: 18px;
+}
+
+.famous-candidate-list .candidate-card .candidate-holder .candidate .profile a > img {
+    width: 100px !important;
+    height: 100px;
+}
+
+.famous-candidate-list .candidate-card .candidate-holder .candidate .profile .party img {
+    width: 25px !important;
+    height: 25px !important;
+}
+
+.all-parties-result {
+    background: rgba(241, 241, 241, 0.35);
+    padding: 40px 0 40px 0;
+    position: relative;
+}
+
+.all-parties-result .elc-container {
+    position: relative;
+    z-index: 1;
+}
+
+.all-parties-result:after {
+    background: url(../img/election-bgm.png) repeat-x;
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-size: cover;
+    opacity: 0.13;
+    width: 100%;
+    height: 100%;
+}
+
+.dn-grid-small {
+    grid-gap: 18px;
+}
+
+.samaupatik-result-heading {
+    background-color: #89288c;
+    color: #fff;
+    font-size: 23px;
+    line-height: 118%;
+    margin-top: 0;
+    font-weight: 700;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 14px;
+    font-family: "Anek Devanagari", sans-serif;
+    max-width: 210px;
+    flex: 1;
+    flex-direction: column;
+    gap: 5px;
+    border-radius: 7px 0 0px 7px;
+    position: relative;
+}
+
+.samaupatik-result-heading:before {
+    content: "";
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    border-left: 20px solid #89288c;
+    position: absolute;
+    right: -10px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.samaupatik-result-heading .title {
+    color: inherit;
+}
+
+.samaupatik-result-heading p {
+    font-size: 18px;
+    margin-top: 4px;
+    font-family: "Mukta", sans-serif;
+    font-weight: 500;
+}
+
+.samaupatik-parties-result {
+    border-radius: 0px 7px 7px 0px;
+    background: rgba(191, 30, 46, 0.08);
+    padding: 20px;
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+    flex-direction: column;
+    flex: 2;
+}
+
+.samaupatik-parties-result .dn-grid {
+    display: grid;
+    grid-gap: 12px;
+}
+
+.samaupatik-parties-result .title {
+    display: block;
+    font-size: 23px;
+    line-height: 118%;
+    color: #bf1e2e;
+    font-weight: 700;
+    text-align: center;
+    font-family: #1061af;
+}
+
+.bg-gray {
+    background-color: #F8F8F8;
+    padding: 35px 0;
+}
+
+.map-legend {
+    word-wrap: break-word;
+    background-clip: border-box;
+    padding: 15px 0 12px 15px;
+}
+
+.map-legend ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 9px;
+}
+
+.map-legend ul li {
+    gap: 8px;
+    font-size: 15px;
+    font-weight: 500;
+    color: rgba(17, 17, 17, 0.8);
+    cursor: pointer;
+}
+
+.map-legend ul li .indicator {
+    cursor: pointer;
+    height: 14px;
+    width: 14px;
+    border-radius: 5px;
+}
+
+.map-legend ul li .party-name {
+    margin-right: auto;
+    font-size: 15px;
+}
+
+.map-legend ul li .count {
+    font-size: 14px;
+}
+
+.map-legend ul li:hover, .map-legend ul li.active {
+    font-weight: 800;
+}
+
+.map-legend ul li:last-child {
+    border-bottom: none;
+}
+
+.election-overview {
+    padding: 30px 0;
+    background: linear-gradient(180deg, rgba(253, 138, 93, 0.05) 0%, rgba(255, 255, 255, 0) 100%);
+}
+
+.election-overview .elc-container .heading-title-wrap {
+    margin-bottom: 15px;
+}
+
+.election-overview .heading-title {
+    display: inline-flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.election-overview .heading-title svg {
+    width: 28px;
+    height: 28px;
+}
+
+.stat-card {
+    background: #ffffff;
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: 1px solid rgba(0, 0, 0, 0.1019607843);
+    position: relative;
+}
+
+.stat-card:hover {
+    transform: translateY(-6px);
+}
+
+.stat-card .stat-content {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.stat-card .stat-content .stat-text {
+    line-height: 1.2;
+    padding: 12px 20px;
+    padding-left: 72px;
+}
+
+.stat-card .stat-content .stat-text .stat-label {
+    font-size: 15px;
+    font-weight: 600;
+    color: #475569;
+    margin-bottom: 2px;
+}
+
+.stat-card .stat-content .stat-text .stat-value {
+    text-align: left;
+    font-size: 28px;
+    font-weight: 700;
+    color: #324257;
+}
+
+.stat-card .stat-content .stat-text .stat-row {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.stat-card .stat-content .stat-icon {
+    transition: border-radius 0.3s;
+    width: 54px;
+    border-radius: 10px 0 0 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+}
+
+.stat-card .stat-content .stat-icon:before {
+    content: "";
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    position: absolute;
+    right: -10px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.stat-card .stat-content .stat-icon svg {
+    width: 30px;
+    height: 30px;
+    color: #fff;
+}
+
+.stat-card .stat-content .stat-icon.red {
+    background: #b91c1c;
+}
+
+.stat-card .stat-content .stat-icon.red:before {
+    border-left: 20px solid #b91c1c;
+}
+
+.stat-card .stat-content .stat-icon.green {
+    background: #e66d02;
+}
+
+.stat-card .stat-content .stat-icon.green:before {
+    border-left: 20px solid #e66d02;
+}
+
+.stat-card .stat-content .stat-icon.purple {
+    background: #5b21b6;
+}
+
+.stat-card .stat-content .stat-icon.purple:before {
+    border-left: 20px solid #5b21b6;
+}
+
+.stat-card .stat-content .stat-icon.orange {
+    background: #fa3b00;
+}
+
+.stat-card .stat-content .stat-icon.orange:before {
+    border-left: 20px solid #fa3b00;
+}
+
+.section.famous-candidates {
+    background: rgba(253, 231, 230, 0.2196078431);
+    padding: 30px 0;
+    border-top: 1px solid rgba(191, 30, 46, 0.08);
+}
+
+.hamburger {
+    cursor: pointer;
+    display: none;
+    overflow: hidden;
+    vertical-align: middle;
+    width: 25px;
+}
+
+.hamburger > span {
+    background-color: #fff;
+    display: block;
+    height: 2px;
+    margin-bottom: 8px;
+    transition: all 0.1s ease-in-out;
+    width: 100%;
+}
+
+.hamburger > span:nth-child(2n) {
+    width: 60%;
+}
+
+.hamburger > span:last-child {
+    margin-bottom: 0;
+}
+
+.hamburger:hover > span {
+    width: 100%;
+}
+
+.header-btn {
+    background: rgba(0, 0, 0, 0.2509803922);
+    border-radius: 4px;
+    color: #fff;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 7px 16px;
+    display: none;
+}
+
+@media (max-width: 959px) {
+    .section.popular-candidate .col4 {
+        grid-column: span 6;
+    }
+
+    .samaupatik-parties-result .dn-grid .col2 {
+        grid-column: span 4;
+    }
+
+    .samaupatik-parties-result .dn-grid .samaupatik-result-heading {
+        max-width: 150px;
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 810px) {
+    .section-candidates .col2.parties-card {
+        grid-column: span 4;
+    }
+
+    .video-detail .video-title {
+        font-size: 25px;
+    }
+
+    .trigger-player {
+        grid-column: span 6;
+    }
+
+    .candidate-search-form .elc-container {
+        margin: 0 13px;
+    }
+
+    .candidate-search-form .elc-container .form-autocomplete .search-result-list {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .candidate-search-form .elc-container .form-autocomplete .counter {
+        grid-column: span 2;
+    }
+
+    body.show__search--modal .blur {
+        filter: blur(0);
+    }
+
+    .header-section .btn-search {
+        display: inline-block;
+        margin-left: auto;
+        margin-right: 11px;
+        background: #fff;
+        height: 35px;
+        width: 35px;
+        border-radius: 7px;
+        justify-content: center;
+        display: inline-flex;
+        cursor: pointer;
+        align-items: center;
+        font-size: 16px;
+        color: #bf1e2e;
+    }
+
+    .all-parties-candidates {
+        padding: 30px 0;
+    }
+
+    .result-container .title {
+        font-size: 18px;
+        background: #bf1e2e;
+        box-shadow: 3px 7px 16px rgba(0, 0, 0, 0.3803921569);
+        padding: 6px 15px;
+        box-shadow: 0 5px 12px rgba(0, 0, 0, 0.1607843137);
+        border-radius: 4px;
+        color: #fff;
+    }
+
+    .result-container .title .counter {
+        background: #fff;
+        color: #bf1e2e;
+    }
+
+    .result-container .title .mbl-toggle {
+        display: block;
+        cursor: pointer;
+    }
+
+    .result-container .party-container-wrap .party-container {
+        grid-column: span 12;
+    }
+
+    .candidate-info {
+        margin-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .candidate-info .candidate-info-title {
+        margin-bottom: 5px;
+    }
+
+    .candidate-info .info-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+        margin-bottom: 20px;
+    }
+
+    .stats {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .stats-grid {
+        grid-gap: 12px;
+    }
+
+    .stats-grid .stat-card {
+        grid-column: span 6;
+    }
+
+    .candidate-wrapper.dn-grid {
+        display: block;
+    }
+
+    .candidate-wrapper.dn-grid .result-container {
+        flex: 100%;
+    }
+
+    .candidate-wrapper.dn-grid .result-container:nth-child(2n) {
+        border-left: none;
+        padding-left: 0;
+        margin-top: 15px;
+    }
+
+    .page-header .page-title {
+        font-size: 25px;
+    }
+
+    .detail,
+    .candidate-sidebar {
+        flex: 100%;
+        max-width: inherit;
+    }
+
+    .detail {
+        padding: 0 0 0 0;
+        flex: 100%;
+        margin-bottom: 22px;
+        border-bottom: 1px solid #f1f1f1;
+    }
+
+    .famous-candidate-list .col4 {
+        grid-column: span 6;
+    }
+
+    .news-wrap .columnnews {
+        grid-column: span 6;
+    }
+
+    .district-detail .dn-grid {
+        grid-gap: 15px;
+    }
+
+    .district-detail .col9,
+    .district-detail .col8,
+    .district-detail .col3,
+    .district-detail .col4,
+    .district-detail .col5,
+    .district-detail .col7 {
+        grid-column: span 12;
+        margin-top: 0;
+    }
+
+    .district-detail .contentarea {
+        padding: 8px 20px 20px 20px;
+    }
+
+    .result-container.dn-grid .party-container {
+        grid-column: span 12;
+    }
+
+    .election-news-wrap .dn-grid {
+        grid-gap: 20px;
+    }
+
+    .election-news-wrap .dn-grid .col4 {
+        grid-column: span 6;
+    }
+
+    .local__election .candidate--lists .election-card {
+        grid-column: span 6;
+    }
+
+    .candidate.famous-candidate-col {
+        grid-column: span 4;
+    }
+
+    .all-parties-result .dn-grid .result-card {
+        grid-column: span 6;
+    }
+
+    .heading-title-wrap {
+        margin-bottom: 15px;
+        gap: 10px;
+    }
+
+    .heading-title-wrap .heading-title {
+        font-size: 25px;
+    }
+
+    .section-lead-table .parties-card {
+        grid-column: span 4;
+    }
+
+    header {
+        position: sticky;
+        background: #bf1e2e;
+        top: 0;
+        z-index: 100;
+        overflow: hidden;
+    }
+
+    .hamburger,
+    .header-btn {
+        display: block;
+    }
+
+    .header-right {
+        position: absolute;
+        top: 0px;
+        right: 0;
+        width: 70%;
+        height: 1px;
+        margin: 0 auto;
+        opacity: 0.9;
+        pointer-events: none;
+    }
+
+    .header-right img {
+        height: 70px;
+        object-fit: contain;
+        position: absolute;
+        right: 0;
+        opacity: 0.6;
+        filter: brightness(0) invert(1);
+    }
+
+    .blur {
+        filter: blur(5px);
+    }
+
+    .navigation {
+        top: 0;
+        left: -100%;
+        position: fixed;
+        height: 100vh;
+        z-index: 101;
+        background: #fff;
+        transition: all 0.4s ease;
+        width: 270px;
+        margin: 10px;
+        border-radius: 6px;
+    }
+
+    .navigation .elc-container {
+        padding: 0;
+    }
+
+    .navigation .menu-container {
+        display: block;
+        position: relative;
+        height: calc(100vh - 60px);
+    }
+
+    .navigation .menu-container > ul {
+        flex-direction: column;
+        text-align: left;
+        overflow: auto;
+        align-items: baseline;
+        height: calc(100% - 100px);
+    }
+
+    .navigation .menu-container > ul > li {
+        padding: 11px 0 0px 0;
+        height: auto;
+        border-bottom: 1px solid #f1f1f1;
+        width: 100%;
+        position: relative;
+        display: block;
+        justify-content: space-between;
+    }
+
+    .navigation .menu-container > ul > li:hover {
+        border-radius: 0;
+    }
+
+    .navigation .menu-container > ul > li.dropdown {
+        padding-right: 0;
+    }
+
+    .navigation .menu-container > ul > li.dropdown:hover {
+        border-radius: 0;
+    }
+
+    .navigation .menu-container > ul > li.dropdown-active > ul {
+        display: block;
+    }
+
+    .navigation .menu-container > ul > li > a {
+        padding: 7px 0 14px 15px;
+        font-size: 17px;
+        font-weight: 600;
+        margin: 0;
+        opacity: 1;
+        display: inline-flex;
+        height: auto;
+        color: #23252d;
+        font-family: "Mukta", sans-serif;
+    }
+
+    .navigation .menu-container > ul > li > span {
+        color: #111;
+        cursor: pointer;
+        right: 0;
+        top: 10px;
+        height: 32px;
+        width: 32px;
+        display: inline-block;
+        text-align: center;
+        line-height: 32px;
+    }
+
+    .navigation .menu-container > ul > li > ul {
+        opacity: 1;
+        visibility: visible;
+        width: 100%;
+        margin: 0;
+        position: static;
+        display: none;
+        top: 100%;
+    }
+
+    .navigation .menu-container > ul > li:hover {
+        background: #bf1e2e;
+        color: #fff;
+    }
+
+    .navigation .menu-container > ul > li:hover > a,
+    .navigation .menu-container > ul > li:hover span {
+        color: #fff;
+        opacity: 1;
+    }
+
+    .navigation .menu-container .button {
+        background: #bf1e2e;
+        height: auto;
+        color: #fff;
+        text-align: center;
+        justify-content: center;
+        padding: 15px 15px 9px 15px;
+        position: absolute;
+        bottom: 0;
+        height: auto;
+        left: 0px;
+        border-radius: 5px;
+        width: calc(100% - 40px);
+        margin: 20px;
+    }
+
+    .header-section .header-logo a img {
+        width: 145px;
+    }
+
+    .pradesh-result .election-card {
+        grid-column: span 6;
+    }
+
+    .show__side--menu .navigation {
+        left: 0;
+        transition: all 0.4s ease;
+    }
+
+    .nepalmap {
+        display: none;
+    }
+}
+
+@media (max-width: 640px) {
+    .heading-title-wrap .heading-title {
+        font-size: 22px;
+    }
+
+    .heading-title-wrap .filter-row {
+        margin-bottom: 5px;
+    }
+
+    .smart-filter {
+        padding: 20px 0 0px 0;
+    }
+
+    .smart-filter-form,
+    .local__election .filter-row {
+        padding: 22px 15px;
+        background: rgba(191, 30, 46, 0.03);
+        border-radius: 8px;
+        border: 1px solid rgba(0, 0, 0, 0.0588235294);
+        width: 100%;
+    }
+
+    .smart-filter-form select,
+    .local__election .filter-row select {
+        background-color: #fff;
+    }
+
+    .section.popular-candidate .dn-grid {
+        grid-gap: 15px;
+    }
+
+    .section.popular-candidate .col4 {
+        grid-column: span 12;
+    }
+
+    .last-footer .dn-grid {
+        gap: 10px;
+    }
+
+    .last-footer .dn-grid .col9,
+    .last-footer .dn-grid .col3 {
+        grid-column: span 12;
+        text-align: center;
+    }
+
+    .last-footer .dn-grid .col9 .footer-logo,
+    .last-footer .dn-grid .col3 .footer-logo {
+        display: none;
+    }
+
+    .last-footer .dn-grid .col9 .social-media,
+    .last-footer .dn-grid .col3 .social-media {
+        margin-top: 5px;
+    }
+
+    .last-footer .dn-grid .footer-info {
+        text-align: center;
+        padding: 0;
+        width: 100%;
+    }
+}
+
+@media (max-width: 500px) {
+    #samanupatik .party-container {
+        display: flex;
+    }
+
+    #samanupatik .party-container .party-logo {
+        margin-bottom: 0;
+    }
+
+    .stats-wrap h3 {
+        margin-top: 15px;
+    }
+
+    .map-wrapper {
+        display: none;
+    }
+
+    .stats {
+        margin: 15px;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+    }
+
+    .stats li {
+        padding: 8px;
+    }
+
+    .stats li img {
+        width: 35px;
+    }
+
+    .stats li h5 {
+        font-weight: 700;
+        font-size: 16px;
+    }
+
+    .stats li span {
+        font-size: 12px;
+    }
+
+    .section-candidates .col2.parties-card {
+        grid-column: span 6;
+    }
+
+    .mainvideo-wrapper {
+        margin-bottom: 20px;
+        gap: 20px;
+    }
+
+    .mainvideo-wrapper .col5,
+    .mainvideo-wrapper .col7 {
+        grid-column: span 12;
+    }
+
+    .mainvideo-wrapper .video-detail {
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0px 0 20px 0;
+    }
+
+    .mainvideo-wrapper .video-detail .video-title {
+        font-size: 20px;
+    }
+
+    .mainvideo-wrapper .video-player {
+        height: 300px;
+        border-radius: 8px;
+    }
+
+    .mainvideo-wrapper .video-player iframe {
+        border-radius: 8px;
+    }
+
+    .lists-video {
+        grid-gap: 15px;
+    }
+
+    .trigger-player {
+        grid-column: span 6;
+    }
+
+    .trigger-player .video-cover {
+        margin-bottom: 10px;
+    }
+
+    .trigger-player .news-title {
+        font-size: 17px;
+        font-weight: 500;
+    }
+
+    .result-container .party-container {
+        display: block;
+        position: relative;
+    }
+
+    .result-container .party-container .party-name {
+        display: block;
+        font-size: 13px;
+        margin: 0px 0 0px 0;
+    }
+
+    .result-container .party-container .party-logo {
+        flex: 1;
+    }
+
+    .result-container .party-container .party-wrap {
+        margin-right: 0;
+        flex: 2;
+    }
+
+    .result-container .party-container .party-wrap .party-info .party-sign img {
+        margin-right: 0;
+        position: absolute;
+        top: 10px;
+        right: 10px;
+    }
+
+    .result-container .party-container .votes {
+        font-size: 18px;
+    }
+
+    .page-header > div .sign img {
+        padding: 4px;
+    }
+
+    .page-header .page-title {
+        font-size: 23px;
+    }
+
+    .popular-candidate .owl-nav button.owl-prev {
+        left: -10px;
+    }
+
+    .popular-candidate .owl-nav button.owl-next {
+        right: -10px;
+    }
+
+    .backward .share-counter-wrap {
+        margin-bottom: 10px;
+    }
+
+    .page-header {
+        margin: 10px 0 15px 0;
+    }
+
+    .page-header .filter-row {
+        padding: 22px 15px;
+        gap: 10px;
+        margin: 0 0 5px 0;
+        background: rgba(191, 30, 46, 0.03);
+        border-radius: 8px;
+        border: 1px solid rgba(0, 0, 0, 0.0588235294);
+    }
+
+    .page-header .filter-row .select-box select {
+        background-color: #fff;
+    }
+
+    .famous-candidate-list .col4 {
+        grid-column: span 12;
+    }
+
+    .news-wrap {
+        grid-gap: 15px;
+    }
+
+    .columnnews > a img {
+        max-height: 250px;
+        margin-bottom: 0px;
+    }
+
+    .columnnews > a .columnnews-wrap .news-title {
+        font-size: 17px;
+    }
+
+    .district-detail .col3 {
+        display: block;
+    }
+
+    .result-container.dn-grid .party-container {
+        display: block;
+        position: relative;
+    }
+
+    .result-container.dn-grid .party-container .party-logo {
+        margin-right: auto;
+        flex: 100%;
+    }
+
+    .result-container.dn-grid .party-container .party-info .party-sign {
+        font-size: 12px;
+        display: flex;
+        align-items: center;
+        gap: 2px;
+        font-weight: 600;
+    }
+
+    .result-container.dn-grid .party-container .party-info .party-sign img {
+        height: 26px;
+        width: 26px;
+        padding: 4px;
+    }
+
+    .result-container.dn-grid .party-container .chip {
+        margin: 0px 0 0px 0;
+        position: absolute;
+        top: 15px;
+        right: 7px;
+    }
+
+    .result-container.dn-grid .party-container .votes {
+        width: auto;
+        text-align: right;
+        margin-top: 0;
+    }
+
+    .result-container.dn-grid .party-container .party-wrap {
+        margin: 5px 0 0 0;
+    }
+
+    .header-section {
+        padding-top: 5px;
+    }
+
+    .header-section .header-logo a img {
+        width: 130px;
+    }
+
+    .election-news-wrap .dn-grid {
+        grid-gap: 20px;
+    }
+
+    .election-news-wrap .dn-grid .col4 {
+        grid-column: span 12;
+    }
+
+    .overlay-news {
+        min-height: 300px;
+    }
+
+    .local__election .candidate--lists .election-card {
+        grid-column: span 12;
+    }
+
+    .famous-candidate-list {
+        grid-gap: 15px;
+    }
+
+    .candidate.famous-candidate-col {
+        grid-column: span 6;
+    }
+
+    .candidate.famous-candidate-col a .profile > img {
+        width: 60px !important;
+        height: 60px;
+        border-radius: 100%;
+        object-fit: cover;
+    }
+
+    .candidate.famous-party span {
+        font-size: 14px;
+    }
+
+    .pradesh-result .election-card {
+        grid-column: span 12;
+    }
+
+    .all-parties-result .dn-grid .result-card {
+        grid-column: span 12;
+    }
+
+    .section-lead-table {
+        background-image: linear-gradient(to bottom, #bf1e2e 0%, #790914 100%);
+        padding: 25px 0;
+    }
+
+    .section-lead-table .page-title {
+        color: #fff;
+    }
+
+    .section-lead-table .dn-grid {
+        grid-gap: 11px;
+    }
+
+    .section-lead-table .parties-card {
+        grid-column: span 6;
+    }
+
+    .section-lead-table .parties-card > a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .section-lead-table .parties-card > a img {
+        width: 42px;
+        height: 42px;
+        padding: 0px;
+        margin: 3px;
+    }
+
+    .section-lead-table .parties-card > a span {
+        text-align: left;
+    }
+
+    .section-lead-table .parties-card:hover {
+        background: #fff;
+    }
+
+    .section-lead-table .heading-title {
+        color: #fff;
+    }
+
+    .elc-container {
+        padding: 0 15px;
+    }
+
+    .section {
+        margin-top: 25px;
+    }
+
+    .section-bottom {
+        margin-bottom: 25px;
+    }
+
+    .section-samaupatik-result .samaupatik-parties-result {
+        padding: 15px;
+    }
+
+    .section-samaupatik-result .dn-grid .col2 {
+        grid-column: span 6;
+    }
+
+    .section-samaupatik-result .elc-container > .flex {
+        display: block;
+    }
+
+    .section-samaupatik-result .elc-container .samaupatik-result-heading {
+        padding: 18px 0 14px 0;
+        border-radius: 0;
+        max-width: inherit;
+        font-size: 20px;
+    }
+
+    .section-samaupatik-result .elc-container .samaupatik-result-heading:before {
+        top: 80%;
+        right: inherit;
+        transform: rotate(90deg);
+    }
+}
+
+@media (max-width: 480px) {
+    .candidate-search-form .elc-container {
+        padding: 18px;
+    }
+
+    .candidate-search-form .elc-container .form-autocomplete > .search-result-list {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .full-banner-adv {
+        margin: 0px 0 10px 0;
+    }
+
+    .elec-content-wrap .full-banner-adv .elc-container > div > div:first-child {
+        margin-bottom: 0;
+    }
+
+    .mobile-mode {
+        display: block;
+    }
+
+    .desktop-mode {
+        display: none;
+    }
+
+    .header-section .elc-container {
+        padding-left: 0;
+    }
+
+    .candidate-holder {
+        padding: 10px;
+    }
+
+    .section-lead-table .dn-grid-small .parties-card .title {
+        margin: 2px 0 3px 0;
+        min-height: inherit;
+    }
+
+    .all-parties-candidates {
+        padding: 30px 0;
+    }
+
+    .all-parties-candidates .heading-title-wrap .heading-title {
+        font-size: 22px;
+    }
+
+    .result-container .title {
+        font-size: 19px;
+        font-weight: 800;
+        line-height: 1.1;
+        padding: 10px 15px;
+    }
+
+    .page-description {
+        font-size: 17px;
+        margin-top: -10px;
+    }
+
+    .famous-candidate-list .candidate-card .candidate-holder .candidate .profile a > img {
+        width: 65px !important;
+        height: 65px;
+    }
+
+    .candidate .profile a > img {
+        width: 100px !important;
+        height: 100px;
+    }
+
+    .candidate-bio {
+        margin-top: 15px;
+        grid-template-columns: repeat(1, 1fr);
+        background: linear-gradient(180deg, rgba(255, 198, 197, 0.34) 46%, rgba(255, 198, 197, 0.47) 100%);
+        border: 1px solid rgba(191, 30, 46, 0.25);
+        position: relative;
+        position: relative;
+    }
+
+    .candidate-bio .candidate-featured-img {
+        text-align: center;
+        height: 200px;
+        width: 200px;
+        border-radius: 100%;
+        margin: 20px auto 0 auto;
+        border: solid #fff 4px;
+    }
+
+    .candidate-bio .candidate-featured-img img {
+        border-radius: 100%;
+        border: 4px solid #f1f1f1;
+        width: 100%;
+        height: 100%;
+        padding: 3px;
+    }
+
+    .candidate-bio .page-header {
+        padding: 15px;
+        position: static;
+        text-align: center;
+        padding-top: 3px;
+    }
+
+    .candidate-bio .page-header span a {
+        color: inherit;
+    }
+
+    .candidate-bio .page-header span a.chip {
+        position: absolute;
+        top: 17px;
+        left: 5px;
+        color: rgba(0, 0, 0, 0.9);
+        box-shadow: 3px 10px 13px rgba(0, 0, 0, 0.0588235294);
+    }
+
+    .candidate-bio .page-header .page-title {
+        display: block;
+        margin-right: 0;
+        padding-block: 10px 0px;
+    }
+
+    .candidate-bio .page-header .votes {
+        width: auto;
+        margin: 0;
+        top: 13px;
+        right: 13px;
+    }
+
+    .candidate-bio .page-header > div {
+        margin-bottom: 0;
+        width: 100%;
+    }
+
+    .candidate-bio .page-header > div .sign {
+        background: #fff;
+        width: 40px;
+        height: 40px;
+        margin: -44px auto 0 auto;
+    }
+
+    .candidate-bio .contentarea {
+        text-align: left;
+        margin-top: 8px;
+    }
+
+    .chart-description {
+        grid-column: span 12;
+    }
+
+    .info-card {
+        text-align: left;
+    }
+
+    .candidate-info .contentarea {
+        margin-top: 0;
+        font-size: 17px;
+        line-height: 1.65;
+        font-weight: 500;
+    }
+
+    .candidate-info .contentarea p:not(:last-child) {
+        margin: 0 0 12px 0;
+    }
+}
+
+@media (max-width: 450px) {
+    .candidate .profile a > img {
+        width: 80px !important;
+        height: 80px;
+    }
+
+    .result-container .party-container .party-logo {
+        flex: 1.3;
+        margin-bottom: 6px;
+    }
+
+    .election-overview .elc-container {
+        padding: 20px 20px;
+        background: rgba(191, 30, 46, 0.03);
+        border: 1px solid rgba(0, 0, 0, 0.0588235294);
+    }
+
+    .election-overview .elc-container .heading-title-wrap {
+        margin-bottom: 10px;
+    }
+
+    .stats-grid .stat-card {
+        grid-column: span 12;
+        padding-right: 15px;
+    }
+
+    .stats-grid .stat-card .stat-content .stat-text .stat-value {
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 400px) {
+    .header-section .header-logo a img {
+        width: 116px;
+    }
+
+    .header-section .header-right img {
+        opacity: 0.5;
+    }
+
+    .section-candidates .sidebar-candidate .famous-candidate-list > div {
+        flex: 40%;
+    }
+}
+
+.black-overlay {
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    display: none;
+    background: rgba(0, 0, 0, 0.7019607843);
+    z-index: 100;
+}
