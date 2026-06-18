@@ -1,0 +1,704 @@
+[
+  {
+    "constituency": "झापा - ३",
+    "link": "constituency/jhapa-3.html",
+    "candidates": [
+      {
+        "name": "प्रकाश पाठक",
+        "party": "राष्ट्रिय स्वतन्त्र पार्टी",
+        "votes": null,
+        "winner": true,
+        "image": "../npcdn.ratopati.com/election/media/upload-new/prakash-pathak-_fw0V3WqOvk.jpg"
+      },
+      {
+        "name": "राजेन्द्र प्रसाद लिङ्देन",
+        "party": "राष्ट्रिय प्रजातन्त्र पार्टी",
+        "votes": null,
+        "winner": false,
+        "image": "../npcdn.ratopati.com/election/media/upload-new/rajendra-lingden_ji9Xfn3bmG.jpg"
+      },
+      {
+        "name": "राजेन्द्र कुमार घिमिरे",
+        "party": "नेपाली कांग्रेस",
+        "votes": null,
+        "winner": false,
+        "image": "../npcdn.ratopati.com/election/media/upload-new/rajendra-kumar-ghimire-_3gENYxSuZ9.jpg"
+      }
+    ]
+  },
+  {
+    "constituency": "रूपन्देही - २",
+    "link": "constituency/rupandehi-2.html",
+    "candidates": [
+      {
+        "name": "सुलभ खरेल",
+        "party": "राष्ट्रिय स्वतन्त्र पार्टी",
+        "votes": null,
+        "winner": true,
+        "image": "../npcdn.ratopati.com/election/media/upload-new/sulav-_KBnRpS0zv9.jpg"
+      },
+      {
+        "name": "विष्‍णु प्रसाद पौडेल",
+        "party": "नेकपा (एमाले)",
+        "votes": null,
+        "winner": false,
+        "image": "../npcdn.ratopati.com/election/media/upload-new/bishnu-paudel_uPMOw5j8tJ.jpg"
+      },
+      {
+        "name": "चुन्‍न प्रसाद शर्मा",
+        "party": "नेपाली कांग्रेस",
+        "votes": null,
+        "winner": false,
+        "image": "../npcdn.ratopati.com/election/media/upload-new/chunna_2THNmCnuO8.jpg"
+      }
+    ]
+  },
+  {
+    "constituency": "म्याग्दी - १",
+    "link": "constituency/myagdi-1.html",
+    "candidates": [
+      {
+        "name": "महावीर पुन",
+        "party": "स्वतन्त्र",
+        "votes": null,
+        "winner": true,
+        "image": "../npcdn.ratopati.com/election/media/upload-new/mahabir-pun_2LefimYdDI.jpg"
+      },
+      {
+        "name": "हरीकृष्ण श्रेष्ठ",
+        "party": "नेकपा (एमाले)",
+        "votes": null,
+        "winner": false,
+        "image": "../npcdn.ratopati.com/election/media/upload-new/karikrishna-_TiW7SHspXX.jpg"
+      },
+      {
+        "name": "कर्ण बहादुर भण्डारी",
+        "party": "नेपाली कांग्रेस",
+        "votes": null,
+        "winner": false,
+        "image": "../npcdn.ratopati.com/election/media/upload-new/karnabahadur-bhandari_CVjetazaa0.jpg"
+      }
+    ]
+  },
+  {
+    "constituency": "चितवन - ३",
+    "link": "constituency/chitwan-3.html",
+    "candidates": [
+      {
+        "name": "सोविता गौतम",
+        "party": "राष्ट्रिय स्वतन्त्र पार्टी",
+        "votes": null,
+        "winner": true,
+        "image": "../npcdn.ratopati.com/election/media/upload-new/sobita-gautam_qCEyPlW4jH.jpg"
+      },
+      {
+        "name": "रेनु दाहाल",
+        "party": "नेपाली कम्युनिष्ट पार्टी",
+        "votes": null,
+        "winner": false,
+        "image": "../npcdn.ratopati.com/election/media/upload-new/renu-dahal_pDzvGcMVD8.jpg"
+      },
+      {
+        "name": "टेक प्रसाद गुरुङ्ग",
+        "party": "नेपाली कांग्रेस",
+        "votes": null,
+        "winner": false,
+        "image": "../npcdn.ratopati.com/election/media/upload-new/tek-gurung_pwriEwyFMc.jpg"
+      }
+    ]
+  },
+  {
+    "constituency": "काठमाडौं - ३",
+    "link": "constituency/kathmandu-3.html",
+    "candidates": [
+      {
+        "name": "राजु नाथ पाण्डे",
+        "party": "राष्ट्रिय स्वतन्त्र पार्टी",
+        "votes": null,
+        "winner": true,
+        "image": "../npcdn.ratopati.com/election/media/upload-new/rajunath-pandey_uVgWTte7if.jpg"
+      },
+      {
+        "name": "कुलमान घिसिङ",
+        "party": "उज्यालो नेपाल पार्टी",
+        "votes": null,
+        "winner": false,
+        "image": "../npcdn.ratopati.com/election/media/upload-new/kulman-ghising_vDHnnGcI71.jpg"
+      },
+      {
+        "name": "रमेश अर्याल",
+        "party": "नेपाली कांग्रेस",
+        "votes": null,
+        "winner": false,
+        "image": "../npcdn.ratopati.com/election/media/upload-new/ramesh-chandra-dawadi_98i27KGuxO.jpg"
+      }
+    ]
+  },
+  {
+    "constituency": "दाङ - २",
+    "link": "constituency/dang-2.html",
+    "candidates": [
+      {
+        "name": "विपिन कुमार आचार्य",
+        "party": "राष्ट्रिय स्वतन्त्र पार्टी",
+        "votes": null,
+        "winner": true,
+        "image": "../npcdn.ratopati.com/election/media/upload-new/bipin-kumar-acharya_37tYkRpkQD.jpg"
+      },
+      {
+        "name": "शंकर पोख्रेल",
+        "party": "नेकपा (एमाले)",
+        "votes": null,
+        "winner": false,
+        "image": "../npcdn.ratopati.com/election/media/upload-new/shankar-pokhrel_fB3uEYBluf.jpg"
+      },
+      {
+        "name": "किरण किशोर घिमिरे",
+        "party": "नेपाली कांग्रेस",
+        "votes": null,
+        "winner": false,
+        "image": "../npcdn.ratopati.com/election/candidates/2082/kiran-kishore-ghimire_HqSNPcrKz8.jpg"
+      }
+    ]
+  },
+  {
+    "constituency": "भक्तपुर - २",
+    "link": "constituency/bhaktapur-2.html",
+    "candidates": [
+      {
+        "name": "राजीव खत्री",
+        "party": "राष्ट्रिय स्वतन्त्र पार्टी",
+        "votes": null,
+        "winner": true,
+        "image": "../npcdn.ratopati.com/election/media/upload-new/rajib-khatri_qJAsHbLtFg.jpg"
+      },
+      {
+        "name": "महेश बस्नेत",
+        "party": "नेकपा (एमाले)",
+        "votes": null,
+        "winner": false,
+        "image": "../npcdn.ratopati.com/election/media/upload-new/mahesh-basnet_GagGHzPWb0.jpg"
+      },
+      {
+        "name": "कविर राणा",
+        "party": "नेपाली कांग्रेस",
+        "votes": null,
+        "winner": false,
+        "image": "../npcdn.ratopati.com/election/media/upload-new/kabir-rana-_vP3CKF4x8O.jpg"
+      }
+    ]
+  },
+  {
+    "constituency": "सप्तरी - २",
+    "link": "constituency/saptari-2.html",
+    "candidates": [
+      {
+        "name": "रामजी यादव",
+        "party": "राष्ट्रिय स्वतन्त्र पार्टी",
+        "votes": null,
+        "winner": true,
+        "image": "../npcdn.ratopati.com/election/media/upload-new/ramji-yadav_N5rOtQaNUD.jpg"
+      },
+      {
+        "name": "उमेश कुमार यादव",
+        "party": "जनता समाजवादी पार्टी, नेपाल",
+        "votes": null,
+        "winner": false,
+        "image": "../npcdn.ratopati.com/election/candidates/2082/umesh-kumar-yadav_mMPFqnhvma.jpg"
+      },
+      {
+        "name": "चन्द्र कान्त राउत",
+        "party": "जनमत पार्टी",
+        "votes": null,
+        "winner": false,
+        "image": "../npcdn.ratopati.com/election/media/upload-new/ck-raut_C0YXTbloZa.jpg"
+      }
+    ]
+  },
+  {
+    "constituency": "गुल्मी - १",
+    "link": "constituency/gulmi-1.html",
+    "candidates": [
+      {
+        "name": "सागर ढकाल",
+        "party": "राष्ट्रिय स्वतन्त्र पार्टी",
+        "votes": null,
+        "winner": true,
+        "image": "../npcdn.ratopati.com/election/media/upload-new/sagar-dhakal_3CHQzoxSTz.jpg"
+      },
+      {
+        "name": "प्रदीप कुमार ज्ञवाली",
+        "party": "नेकपा (एमाले)",
+        "votes": null,
+        "winner": false,
+        "image": "../npcdn.ratopati.com/election/media/upload-new/pradip-gyawali_A8c1Jfrano.jpg"
+      },
+      {
+        "name": "चन्द्रकान्त भण्डारी",
+        "party": "नेपाली कांग्रेस",
+        "votes": null,
+        "winner": false,
+        "image": "../npcdn.ratopati.com/election/media/upload-new/chandra-bhandari_x5al3wohzy.jpg"
+      }
+    ]
+  },
+  {
+    "constituency": "सर्लाही - ३",
+    "link": "constituency/sarlahi-3.html",
+    "candidates": [
+      {
+        "name": "नरेन्द्र साह कलवार",
+        "party": "राष्ट्रिय स्वतन्त्र पार्टी",
+        "votes": null,
+        "winner": true,
+        "image": "../npcdn.ratopati.com/election/candidates/2082/narendra-sah-kalwar_uTCf594iCJ.jpg"
+      },
+      {
+        "name": "नारायण काजी श्रेष्‍ठ",
+        "party": "नेपाली कम्युनिष्ट पार्टी",
+        "votes": null,
+        "winner": false,
+        "image": "../npcdn.ratopati.com/election/media/upload-new/narayankaji_goK8ttqKHf.jpg"
+      },
+      {
+        "name": "विनोद कुमार खनाल",
+        "party": "नेपाली कांग्रेस",
+        "votes": null,
+        "winner": false,
+        "image": "../npcdn.ratopati.com/election/media/upload-new/khanal-_miixmx7wox.jpg"
+      }
+    ]
+  },
+  {
+    "constituency": "रूकुम पश्चिम - १",
+    "link": "constituency/rukum-west-1.html",
+    "candidates": [
+      {
+        "name": "गोपाल शर्मा",
+        "party": "नेपाली कम्युनिष्ट पार्टी",
+        "votes": null,
+        "winner": true,
+        "image": "../npcdn.ratopati.com/election/media/upload-new/gopal-sharma_tWJIhSNtgY.jpg"
+      },
+      {
+        "name": "राजु के.सी.",
+        "party": "नेपाली कांग्रेस",
+        "votes": null,
+        "winner": false,
+        "image": "../npcdn.ratopati.com/election/media/upload-new/raju-kc_ZedTuXMb5T.jpg"
+      },
+      {
+        "name": "जनार्दन शर्मा",
+        "party": "प्रगतिशील लोकतान्त्रिक पार्टी",
+        "votes": null,
+        "winner": false,
+        "image": "../npcdn.ratopati.com/election/media/upload-new/janardhan-sharma_ZWAQojx9VS.jpg"
+      }
+    ]
+  },
+  {
+    "constituency": "रौतहट - १",
+    "link": "constituency/rautahat-1.html",
+    "candidates": [
+      {
+        "name": "राजेश कुमार चौधरी",
+        "party": "राष्ट्रिय स्वतन्त्र पार्टी",
+        "votes": null,
+        "winner": true,
+        "image": "../npcdn.ratopati.com/election/media/upload-new/rajesh-kumar-chaudhari-_e0oYNGcmw3.jpg"
+      },
+      {
+        "name": "अजय कुमार गुप्‍ता",
+        "party": "नेकपा (एमाले)",
+        "votes": null,
+        "winner": false,
+        "image": "../npcdn.ratopati.com/election/media/upload-new/ajaya_MwCfhSRrnm.jpg"
+      },
+      {
+        "name": "अनिल कुमार झा",
+        "party": "नेपाली कांग्रेस",
+        "votes": null,
+        "winner": false,
+        "image": "../npcdn.ratopati.com/election/media/upload-new/anil-kumar-jha_TTkwgsmhFH.jpg"
+      }
+    ]
+  },
+  {
+    "constituency": "रूकुम पूर्व - १",
+    "link": "constituency/rukum-east-1.html",
+    "candidates": [
+      {
+        "name": "पुष्प कमल दाहाल प्रचण्ड",
+        "party": "नेपाली कम्युनिष्ट पार्टी",
+        "votes": null,
+        "winner": true,
+        "image": "../npcdn.ratopati.com/election/media/upload-new/prachanda_DRM4otbdek.jpg"
+      },
+      {
+        "name": "लिलामणी गौतम",
+        "party": "नेकपा (एमाले)",
+        "votes": null,
+        "winner": false,
+        "image": "../npcdn.ratopati.com/election/candidates/2082/lilamani-gautam_siDZbZNPDm.jpg"
+      },
+      {
+        "name": "कुसुम देवी थापा",
+        "party": "नेपाली कांग्रेस",
+        "votes": null,
+        "winner": false,
+        "image": "../npcdn.ratopati.com/election/candidates/2082/kusum-devi-thapa_VQRi1thtbL.jpg"
+      }
+    ]
+  },
+  {
+    "constituency": "सर्लाही - २",
+    "link": "constituency/sarlahi-2.html",
+    "candidates": [
+      {
+        "name": "रबिन महतो",
+        "party": "राष्ट्रिय स्वतन्त्र पार्टी",
+        "votes": null,
+        "winner": true,
+        "image": "../npcdn.ratopati.com/election/media/upload-new/rabin-mahato_RgyvAbv7W9.jpg"
+      },
+      {
+        "name": "महिन्द्र राय यादव",
+        "party": "नेपाली कम्युनिष्ट पार्टी",
+        "votes": null,
+        "winner": false,
+        "image": "../npcdn.ratopati.com/election/media/upload-new/mahindra-raya-yadav_205pXhiKqa.jpg"
+      },
+      {
+        "name": "डा.सरोज कुमार",
+        "party": "नेपाली कांग्रेस",
+        "votes": null,
+        "winner": false,
+        "image": "../npcdn.ratopati.com/election/media/upload-new/saroj-kumar_lhRrZWNoMn.jpg"
+      }
+    ]
+  },
+  {
+    "constituency": "काठमाडौं - ५",
+    "link": "constituency/kathmandu-5.html",
+    "candidates": [
+      {
+        "name": "सस्मित पोखरेल",
+        "party": "राष्ट्रिय स्वतन्त्र पार्टी",
+        "votes": null,
+        "winner": true,
+        "image": "../npcdn.ratopati.com/election/media/upload-new/sasmit-pokhrel_OjJy0L3s4F.jpg"
+      },
+      {
+        "name": "प्रदीप पौडेल",
+        "party": "नेपाली कांग्रेस",
+        "votes": null,
+        "winner": false,
+        "image": "../npcdn.ratopati.com/election/media/upload-new/pradip-paudel_nemyN7rbEu.jpg"
+      },
+      {
+        "name": "ईश्वर पोखरेल",
+        "party": "नेकपा (एमाले)",
+        "votes": null,
+        "winner": false,
+        "image": "../npcdn.ratopati.com/election/media/upload-new/ishwor-pokhrel_sfnti9qkL1.jpg"
+      }
+    ]
+  },
+  {
+    "constituency": "काठमाडौं - १",
+    "link": "constituency/kathmandu-1.html",
+    "candidates": [
+      {
+        "name": "रन्‍जु न्‍यौपाने",
+        "party": "राष्ट्रिय स्वतन्त्र पार्टी",
+        "votes": null,
+        "winner": true,
+        "image": "../npcdn.ratopati.com/election/media/upload-new/ranju-darshana_8SXioMGc1U.jpg"
+      },
+      {
+        "name": "प्रबल  थापा क्षेत्री",
+        "party": "नेपाली कांग्रेस",
+        "votes": null,
+        "winner": false,
+        "image": "../npcdn.ratopati.com/election/media/upload-new/prabal-thapa-_Ywo8A7LxW4.jpg"
+      },
+      {
+        "name": "रवीन्द्र मिश्र",
+        "party": "राष्ट्रिय प्रजातन्त्र पार्टी",
+        "votes": null,
+        "winner": false,
+        "image": "../npcdn.ratopati.com/election/media/upload-new/rabindra-mishra_MMabzNldXI.jpg"
+      }
+    ]
+  },
+  {
+    "constituency": "गोरखा - २",
+    "link": "constituency/gorkha-2.html",
+    "candidates": [
+      {
+        "name": "कविन्द्र बुर्लाकोटी",
+        "party": "राष्ट्रिय स्वतन्त्र पार्टी",
+        "votes": null,
+        "winner": true,
+        "image": "../npcdn.ratopati.com/election/media/upload-new/kabindra-burlakoti_9yhcFKg3OJ.jpg"
+      },
+      {
+        "name": "प्रकाश चन्‍द्र दवाडी",
+        "party": "नेपाली कांग्रेस",
+        "votes": null,
+        "winner": false,
+        "image": "../npcdn.ratopati.com/election/media/upload-new/prakash-chandra-dwadi_dtA2jQjhix.jpg"
+      },
+      {
+        "name": "लेखनाथ न्यौपाने",
+        "party": "नेपाली कम्युनिष्ट पार्टी",
+        "votes": null,
+        "winner": false,
+        "image": "../npcdn.ratopati.com/election/media/upload-new/lekhnath-neupane-_jOUYdtMkIu.jpg"
+      }
+    ]
+  },
+  {
+    "constituency": "झापा - २",
+    "link": "constituency/jhapa-2.html",
+    "candidates": [
+      {
+        "name": "इन्दिरा राना मगर",
+        "party": "राष्ट्रिय स्वतन्त्र पार्टी",
+        "votes": null,
+        "winner": true,
+        "image": "../npcdn.ratopati.com/election/media/upload-new/indira-rana_1WtkGounIN.jpg"
+      },
+      {
+        "name": "देव राज घिमिरे",
+        "party": "नेकपा (एमाले)",
+        "votes": null,
+        "winner": false,
+        "image": "../npcdn.ratopati.com/election/media/upload-new/devraj-ghimire_XlusF0JVmV.jpg"
+      },
+      {
+        "name": "केशव कुमार भण्डारी",
+        "party": "श्रम संस्कृति पार्टी",
+        "votes": null,
+        "winner": false,
+        "image": "../npcdn.ratopati.com/election/candidates/2082/keshav-kumar-bhandari_JNTER9XylG.jpg"
+      }
+    ]
+  },
+  {
+    "constituency": "सर्लाही - ४",
+    "link": "constituency/sarlahi-4.html",
+    "candidates": [
+      {
+        "name": "अमरेश कुमार सिह",
+        "party": "राष्ट्रिय स्वतन्त्र पार्टी",
+        "votes": null,
+        "winner": true,
+        "image": "../npcdn.ratopati.com/election/media/upload-new/amaresh-kumar-singh_5mvECbWShy.jpg"
+      },
+      {
+        "name": "गगन कुमार थापा",
+        "party": "नेपाली कांग्रेस",
+        "votes": null,
+        "winner": false,
+        "image": "../npcdn.ratopati.com/election/media/upload-new/gagan-thapa_rGGu8EbFCM.jpg"
+      },
+      {
+        "name": "अमनिश कुमार यादव",
+        "party": "नेकपा (एमाले)",
+        "votes": null,
+        "winner": false,
+        "image": "../npcdn.ratopati.com/election/candidates/2082/amanish-kumar-yadav_3uzmX0EMtd.jpg"
+      }
+    ]
+  },
+  {
+    "constituency": "तनहुँ - १",
+    "link": "constituency/tanahun-1.html",
+    "candidates": [
+      {
+        "name": "स्वर्णिम वाग्ले",
+        "party": "राष्ट्रिय स्वतन्त्र पार्टी",
+        "votes": null,
+        "winner": true,
+        "image": "../npcdn.ratopati.com/election/media/upload-new/swarnim-wagle_RyLLz9QLNp.jpg"
+      },
+      {
+        "name": "गोविन्द भट्टराई",
+        "party": "नेपाली कांग्रेस",
+        "votes": null,
+        "winner": false,
+        "image": "../npcdn.ratopati.com/election/media/upload-new/bhattarai-_wgITwfkFag.jpg"
+      },
+      {
+        "name": "भगवती न्यौपाने",
+        "party": "नेकपा (एमाले)",
+        "votes": null,
+        "winner": false,
+        "image": "../npcdn.ratopati.com/election/media/upload-new/bhagwati_nDV3ulbg6d.jpg"
+      }
+    ]
+  },
+  {
+    "constituency": "सुनसरी - १",
+    "link": "constituency/sunsari-1.html",
+    "candidates": [
+      {
+        "name": "हर्क राज राई",
+        "party": "श्रम संस्कृति पार्टी",
+        "votes": null,
+        "winner": true,
+        "image": "../npcdn.ratopati.com/election/media/upload-new/hark-sampang_Eiv60Iixkf.jpg"
+      },
+      {
+        "name": "गोमा तामाङ",
+        "party": "राष्ट्रिय स्वतन्त्र पार्टी",
+        "votes": null,
+        "winner": false,
+        "image": "../npcdn.ratopati.com/election/candidates/2082/goma-tamang_gmLraXA0hQ.jpg"
+      },
+      {
+        "name": "टिका राम लिम्बु",
+        "party": "नेकपा (एमाले)",
+        "votes": null,
+        "winner": false,
+        "image": "../npcdn.ratopati.com/election/media/upload-new/tikaram-limbu_rNFxS30LYi.jpg"
+      }
+    ]
+  },
+  {
+    "constituency": "मोरङ - ६",
+    "link": "constituency/morang-6.html",
+    "candidates": [
+      {
+        "name": "रुबिना आचार्य",
+        "party": "राष्ट्रिय स्वतन्त्र पार्टी",
+        "votes": null,
+        "winner": true,
+        "image": "../npcdn.ratopati.com/election/candidates/2082/rubina-acharya_BAwaNmB9l4.jpg"
+      },
+      {
+        "name": "डा शेखर कोइराला",
+        "party": "नेपाली कांग्रेस",
+        "votes": null,
+        "winner": false,
+        "image": "../npcdn.ratopati.com/election/media/upload-new/shekhar-koirala_LzHaYkFCdL.jpg"
+      },
+      {
+        "name": "विनोद प्रसाद ढकाल",
+        "party": "नेकपा (एमाले)",
+        "votes": null,
+        "winner": false,
+        "image": "../npcdn.ratopati.com/election/media/upload-new/binod-dhakal-_WrUJOIfWnV.jpg"
+      }
+    ]
+  },
+  {
+    "constituency": "झापा - ५",
+    "link": "constituency/jhapa-5.html",
+    "candidates": [
+      {
+        "name": "बालेन्द्र शाह (बालेन)",
+        "party": "राष्ट्रिय स्वतन्त्र पार्टी",
+        "votes": null,
+        "winner": true,
+        "image": "../npcdn.ratopati.com/election/media/upload-new/balen-shaha_Rcw6w1frWW.jpg"
+      },
+      {
+        "name": "केपी शर्मा ओली",
+        "party": "नेकपा (एमाले)",
+        "votes": null,
+        "winner": false,
+        "image": "../npcdn.ratopati.com/election/media/upload-new/kp-oli_9wKNBiosoh.jpg"
+      },
+      {
+        "name": "समिर तामाङ्ग",
+        "party": "श्रम संस्कृति पार्टी",
+        "votes": null,
+        "winner": false,
+        "image": "../npcdn.ratopati.com/election/candidates/2082/samir-tamang_nPtrL9VPPI.jpg"
+      }
+    ]
+  },
+  {
+    "constituency": "गोरखा - १",
+    "link": "constituency/gorkha-1.html",
+    "candidates": [
+      {
+        "name": "सुधन गुरुङ",
+        "party": "राष्ट्रिय स्वतन्त्र पार्टी",
+        "votes": null,
+        "winner": true,
+        "image": "../npcdn.ratopati.com/election/media/upload-new/sudan-gurung-_ZFTesI8SCn.jpg"
+      },
+      {
+        "name": "प्रेम कुमार खत्री",
+        "party": "नेपाली कांग्रेस",
+        "votes": null,
+        "winner": false,
+        "image": "../npcdn.ratopati.com/election/media/upload-new/prem-kumar-khatri-_WeQipcCWDr.jpg"
+      },
+      {
+        "name": "हरि राज अधिकारी",
+        "party": "नेपाली कम्युनिष्ट पार्टी",
+        "votes": null,
+        "winner": false,
+        "image": "../npcdn.ratopati.com/election/media/upload-new/hari-raj-adhikari_kqdeoZkKyt.jpg"
+      }
+    ]
+  },
+  {
+    "constituency": "चितवन - २",
+    "link": "constituency/chitwan-2.html",
+    "candidates": [
+      {
+        "name": "रवि लामिछाने",
+        "party": "राष्ट्रिय स्वतन्त्र पार्टी",
+        "votes": null,
+        "winner": true,
+        "image": "../npcdn.ratopati.com/election/media/upload-new/rabi-lamichhane_ZcjOIBS4PL.jpg"
+      },
+      {
+        "name": "मिना कुमारी खरेल",
+        "party": "नेपाली कांग्रेस",
+        "votes": null,
+        "winner": false,
+        "image": "../npcdn.ratopati.com/election/media/upload-new/mina-kumari-_W5AKawpUkR.jpg"
+      },
+      {
+        "name": "अस्‍मिन घिमिरे",
+        "party": "नेकपा (एमाले)",
+        "votes": null,
+        "winner": false,
+        "image": "../npcdn.ratopati.com/election/media/upload-new/asmin-ghimire-_29rDKKCiSG.jpg"
+      }
+    ]
+  },
+  {
+    "constituency": "सप्तरी - ३",
+    "link": "constituency/saptari-3.html",
+    "candidates": [
+      {
+        "name": "अमर कान्त चौधरी",
+        "party": "राष्ट्रिय स्वतन्त्र पार्टी",
+        "votes": null,
+        "winner": true,
+        "image": "../npcdn.ratopati.com/election/media/upload-new/amar-kanta-chaudhari_mRcUC9LBtL.jpg"
+      },
+      {
+        "name": "उपेन्द्र यादव",
+        "party": "जनता समाजवादी पार्टी, नेपाल",
+        "votes": null,
+        "winner": false,
+        "image": "../npcdn.ratopati.com/election/media/upload-new/upendra-yadav_zqGYWrfb9B.jpg"
+      },
+      {
+        "name": "दिनेश कुमार यादव",
+        "party": "नेपाली कांग्रेस",
+        "votes": null,
+        "winner": false,
+        "image": "../npcdn.ratopati.com/election/media/upload-new/dinesh-kumar_kOFSF8dfw4.jpg"
+      }
+    ]
+  }
+]

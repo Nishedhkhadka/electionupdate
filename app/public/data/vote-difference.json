@@ -1,0 +1,3797 @@
+[
+  {
+    "constituency": "ताप्लेजुङ - १",
+    "link": "constituency/taplejung-1.html",
+    "province": "कोशी प्रदेश",
+    "voteDifference": "२२५१",
+    "voteDifferencePercent": "८.७७%",
+    "candidates": [
+      {
+        "name": "क्षितिज थेबे",
+        "party": "नेकपा (एमाले)",
+        "votes": "१३९६२",
+        "image": "../npcdn.ratopati.com/election/media/upload-new/chhitij-thebe_0TIwYReTUh.jpg",
+        "winner": true
+      },
+      {
+        "name": "गजेन्द्र प्रसाद तुम्याङ लिम्बु",
+        "party": "नेपाली कांग्रेस",
+        "votes": "११७११",
+        "image": "../npcdn.ratopati.com/election/candidates/2082/gajendra-prasad-tumbahang-limbu_BDzBgT4vlq.jpg",
+        "winner": false
+      }
+    ]
+  },
+  {
+    "constituency": "पाँचथर - १",
+    "link": "constituency/panchthar-1.html",
+    "province": "कोशी प्रदेश",
+    "voteDifference": "२४९९",
+    "voteDifferencePercent": "७.८२%",
+    "candidates": [
+      {
+        "name": "नरेन्द्र कुमार केरुङ",
+        "party": "नेपाली कांग्रेस",
+        "votes": "१७२३३",
+        "image": "../npcdn.ratopati.com/election/candidates/2082/narendra-kumar-kerung_VJMgGdqh0o.jpg",
+        "winner": true
+      },
+      {
+        "name": "हस्त राज शेर्मा",
+        "party": "श्रम संस्कृति पार्टी",
+        "votes": "१४७३४",
+        "image": "../npcdn.ratopati.com/election/candidates/2082/hasta-raj-sherma_wKChFMG3X8.jpg",
+        "winner": false
+      }
+    ]
+  },
+  {
+    "constituency": "इलाम - १",
+    "link": "constituency/ilam-1.html",
+    "province": "कोशी प्रदेश",
+    "voteDifference": "९११",
+    "voteDifferencePercent": "३.२३%",
+    "candidates": [
+      {
+        "name": "निश्कल राई",
+        "party": "नेपाली कांग्रेस",
+        "votes": "१४५४३",
+        "image": "../npcdn.ratopati.com/election/candidates/2082/nishkal-rai_c4EHLdqMTI.jpg",
+        "winner": true
+      },
+      {
+        "name": "विनोद नेम्बाङ्ग लिम्बु",
+        "party": "श्रम संस्कृति पार्टी",
+        "votes": "१३६३२",
+        "image": "../npcdn.ratopati.com/election/candidates/2082/binod-nembang-limbu_51EY1KaZg5.jpg",
+        "winner": false
+      }
+    ]
+  },
+  {
+    "constituency": "इलाम - २",
+    "link": "constituency/ilam-2.html",
+    "province": "कोशी प्रदेश",
+    "voteDifference": "७७७६",
+    "voteDifferencePercent": "२०.९७%",
+    "candidates": [
+      {
+        "name": "सुहाङ नेम्बाङ",
+        "party": "नेकपा (एमाले)",
+        "votes": "२२४२६",
+        "image": "../npcdn.ratopati.com/media/news/suhang-nembang_vo6PB1938h.jpg",
+        "winner": true
+      },
+      {
+        "name": "भेषराज आचार्य",
+        "party": "नेपाली कांग्रेस",
+        "votes": "१४६५०",
+        "image": "../npcdn.ratopati.com/election/candidates/2082/bheshraj-acharya_HGORTkHNga.jpg",
+        "winner": false
+      }
+    ]
+  },
+  {
+    "constituency": "झापा - १",
+    "link": "constituency/jhapa-1.html",
+    "province": "कोशी प्रदेश",
+    "voteDifference": "३५१३०",
+    "voteDifferencePercent": "६२.४८%",
+    "candidates": [
+      {
+        "name": "निशा डाँगी",
+        "party": "राष्ट्रिय स्वतन्त्र पार्टी",
+        "votes": "४५६८०",
+        "image": "../npcdn.ratopati.com/election/candidates/2082/nisha-dangi_uwlzq8QMC5.jpg",
+        "winner": true
+      },
+      {
+        "name": "केशव राज पाण्डे",
+        "party": "नेपाली कांग्रेस",
+        "votes": "१०५५०",
+        "image": "../npcdn.ratopati.com/election/candidates/2082/keshav-raj-pandey_zAPzXIMprt.jpg",
+        "winner": false
+      }
+    ]
+  },
+  {
+    "constituency": "झापा - २",
+    "link": "constituency/jhapa-2.html",
+    "province": "कोशी प्रदेश",
+    "voteDifference": "४८७४२",
+    "voteDifferencePercent": "६८.१९%",
+    "candidates": [
+      {
+        "name": "इन्दिरा राना मगर",
+        "party": "राष्ट्रिय स्वतन्त्र पार्टी",
+        "votes": "६०११०",
+        "image": "../npcdn.ratopati.com/election/media/upload-new/indira-rana_1WtkGounIN.jpg",
+        "winner": true
+      },
+      {
+        "name": "देव राज घिमिरे",
+        "party": "नेकपा (एमाले)",
+        "votes": "११३६८",
+        "image": "../npcdn.ratopati.com/election/media/upload-new/devraj-ghimire_XlusF0JVmV.jpg",
+        "winner": false
+      }
+    ]
+  },
+  {
+    "constituency": "झापा - ३",
+    "link": "constituency/jhapa-3.html",
+    "province": "कोशी प्रदेश",
+    "voteDifference": "२१३८०",
+    "voteDifferencePercent": "३८.२%",
+    "candidates": [
+      {
+        "name": "प्रकाश पाठक",
+        "party": "राष्ट्रिय स्वतन्त्र पार्टी",
+        "votes": "३८६७४",
+        "image": "../npcdn.ratopati.com/election/media/upload-new/prakash-pathak-_fw0V3WqOvk.jpg",
+        "winner": true
+      },
+      {
+        "name": "राजेन्द्र प्रसाद लिङ्देन",
+        "party": "राष्ट्रिय प्रजातन्त्र पार्टी",
+        "votes": "१७२९४",
+        "image": "../npcdn.ratopati.com/election/media/upload-new/rajendra-lingden_ji9Xfn3bmG.jpg",
+        "winner": false
+      }
+    ]
+  },
+  {
+    "constituency": "झापा - ४",
+    "link": "constituency/jhapa-4.html",
+    "province": "कोशी प्रदेश",
+    "voteDifference": "३१६४५",
+    "voteDifferencePercent": "५६.९%",
+    "candidates": [
+      {
+        "name": "शम्भु प्रसाद ढकाल",
+        "party": "राष्ट्रिय स्वतन्त्र पार्टी",
+        "votes": "४३६३१",
+        "image": "../npcdn.ratopati.com/election/candidates/2082/shambhu-prasad-dhakal_pCfODsqb99.jpg",
+        "winner": true
+      },
+      {
+        "name": "लाल प्रसाद साँवा लिम्बू",
+        "party": "नेकपा (एमाले)",
+        "votes": "११९८६",
+        "image": "../npcdn.ratopati.com/election/candidates/2082/lal-prasad-sawamba-limbu_2a2m9m1DVu.jpg",
+        "winner": false
+      }
+    ]
+  },
+  {
+    "constituency": "झापा - ५",
+    "link": "constituency/jhapa-5.html",
+    "province": "कोशी प्रदेश",
+    "voteDifference": "४९६१४",
+    "voteDifferencePercent": "५६.९७%",
+    "candidates": [
+      {
+        "name": "बालेन्द्र शाह (बालेन)",
+        "party": "राष्ट्रिय स्वतन्त्र पार्टी",
+        "votes": "६८३४८",
+        "image": "../npcdn.ratopati.com/election/media/upload-new/balen-shaha_Rcw6w1frWW.jpg",
+        "winner": true
+      },
+      {
+        "name": "केपी शर्मा ओली",
+        "party": "नेकपा (एमाले)",
+        "votes": "१८७३४",
+        "image": "../npcdn.ratopati.com/election/media/upload-new/kp-oli_9wKNBiosoh.jpg",
+        "winner": false
+      }
+    ]
+  },
+  {
+    "constituency": "संखुवासभा - १",
+    "link": "constituency/sankhuwasabha-1.html",
+    "province": "कोशी प्रदेश",
+    "voteDifference": "६३६",
+    "voteDifferencePercent": "२.०८%",
+    "candidates": [
+      {
+        "name": "अर्जुन कुमार कार्की",
+        "party": "नेकपा (एमाले)",
+        "votes": "१५६३६",
+        "image": "../npcdn.ratopati.com/election/candidates/2082/arjun-kumar-karki_mEetfPJ5Jg.jpg",
+        "winner": true
+      },
+      {
+        "name": "मिङमा शेर्पा",
+        "party": "राष्ट्रिय स्वतन्त्र पार्टी",
+        "votes": "१५०००",
+        "image": "../npcdn.ratopati.com/election/candidates/2082/mingma-sherpa_v6MhKz3XbA.jpg",
+        "winner": false
+      }
+    ]
+  },
+  {
+    "constituency": "तेह्रथुम - १",
+    "link": "constituency/terhathum-1.html",
+    "province": "कोशी प्रदेश",
+    "voteDifference": "८७९",
+    "voteDifferencePercent": "३.९५%",
+    "candidates": [
+      {
+        "name": "सन्तोष सुब्वा",
+        "party": "नेपाली कांग्रेस",
+        "votes": "११५६१",
+        "image": "../npcdn.ratopati.com/election/candidates/2082/santosh-subba_XtxRVqV0iA.jpg",
+        "winner": true
+      },
+      {
+        "name": "भानु भक्त ढकाल",
+        "party": "नेकपा (एमाले)",
+        "votes": "१०६८२",
+        "image": "../npcdn.ratopati.com/election/media/upload-new/bhanubhakta-dhakal_7LzMVrkhpn.jpg",
+        "winner": false
+      }
+    ]
+  },
+  {
+    "constituency": "भोजपुर - १",
+    "link": "constituency/bhojpur-1.html",
+    "province": "कोशी प्रदेश",
+    "voteDifference": "१९१३",
+    "voteDifferencePercent": "६.०९%",
+    "candidates": [
+      {
+        "name": "ध्रुवराज राई",
+        "party": "श्रम संस्कृति पार्टी",
+        "votes": "१६६६३",
+        "image": "../npcdn.ratopati.com/election/candidates/2082/dhruvaraj-rai_VZfYPYCqiz.jpg",
+        "winner": true
+      },
+      {
+        "name": "शेरधन राई",
+        "party": "नेकपा (एमाले)",
+        "votes": "१४७५०",
+        "image": "../npcdn.ratopati.com/election/media/upload-new/sherdhan-rai-_vgxGxPh90a.jpg",
+        "winner": false
+      }
+    ]
+  },
+  {
+    "constituency": "धनकुटा - १",
+    "link": "constituency/dhankuta-1.html",
+    "province": "कोशी प्रदेश",
+    "voteDifference": "३८७५",
+    "voteDifferencePercent": "११.९६%",
+    "candidates": [
+      {
+        "name": "राजेन्द्र कुमार राई",
+        "party": "नेकपा (एमाले)",
+        "votes": "१८१३२",
+        "image": "../npcdn.ratopati.com/election/candidates/2082/rajendra-kumar-rai_O47T4LzxQ8.jpg",
+        "winner": true
+      },
+      {
+        "name": "दिनेश राई",
+        "party": "नेपाली कांग्रेस",
+        "votes": "१४२५७",
+        "image": "../npcdn.ratopati.com/election/candidates/2082/dinesh-rai_z4vmFv0iZ9.jpg",
+        "winner": false
+      }
+    ]
+  },
+  {
+    "constituency": "मोरङ - १",
+    "link": "constituency/morang-1.html",
+    "province": "कोशी प्रदेश",
+    "voteDifference": "९८४५",
+    "voteDifferencePercent": "२१.९३%",
+    "candidates": [
+      {
+        "name": "यज्ञमणि न्याैपाने",
+        "party": "राष्ट्रिय स्वतन्त्र पार्टी",
+        "votes": "२७३६७",
+        "image": "../npcdn.ratopati.com/election/candidates/2082/yagyamani-neupane_lxrLCcOjLZ.jpg",
+        "winner": true
+      },
+      {
+        "name": "शान्ती पाख्रिन लामा",
+        "party": "श्रम संस्कृति पार्टी",
+        "votes": "१७५२२",
+        "image": "../npcdn.ratopati.com/election/candidates/2082/shanti-pakhrin-lama_OmdfF0DLdM.jpg",
+        "winner": false
+      }
+    ]
+  },
+  {
+    "constituency": "मोरङ - २",
+    "link": "constituency/morang-2.html",
+    "province": "कोशी प्रदेश",
+    "voteDifference": "२५३००",
+    "voteDifferencePercent": "४४.७४%",
+    "candidates": [
+      {
+        "name": "कृष्ण कुमार कार्की",
+        "party": "राष्ट्रिय स्वतन्त्र पार्टी",
+        "votes": "४०९२४",
+        "image": "../npcdn.ratopati.com/election/candidates/2082/krishna-kumar-karki_jQSJsU09Kj.jpg",
+        "winner": true
+      },
+      {
+        "name": "दिलीप कुमार अग्रवाल",
+        "party": "नेकपा (एमाले)",
+        "votes": "१५६२४",
+        "image": "../npcdn.ratopati.com/election/candidates/2082/dilip-kumar-agarwal_N5DCenCwRs.jpg",
+        "winner": false
+      }
+    ]
+  },
+  {
+    "constituency": "मोरङ - ३",
+    "link": "constituency/morang-3.html",
+    "province": "कोशी प्रदेश",
+    "voteDifference": "१२५७०",
+    "voteDifferencePercent": "२०.५१%",
+    "candidates": [
+      {
+        "name": "गणेश कार्की",
+        "party": "राष्ट्रिय स्वतन्त्र पार्टी",
+        "votes": "३६९२४",
+        "image": "../npcdn.ratopati.com/election/candidates/2082/ganesh-karki_spe1qgRRUs.jpg",
+        "winner": true
+      },
+      {
+        "name": "शुनिल कुमार शर्मा",
+        "party": "नेपाली कांग्रेस",
+        "votes": "२४३५४",
+        "image": "../npcdn.ratopati.com/election/media/upload-new/sunil-sharma_uMxyiHEQTF.jpg",
+        "winner": false
+      }
+    ]
+  },
+  {
+    "constituency": "मोरङ - ४",
+    "link": "constituency/morang-4.html",
+    "province": "कोशी प्रदेश",
+    "voteDifference": "२८०१५",
+    "voteDifferencePercent": "५२.२२%",
+    "candidates": [
+      {
+        "name": "सन्तोष राजवंशी",
+        "party": "राष्ट्रिय स्वतन्त्र पार्टी",
+        "votes": "४०८३३",
+        "image": "../npcdn.ratopati.com/election/candidates/2082/santosh-rajbanshi_UPHPbmj0j6.jpg",
+        "winner": true
+      },
+      {
+        "name": "गुरु राज घिमिरे",
+        "party": "नेपाली कांग्रेस",
+        "votes": "१२८१८",
+        "image": "../npcdn.ratopati.com/election/media/upload-new/gururaj-ghimire_0lzuM7bRUq.jpg",
+        "winner": false
+      }
+    ]
+  },
+  {
+    "constituency": "मोरङ - ५",
+    "link": "constituency/morang-5.html",
+    "province": "कोशी प्रदेश",
+    "voteDifference": "२१०१९",
+    "voteDifferencePercent": "५२.७५%",
+    "candidates": [
+      {
+        "name": "आशा झा",
+        "party": "राष्ट्रिय स्वतन्त्र पार्टी",
+        "votes": "३०४३४",
+        "image": "../npcdn.ratopati.com/election/candidates/2082/asha-jha_2ToTAp8gTX.jpg",
+        "winner": true
+      },
+      {
+        "name": "फुल कुमार लालवानी",
+        "party": "नेपाली कांग्रेस",
+        "votes": "९४१५",
+        "image": "../npcdn.ratopati.com/election/candidates/2082/phul-kumar-lalwani_KJzTS0K5iQ.jpg",
+        "winner": false
+      }
+    ]
+  },
+  {
+    "constituency": "मोरङ - ६",
+    "link": "constituency/morang-6.html",
+    "province": "कोशी प्रदेश",
+    "voteDifference": "४२६६३",
+    "voteDifferencePercent": "६२.४१%",
+    "candidates": [
+      {
+        "name": "रुबिना आचार्य",
+        "party": "राष्ट्रिय स्वतन्त्र पार्टी",
+        "votes": "५५५१३",
+        "image": "../npcdn.ratopati.com/election/candidates/2082/rubina-acharya_BAwaNmB9l4.jpg",
+        "winner": true
+      },
+      {
+        "name": "डा शेखर कोइराला",
+        "party": "नेपाली कांग्रेस",
+        "votes": "१२८५०",
+        "image": "../npcdn.ratopati.com/election/media/upload-new/shekhar-koirala_LzHaYkFCdL.jpg",
+        "winner": false
+      }
+    ]
+  },
+  {
+    "constituency": "सुनसरी - १",
+    "link": "constituency/sunsari-1.html",
+    "province": "कोशी प्रदेश",
+    "voteDifference": "८४९२",
+    "voteDifferencePercent": "१३.४८%",
+    "candidates": [
+      {
+        "name": "हर्क राज राई",
+        "party": "श्रम संस्कृति पार्टी",
+        "votes": "३५७४१",
+        "image": "../npcdn.ratopati.com/election/media/upload-new/hark-sampang_Eiv60Iixkf.jpg",
+        "winner": true
+      },
+      {
+        "name": "गोमा तामाङ",
+        "party": "राष्ट्रिय स्वतन्त्र पार्टी",
+        "votes": "२७२४९",
+        "image": "../npcdn.ratopati.com/election/candidates/2082/goma-tamang_gmLraXA0hQ.jpg",
+        "winner": false
+      }
+    ]
+  },
+  {
+    "constituency": "सुनसरी - २",
+    "link": "constituency/sunsari-2.html",
+    "province": "कोशी प्रदेश",
+    "voteDifference": "४१२७७",
+    "voteDifferencePercent": "५६.२२%",
+    "candidates": [
+      {
+        "name": "लाल बिक्रम थापा",
+        "party": "राष्ट्रिय स्वतन्त्र पार्टी",
+        "votes": "५७३४८",
+        "image": "../npcdn.ratopati.com/election/candidates/2082/lal-bikram-thapa_uqLRc0eWKU.jpg",
+        "winner": true
+      },
+      {
+        "name": "राजीव कोइराला",
+        "party": "नेपाली कांग्रेस",
+        "votes": "१६०७१",
+        "image": "../npcdn.ratopati.com/election/candidates/2082/rajiv-koirala_eVbbDw585T.jpg",
+        "winner": false
+      }
+    ]
+  },
+  {
+    "constituency": "सुनसरी - ३",
+    "link": "constituency/sunsari-3.html",
+    "province": "कोशी प्रदेश",
+    "voteDifference": "२६९२०",
+    "voteDifferencePercent": "३९.६३%",
+    "candidates": [
+      {
+        "name": "अशोक कुमार चौधरी",
+        "party": "राष्ट्रिय स्वतन्त्र पार्टी",
+        "votes": "४७४२१",
+        "image": "../npcdn.ratopati.com/election/candidates/2082/ashok-kumar-chaudhary_LRH3SEYA8f.jpg",
+        "winner": true
+      },
+      {
+        "name": "विजय कुमार गच्‍छदार",
+        "party": "नेपाली कांग्रेस",
+        "votes": "२०५०१",
+        "image": "../npcdn.ratopati.com/election/media/upload-new/bijaya-gachhadar-_HhSL7jWPmU.jpg",
+        "winner": false
+      }
+    ]
+  },
+  {
+    "constituency": "सुनसरी - ४",
+    "link": "constituency/sunsari-4.html",
+    "province": "कोशी प्रदेश",
+    "voteDifference": "२६१८४",
+    "voteDifferencePercent": "४४.११%",
+    "candidates": [
+      {
+        "name": "दीपक कुमार साह",
+        "party": "राष्ट्रिय स्वतन्त्र पार्टी",
+        "votes": "४२७७१",
+        "image": "../npcdn.ratopati.com/election/candidates/2082/deepak-kumar-sah_2g13XIXMet.jpg",
+        "winner": true
+      },
+      {
+        "name": "ज्ञानेन्द्र बहादुर कार्की",
+        "party": "नेपाली कांग्रेस",
+        "votes": "१६५८७",
+        "image": "../npcdn.ratopati.com/election/media/upload-new/gyanendra-bahadur-kaki-_BCmxUuJNdE.jpg",
+        "winner": false
+      }
+    ]
+  },
+  {
+    "constituency": "सोलुखुम्बु - १",
+    "link": "constituency/solukhumbu-1.html",
+    "province": "कोशी प्रदेश",
+    "voteDifference": "३७५२",
+    "voteDifferencePercent": "१६.६२%",
+    "candidates": [
+      {
+        "name": "प्रकाश सिंह कार्की",
+        "party": "नेपाली कांग्रेस",
+        "votes": "१३१६६",
+        "image": "../npcdn.ratopati.com/election/candidates/2082/prakash-singh-karki_FwhvyJgYFL.jpg",
+        "winner": true
+      },
+      {
+        "name": "अशिम राई",
+        "party": "नेपाली कम्युनिष्ट पार्टी",
+        "votes": "९४१४",
+        "image": "../npcdn.ratopati.com/election/candidates/2082/ashim-rai_SPwzaoyMuh.jpg",
+        "winner": false
+      }
+    ]
+  },
+  {
+    "constituency": "खोटाङ - १",
+    "link": "constituency/khotang-1.html",
+    "province": "कोशी प्रदेश",
+    "voteDifference": "३८९८",
+    "voteDifferencePercent": "१३.२९%",
+    "candidates": [
+      {
+        "name": "आरेन राई",
+        "party": "श्रम संस्कृति पार्टी",
+        "votes": "१६६१२",
+        "image": "../npcdn.ratopati.com/election/candidates/2082/aaren-rai_r04Mzg4tBE.jpg",
+        "winner": true
+      },
+      {
+        "name": "देव विक्रम राई",
+        "party": "नेकपा (एमाले)",
+        "votes": "१२७१४",
+        "image": "../npcdn.ratopati.com/election/candidates/2082/dev-bikram-rai_f0ZRGEpjuL.jpg",
+        "winner": false
+      }
+    ]
+  },
+  {
+    "constituency": "ओखलढुंगा - १",
+    "link": "constituency/okhaldhunga-1.html",
+    "province": "कोशी प्रदेश",
+    "voteDifference": "५",
+    "voteDifferencePercent": "०.०२%",
+    "candidates": [
+      {
+        "name": "विश्‍वराज पोखरेल",
+        "party": "राष्ट्रिय स्वतन्त्र पार्टी",
+        "votes": "१३९५३",
+        "image": "../npcdn.ratopati.com/election/media/upload-new/bishworaj-pokhrel-_7dWEMktG3q.jpg",
+        "winner": true
+      },
+      {
+        "name": "कुमार लुईटेल",
+        "party": "नेपाली कांग्रेस",
+        "votes": "१३९४८",
+        "image": "../npcdn.ratopati.com/election/candidates/2082/kumar-luitel_8x2A90RmA9.jpg",
+        "winner": false
+      }
+    ]
+  },
+  {
+    "constituency": "उदयपुर - १",
+    "link": "constituency/udayapur-1.html",
+    "province": "कोशी प्रदेश",
+    "voteDifference": "१८९८४",
+    "voteDifferencePercent": "४४.९९%",
+    "candidates": [
+      {
+        "name": "पारश मणि गेलाल",
+        "party": "राष्ट्रिय स्वतन्त्र पार्टी",
+        "votes": "३०५९०",
+        "image": "../npcdn.ratopati.com/election/candidates/2082/parash-mani-gelal_30LQXmvruf.jpg",
+        "winner": true
+      },
+      {
+        "name": "राजेश कुमार राई",
+        "party": "श्रम संस्कृति पार्टी",
+        "votes": "११६०६",
+        "image": "../npcdn.ratopati.com/election/candidates/2082/rajesh-kumar-rai_XXoEHeUFVg.jpg",
+        "winner": false
+      }
+    ]
+  },
+  {
+    "constituency": "उदयपुर - २",
+    "link": "constituency/udayapur-2.html",
+    "province": "कोशी प्रदेश",
+    "voteDifference": "७१५४",
+    "voteDifferencePercent": "३१.८७%",
+    "candidates": [
+      {
+        "name": "सुर्य बहादुर तामाङ्ग",
+        "party": "राष्ट्रिय स्वतन्त्र पार्टी",
+        "votes": "१४८०२",
+        "image": "../npcdn.ratopati.com/election/candidates/2082/surya-bahadur-tamang_jKpmJ1jMI7.jpg",
+        "winner": true
+      },
+      {
+        "name": "अम्वर बहादुर रायामाझी",
+        "party": "नेकपा (एमाले)",
+        "votes": "७६४८",
+        "image": "../npcdn.ratopati.com/election/candidates/2082/ambar-bahadur-rayamajhi_jwJlVfg0Y8.jpg",
+        "winner": false
+      }
+    ]
+  },
+  {
+    "constituency": "सप्तरी - १",
+    "link": "constituency/saptari-1.html",
+    "province": "मधेस प्रदेश",
+    "voteDifference": "३०३४८",
+    "voteDifferencePercent": "६५.९१%",
+    "candidates": [
+      {
+        "name": "पुष्पा कुमारी चौधरी",
+        "party": "राष्ट्रिय स्वतन्त्र पार्टी",
+        "votes": "३८१९५",
+        "image": "../npcdn.ratopati.com/election/candidates/2082/pushpa-kumari-chaudhary_LxmrBNnpiM.jpg",
+        "winner": true
+      },
+      {
+        "name": "सुमित कुमार -",
+        "party": "स्वाभिमान पार्टी",
+        "votes": "७८४७",
+        "image": "../npcdn.ratopati.com/election/candidates/2082/sumit-kumar_tXwDwcrhBr.jpg",
+        "winner": false
+      }
+    ]
+  },
+  {
+    "constituency": "सप्तरी - २",
+    "link": "constituency/saptari-2.html",
+    "province": "मधेस प्रदेश",
+    "voteDifference": "१४१४१",
+    "voteDifferencePercent": "३३.१४%",
+    "candidates": [
+      {
+        "name": "रामजी यादव",
+        "party": "राष्ट्रिय स्वतन्त्र पार्टी",
+        "votes": "२८४०४",
+        "image": "../npcdn.ratopati.com/election/media/upload-new/ramji-yadav_N5rOtQaNUD.jpg",
+        "winner": true
+      },
+      {
+        "name": "उमेश कुमार यादव",
+        "party": "जनता समाजवादी पार्टी, नेपाल",
+        "votes": "१४२६३",
+        "image": "../npcdn.ratopati.com/election/candidates/2082/umesh-kumar-yadav_mMPFqnhvma.jpg",
+        "winner": false
+      }
+    ]
+  },
+  {
+    "constituency": "सप्तरी - ३",
+    "link": "constituency/saptari-3.html",
+    "province": "मधेस प्रदेश",
+    "voteDifference": "१७६३६",
+    "voteDifferencePercent": "३६.६५%",
+    "candidates": [
+      {
+        "name": "अमर कान्त चौधरी",
+        "party": "राष्ट्रिय स्वतन्त्र पार्टी",
+        "votes": "३२८७५",
+        "image": "../npcdn.ratopati.com/election/media/upload-new/amar-kanta-chaudhari_mRcUC9LBtL.jpg",
+        "winner": true
+      },
+      {
+        "name": "उपेन्द्र यादव",
+        "party": "जनता समाजवादी पार्टी, नेपाल",
+        "votes": "१५२३९",
+        "image": "../npcdn.ratopati.com/election/media/upload-new/upendra-yadav_zqGYWrfb9B.jpg",
+        "winner": false
+      }
+    ]
+  },
+  {
+    "constituency": "सप्तरी - ४",
+    "link": "constituency/saptari-4.html",
+    "province": "मधेस प्रदेश",
+    "voteDifference": "२३३०९",
+    "voteDifferencePercent": "४७.०७%",
+    "candidates": [
+      {
+        "name": "सिताराम साह",
+        "party": "राष्ट्रिय स्वतन्त्र पार्टी",
+        "votes": "३६४१२",
+        "image": "../npcdn.ratopati.com/election/candidates/2082/sitaram-sah_9vCrfPIRe7.jpg",
+        "winner": true
+      },
+      {
+        "name": "तेजु लाल चौधरी",
+        "party": "नेपाली कांग्रेस",
+        "votes": "१३१०३",
+        "image": "../npcdn.ratopati.com/election/candidates/2082/teju-lal-chaudhary_GH4H7e12GW.jpg",
+        "winner": false
+      }
+    ]
+  },
+  {
+    "constituency": "सिराहा - १",
+    "link": "constituency/siraha-1.html",
+    "province": "मधेस प्रदेश",
+    "voteDifference": "३१५३८",
+    "voteDifferencePercent": "६१.७१%",
+    "candidates": [
+      {
+        "name": "बब्लु गुप्ता",
+        "party": "राष्ट्रिय स्वतन्त्र पार्टी",
+        "votes": "४१३२२",
+        "image": "../npcdn.ratopati.com/election/media/upload-new/bablu-gupta-_tENNm37gJF.jpg",
+        "winner": true
+      },
+      {
+        "name": "राम सुन्दर चौधरी",
+        "party": "नेपाली कांग्रेस",
+        "votes": "९७८४",
+        "image": "../npcdn.ratopati.com/election/candidates/2082/ram-sundar-chaudhary_aOBoEg2D8J.jpg",
+        "winner": false
+      }
+    ]
+  },
+  {
+    "constituency": "सिराहा - २",
+    "link": "constituency/siraha-2.html",
+    "province": "मधेस प्रदेश",
+    "voteDifference": "२६७४७",
+    "voteDifferencePercent": "५१.०७%",
+    "candidates": [
+      {
+        "name": "शिव शंकर यादव",
+        "party": "राष्ट्रिय स्वतन्त्र पार्टी",
+        "votes": "३९५६१",
+        "image": "../npcdn.ratopati.com/election/candidates/2082/shiv-shankar-yadav_SeheYeHjVA.jpg",
+        "winner": true
+      },
+      {
+        "name": "राम चन्द्र यादव",
+        "party": "नेपाली कांग्रेस",
+        "votes": "१२८१४",
+        "image": "../npcdn.ratopati.com/election/candidates/2082/ram-chandra-yadav_aqSQzDGteB.jpg",
+        "winner": false
+      }
+    ]
+  },
+  {
+    "constituency": "सिराहा - ३",
+    "link": "constituency/siraha-3.html",
+    "province": "मधेस प्रदेश",
+    "voteDifference": "२२०९३",
+    "voteDifferencePercent": "५२.१%",
+    "candidates": [
+      {
+        "name": "शम्भु कुमार यादव",
+        "party": "राष्ट्रिय स्वतन्त्र पार्टी",
+        "votes": "३२२४९",
+        "image": "../npcdn.ratopati.com/election/candidates/2082/shambhu-kumar-yadav_PnUMeC47zY.jpg",
+        "winner": true
+      },
+      {
+        "name": "लिलानाथ श्रेष्ठ",
+        "party": "नेकपा (एमाले)",
+        "votes": "१०१५६",
+        "image": "../npcdn.ratopati.com/election/candidates/2082/lilanath-shrestha_C1Nn9HBLri.jpg",
+        "winner": false
+      }
+    ]
+  },
+  {
+    "constituency": "सिराहा - ४",
+    "link": "constituency/siraha-4.html",
+    "province": "मधेस प्रदेश",
+    "voteDifference": "२८२३८",
+    "voteDifferencePercent": "६३.९१%",
+    "candidates": [
+      {
+        "name": "तपेश्वर यादव",
+        "party": "राष्ट्रिय स्वतन्त्र पार्टी",
+        "votes": "३६२१०",
+        "image": "../npcdn.ratopati.com/election/candidates/2082/tapeshwor-yadav_AhoRdSRBcb.jpg",
+        "winner": true
+      },
+      {
+        "name": "अजय शंकर नायक",
+        "party": "नेपाली कम्युनिष्ट पार्टी",
+        "votes": "७९७२",
+        "image": "../npcdn.ratopati.com/election/candidates/2082/ajay-shankar-nayak_Cz5MRhEOvb.jpg",
+        "winner": false
+      }
+    ]
+  },
+  {
+    "constituency": "धनुषा - १",
+    "link": "constituency/dhanusha-1.html",
+    "province": "मधेस प्रदेश",
+    "voteDifference": "९२८",
+    "voteDifferencePercent": "४.६६%",
+    "candidates": [
+      {
+        "name": "मातृका प्रसाद यादव",
+        "party": "नेपाली कम्युनिष्ट पार्टी",
+        "votes": "१०४३०",
+        "image": "../npcdn.ratopati.com/election/media/upload-new/matrika-yadav_eEzGxJhOoU.jpg",
+        "winner": true
+      },
+      {
+        "name": "राम पलटन साह",
+        "party": "नेपाली कांग्रेस",
+        "votes": "९५०२",
+        "image": "../npcdn.ratopati.com/election/candidates/2082/ram-paltan-sah_v2iGLqQb7U.jpg",
+        "winner": false
+      }
+    ]
+  },
+  {
+    "constituency": "धनुषा - २",
+    "link": "constituency/dhanusha-2.html",
+    "province": "मधेस प्रदेश",
+    "voteDifference": "३१४३९",
+    "voteDifferencePercent": "६०.६५%",
+    "candidates": [
+      {
+        "name": "राम विनोद यादव",
+        "party": "राष्ट्रिय स्वतन्त्र पार्टी",
+        "votes": "४१६३७",
+        "image": "../npcdn.ratopati.com/election/candidates/2082/ram-binod-yadav_yGiSwBgoTl.jpg",
+        "winner": true
+      },
+      {
+        "name": "दिनेश प्रसाद यादव परसैला",
+        "party": "नेपाली कांग्रेस",
+        "votes": "१०१९८",
+        "image": "../npcdn.ratopati.com/election/candidates/2082/dinesh-prasad-yadav-parsaila_2qSu53aHcl.jpg",
+        "winner": false
+      }
+    ]
+  },
+  {
+    "constituency": "धनुषा - ३",
+    "link": "constituency/dhanusha-3.html",
+    "province": "मधेस प्रदेश",
+    "voteDifference": "२७३३६",
+    "voteDifferencePercent": "४५.०८%",
+    "candidates": [
+      {
+        "name": "मनिष झा",
+        "party": "राष्ट्रिय स्वतन्त्र पार्टी",
+        "votes": "४३९८८",
+        "image": "../npcdn.ratopati.com/election/candidates/2082/manish-jha_KMSbbwOukW.jpg",
+        "winner": true
+      },
+      {
+        "name": "विमलेन्द्र निधि",
+        "party": "नेपाली कांग्रेस",
+        "votes": "१६६५२",
+        "image": "../npcdn.ratopati.com/election/media/upload-new/bimalendra-nidhi_gtT9bRZbAW.jpg",
+        "winner": false
+      }
+    ]
+  },
+  {
+    "constituency": "धनुषा - ४",
+    "link": "constituency/dhanusha-4.html",
+    "province": "मधेस प्रदेश",
+    "voteDifference": "३२४६१",
+    "voteDifferencePercent": "५०.६६%",
+    "candidates": [
+      {
+        "name": "राज किशोर महतो",
+        "party": "राष्ट्रिय स्वतन्त्र पार्टी",
+        "votes": "४८२७०",
+        "image": "../npcdn.ratopati.com/election/candidates/2082/raj-kishor-mahato_ZNFbQgfhTl.jpg",
+        "winner": true
+      },
+      {
+        "name": "महेन्द्र यादव",
+        "party": "नेपाली कांग्रेस",
+        "votes": "१५८०९",
+        "image": "../npcdn.ratopati.com/election/candidates/2082/mahendra-yadav_wgkSsaZd7J.jpg",
+        "winner": false
+      }
+    ]
+  },
+  {
+    "constituency": "महोत्तरी - १",
+    "link": "constituency/mahottari-1.html",
+    "province": "मधेस प्रदेश",
+    "voteDifference": "२२०१२",
+    "voteDifferencePercent": "४६.५८%",
+    "candidates": [
+      {
+        "name": "प्रमोद कुमार महतो",
+        "party": "राष्ट्रिय स्वतन्त्र पार्टी",
+        "votes": "३४६३६",
+        "image": "../npcdn.ratopati.com/election/candidates/2082/pramod-kumar-mahato_auyI8s7bZl.jpg",
+        "winner": true
+      },
+      {
+        "name": "गिरिराज मणी पोखरेल",
+        "party": "नेपाली कम्युनिष्ट पार्टी",
+        "votes": "१२६२४",
+        "image": "../npcdn.ratopati.com/election/media/upload-new/giriraj-mani-pokhrel-_jgB5dXEbJa.jpg",
+        "winner": false
+      }
+    ]
+  },
+  {
+    "constituency": "महोत्तरी - २",
+    "link": "constituency/mahottari-2.html",
+    "province": "मधेस प्रदेश",
+    "voteDifference": "२२५२४",
+    "voteDifferencePercent": "५२.४८%",
+    "candidates": [
+      {
+        "name": "दिपक कुमार साह",
+        "party": "राष्ट्रिय स्वतन्त्र पार्टी",
+        "votes": "३२७२२",
+        "image": "../npcdn.ratopati.com/election/candidates/2082/deepak-kumar-sah_MsgofTvAFr.jpg",
+        "winner": true
+      },
+      {
+        "name": "शरत सिंह भण्डारी",
+        "party": "जनता समाजवादी पार्टी, नेपाल",
+        "votes": "१०१९८",
+        "image": "../npcdn.ratopati.com/election/candidates/2082/sharat-singh-bhandari_9iYaeudeGj.jpg",
+        "winner": false
+      }
+    ]
+  },
+  {
+    "constituency": "महोत्तरी - ३",
+    "link": "constituency/mahottari-3.html",
+    "province": "मधेस प्रदेश",
+    "voteDifference": "२६४८२",
+    "voteDifferencePercent": "६८.९३%",
+    "candidates": [
+      {
+        "name": "उज्‍ज्‍वल कुमार झा",
+        "party": "राष्ट्रिय स्वतन्त्र पार्टी",
+        "votes": "३२४५१",
+        "image": "../npcdn.ratopati.com/election/candidates/2082/ujjwal-kumar-jha_Q9ylRgCnSa.jpg",
+        "winner": true
+      },
+      {
+        "name": "मुहमद रिजवान",
+        "party": "नेपाल संघीय समाजवादी पार्टी(एकल चुनाव चिन्ह)",
+        "votes": "५९६९",
+        "image": "../npcdn.ratopati.com/election/candidates/2082/muhammad-rizwan_O8BlETInT5.jpg",
+        "winner": false
+      }
+    ]
+  },
+  {
+    "constituency": "महोत्तरी - ४",
+    "link": "constituency/mahottari-4.html",
+    "province": "मधेस प्रदेश",
+    "voteDifference": "२१३९०",
+    "voteDifferencePercent": "५५.०२%",
+    "candidates": [
+      {
+        "name": "गौरी कुमारी",
+        "party": "राष्ट्रिय स्वतन्त्र पार्टी",
+        "votes": "३०१३२",
+        "image": "../npcdn.ratopati.com/election/candidates/2082/gauri-kumari_L4Kks9y3Nr.jpg",
+        "winner": true
+      },
+      {
+        "name": "सुरेन्‍द्र कुमार यादव",
+        "party": "जनता समाजवादी पार्टी, नेपाल",
+        "votes": "८७४२",
+        "image": "../npcdn.ratopati.com/election/candidates/2082/surendra-kumar-yadav_7IqPzUKamR.jpg",
+        "winner": false
+      }
+    ]
+  },
+  {
+    "constituency": "सर्लाही - १",
+    "link": "constituency/sarlahi-1.html",
+    "province": "मधेस प्रदेश",
+    "voteDifference": "३६३१०",
+    "voteDifferencePercent": "६९.७६%",
+    "candidates": [
+      {
+        "name": "नितिमा भण्डारी (कार्की)",
+        "party": "राष्ट्रिय स्वतन्त्र पार्टी",
+        "votes": "४४१८१",
+        "image": "../npcdn.ratopati.com/election/candidates/2082/nitima-bhandari-karki_C1LAq34gzq.jpg",
+        "winner": true
+      },
+      {
+        "name": "शम्भु लाल श्रेष्ठ",
+        "party": "नेपाली कांग्रेस",
+        "votes": "७८७१",
+        "image": "../npcdn.ratopati.com/election/candidates/2082/shambhu-lal-shrestha_TOStzKSYh3.jpg",
+        "winner": false
+      }
+    ]
+  },
+  {
+    "constituency": "सर्लाही - २",
+    "link": "constituency/sarlahi-2.html",
+    "province": "मधेस प्रदेश",
+    "voteDifference": "३३९८९",
+    "voteDifferencePercent": "६६.६%",
+    "candidates": [
+      {
+        "name": "रबिन महतो",
+        "party": "राष्ट्रिय स्वतन्त्र पार्टी",
+        "votes": "४२५१२",
+        "image": "../npcdn.ratopati.com/election/media/upload-new/rabin-mahato_RgyvAbv7W9.jpg",
+        "winner": true
+      },
+      {
+        "name": "महिन्द्र राय यादव",
+        "party": "नेपाली कम्युनिष्ट पार्टी",
+        "votes": "८५२३",
+        "image": "../npcdn.ratopati.com/election/media/upload-new/mahindra-raya-yadav_205pXhiKqa.jpg",
+        "winner": false
+      }
+    ]
+  },
+  {
+    "constituency": "सर्लाही - ३",
+    "link": "constituency/sarlahi-3.html",
+    "province": "मधेस प्रदेश",
+    "voteDifference": "३३५५२",
+    "voteDifferencePercent": "५५.७१%",
+    "candidates": [
+      {
+        "name": "नरेन्द्र साह कलवार",
+        "party": "राष्ट्रिय स्वतन्त्र पार्टी",
+        "votes": "४६८९०",
+        "image": "../npcdn.ratopati.com/election/candidates/2082/narendra-sah-kalwar_uTCf594iCJ.jpg",
+        "winner": true
+      },
+      {
+        "name": "नारायण काजी श्रेष्‍ठ",
+        "party": "नेपाली कम्युनिष्ट पार्टी",
+        "votes": "१३३३८",
+        "image": "../npcdn.ratopati.com/election/media/upload-new/narayankaji_goK8ttqKHf.jpg",
+        "winner": false
+      }
+    ]
+  },
+  {
+    "constituency": "सर्लाही - ४",
+    "link": "constituency/sarlahi-4.html",
+    "province": "मधेस प्रदेश",
+    "voteDifference": "१२८५७",
+    "voteDifferencePercent": "२१.९७%",
+    "candidates": [
+      {
+        "name": "अमरेश कुमार सिह",
+        "party": "राष्ट्रिय स्वतन्त्र पार्टी",
+        "votes": "३५६८८",
+        "image": "../npcdn.ratopati.com/election/media/upload-new/amaresh-kumar-singh_5mvECbWShy.jpg",
+        "winner": true
+      },
+      {
+        "name": "गगन कुमार थापा",
+        "party": "नेपाली कांग्रेस",
+        "votes": "२२८३१",
+        "image": "../npcdn.ratopati.com/election/media/upload-new/gagan-thapa_rGGu8EbFCM.jpg",
+        "winner": false
+      }
+    ]
+  },
+  {
+    "constituency": "रौतहट - १",
+    "link": "constituency/rautahat-1.html",
+    "province": "मधेस प्रदेश",
+    "voteDifference": "१८२५३",
+    "voteDifferencePercent": "४६.०५%",
+    "candidates": [
+      {
+        "name": "राजेश कुमार चौधरी",
+        "party": "राष्ट्रिय स्वतन्त्र पार्टी",
+        "votes": "२८९४६",
+        "image": "../npcdn.ratopati.com/election/media/upload-new/rajesh-kumar-chaudhari-_e0oYNGcmw3.jpg",
+        "winner": true
+      },
+      {
+        "name": "अजय कुमार गुप्‍ता",
+        "party": "नेकपा (एमाले)",
+        "votes": "१०६९३",
+        "image": "../npcdn.ratopati.com/election/media/upload-new/ajaya_MwCfhSRrnm.jpg",
+        "winner": false
+      }
+    ]
+  },
+  {
+    "constituency": "रौतहट - २",
+    "link": "constituency/rautahat-2.html",
+    "province": "मधेस प्रदेश",
+    "voteDifference": "११०८६",
+    "voteDifferencePercent": "२३.११%",
+    "candidates": [
+      {
+        "name": "मो. फिरदोश आलम",
+        "party": "नेपाली कांग्रेस",
+        "votes": "२९५२८",
+        "image": "../npcdn.ratopati.com/election/candidates/2082/m-firdos-alam_Rb70zs8KtD.jpg",
+        "winner": true
+      },
+      {
+        "name": "किरण कुमार साह",
+        "party": "नेपाली कम्युनिष्ट पार्टी",
+        "votes": "१८४४२",
+        "image": "../npcdn.ratopati.com/election/candidates/2082/kiran-kumar-sah_Kdrbc5EEpT.jpg",
+        "winner": false
+      }
+    ]
+  },
+  {
+    "constituency": "रौतहट - ३",
+    "link": "constituency/rautahat-3.html",
+    "province": "मधेस प्रदेश",
+    "voteDifference": "१५३६४",
+    "voteDifferencePercent": "३९.१२%",
+    "candidates": [
+      {
+        "name": "रविन्‍द्र पटेल",
+        "party": "राष्ट्रिय स्वतन्त्र पार्टी",
+        "votes": "२७३१८",
+        "image": "../npcdn.ratopati.com/election/candidates/2082/ravindra-patel_Y6g6p7VU0E.jpg",
+        "winner": true
+      },
+      {
+        "name": "गोविन्द चौधरी",
+        "party": "जनता समाजवादी पार्टी, नेपाल",
+        "votes": "११९५४",
+        "image": "../npcdn.ratopati.com/election/candidates/2082/govinda-chaudhary_1FVQsROf4s.jpg",
+        "winner": false
+      }
+    ]
+  },
+  {
+    "constituency": "रौतहट - ४",
+    "link": "constituency/rautahat-4.html",
+    "province": "मधेस प्रदेश",
+    "voteDifference": "२१०११",
+    "voteDifferencePercent": "३९.८४%",
+    "candidates": [
+      {
+        "name": "गणेश पौडेल",
+        "party": "राष्ट्रिय स्वतन्त्र पार्टी",
+        "votes": "३६८७६",
+        "image": "../npcdn.ratopati.com/election/candidates/2082/ganesh-poudel_sL7dLAmn7j.jpg",
+        "winner": true
+      },
+      {
+        "name": "देव प्रसाद तिमलसेना",
+        "party": "नेपाली कांग्रेस",
+        "votes": "१५८६५",
+        "image": "../npcdn.ratopati.com/election/candidates/2082/dev-prasad-timalsena_RiuK6qL0YP.jpg",
+        "winner": false
+      }
+    ]
+  },
+  {
+    "constituency": "बारा - १",
+    "link": "constituency/bara-1.html",
+    "province": "मधेस प्रदेश",
+    "voteDifference": "२५७७५",
+    "voteDifferencePercent": "४७.५४%",
+    "candidates": [
+      {
+        "name": "गणेश धिमाल",
+        "party": "राष्ट्रिय स्वतन्त्र पार्टी",
+        "votes": "३९९९८",
+        "image": "../npcdn.ratopati.com/election/candidates/2082/ganesh-dhimal_waocyMZnh0.jpg",
+        "winner": true
+      },
+      {
+        "name": "शम्भु बहादुर बुढाथोकी",
+        "party": "नेपाली कांग्रेस",
+        "votes": "१४२२३",
+        "image": "../npcdn.ratopati.com/election/candidates/2082/shambhu-bahadur-budhathoki_64ys1Gf8y1.jpg",
+        "winner": false
+      }
+    ]
+  },
+  {
+    "constituency": "बारा - २",
+    "link": "constituency/bara-2.html",
+    "province": "मधेस प्रदेश",
+    "voteDifference": "२१३९४",
+    "voteDifferencePercent": "४२.९७%",
+    "candidates": [
+      {
+        "name": "चन्दन कुमार सिंह",
+        "party": "राष्ट्रिय स्वतन्त्र पार्टी",
+        "votes": "३५५९०",
+        "image": "../npcdn.ratopati.com/election/candidates/2082/chandan-kumar-singh_XFvEMslodX.jpg",
+        "winner": true
+      },
+      {
+        "name": "रामकिशोर प्रसाद यादव",
+        "party": "जनता समाजवादी पार्टी, नेपाल",
+        "votes": "१४१९६",
+        "image": "../npcdn.ratopati.com/election/candidates/2082/ram-kishore-prasad-yadav_Mx9fRZqycD.jpg",
+        "winner": false
+      }
+    ]
+  },
+  {
+    "constituency": "बारा - ३",
+    "link": "constituency/bara-3.html",
+    "province": "मधेस प्रदेश",
+    "voteDifference": "३०६४५",
+    "voteDifferencePercent": "६०.३९%",
+    "candidates": [
+      {
+        "name": "अरबिन्द साह",
+        "party": "राष्ट्रिय स्वतन्त्र पार्टी",
+        "votes": "४०६९७",
+        "image": "../npcdn.ratopati.com/election/candidates/2082/arbind-sah_ALXtdJeQl2.jpg",
+        "winner": true
+      },
+      {
+        "name": "फरमुल्लाह मंसुर",
+        "party": "नेपाली कांग्रेस",
+        "votes": "१००५२",
+        "image": "../npcdn.ratopati.com/election/candidates/2082/faramullah-mansur_e8kSlrYmXA.jpg",
+        "winner": false
+      }
+    ]
+  },
+  {
+    "constituency": "बारा - ४",
+    "link": "constituency/bara-4.html",
+    "province": "मधेस प्रदेश",
+    "voteDifference": "२९५६१",
+    "voteDifferencePercent": "५५.९५%",
+    "candidates": [
+      {
+        "name": "रहबर अन्सारी",
+        "party": "राष्ट्रिय स्वतन्त्र पार्टी",
+        "votes": "४१२००",
+        "image": "../npcdn.ratopati.com/election/media/upload-new/rahabar-ansari_TkcfQKKbS1.jpg",
+        "winner": true
+      },
+      {
+        "name": "कृष्ण कुमार श्रेष्ठ",
+        "party": "नेकपा (एमाले)",
+        "votes": "११६३९",
+        "image": "../npcdn.ratopati.com/election/candidates/2082/krishna-kumar-shrestha_RKCuF7dNTF.jpg",
+        "winner": false
+      }
+    ]
+  },
+  {
+    "constituency": "पर्सा - १",
+    "link": "constituency/parsa-1.html",
+    "province": "मधेस प्रदेश",
+    "voteDifference": "१४२४४",
+    "voteDifferencePercent": "३५.३४%",
+    "candidates": [
+      {
+        "name": "बुद्धि प्रसाद पन्त",
+        "party": "राष्ट्रिय स्वतन्त्र पार्टी",
+        "votes": "२७२७४",
+        "image": "../npcdn.ratopati.com/election/candidates/2082/buddhi-prasad-pant_wtVfxAwv4B.jpg",
+        "winner": true
+      },
+      {
+        "name": "प्रदिप यादव",
+        "party": "नेकपा (एमाले)",
+        "votes": "१३०३०",
+        "image": "../npcdn.ratopati.com/election/media/upload-new/pradip-yadav_Sosegf3iAc.jpg",
+        "winner": false
+      }
+    ]
+  },
+  {
+    "constituency": "पर्सा - २",
+    "link": "constituency/parsa-2.html",
+    "province": "मधेस प्रदेश",
+    "voteDifference": "१८८५०",
+    "voteDifferencePercent": "४४.२२%",
+    "candidates": [
+      {
+        "name": "सुशील कुमार कानु",
+        "party": "राष्ट्रिय स्वतन्त्र पार्टी",
+        "votes": "३०७४०",
+        "image": "../npcdn.ratopati.com/election/candidates/2082/sushil-kumar-kanu_iA6XdCTdpZ.jpg",
+        "winner": true
+      },
+      {
+        "name": "अजय कुमार चौरसिया",
+        "party": "नेपाली कांग्रेस",
+        "votes": "११८९०",
+        "image": "../npcdn.ratopati.com/election/candidates/2082/ajay-kumar-chaurasiya_mIMNiKamax.jpg",
+        "winner": false
+      }
+    ]
+  },
+  {
+    "constituency": "पर्सा - ३",
+    "link": "constituency/parsa-3.html",
+    "province": "मधेस प्रदेश",
+    "voteDifference": "१३३१३",
+    "voteDifferencePercent": "२८.९१%",
+    "candidates": [
+      {
+        "name": "रामाकान्त प्रसाद चौरसीया",
+        "party": "राष्ट्रिय स्वतन्त्र पार्टी",
+        "votes": "२९६७९",
+        "image": "../npcdn.ratopati.com/election/candidates/2082/ramakant-prasad-chaurasiya_Zd6QRgyHZ6.jpg",
+        "winner": true
+      },
+      {
+        "name": "सुरेन्‍द्र प्रसाद चौधरी",
+        "party": "नेपाली कांग्रेस",
+        "votes": "१६३६६",
+        "image": "../npcdn.ratopati.com/election/candidates/2082/surendra-prasad-chaudhary_d4KTYCvF6z.jpg",
+        "winner": false
+      }
+    ]
+  },
+  {
+    "constituency": "पर्सा - ४",
+    "link": "constituency/parsa-4.html",
+    "province": "मधेस प्रदेश",
+    "voteDifference": "१५४७२",
+    "voteDifferencePercent": "३८.१६%",
+    "candidates": [
+      {
+        "name": "टेक वहादुर शाक्य",
+        "party": "राष्ट्रिय स्वतन्त्र पार्टी",
+        "votes": "२८००६",
+        "image": "../npcdn.ratopati.com/election/candidates/2082/tek-bahadur-shakya_MAc84Grs3S.jpg",
+        "winner": true
+      },
+      {
+        "name": "रमेश रिजाल",
+        "party": "नेपाली कांग्रेस",
+        "votes": "१२५३४",
+        "image": "../npcdn.ratopati.com/election/candidates/2082/ramesh-rijal_lSqq5p4S0n.jpg",
+        "winner": false
+      }
+    ]
+  },
+  {
+    "constituency": "दोलखा - १",
+    "link": "constituency/dolakha-1.html",
+    "province": "बागमती प्रदेश",
+    "voteDifference": "१४९२७",
+    "voteDifferencePercent": "२९.९६%",
+    "candidates": [
+      {
+        "name": "जगदीश खरेल",
+        "party": "राष्ट्रिय स्वतन्त्र पार्टी",
+        "votes": "३२३७६",
+        "image": "../npcdn.ratopati.com/election/candidates/2082/jagadish-kharel_9t9RDoWzGW.jpg",
+        "winner": true
+      },
+      {
+        "name": "पार्वत गुरुङ",
+        "party": "नेकपा (एमाले)",
+        "votes": "१७४४९",
+        "image": "../npcdn.ratopati.com/election/candidates/2082/parbat-gurung_6hLCGSmdoH.jpg",
+        "winner": false
+      }
+    ]
+  },
+  {
+    "constituency": "रामेछाप - १",
+    "link": "constituency/ramechhap-1.html",
+    "province": "बागमती प्रदेश",
+    "voteDifference": "७१९९",
+    "voteDifferencePercent": "१६.९७%",
+    "candidates": [
+      {
+        "name": "कृष्ण हरी बुढाथोकी",
+        "party": "राष्ट्रिय स्वतन्त्र पार्टी",
+        "votes": "२४८०८",
+        "image": "../npcdn.ratopati.com/election/candidates/2082/krishna-hari-budhathoki_mp6q3OxuHi.jpg",
+        "winner": true
+      },
+      {
+        "name": "माधव प्रसाद ढुंगेल",
+        "party": "नेकपा (एमाले)",
+        "votes": "१७६०९",
+        "image": "../npcdn.ratopati.com/election/candidates/2082/madhav-prasad-dhungel_Ts0wdcB17F.jpg",
+        "winner": false
+      }
+    ]
+  },
+  {
+    "constituency": "सिन्धुली - १",
+    "link": "constituency/sindhuli-1.html",
+    "province": "बागमती प्रदेश",
+    "voteDifference": "७८४",
+    "voteDifferencePercent": "२.४१%",
+    "candidates": [
+      {
+        "name": "धनेन्द्र कार्की",
+        "party": "राष्ट्रिय स्वतन्त्र पार्टी",
+        "votes": "१६६५९",
+        "image": "../npcdn.ratopati.com/election/candidates/2082/dhanendra-karki_elfsOgKHbD.jpg",
+        "winner": true
+      },
+      {
+        "name": "प्रदिप कुमार कटुवाल क्षेत्री (के सी)",
+        "party": "नेकपा (एमाले)",
+        "votes": "१५८७५",
+        "image": "../npcdn.ratopati.com/election/candidates/2082/pradip-kumar-katuwal-chhetri-kc_6Kpo1yFL3t.jpg",
+        "winner": false
+      }
+    ]
+  },
+  {
+    "constituency": "सिन्धुली - २",
+    "link": "constituency/sindhuli-2.html",
+    "province": "बागमती प्रदेश",
+    "voteDifference": "३१६०",
+    "voteDifferencePercent": "९.६६%",
+    "candidates": [
+      {
+        "name": "आशिष गजुरेल",
+        "party": "राष्ट्रिय स्वतन्त्र पार्टी",
+        "votes": "१७९४०",
+        "image": "../npcdn.ratopati.com/election/candidates/2082/ashish-gajurel_Gz1kyH3YaQ.jpg",
+        "winner": true
+      },
+      {
+        "name": "लेख नाथ दाहाल",
+        "party": "नेपाली कम्युनिष्ट पार्टी",
+        "votes": "१४७८०",
+        "image": "../npcdn.ratopati.com/election/candidates/2082/lekh-nath-dahal_OUIsVmQZau.jpg",
+        "winner": false
+      }
+    ]
+  },
+  {
+    "constituency": "रसुवा - १",
+    "link": "constituency/rasuwa-1.html",
+    "province": "बागमती प्रदेश",
+    "voteDifference": "५०८५",
+    "voteDifferencePercent": "३१.३४%",
+    "candidates": [
+      {
+        "name": "मोहन आचार्य",
+        "party": "नेपाली कांग्रेस",
+        "votes": "१०६५६",
+        "image": "../npcdn.ratopati.com/election/candidates/2082/mohan-acharya_KNvdALSamb.jpg",
+        "winner": true
+      },
+      {
+        "name": "बसन्त भट्ट",
+        "party": "राष्ट्रिय स्वतन्त्र पार्टी",
+        "votes": "५५७१",
+        "image": "../npcdn.ratopati.com/election/candidates/2082/basanta-bhatta_JZp4EcELpa.jpg",
+        "winner": false
+      }
+    ]
+  },
+  {
+    "constituency": "धादिङ - १",
+    "link": "constituency/dhading-1.html",
+    "province": "बागमती प्रदेश",
+    "voteDifference": "२४०९६",
+    "voteDifferencePercent": "४४.४९%",
+    "candidates": [
+      {
+        "name": "आसिका तामाङ",
+        "party": "राष्ट्रिय स्वतन्त्र पार्टी",
+        "votes": "३९१२८",
+        "image": "../npcdn.ratopati.com/election/candidates/2082/asika-tamang_148nF1C9tm.jpg",
+        "winner": true
+      },
+      {
+        "name": "भुमि प्रसाद त्रिपाठी",
+        "party": "नेकपा (एमाले)",
+        "votes": "१५०३२",
+        "image": "../npcdn.ratopati.com/election/candidates/2082/bhumi-prasad-tripathi_rNXFqpWQJP.jpg",
+        "winner": false
+      }
+    ]
+  },
+  {
+    "constituency": "धादिङ - २",
+    "link": "constituency/dhading-2.html",
+    "province": "बागमती प्रदेश",
+    "voteDifference": "५८६६",
+    "voteDifferencePercent": "१२.६४%",
+    "candidates": [
+      {
+        "name": "वोध नारायण श्रेष्‍ठ",
+        "party": "राष्ट्रिय स्वतन्त्र पार्टी",
+        "votes": "२६१४५",
+        "image": "../npcdn.ratopati.com/election/candidates/2082/bodhnarayan-shrestha_nsP4KVVm1T.jpg",
+        "winner": true
+      },
+      {
+        "name": "रमेश प्रसाद धमला",
+        "party": "नेपाली कांग्रेस",
+        "votes": "२०२७९",
+        "image": "../npcdn.ratopati.com/election/candidates/2082/ramesh-prasad-dhamala_YjZ6ZT3khE.jpg",
+        "winner": false
+      }
+    ]
+  },
+  {
+    "constituency": "नुवाकोट - १",
+    "link": "constituency/nuwakot-1.html",
+    "province": "बागमती प्रदेश",
+    "voteDifference": "४०१२",
+    "voteDifferencePercent": "९.७४%",
+    "candidates": [
+      {
+        "name": "विक्रम तिमिल्सिना",
+        "party": "राष्ट्रिय स्वतन्त्र पार्टी",
+        "votes": "२२६०९",
+        "image": "../npcdn.ratopati.com/election/candidates/2082/bikram-timilsina_TqSw1XOiGP.jpg",
+        "winner": true
+      },
+      {
+        "name": "प्रकाश शरण महत",
+        "party": "नेपाली कांग्रेस",
+        "votes": "१८५९७",
+        "image": "../npcdn.ratopati.com/election/media/upload-new/prakash-sharan-mahat_7SEJ0htwB8.jpg",
+        "winner": false
+      }
+    ]
+  },
+  {
+    "constituency": "नुवाकोट - २",
+    "link": "constituency/nuwakot-2.html",
+    "province": "बागमती प्रदेश",
+    "voteDifference": "१६५५१",
+    "voteDifferencePercent": "३४.८%",
+    "candidates": [
+      {
+        "name": "अचुत्तम लामिछाने",
+        "party": "राष्ट्रिय स्वतन्त्र पार्टी",
+        "votes": "३२०५४",
+        "image": "../npcdn.ratopati.com/election/candidates/2082/achyuttam-lamichhane_ehJh4iTMch.jpg",
+        "winner": true
+      },
+      {
+        "name": "जगदिश्‍वर नरसिंह के.सी.",
+        "party": "नेपाली कांग्रेस",
+        "votes": "१५५०३",
+        "image": "../npcdn.ratopati.com/election/candidates/2082/jagadishwar-narsingh-kc_zbO5V1IDBM.jpg",
+        "winner": false
+      }
+    ]
+  },
+  {
+    "constituency": "काठमाडौं - १",
+    "link": "constituency/kathmandu-1.html",
+    "province": "बागमती प्रदेश",
+    "voteDifference": "९०९१",
+    "voteDifferencePercent": "४१.६७%",
+    "candidates": [
+      {
+        "name": "रन्‍जु न्‍यौपाने",
+        "party": "राष्ट्रिय स्वतन्त्र पार्टी",
+        "votes": "१५४५५",
+        "image": "../npcdn.ratopati.com/election/media/upload-new/ranju-darshana_8SXioMGc1U.jpg",
+        "winner": true
+      },
+      {
+        "name": "प्रबल थापा क्षेत्री",
+        "party": "नेपाली कांग्रेस",
+        "votes": "६३६४",
+        "image": "../npcdn.ratopati.com/election/media/upload-new/prabal-thapa-_Ywo8A7LxW4.jpg",
+        "winner": false
+      }
+    ]
+  },
+  {
+    "constituency": "काठमाडौं - २",
+    "link": "constituency/kathmandu-2.html",
+    "province": "बागमती प्रदेश",
+    "voteDifference": "२५३६४",
+    "voteDifferencePercent": "५८.८३%",
+    "candidates": [
+      {
+        "name": "सुनिल के.सी.",
+        "party": "राष्ट्रिय स्वतन्त्र पार्टी",
+        "votes": "३४२३८",
+        "image": "../npcdn.ratopati.com/election/candidates/2082/sunil-kc_gOD18wvW98.jpg",
+        "winner": true
+      },
+      {
+        "name": "कबिर शर्मा",
+        "party": "नेपाली कांग्रेस",
+        "votes": "८८७४",
+        "image": "../npcdn.ratopati.com/election/candidates/2082/kabir-sharma_fos3Nt0qPb.jpg",
+        "winner": false
+      }
+    ]
+  },
+  {
+    "constituency": "काठमाडौं - ३",
+    "link": "constituency/kathmandu-3.html",
+    "province": "बागमती प्रदेश",
+    "voteDifference": "७५८६",
+    "voteDifferencePercent": "२५.३५%",
+    "candidates": [
+      {
+        "name": "राजु नाथ पाण्डे",
+        "party": "राष्ट्रिय स्वतन्त्र पार्टी",
+        "votes": "१८७५७",
+        "image": "../npcdn.ratopati.com/election/media/upload-new/rajunath-pandey_uVgWTte7if.jpg",
+        "winner": true
+      },
+      {
+        "name": "कुलमान घिसिङ",
+        "party": "उज्यालो नेपाल पार्टी",
+        "votes": "१११७१",
+        "image": "../npcdn.ratopati.com/election/media/upload-new/kulman-ghising_vDHnnGcI71.jpg",
+        "winner": false
+      }
+    ]
+  },
+  {
+    "constituency": "काठमाडौं - ४",
+    "link": "constituency/kathmandu-4.html",
+    "province": "बागमती प्रदेश",
+    "voteDifference": "२०३१८",
+    "voteDifferencePercent": "५३.५२%",
+    "candidates": [
+      {
+        "name": "पुकार बम",
+        "party": "राष्ट्रिय स्वतन्त्र पार्टी",
+        "votes": "२९१४२",
+        "image": "../npcdn.ratopati.com/election/candidates/2082/call-bomb_QmGtWxvPJi.jpg",
+        "winner": true
+      },
+      {
+        "name": "सचिन तिमल्सेना",
+        "party": "नेपाली कांग्रेस",
+        "votes": "८८२४",
+        "image": "../npcdn.ratopati.com/election/media/upload-new/sachin-timalsina-_bXs6FA0zyJ.jpg",
+        "winner": false
+      }
+    ]
+  },
+  {
+    "constituency": "काठमाडौं - ५",
+    "link": "constituency/kathmandu-5.html",
+    "province": "बागमती प्रदेश",
+    "voteDifference": "२१५७८",
+    "voteDifferencePercent": "५४.०९%",
+    "candidates": [
+      {
+        "name": "सस्मित पोखरेल",
+        "party": "राष्ट्रिय स्वतन्त्र पार्टी",
+        "votes": "३०७३७",
+        "image": "../npcdn.ratopati.com/election/media/upload-new/sasmit-pokhrel_OjJy0L3s4F.jpg",
+        "winner": true
+      },
+      {
+        "name": "प्रदीप पौडेल",
+        "party": "नेपाली कांग्रेस",
+        "votes": "९१५९",
+        "image": "../npcdn.ratopati.com/election/media/upload-new/pradip-paudel_nemyN7rbEu.jpg",
+        "winner": false
+      }
+    ]
+  },
+  {
+    "constituency": "काठमाडौं - ६",
+    "link": "constituency/kathmandu-6.html",
+    "province": "बागमती प्रदेश",
+    "voteDifference": "२१२४९",
+    "voteDifferencePercent": "६१.४४%",
+    "candidates": [
+      {
+        "name": "शिशिर खनाल",
+        "party": "राष्ट्रिय स्वतन्त्र पार्टी",
+        "votes": "२७९१६",
+        "image": "../npcdn.ratopati.com/election/candidates/2082/shishir-khanal_L8pU0tO61f.jpg",
+        "winner": true
+      },
+      {
+        "name": "कृष्‍ण वानियाँ क्षेत्री",
+        "party": "नेपाली कांग्रेस",
+        "votes": "६६६७",
+        "image": "../npcdn.ratopati.com/election/candidates/2082/krishna-baniya-chhetri_wzDYzbMoFV.jpg",
+        "winner": false
+      }
+    ]
+  },
+  {
+    "constituency": "काठमाडौं - ७",
+    "link": "constituency/kathmandu-7.html",
+    "province": "बागमती प्रदेश",
+    "voteDifference": "२३८२३",
+    "voteDifferencePercent": "७४.९५%",
+    "candidates": [
+      {
+        "name": "गणेश पराजुली",
+        "party": "राष्ट्रिय स्वतन्त्र पार्टी",
+        "votes": "२७८०५",
+        "image": "../npcdn.ratopati.com/election/candidates/2082/ganesh-parajuli_7c944F1HEq.jpg",
+        "winner": true
+      },
+      {
+        "name": "प्रमोद हरि गुरागाई",
+        "party": "नेपाली कांग्रेस",
+        "votes": "३९८२",
+        "image": "../npcdn.ratopati.com/election/candidates/2082/pramod-hari-guragai_cRyTJ4ZmxC.jpg",
+        "winner": false
+      }
+    ]
+  },
+  {
+    "constituency": "काठमाडौं - ८",
+    "link": "constituency/kathmandu-8.html",
+    "province": "बागमती प्रदेश",
+    "voteDifference": "२१३७५",
+    "voteDifferencePercent": "७६.८६%",
+    "candidates": [
+      {
+        "name": "विराज भक्त श्रेष्ठ",
+        "party": "राष्ट्रिय स्वतन्त्र पार्टी",
+        "votes": "२४५९२",
+        "image": "../npcdn.ratopati.com/election/candidates/2082/biraj-bhakta-shrestha_2mp74DwZO7.jpg",
+        "winner": true
+      },
+      {
+        "name": "सुमन सायमी",
+        "party": "नेपाली कम्युनिष्ट पार्टी",
+        "votes": "३२१७",
+        "image": "../npcdn.ratopati.com/election/candidates/2082/suman-sayami_Qft4iPqTx5.jpg",
+        "winner": false
+      }
+    ]
+  },
+  {
+    "constituency": "काठमाडौं - ९",
+    "link": "constituency/kathmandu-9.html",
+    "province": "बागमती प्रदेश",
+    "voteDifference": "२९६३३",
+    "voteDifferencePercent": "७३.०७%",
+    "candidates": [
+      {
+        "name": "डोल प्रसाद अर्याल",
+        "party": "राष्ट्रिय स्वतन्त्र पार्टी",
+        "votes": "३५०९३",
+        "image": "../npcdn.ratopati.com/election/media/upload-new/dp-aryal_6B8CkExbuy.jpg",
+        "winner": true
+      },
+      {
+        "name": "नानु मैया बास्तोला",
+        "party": "नेपाली कांग्रेस",
+        "votes": "५४६०",
+        "image": "../npcdn.ratopati.com/election/candidates/2082/nanu-maiya-bastola_WB5DKWPKel.jpg",
+        "winner": false
+      }
+    ]
+  },
+  {
+    "constituency": "काठमाडौं - १०",
+    "link": "constituency/kathmandu-10.html",
+    "province": "बागमती प्रदेश",
+    "voteDifference": "२९३६९",
+    "voteDifferencePercent": "६४.४५%",
+    "candidates": [
+      {
+        "name": "प्रदिप विष्‍ट",
+        "party": "राष्ट्रिय स्वतन्त्र पार्टी",
+        "votes": "३७४६९",
+        "image": "../npcdn.ratopati.com/election/candidates/2082/pradip-bisht_rfBeybZWpO.jpg",
+        "winner": true
+      },
+      {
+        "name": "हिमाल कार्की",
+        "party": "नेपाली कांग्रेस",
+        "votes": "८१००",
+        "image": "../npcdn.ratopati.com/election/candidates/2082/himal-karki_cFRHrYN10j.jpg",
+        "winner": false
+      }
+    ]
+  },
+  {
+    "constituency": "भक्तपुर - १",
+    "link": "constituency/bhaktapur-1.html",
+    "province": "बागमती प्रदेश",
+    "voteDifference": "५२८९",
+    "voteDifferencePercent": "८.५९%",
+    "candidates": [
+      {
+        "name": "रुकेश रन्जित",
+        "party": "राष्ट्रिय स्वतन्त्र पार्टी",
+        "votes": "३३४३६",
+        "image": "../npcdn.ratopati.com/election/candidates/2082/rukesh-ranjit_Z9uOzvaks6.jpg",
+        "winner": true
+      },
+      {
+        "name": "प्रेम सुवाल",
+        "party": "नेपाल मजदुर किसान पार्टी",
+        "votes": "२८१४७",
+        "image": "../npcdn.ratopati.com/election/candidates/2082/prem-suwal_P0SvA0IUYw.jpg",
+        "winner": false
+      }
+    ]
+  },
+  {
+    "constituency": "भक्तपुर - २",
+    "link": "constituency/bhaktapur-2.html",
+    "province": "बागमती प्रदेश",
+    "voteDifference": "३१३३८",
+    "voteDifferencePercent": "५८.७६%",
+    "candidates": [
+      {
+        "name": "राजीव खत्री",
+        "party": "राष्ट्रिय स्वतन्त्र पार्टी",
+        "votes": "४२३३४",
+        "image": "../npcdn.ratopati.com/election/media/upload-new/rajib-khatri_qJAsHbLtFg.jpg",
+        "winner": true
+      },
+      {
+        "name": "महेश बस्नेत",
+        "party": "नेकपा (एमाले)",
+        "votes": "१०९९६",
+        "image": "../npcdn.ratopati.com/election/media/upload-new/mahesh-basnet_GagGHzPWb0.jpg",
+        "winner": false
+      }
+    ]
+  },
+  {
+    "constituency": "ललितपुर - १",
+    "link": "constituency/lalitpur-1.html",
+    "province": "बागमती प्रदेश",
+    "voteDifference": "९८५३",
+    "voteDifferencePercent": "२६.७१%",
+    "candidates": [
+      {
+        "name": "बुद्ध रत्न महर्जन",
+        "party": "राष्ट्रिय स्वतन्त्र पार्टी",
+        "votes": "२३३७३",
+        "image": "../npcdn.ratopati.com/election/candidates/2082/buddha-ratna-maharjan_ReUHYwHMrg.jpg",
+        "winner": true
+      },
+      {
+        "name": "उदय शंशेर ज.ब.राणा",
+        "party": "नेपाली कांग्रेस",
+        "votes": "१३५२०",
+        "image": "../npcdn.ratopati.com/election/media/upload-new/udayasamser-rana_fkutcnkVpj.jpg",
+        "winner": false
+      }
+    ]
+  },
+  {
+    "constituency": "ललितपुर - २",
+    "link": "constituency/lalitpur-2.html",
+    "province": "बागमती प्रदेश",
+    "voteDifference": "३२०७१",
+    "voteDifferencePercent": "६८.३७%",
+    "candidates": [
+      {
+        "name": "जगदिश खरेल",
+        "party": "राष्ट्रिय स्वतन्त्र पार्टी",
+        "votes": "३९४९१",
+        "image": "../npcdn.ratopati.com/election/media/upload-new/jagadish-kharel_TW83Ql0qzY.jpg",
+        "winner": true
+      },
+      {
+        "name": "प्रेम कृष्ण महर्जन",
+        "party": "नेपाली कांग्रेस",
+        "votes": "७४२०",
+        "image": "../npcdn.ratopati.com/election/candidates/2082/prem-krishna-maharjan_gr5MJekDrZ.jpg",
+        "winner": false
+      }
+    ]
+  },
+  {
+    "constituency": "ललितपुर - ३",
+    "link": "constituency/lalitpur-3.html",
+    "province": "बागमती प्रदेश",
+    "voteDifference": "३४०५१",
+    "voteDifferencePercent": "६५.३१%",
+    "candidates": [
+      {
+        "name": "तोसीमा कार्की",
+        "party": "राष्ट्रिय स्वतन्त्र पार्टी",
+        "votes": "४३०९६",
+        "image": "../npcdn.ratopati.com/election/media/upload-new/tosima-karki_cscQ612C0g.jpg",
+        "winner": true
+      },
+      {
+        "name": "जितेन्द्र कुमार श्रेष्ठ",
+        "party": "नेपाली कांग्रेस",
+        "votes": "९०४५",
+        "image": "../npcdn.ratopati.com/election/candidates/2082/jitendra-kumar-shrestha_mN4lpyjC2W.jpg",
+        "winner": false
+      }
+    ]
+  },
+  {
+    "constituency": "काभ्रेपलाञ्चोक - १",
+    "link": "constituency/kavrepalanchok-1.html",
+    "province": "बागमती प्रदेश",
+    "voteDifference": "१०४५२",
+    "voteDifferencePercent": "२१.४३%",
+    "candidates": [
+      {
+        "name": "मधु कुमार चौलागाई",
+        "party": "राष्ट्रिय स्वतन्त्र पार्टी",
+        "votes": "२९६१८",
+        "image": "../npcdn.ratopati.com/election/candidates/2082/madhu-kumar-chaulagai_6PtPfqsBa0.jpg",
+        "winner": true
+      },
+      {
+        "name": "गुणराज मुक्तान",
+        "party": "नेपाली कांग्रेस",
+        "votes": "१९१६६",
+        "image": "../npcdn.ratopati.com/election/candidates/2082/gunaraj-muktan_Ppf5ihoEVj.jpg",
+        "winner": false
+      }
+    ]
+  },
+  {
+    "constituency": "काभ्रेपलाञ्चोक - २",
+    "link": "constituency/kavrepalanchok-2.html",
+    "province": "बागमती प्रदेश",
+    "voteDifference": "३५४७६",
+    "voteDifferencePercent": "४९.८२%",
+    "candidates": [
+      {
+        "name": "बदन कुमार भण्डारी",
+        "party": "राष्ट्रिय स्वतन्त्र पार्टी",
+        "votes": "५३३४४",
+        "image": "../npcdn.ratopati.com/election/candidates/2082/badan-kumar-bhandari_XoDiqf9MkY.jpg",
+        "winner": true
+      },
+      {
+        "name": "मधु प्रसाद आचार्य",
+        "party": "नेपाली कांग्रेस",
+        "votes": "१७८६८",
+        "image": "../npcdn.ratopati.com/election/candidates/2082/madhu-prasad-acharya_blIMwesKJI.jpg",
+        "winner": false
+      }
+    ]
+  },
+  {
+    "constituency": "सिन्धुपाल्चोक - १",
+    "link": "constituency/sindhupalchok-1.html",
+    "province": "बागमती प्रदेश",
+    "voteDifference": "७०८५",
+    "voteDifferencePercent": "१६.९७%",
+    "candidates": [
+      {
+        "name": "भरत प्रसाद पराजुली",
+        "party": "राष्ट्रिय स्वतन्त्र पार्टी",
+        "votes": "२४४१२",
+        "image": "../npcdn.ratopati.com/election/candidates/2082/bharat-prasad-parajuli_nHMi8DFVZl.jpg",
+        "winner": true
+      },
+      {
+        "name": "माधव सापकोटा",
+        "party": "नेपाली कम्युनिष्ट पार्टी",
+        "votes": "१७३२७",
+        "image": "../npcdn.ratopati.com/election/candidates/2082/madhav-sapkota_5ZbwiHmOiD.jpg",
+        "winner": false
+      }
+    ]
+  },
+  {
+    "constituency": "सिन्धुपाल्चोक - २",
+    "link": "constituency/sindhupalchok-2.html",
+    "province": "बागमती प्रदेश",
+    "voteDifference": "२५५३",
+    "voteDifferencePercent": "६.२५%",
+    "candidates": [
+      {
+        "name": "युवराज दुलाल",
+        "party": "नेपाली कम्युनिष्ट पार्टी",
+        "votes": "२१६९९",
+        "image": "../npcdn.ratopati.com/election/candidates/2082/yuvraj-dulal_RvnnyDfjyc.jpg",
+        "winner": true
+      },
+      {
+        "name": "वंशलाल तामाङ",
+        "party": "नेपाली कांग्रेस",
+        "votes": "१९१४६",
+        "image": "../npcdn.ratopati.com/election/candidates/2082/banshlal-tamang_p21EBpC3z8.jpg",
+        "winner": false
+      }
+    ]
+  },
+  {
+    "constituency": "मकवानपुर - १",
+    "link": "constituency/makwanpur-1.html",
+    "province": "बागमती प्रदेश",
+    "voteDifference": "२१९९५",
+    "voteDifferencePercent": "४३.९३%",
+    "candidates": [
+      {
+        "name": "प्रकाश गौतम",
+        "party": "राष्ट्रिय स्वतन्त्र पार्टी",
+        "votes": "३६०३३",
+        "image": "../npcdn.ratopati.com/election/candidates/2082/prakash-gautam_vbXIDVcm7M.jpg",
+        "winner": true
+      },
+      {
+        "name": "महालक्ष्मी उपाध्याय(डिना)",
+        "party": "नेपाली कांग्रेस",
+        "votes": "१४०३८",
+        "image": "../npcdn.ratopati.com/election/media/upload-new/mahalaxmi_XpABqERq1r.jpg",
+        "winner": false
+      }
+    ]
+  },
+  {
+    "constituency": "मकवानपुर - २",
+    "link": "constituency/makwanpur-2.html",
+    "province": "बागमती प्रदेश",
+    "voteDifference": "११२०४",
+    "voteDifferencePercent": "२२.९१%",
+    "candidates": [
+      {
+        "name": "प्रशान्त उप्रेती",
+        "party": "राष्ट्रिय स्वतन्त्र पार्टी",
+        "votes": "३००५०",
+        "image": "../npcdn.ratopati.com/election/candidates/2082/prashant-upreti_uMJrH0XCel.jpg",
+        "winner": true
+      },
+      {
+        "name": "महेश कुमार वर्तौला",
+        "party": "नेकपा (एमाले)",
+        "votes": "१८८४६",
+        "image": "../npcdn.ratopati.com/election/media/upload-new/mahesh-bartaula-_iVRTKZi69i.jpg",
+        "winner": false
+      }
+    ]
+  },
+  {
+    "constituency": "चितवन - १",
+    "link": "constituency/chitwan-1.html",
+    "province": "बागमती प्रदेश",
+    "voteDifference": "४५१७५",
+    "voteDifferencePercent": "६३.४१%",
+    "candidates": [
+      {
+        "name": "हरि ढकाल",
+        "party": "राष्ट्रिय स्वतन्त्र पार्टी",
+        "votes": "५८२०८",
+        "image": "../npcdn.ratopati.com/election/candidates/2082/hari-dhakal_PvRramzKhq.jpg",
+        "winner": true
+      },
+      {
+        "name": "राजेन्द्र प्रसाद वुर्लाकोटी",
+        "party": "नेपाली कांग्रेस",
+        "votes": "१३०३३",
+        "image": "../npcdn.ratopati.com/election/candidates/2082/rajendra-prasad-burlakoti_zOXPc10tEn.jpg",
+        "winner": false
+      }
+    ]
+  },
+  {
+    "constituency": "चितवन - २",
+    "link": "constituency/chitwan-2.html",
+    "province": "बागमती प्रदेश",
+    "voteDifference": "३९८३८",
+    "voteDifferencePercent": "५७.७६%",
+    "candidates": [
+      {
+        "name": "रवि लामिछाने",
+        "party": "राष्ट्रिय स्वतन्त्र पार्टी",
+        "votes": "५४४०२",
+        "image": "../npcdn.ratopati.com/election/media/upload-new/rabi-lamichhane_ZcjOIBS4PL.jpg",
+        "winner": true
+      },
+      {
+        "name": "मिना कुमारी खरेल",
+        "party": "नेपाली कांग्रेस",
+        "votes": "१४५६४",
+        "image": "../npcdn.ratopati.com/election/media/upload-new/mina-kumari-_W5AKawpUkR.jpg",
+        "winner": false
+      }
+    ]
+  },
+  {
+    "constituency": "चितवन - ३",
+    "link": "constituency/chitwan-3.html",
+    "province": "बागमती प्रदेश",
+    "voteDifference": "३८६६२",
+    "voteDifferencePercent": "४८.३९%",
+    "candidates": [
+      {
+        "name": "सोविता गौतम",
+        "party": "राष्ट्रिय स्वतन्त्र पार्टी",
+        "votes": "५९२७७",
+        "image": "../npcdn.ratopati.com/election/media/upload-new/sobita-gautam_qCEyPlW4jH.jpg",
+        "winner": true
+      },
+      {
+        "name": "रेनु दाहाल",
+        "party": "नेपाली कम्युनिष्ट पार्टी",
+        "votes": "२०६१५",
+        "image": "../npcdn.ratopati.com/election/media/upload-new/renu-dahal_pDzvGcMVD8.jpg",
+        "winner": false
+      }
+    ]
+  },
+  {
+    "constituency": "गोरखा - १",
+    "link": "constituency/gorkha-1.html",
+    "province": "गण्डकी प्रदेश",
+    "voteDifference": "१४४९८",
+    "voteDifferencePercent": "३२.०१%",
+    "candidates": [
+      {
+        "name": "सुधन गुरुङ",
+        "party": "राष्ट्रिय स्वतन्त्र पार्टी",
+        "votes": "२९८९६",
+        "image": "../npcdn.ratopati.com/election/media/upload-new/sudan-gurung-_ZFTesI8SCn.jpg",
+        "winner": true
+      },
+      {
+        "name": "प्रेम कुमार खत्री",
+        "party": "नेपाली कांग्रेस",
+        "votes": "१५३९८",
+        "image": "../npcdn.ratopati.com/election/media/upload-new/prem-kumar-khatri-_WeQipcCWDr.jpg",
+        "winner": false
+      }
+    ]
+  },
+  {
+    "constituency": "गोरखा - २",
+    "link": "constituency/gorkha-2.html",
+    "province": "गण्डकी प्रदेश",
+    "voteDifference": "१४९६०",
+    "voteDifferencePercent": "३९%",
+    "candidates": [
+      {
+        "name": "कविन्द्र बुर्लाकोटी",
+        "party": "राष्ट्रिय स्वतन्त्र पार्टी",
+        "votes": "२६६६०",
+        "image": "../npcdn.ratopati.com/election/media/upload-new/kabindra-burlakoti_9yhcFKg3OJ.jpg",
+        "winner": true
+      },
+      {
+        "name": "प्रकाश चन्‍द्र दवाडी",
+        "party": "नेपाली कांग्रेस",
+        "votes": "११७००",
+        "image": "../npcdn.ratopati.com/election/media/upload-new/prakash-chandra-dwadi_dtA2jQjhix.jpg",
+        "winner": false
+      }
+    ]
+  },
+  {
+    "constituency": "मनाङ - १",
+    "link": "constituency/manang-1.html",
+    "province": "गण्डकी प्रदेश",
+    "voteDifference": "१९६१",
+    "voteDifferencePercent": "६८.३५%",
+    "candidates": [
+      {
+        "name": "टेक बहादुर गुरुङ",
+        "party": "नेपाली कांग्रेस",
+        "votes": "२४१५",
+        "image": "../npcdn.ratopati.com/election/candidates/2082/tek-bahadur-gurung_USlbeivrpz.jpg",
+        "winner": true
+      },
+      {
+        "name": "यशोदा गुरुङ (सुवेदी)",
+        "party": "नेपाली कम्युनिष्ट पार्टी",
+        "votes": "४५४",
+        "image": "../npcdn.ratopati.com/election/candidates/2082/yashoda-gurung-subedi_NBMXCZzqpd.jpg",
+        "winner": false
+      }
+    ]
+  },
+  {
+    "constituency": "लमजुङ - १",
+    "link": "constituency/lamjung-1.html",
+    "province": "गण्डकी प्रदेश",
+    "voteDifference": "१७०२२",
+    "voteDifferencePercent": "३३.५३%",
+    "candidates": [
+      {
+        "name": "धर्म राज के.सी",
+        "party": "राष्ट्रिय स्वतन्त्र पार्टी",
+        "votes": "३३८९८",
+        "image": "../npcdn.ratopati.com/election/candidates/2082/dharma-raj-kc_aqn5jSdwFB.jpg",
+        "winner": true
+      },
+      {
+        "name": "पृथ्‍वी सुब्बा गुरुङ",
+        "party": "नेकपा (एमाले)",
+        "votes": "१६८७६",
+        "image": "../npcdn.ratopati.com/election/media/upload-new/prithbi-subba-gurung_5Vo1Qx8hJe.jpg",
+        "winner": false
+      }
+    ]
+  },
+  {
+    "constituency": "कास्की - १",
+    "link": "constituency/kaski-1.html",
+    "province": "गण्डकी प्रदेश",
+    "voteDifference": "२८६६९",
+    "voteDifferencePercent": "५६.११%",
+    "candidates": [
+      {
+        "name": "खडक राज पौडेल",
+        "party": "राष्ट्रिय स्वतन्त्र पार्टी",
+        "votes": "३९८८३",
+        "image": "../npcdn.ratopati.com/election/candidates/2082/khadak-raj-paudel_kIQTNfcFt8.jpg",
+        "winner": true
+      },
+      {
+        "name": "तिलक बहादुर रानाभाट",
+        "party": "नेपाली कांग्रेस",
+        "votes": "११२१४",
+        "image": "../npcdn.ratopati.com/election/candidates/2082/tilak-bahadur-ranabhat_Ns34tE2mob.jpg",
+        "winner": false
+      }
+    ]
+  },
+  {
+    "constituency": "कास्की - २",
+    "link": "constituency/kaski-2.html",
+    "province": "गण्डकी प्रदेश",
+    "voteDifference": "२४४१८",
+    "voteDifferencePercent": "६१.९७%",
+    "candidates": [
+      {
+        "name": "उत्तम प्रसाद पौडेल",
+        "party": "राष्ट्रिय स्वतन्त्र पार्टी",
+        "votes": "३१९११",
+        "image": "../npcdn.ratopati.com/election/candidates/2082/uttam-prasad-paudel_UAfUUv5lIx.jpg",
+        "winner": true
+      },
+      {
+        "name": "रश्‍मि आचार्य",
+        "party": "नेकपा (एमाले)",
+        "votes": "७४९३",
+        "image": "../npcdn.ratopati.com/election/candidates/2082/rashmi-acharya_ursdZwD2Z1.jpg",
+        "winner": false
+      }
+    ]
+  },
+  {
+    "constituency": "कास्की - ३",
+    "link": "constituency/kaski-3.html",
+    "province": "गण्डकी प्रदेश",
+    "voteDifference": "२४९७०",
+    "voteDifferencePercent": "४९.४२%",
+    "candidates": [
+      {
+        "name": "बिना गुरुङ्ग",
+        "party": "राष्ट्रिय स्वतन्त्र पार्टी",
+        "votes": "३७७५०",
+        "image": "../npcdn.ratopati.com/election/candidates/2082/bina-gurung_6FDjRm6C8g.jpg",
+        "winner": true
+      },
+      {
+        "name": "मनोज गुरुङ्ग",
+        "party": "नेपाली कांग्रेस",
+        "votes": "१२७८०",
+        "image": "../npcdn.ratopati.com/election/candidates/2082/manoj-gurung_7WOPvO46r3.jpg",
+        "winner": false
+      }
+    ]
+  },
+  {
+    "constituency": "तनहुँ - १",
+    "link": "constituency/tanahun-1.html",
+    "province": "गण्डकी प्रदेश",
+    "voteDifference": "२१८०९",
+    "voteDifferencePercent": "४०.१९%",
+    "candidates": [
+      {
+        "name": "स्वर्णिम वाग्ले",
+        "party": "राष्ट्रिय स्वतन्त्र पार्टी",
+        "votes": "३८०४०",
+        "image": "../npcdn.ratopati.com/election/media/upload-new/swarnim-wagle_RyLLz9QLNp.jpg",
+        "winner": true
+      },
+      {
+        "name": "गोविन्द भट्टराई",
+        "party": "नेपाली कांग्रेस",
+        "votes": "१६२३१",
+        "image": "../npcdn.ratopati.com/election/media/upload-new/bhattarai-_wgITwfkFag.jpg",
+        "winner": false
+      }
+    ]
+  },
+  {
+    "constituency": "तनहुँ - २",
+    "link": "constituency/tanahun-2.html",
+    "province": "गण्डकी प्रदेश",
+    "voteDifference": "१८५५२",
+    "voteDifferencePercent": "३९.६२%",
+    "candidates": [
+      {
+        "name": "श्रीराम न्यौपाने",
+        "party": "राष्ट्रिय स्वतन्त्र पार्टी",
+        "votes": "३२६८७",
+        "image": "../npcdn.ratopati.com/election/candidates/2082/shree-ram-neupane_Wzg8uU9en2.jpg",
+        "winner": true
+      },
+      {
+        "name": "शंकर भण्डारी",
+        "party": "नेपाली कांग्रेस",
+        "votes": "१४१३५",
+        "image": "../npcdn.ratopati.com/election/candidates/2082/shankar-bhandari_iUK03PzqjE.jpg",
+        "winner": false
+      }
+    ]
+  },
+  {
+    "constituency": "स्याङजा - १",
+    "link": "constituency/syangja-1.html",
+    "province": "गण्डकी प्रदेश",
+    "voteDifference": "१०२१४",
+    "voteDifferencePercent": "२१.३१%",
+    "candidates": [
+      {
+        "name": "धनन्जय रेग्मी",
+        "party": "राष्ट्रिय स्वतन्त्र पार्टी",
+        "votes": "२९०७१",
+        "image": "../npcdn.ratopati.com/election/candidates/2082/dhananjay-regmi_rskdBSBbXy.jpg",
+        "winner": true
+      },
+      {
+        "name": "भरत राज ढकाल",
+        "party": "नेपाली कांग्रेस",
+        "votes": "१८८५७",
+        "image": "../npcdn.ratopati.com/election/candidates/2082/bharat-raj-dhakal_umESjScsg8.jpg",
+        "winner": false
+      }
+    ]
+  },
+  {
+    "constituency": "स्याङजा - २",
+    "link": "constituency/syangja-2.html",
+    "province": "गण्डकी प्रदेश",
+    "voteDifference": "४५२४",
+    "voteDifferencePercent": "९.८%",
+    "candidates": [
+      {
+        "name": "झवि लाल डुम्रे",
+        "party": "राष्ट्रिय स्वतन्त्र पार्टी",
+        "votes": "२५३५४",
+        "image": "../npcdn.ratopati.com/election/candidates/2082/jhabi-lal-dumre_ksHUwUCKSY.jpg",
+        "winner": true
+      },
+      {
+        "name": "भागवत प्रकाश मल्ल",
+        "party": "नेपाली कांग्रेस",
+        "votes": "२०८३०",
+        "image": "../npcdn.ratopati.com/election/candidates/2082/bhagwat-prakash-malla_tWT8tuxLlj.jpg",
+        "winner": false
+      }
+    ]
+  },
+  {
+    "constituency": "नवलपुर - १",
+    "link": "constituency/nawalparasi-east-1.html",
+    "province": "गण्डकी प्रदेश",
+    "voteDifference": "३४६५२",
+    "voteDifferencePercent": "५१.५४%",
+    "candidates": [
+      {
+        "name": "राजन गौतम",
+        "party": "राष्ट्रिय स्वतन्त्र पार्टी",
+        "votes": "५०९४५",
+        "image": "../npcdn.ratopati.com/election/candidates/2082/rajan-gautam_NgirwJzeaf.jpg",
+        "winner": true
+      },
+      {
+        "name": "बाल कृष्ण घिमिरे",
+        "party": "नेपाली कांग्रेस",
+        "votes": "१६२९३",
+        "image": "../npcdn.ratopati.com/election/candidates/2082/bal-krishna-ghimire_U8ChU821xY.jpg",
+        "winner": false
+      }
+    ]
+  },
+  {
+    "constituency": "नवलपुर - २",
+    "link": "constituency/nawalparasi-east-2.html",
+    "province": "गण्डकी प्रदेश",
+    "voteDifference": "२५५९२",
+    "voteDifferencePercent": "४४.८२%",
+    "candidates": [
+      {
+        "name": "मनिष खनाल",
+        "party": "राष्ट्रिय स्वतन्त्र पार्टी",
+        "votes": "४१३४७",
+        "image": "../npcdn.ratopati.com/election/candidates/2082/manish-khanal_LY25S9qzcn.jpg",
+        "winner": true
+      },
+      {
+        "name": "तिल बहादुर महत क्षेत्री",
+        "party": "नेकपा (एमाले)",
+        "votes": "१५७५५",
+        "image": "../npcdn.ratopati.com/election/candidates/2082/til-bahadur-mahat-kshetri_JwUVUTnwvE.jpg",
+        "winner": false
+      }
+    ]
+  },
+  {
+    "constituency": "मुस्ताङ - १",
+    "link": "constituency/mustang-1.html",
+    "province": "गण्डकी प्रदेश",
+    "voteDifference": "१५०१",
+    "voteDifferencePercent": "२९.३६%",
+    "candidates": [
+      {
+        "name": "योगेश गौचन थकाली",
+        "party": "नेपाली कांग्रेस",
+        "votes": "३३०७",
+        "image": "../npcdn.ratopati.com/election/candidates/2082/yogesh-gauchan-thakali_GREM276y3N.jpg",
+        "winner": true
+      },
+      {
+        "name": "इन्द्र धारा डादु विष्ट",
+        "party": "नेकपा (एमाले)",
+        "votes": "१८०६",
+        "image": "../npcdn.ratopati.com/election/candidates/2082/indra-dhara-dadu-bishta_Ey2e6agquM.jpg",
+        "winner": false
+      }
+    ]
+  },
+  {
+    "constituency": "म्याग्दी - १",
+    "link": "constituency/myagdi-1.html",
+    "province": "गण्डकी प्रदेश",
+    "voteDifference": "१४९३१",
+    "voteDifferencePercent": "४८.५३%",
+    "candidates": [
+      {
+        "name": "महावीर पुन",
+        "party": "स्वतन्त्र",
+        "votes": "२२८५०",
+        "image": "../npcdn.ratopati.com/election/media/upload-new/mahabir-pun_2LefimYdDI.jpg",
+        "winner": true
+      },
+      {
+        "name": "हरीकृष्ण श्रेष्ठ",
+        "party": "नेकपा (एमाले)",
+        "votes": "७९१९",
+        "image": "../npcdn.ratopati.com/election/media/upload-new/karikrishna-_TiW7SHspXX.jpg",
+        "winner": false
+      }
+    ]
+  },
+  {
+    "constituency": "बाग्लुङ - १",
+    "link": "constituency/baglung-1.html",
+    "province": "गण्डकी प्रदेश",
+    "voteDifference": "८९८३",
+    "voteDifferencePercent": "२७.३३%",
+    "candidates": [
+      {
+        "name": "सुशील खड्का",
+        "party": "राष्ट्रिय स्वतन्त्र पार्टी",
+        "votes": "२०९२७",
+        "image": "../npcdn.ratopati.com/election/candidates/2082/sushil-khadka_YIxW9q3Eqc.jpg",
+        "winner": true
+      },
+      {
+        "name": "भिम बहादुर श्रीस राना",
+        "party": "नेपाली कांग्रेस",
+        "votes": "११९४४",
+        "image": "../npcdn.ratopati.com/election/candidates/2082/bhim-bahadur-shrees-rana_Q7keNRGx5G.jpg",
+        "winner": false
+      }
+    ]
+  },
+  {
+    "constituency": "बाग्लुङ - २",
+    "link": "constituency/baglung-2.html",
+    "province": "गण्डकी प्रदेश",
+    "voteDifference": "७७९",
+    "voteDifferencePercent": "३.१८%",
+    "candidates": [
+      {
+        "name": "सोम शर्मा",
+        "party": "राष्ट्रिय स्वतन्त्र पार्टी",
+        "votes": "१२६४७",
+        "image": "../npcdn.ratopati.com/election/candidates/2082/som-sharma_f7BvZuc4Yv.jpg",
+        "winner": true
+      },
+      {
+        "name": "टेक राज पौडेल",
+        "party": "नेपाली कांग्रेस",
+        "votes": "११८६८",
+        "image": "../npcdn.ratopati.com/election/candidates/2082/tek-raj-paudel_5ZaknOAOgw.jpg",
+        "winner": false
+      }
+    ]
+  },
+  {
+    "constituency": "पर्वत - १",
+    "link": "constituency/parbat-1.html",
+    "province": "गण्डकी प्रदेश",
+    "voteDifference": "१०६०७",
+    "voteDifferencePercent": "२४.९५%",
+    "candidates": [
+      {
+        "name": "सागर भुसाल",
+        "party": "राष्ट्रिय स्वतन्त्र पार्टी",
+        "votes": "२६५६१",
+        "image": "../npcdn.ratopati.com/election/candidates/2082/sagar-bhusal_S3YcV2CaoW.jpg",
+        "winner": true
+      },
+      {
+        "name": "अर्जुन प्रसाद जोशी",
+        "party": "नेपाली कांग्रेस",
+        "votes": "१५९५४",
+        "image": "../npcdn.ratopati.com/election/candidates/2082/arjun-prasad-joshi_ONFpbVl5GD.jpg",
+        "winner": false
+      }
+    ]
+  },
+  {
+    "constituency": "गुल्मी - १",
+    "link": "constituency/gulmi-1.html",
+    "province": "लुम्बिनी प्रदेश",
+    "voteDifference": "१४४६१",
+    "voteDifferencePercent": "३२.२६%",
+    "candidates": [
+      {
+        "name": "सागर ढकाल",
+        "party": "राष्ट्रिय स्वतन्त्र पार्टी",
+        "votes": "२९६४२",
+        "image": "../npcdn.ratopati.com/election/media/upload-new/sagar-dhakal_3CHQzoxSTz.jpg",
+        "winner": true
+      },
+      {
+        "name": "प्रदीप कुमार ज्ञवाली",
+        "party": "नेकपा (एमाले)",
+        "votes": "१५१८१",
+        "image": "../npcdn.ratopati.com/election/media/upload-new/pradip-gyawali_A8c1Jfrano.jpg",
+        "winner": false
+      }
+    ]
+  },
+  {
+    "constituency": "गुल्मी - २",
+    "link": "constituency/gulmi-2.html",
+    "province": "लुम्बिनी प्रदेश",
+    "voteDifference": "५६१",
+    "voteDifferencePercent": "१.६८%",
+    "candidates": [
+      {
+        "name": "गोविन्द पन्थी",
+        "party": "राष्ट्रिय स्वतन्त्र पार्टी",
+        "votes": "१६९६७",
+        "image": "../npcdn.ratopati.com/election/candidates/2082/govinda-panthi_gjFfskMntQ.jpg",
+        "winner": true
+      },
+      {
+        "name": "गोकर्ण राज विष्‍ट",
+        "party": "नेकपा (एमाले)",
+        "votes": "१६४०६",
+        "image": "../npcdn.ratopati.com/election/media/upload-new/gokarna-bista_tcrwg7la2G.jpg",
+        "winner": false
+      }
+    ]
+  },
+  {
+    "constituency": "पाल्पा - १",
+    "link": "constituency/palpa-1.html",
+    "province": "लुम्बिनी प्रदेश",
+    "voteDifference": "१५१७",
+    "voteDifferencePercent": "४.३२%",
+    "candidates": [
+      {
+        "name": "सन्दीप राना",
+        "party": "नेपाली कांग्रेस",
+        "votes": "१८३३६",
+        "image": "../npcdn.ratopati.com/election/candidates/2082/sandeep-rana_ZdkipK5t7Q.jpg",
+        "winner": true
+      },
+      {
+        "name": "नारायण प्रसाद आचार्य",
+        "party": "नेकपा (एमाले)",
+        "votes": "१६८१९",
+        "image": "../npcdn.ratopati.com/election/candidates/2082/narayan-prasad-acharya_8Y4eFLjlo9.jpg",
+        "winner": false
+      }
+    ]
+  },
+  {
+    "constituency": "पाल्पा - २",
+    "link": "constituency/palpa-2.html",
+    "province": "लुम्बिनी प्रदेश",
+    "voteDifference": "१३७४४",
+    "voteDifferencePercent": "३४.६%",
+    "candidates": [
+      {
+        "name": "माधव बहादुर थापा",
+        "party": "राष्ट्रिय स्वतन्त्र पार्टी",
+        "votes": "२६७३६",
+        "image": "../npcdn.ratopati.com/election/candidates/2082/madhav-bahadur-thapa_yJiRwZmBZl.jpg",
+        "winner": true
+      },
+      {
+        "name": "हिमाल दत्त श्रेष्ठ",
+        "party": "नेपाली कांग्रेस",
+        "votes": "१२९९२",
+        "image": "../npcdn.ratopati.com/election/candidates/2082/himal-dutta-shrestha_ydv2ErvJs5.jpg",
+        "winner": false
+      }
+    ]
+  },
+  {
+    "constituency": "अर्घाखाँची - १",
+    "link": "constituency/arghakhanchi-1.html",
+    "province": "लुम्बिनी प्रदेश",
+    "voteDifference": "१२३७४",
+    "voteDifferencePercent": "२१.४६%",
+    "candidates": [
+      {
+        "name": "हरी प्रसाद भुसाल",
+        "party": "राष्ट्रिय स्वतन्त्र पार्टी",
+        "votes": "३५०२३",
+        "image": "../npcdn.ratopati.com/election/candidates/2082/hari-prasad-bhusal_J1SSRkALuJ.jpg",
+        "winner": true
+      },
+      {
+        "name": "पिताम्वर भुसाल",
+        "party": "नेकपा (एमाले)",
+        "votes": "२२६४९",
+        "image": "../npcdn.ratopati.com/election/candidates/2082/pitambar-bhusal_GMxkUethTx.jpg",
+        "winner": false
+      }
+    ]
+  },
+  {
+    "constituency": "रूपन्देही - १",
+    "link": "constituency/rupandehi-1.html",
+    "province": "लुम्बिनी प्रदेश",
+    "voteDifference": "४२८६३",
+    "voteDifferencePercent": "६४.१४%",
+    "candidates": [
+      {
+        "name": "सुनिल लम्साल",
+        "party": "राष्ट्रिय स्वतन्त्र पार्टी",
+        "votes": "५४८४५",
+        "image": "../npcdn.ratopati.com/election/candidates/2082/sunil-lamsal_ci4IN4n3EW.jpg",
+        "winner": true
+      },
+      {
+        "name": "हिरा बहादुर खत्री",
+        "party": "नेपाली कांग्रेस",
+        "votes": "११९८२",
+        "image": "../npcdn.ratopati.com/election/candidates/2082/hira-bahadur-khatri_r3Spoi2eRs.jpg",
+        "winner": false
+      }
+    ]
+  },
+  {
+    "constituency": "रूपन्देही - २",
+    "link": "constituency/rupandehi-2.html",
+    "province": "लुम्बिनी प्रदेश",
+    "voteDifference": "४३६८९",
+    "voteDifferencePercent": "६२.९४%",
+    "candidates": [
+      {
+        "name": "सुलभ खरेल",
+        "party": "राष्ट्रिय स्वतन्त्र पार्टी",
+        "votes": "५६५५०",
+        "image": "../npcdn.ratopati.com/election/media/upload-new/sulav-_KBnRpS0zv9.jpg",
+        "winner": true
+      },
+      {
+        "name": "विष्‍णु प्रसाद पौडेल",
+        "party": "नेकपा (एमाले)",
+        "votes": "१२८६१",
+        "image": "../npcdn.ratopati.com/election/media/upload-new/bishnu-paudel_uPMOw5j8tJ.jpg",
+        "winner": false
+      }
+    ]
+  },
+  {
+    "constituency": "रूपन्देही - ३",
+    "link": "constituency/rupandehi-3.html",
+    "province": "लुम्बिनी प्रदेश",
+    "voteDifference": "५०३७९",
+    "voteDifferencePercent": "७४.९१%",
+    "candidates": [
+      {
+        "name": "डा. लेखजंग थापा",
+        "party": "राष्ट्रिय स्वतन्त्र पार्टी",
+        "votes": "५८८१४",
+        "image": "../npcdn.ratopati.com/election/candidates/2082/dr-lekh-jung-thapa_f2rxmjOYcN.jpg",
+        "winner": true
+      },
+      {
+        "name": "सुशील गुरुङ्ग",
+        "party": "नेपाली कांग्रेस",
+        "votes": "८४३५",
+        "image": "../npcdn.ratopati.com/election/candidates/2082/sushil-gurung_KnDNpQYXFq.jpg",
+        "winner": false
+      }
+    ]
+  },
+  {
+    "constituency": "रूपन्देही - ४",
+    "link": "constituency/rupandehi-4.html",
+    "province": "लुम्बिनी प्रदेश",
+    "voteDifference": "७८०४",
+    "voteDifferencePercent": "१६.१५%",
+    "candidates": [
+      {
+        "name": "कन्हैया बनिया",
+        "party": "राष्ट्रिय स्वतन्त्र पार्टी",
+        "votes": "२८०६६",
+        "image": "../npcdn.ratopati.com/election/candidates/2082/kanhaiya-baniya_4XPkZFvDfd.jpg",
+        "winner": true
+      },
+      {
+        "name": "प्रमोद कुमार यादव",
+        "party": "नेकपा (एमाले)",
+        "votes": "२०२६२",
+        "image": "../npcdn.ratopati.com/election/candidates/2082/pramod-kumar-yadav_VYPpitVcMh.jpg",
+        "winner": false
+      }
+    ]
+  },
+  {
+    "constituency": "रूपन्देही - ५",
+    "link": "constituency/rupandehi-5.html",
+    "province": "लुम्बिनी प्रदेश",
+    "voteDifference": "२५७०६",
+    "voteDifferencePercent": "४९.५२%",
+    "candidates": [
+      {
+        "name": "तौफिक अहमद खान",
+        "party": "राष्ट्रिय स्वतन्त्र पार्टी",
+        "votes": "३८८०६",
+        "image": "../npcdn.ratopati.com/election/candidates/2082/taufiq-ahmad-khan_Vnz54sdf5L.jpg",
+        "winner": true
+      },
+      {
+        "name": "खिम लाल भट्टराई",
+        "party": "नेकपा (एमाले)",
+        "votes": "१३१००",
+        "image": "../npcdn.ratopati.com/election/candidates/2082/khim-lal-bhattarai_4lP8VA7gYV.jpg",
+        "winner": false
+      }
+    ]
+  },
+  {
+    "constituency": "कपिलबस्तु - १",
+    "link": "constituency/kapilvastu-1.html",
+    "province": "लुम्बिनी प्रदेश",
+    "voteDifference": "१८२८८",
+    "voteDifferencePercent": "३६.५७%",
+    "candidates": [
+      {
+        "name": "मोहन लाल आचार्य",
+        "party": "राष्ट्रिय स्वतन्त्र पार्टी",
+        "votes": "३४१४८",
+        "image": "../npcdn.ratopati.com/election/candidates/2082/mohan-lal-acharya_FypLHgrCX1.jpg",
+        "winner": true
+      },
+      {
+        "name": "आशिष शर्मा",
+        "party": "स्वतन्त्र",
+        "votes": "१५८६०",
+        "image": "../npcdn.ratopati.com/election/candidates/2082/ashish-sharma_66uYLgK3v1.jpg",
+        "winner": false
+      }
+    ]
+  },
+  {
+    "constituency": "कपिलबस्तु - २",
+    "link": "constituency/kapilvastu-2.html",
+    "province": "लुम्बिनी प्रदेश",
+    "voteDifference": "६१०८",
+    "voteDifferencePercent": "१२.४२%",
+    "candidates": [
+      {
+        "name": "विक्रम थापा",
+        "party": "राष्ट्रिय स्वतन्त्र पार्टी",
+        "votes": "२७६३५",
+        "image": "../npcdn.ratopati.com/election/candidates/2082/bikram-thapa_cQ1CMhlIIc.jpg",
+        "winner": true
+      },
+      {
+        "name": "सुरेन्द्र राज आचार्य",
+        "party": "नेपाली कांग्रेस",
+        "votes": "२१५२७",
+        "image": "../npcdn.ratopati.com/election/candidates/2082/surendra-raj-acharya_BDg31sx2GS.jpg",
+        "winner": false
+      }
+    ]
+  },
+  {
+    "constituency": "कपिलबस्तु - ३",
+    "link": "constituency/kapilvastu-3.html",
+    "province": "लुम्बिनी प्रदेश",
+    "voteDifference": "४६४५",
+    "voteDifferencePercent": "१०.९५%",
+    "candidates": [
+      {
+        "name": "अभिषेक प्रताप शाह",
+        "party": "नेपाली कांग्रेस",
+        "votes": "२३५३५",
+        "image": "../npcdn.ratopati.com/election/candidates/2082/abhishek-pratap-shah_ab3zJlfFhv.jpg",
+        "winner": true
+      },
+      {
+        "name": "प्रकाश रजौरिया",
+        "party": "राष्ट्रिय स्वतन्त्र पार्टी",
+        "votes": "१८८९०",
+        "image": "../npcdn.ratopati.com/election/candidates/2082/prakash-rajauria_HXx8HpbB6S.jpg",
+        "winner": false
+      }
+    ]
+  },
+  {
+    "constituency": "रूकुम पूर्व - १",
+    "link": "constituency/rukum-east-1.html",
+    "province": "लुम्बिनी प्रदेश",
+    "voteDifference": "६७७८",
+    "voteDifferencePercent": "४९.४७%",
+    "candidates": [
+      {
+        "name": "पुष्प कमल दाहाल प्रचण्ड",
+        "party": "नेपाली कम्युनिष्ट पार्टी",
+        "votes": "१०२४०",
+        "image": "../npcdn.ratopati.com/election/media/upload-new/prachanda_DRM4otbdek.jpg",
+        "winner": true
+      },
+      {
+        "name": "लिलामणी गौतम",
+        "party": "नेकपा (एमाले)",
+        "votes": "३४६२",
+        "image": "../npcdn.ratopati.com/election/candidates/2082/lilamani-gautam_siDZbZNPDm.jpg",
+        "winner": false
+      }
+    ]
+  },
+  {
+    "constituency": "रोल्पा - १",
+    "link": "constituency/rolpa-1.html",
+    "province": "लुम्बिनी प्रदेश",
+    "voteDifference": "१५४५२",
+    "voteDifferencePercent": "३९.१५%",
+    "candidates": [
+      {
+        "name": "वर्षमान पुन",
+        "party": "नेपाली कम्युनिष्ट पार्टी",
+        "votes": "२७४६०",
+        "image": "../npcdn.ratopati.com/election/media/upload-new/barshaman-pun_SSbsNE0lKs.jpg",
+        "winner": true
+      },
+      {
+        "name": "सुदन कुमार वली",
+        "party": "नेपाली कांग्रेस",
+        "votes": "१२००८",
+        "image": "../npcdn.ratopati.com/election/candidates/2082/suden-kumar-oli_pkztzZZsoa.jpg",
+        "winner": false
+      }
+    ]
+  },
+  {
+    "constituency": "प्यूठान - १",
+    "link": "constituency/pyuthan-1.html",
+    "province": "लुम्बिनी प्रदेश",
+    "voteDifference": "९१३१",
+    "voteDifferencePercent": "१९.९३%",
+    "candidates": [
+      {
+        "name": "सुशान्त वैदिक",
+        "party": "राष्ट्रिय स्वतन्त्र पार्टी",
+        "votes": "२७४६९",
+        "image": "../npcdn.ratopati.com/election/candidates/2082/sushant-vedic_lCDAtjqUAj.jpg",
+        "winner": true
+      },
+      {
+        "name": "डा .गोविन्द राज पोखरेल",
+        "party": "नेपाली कांग्रेस",
+        "votes": "१८३३८",
+        "image": "../npcdn.ratopati.com/election/candidates/2082/dr-govinda-raj-pokharel_OS4RtQLyex.jpg",
+        "winner": false
+      }
+    ]
+  },
+  {
+    "constituency": "दाङ - १",
+    "link": "constituency/dang-1.html",
+    "province": "लुम्बिनी प्रदेश",
+    "voteDifference": "२७३२२",
+    "voteDifferencePercent": "४७.२%",
+    "candidates": [
+      {
+        "name": "देवराज पाठक",
+        "party": "राष्ट्रिय स्वतन्त्र पार्टी",
+        "votes": "४२६०२",
+        "image": "../npcdn.ratopati.com/election/candidates/2082/devraj-pathak_8yprE7pYLQ.jpg",
+        "winner": true
+      },
+      {
+        "name": "योगेन्द्र चौधरी",
+        "party": "नेपाली कांग्रेस",
+        "votes": "१५२८०",
+        "image": "../npcdn.ratopati.com/election/candidates/2082/yogendra-chaudhary_H7OBtncJO2.jpg",
+        "winner": false
+      }
+    ]
+  },
+  {
+    "constituency": "दाङ - २",
+    "link": "constituency/dang-2.html",
+    "province": "लुम्बिनी प्रदेश",
+    "voteDifference": "२८२७२",
+    "voteDifferencePercent": "४८.०४%",
+    "candidates": [
+      {
+        "name": "विपिन कुमार आचार्य",
+        "party": "राष्ट्रिय स्वतन्त्र पार्टी",
+        "votes": "४३५५९",
+        "image": "../npcdn.ratopati.com/election/media/upload-new/bipin-kumar-acharya_37tYkRpkQD.jpg",
+        "winner": true
+      },
+      {
+        "name": "शंकर पोख्रेल",
+        "party": "नेकपा (एमाले)",
+        "votes": "१५२८७",
+        "image": "../npcdn.ratopati.com/election/media/upload-new/shankar-pokhrel_fB3uEYBluf.jpg",
+        "winner": false
+      }
+    ]
+  },
+  {
+    "constituency": "दाङ - ३",
+    "link": "constituency/dang-3.html",
+    "province": "लुम्बिनी प्रदेश",
+    "voteDifference": "२७७९५",
+    "voteDifferencePercent": "४५.७९%",
+    "candidates": [
+      {
+        "name": "कमल सुबेदी",
+        "party": "राष्ट्रिय स्वतन्त्र पार्टी",
+        "votes": "४४२४८",
+        "image": "../npcdn.ratopati.com/election/candidates/2082/kamal-subedi_pPOiMibsyC.jpg",
+        "winner": true
+      },
+      {
+        "name": "दिपक गिरी",
+        "party": "नेपाली कांग्रेस",
+        "votes": "१६४५३",
+        "image": "../npcdn.ratopati.com/election/candidates/2082/deepak-giri_gLC0sPTb5q.jpg",
+        "winner": false
+      }
+    ]
+  },
+  {
+    "constituency": "बाँके - १",
+    "link": "constituency/banke-1.html",
+    "province": "लुम्बिनी प्रदेश",
+    "voteDifference": "१७४९१",
+    "voteDifferencePercent": "३६.३७%",
+    "candidates": [
+      {
+        "name": "सुरेश कुमार चौधरी",
+        "party": "राष्ट्रिय स्वतन्त्र पार्टी",
+        "votes": "३२७९२",
+        "image": "../npcdn.ratopati.com/election/candidates/2082/suresh-kumar-chaudhary_68ZoXcNXBq.jpg",
+        "winner": true
+      },
+      {
+        "name": "नारायण प्रसाद गौडेल",
+        "party": "नेपाली कांग्रेस",
+        "votes": "१५३०१",
+        "image": "../npcdn.ratopati.com/election/candidates/2082/narayan-prasad-gaudel_ysNGHsam04.jpg",
+        "winner": false
+      }
+    ]
+  },
+  {
+    "constituency": "बाँके - २",
+    "link": "constituency/banke-2.html",
+    "province": "लुम्बिनी प्रदेश",
+    "voteDifference": "५९४६",
+    "voteDifferencePercent": "१३.७३%",
+    "candidates": [
+      {
+        "name": "मोहम्मद इश्तियाक राई",
+        "party": "नेकपा (एमाले)",
+        "votes": "२४६२८",
+        "image": "../npcdn.ratopati.com/election/candidates/2082/mohammad-ishtiyak-rai_IhLuDfsTDc.jpg",
+        "winner": true
+      },
+      {
+        "name": "विवेक कुमार श्रेष्ठ",
+        "party": "राष्ट्रिय स्वतन्त्र पार्टी",
+        "votes": "१८६८२",
+        "image": "../npcdn.ratopati.com/election/candidates/2082/bivek-kumar-shrestha_OCCctV3Hkh.jpg",
+        "winner": false
+      }
+    ]
+  },
+  {
+    "constituency": "बाँके - ३",
+    "link": "constituency/banke-3.html",
+    "province": "लुम्बिनी प्रदेश",
+    "voteDifference": "९९३६",
+    "voteDifferencePercent": "२०.२१%",
+    "candidates": [
+      {
+        "name": "खगेन्द्र सुनार",
+        "party": "राष्ट्रिय स्वतन्त्र पार्टी",
+        "votes": "२९५५१",
+        "image": "../npcdn.ratopati.com/election/candidates/2082/khagendra-sunar_o6HWDyg28c.jpg",
+        "winner": true
+      },
+      {
+        "name": "सुमन मल्ल",
+        "party": "नेकपा (एमाले)",
+        "votes": "१९६१५",
+        "image": "../npcdn.ratopati.com/election/candidates/2082/suman-malla_nhd8KQyFVj.jpg",
+        "winner": false
+      }
+    ]
+  },
+  {
+    "constituency": "बर्दिया - १",
+    "link": "constituency/bardiya-1.html",
+    "province": "लुम्बिनी प्रदेश",
+    "voteDifference": "३४९८८",
+    "voteDifferencePercent": "५४.४४%",
+    "candidates": [
+      {
+        "name": "ठाकुर सिंह थारु",
+        "party": "राष्ट्रिय स्वतन्त्र पार्टी",
+        "votes": "४९६३१",
+        "image": "../npcdn.ratopati.com/election/candidates/2082/thakur-singh-tharu_ptmUtXtikK.jpg",
+        "winner": true
+      },
+      {
+        "name": "सालीक राम अधिकारी",
+        "party": "नेकपा (एमाले)",
+        "votes": "१४६४३",
+        "image": "../npcdn.ratopati.com/election/candidates/2082/salik-ram-adhikari_KQE8zkqS8G.jpg",
+        "winner": false
+      }
+    ]
+  },
+  {
+    "constituency": "बर्दिया - २",
+    "link": "constituency/bardiya-2.html",
+    "province": "लुम्बिनी प्रदेश",
+    "voteDifference": "९२७६",
+    "voteDifferencePercent": "१८.५२%",
+    "candidates": [
+      {
+        "name": "श्रीधर पोख्रेल",
+        "party": "राष्ट्रिय स्वतन्त्र पार्टी",
+        "votes": "२९६७८",
+        "image": "../npcdn.ratopati.com/election/candidates/2082/shridhar-pokhrel_eEfm0hpyXk.jpg",
+        "winner": true
+      },
+      {
+        "name": "किशोर सिह राठोर",
+        "party": "नेपाली कांग्रेस",
+        "votes": "२०४०२",
+        "image": "../npcdn.ratopati.com/election/candidates/2082/kishor-singh-rathor_nh0AVjj9B0.jpg",
+        "winner": false
+      }
+    ]
+  },
+  {
+    "constituency": "नवलपरासी - १",
+    "link": "constituency/nawalparasi-west-1.html",
+    "province": "लुम्बिनी प्रदेश",
+    "voteDifference": "३५७३९",
+    "voteDifferencePercent": "६५.२९%",
+    "candidates": [
+      {
+        "name": "विक्रम खनाल",
+        "party": "राष्ट्रिय स्वतन्त्र पार्टी",
+        "votes": "४५२४१",
+        "image": "../npcdn.ratopati.com/election/candidates/2082/bikram-khanal_BMn7rAFS9t.jpg",
+        "winner": true
+      },
+      {
+        "name": "विनोद कुमार चौधरी",
+        "party": "नेपाली कांग्रेस",
+        "votes": "९५०२",
+        "image": "../npcdn.ratopati.com/election/media/upload-new/binod-chaudhari-_R8EadF677Z.jpg",
+        "winner": false
+      }
+    ]
+  },
+  {
+    "constituency": "नवलपरासी - २",
+    "link": "constituency/nawalparasi-west-2.html",
+    "province": "लुम्बिनी प्रदेश",
+    "voteDifference": "२८१९३",
+    "voteDifferencePercent": "४६.९२%",
+    "candidates": [
+      {
+        "name": "नरेन्द्र कुमार गुप्‍ता",
+        "party": "राष्ट्रिय स्वतन्त्र पार्टी",
+        "votes": "४४१३८",
+        "image": "../npcdn.ratopati.com/election/candidates/2082/narendra-kumar-gupta_0JwUwdBmkR.jpg",
+        "winner": true
+      },
+      {
+        "name": "भीम बहादुर थापा क्षेत्री",
+        "party": "नेपाली कांग्रेस",
+        "votes": "१५९४५",
+        "image": "../npcdn.ratopati.com/election/candidates/2082/bhim-bahadur-thapa-chhetri_1d662M1vkM.jpg",
+        "winner": false
+      }
+    ]
+  },
+  {
+    "constituency": "सल्यान - १",
+    "link": "constituency/salyan-1.html",
+    "province": "कर्णाली प्रदेश",
+    "voteDifference": "२२८५",
+    "voteDifferencePercent": "५.१८%",
+    "candidates": [
+      {
+        "name": "रमेश कुमार मल्ल",
+        "party": "नेपाली कम्युनिष्ट पार्टी",
+        "votes": "२३१८९",
+        "image": "../npcdn.ratopati.com/election/candidates/2082/ramesh-kumar-mallah_0mIAIy4aBn.jpg",
+        "winner": true
+      },
+      {
+        "name": "ललित कुमार चन्द",
+        "party": "राष्ट्रिय स्वतन्त्र पार्टी",
+        "votes": "२०९०४",
+        "image": "../npcdn.ratopati.com/election/candidates/2082/lalit-kumar-chand_SOYTXSm9XK.jpg",
+        "winner": false
+      }
+    ]
+  },
+  {
+    "constituency": "डोल्पा - १",
+    "link": "constituency/dolpa-1.html",
+    "province": "कर्णाली प्रदेश",
+    "voteDifference": "१४०६",
+    "voteDifferencePercent": "११.५३%",
+    "candidates": [
+      {
+        "name": "धन बहादुर बुढा",
+        "party": "नेपाली कम्युनिष्ट पार्टी",
+        "votes": "६८०२",
+        "image": "../npcdn.ratopati.com/election/candidates/2082/dhan-bahadur-budha_gJ2IpfnnP3.jpg",
+        "winner": true
+      },
+      {
+        "name": "लंक बहादुर रोकाया",
+        "party": "नेकपा (एमाले)",
+        "votes": "५३९६",
+        "image": "../npcdn.ratopati.com/election/candidates/2082/lanka-bahadur-rokaya_jaUM0ZJx2l.jpg",
+        "winner": false
+      }
+    ]
+  },
+  {
+    "constituency": "मुगु - १",
+    "link": "constituency/mugu-1.html",
+    "province": "कर्णाली प्रदेश",
+    "voteDifference": "११९६",
+    "voteDifferencePercent": "८.१७%",
+    "candidates": [
+      {
+        "name": "खड्ग शाही",
+        "party": "नेपाली कांग्रेस",
+        "votes": "७९१४",
+        "image": "../npcdn.ratopati.com/election/candidates/2082/khadga-shahi_iqkCkpoxfH.jpg",
+        "winner": true
+      },
+      {
+        "name": "पूर्ण बहादुर रोकाया",
+        "party": "नेकपा (एमाले)",
+        "votes": "६७१८",
+        "image": "../npcdn.ratopati.com/election/candidates/2082/purna-bahadur-rokaya_OjcbdWCR8v.jpg",
+        "winner": false
+      }
+    ]
+  },
+  {
+    "constituency": "जुम्ला - १",
+    "link": "constituency/jumla-1.html",
+    "province": "कर्णाली प्रदेश",
+    "voteDifference": "३१८१",
+    "voteDifferencePercent": "१२.०३%",
+    "candidates": [
+      {
+        "name": "ज्ञान बहादुर शाही",
+        "party": "राष्ट्रिय प्रजातन्त्र पार्टी",
+        "votes": "१४८१६",
+        "image": "../npcdn.ratopati.com/election/media/upload-new/gyanbahadur-shahi-_fjOE3ND5mm.jpg",
+        "winner": true
+      },
+      {
+        "name": "नरेश भण्‍डारी",
+        "party": "नेपाली कम्युनिष्ट पार्टी",
+        "votes": "११६३५",
+        "image": "../npcdn.ratopati.com/election/candidates/2082/naresh-bhandari_f9qaQxwFh0.jpg",
+        "winner": false
+      }
+    ]
+  },
+  {
+    "constituency": "कालिकोट - १",
+    "link": "constituency/kalikot-1.html",
+    "province": "कर्णाली प्रदेश",
+    "voteDifference": "१०८७",
+    "voteDifferencePercent": "४.८६%",
+    "candidates": [
+      {
+        "name": "महेन्द्र बहादुर शाही",
+        "party": "नेपाली कम्युनिष्ट पार्टी",
+        "votes": "११७३४",
+        "image": "../npcdn.ratopati.com/election/candidates/2082/mahendra-bahadur-shahi_5k6MhymjNJ.jpg",
+        "winner": true
+      },
+      {
+        "name": "श्री नगीन्द्र शाही",
+        "party": "नेकपा (एमाले)",
+        "votes": "१०६४७",
+        "image": "../npcdn.ratopati.com/election/candidates/2082/mr-nagendra-shahi_QI2BecCgRc.jpg",
+        "winner": false
+      }
+    ]
+  },
+  {
+    "constituency": "हुम्ला - १",
+    "link": "constituency/humla-1.html",
+    "province": "कर्णाली प्रदेश",
+    "voteDifference": "१५५४",
+    "voteDifferencePercent": "९.६९%",
+    "candidates": [
+      {
+        "name": "जय पती रोकाया",
+        "party": "नेपाली कांग्रेस",
+        "votes": "८७९७",
+        "image": "../npcdn.ratopati.com/election/candidates/2082/jay-pati-rokaya_jtL1VnCYys.jpg",
+        "winner": true
+      },
+      {
+        "name": "दीपेन्द्र रोकाया",
+        "party": "नेपाली कम्युनिष्ट पार्टी",
+        "votes": "७२४३",
+        "image": "../npcdn.ratopati.com/election/candidates/2082/dipendra-rokaya_5owkBWjTFl.jpg",
+        "winner": false
+      }
+    ]
+  },
+  {
+    "constituency": "जाजरकोट - १",
+    "link": "constituency/jajarkot-1.html",
+    "province": "कर्णाली प्रदेश",
+    "voteDifference": "२७३५",
+    "voteDifferencePercent": "७.२८%",
+    "candidates": [
+      {
+        "name": "खडक वहादुर वुढा",
+        "party": "नेपाली कांग्रेस",
+        "votes": "२०१४२",
+        "image": "../npcdn.ratopati.com/election/candidates/2082/khadak-bahadur-budha_YKHEPRHWYl.jpg",
+        "winner": true
+      },
+      {
+        "name": "शक्ति बहादुर वस्नेत",
+        "party": "नेपाली कम्युनिष्ट पार्टी",
+        "votes": "१७४०७",
+        "image": "../npcdn.ratopati.com/election/candidates/2082/shakti-bahadur-basnet_mk0kQUfDj2.jpg",
+        "winner": false
+      }
+    ]
+  },
+  {
+    "constituency": "दैलेख - १",
+    "link": "constituency/dailekh-1.html",
+    "province": "कर्णाली प्रदेश",
+    "voteDifference": "५७६",
+    "voteDifferencePercent": "२.३८%",
+    "candidates": [
+      {
+        "name": "बासना थापा",
+        "party": "नेपाली कांग्रेस",
+        "votes": "१२३७२",
+        "image": "../npcdn.ratopati.com/election/candidates/2082/basana-thapa_1Q2nTqIfOi.jpg",
+        "winner": true
+      },
+      {
+        "name": "रविन्द्र राज शर्मा",
+        "party": "नेकपा (एमाले)",
+        "votes": "११७९६",
+        "image": "../npcdn.ratopati.com/election/candidates/2082/rabindra-raj-sharma_BpvZiFiuLs.jpg",
+        "winner": false
+      }
+    ]
+  },
+  {
+    "constituency": "दैलेख - २",
+    "link": "constituency/dailekh-2.html",
+    "province": "कर्णाली प्रदेश",
+    "voteDifference": "४३३७",
+    "voteDifferencePercent": "१८.५%",
+    "candidates": [
+      {
+        "name": "लक्ष्मी प्रसाद पोखरेल",
+        "party": "नेकपा (एमाले)",
+        "votes": "१३८८९",
+        "image": "../npcdn.ratopati.com/election/candidates/2082/laxmi-prasad-pokharel_ebekV7jcpZ.jpg",
+        "winner": true
+      },
+      {
+        "name": "दिक्पाल कुमार शाहि",
+        "party": "नेपाली कांग्रेस",
+        "votes": "९५५२",
+        "image": "../npcdn.ratopati.com/election/candidates/2082/dikpal-kumar-shahi_GAgJzWR8aY.jpg",
+        "winner": false
+      }
+    ]
+  },
+  {
+    "constituency": "सुर्खेत - १",
+    "link": "constituency/surkhet-1.html",
+    "province": "कर्णाली प्रदेश",
+    "voteDifference": "८००७",
+    "voteDifferencePercent": "१७.४९%",
+    "candidates": [
+      {
+        "name": "विष्णु बहादुर खड्का",
+        "party": "नेपाली कांग्रेस",
+        "votes": "२६८९७",
+        "image": "../npcdn.ratopati.com/election/candidates/2082/bishnu-bahadur-khadka_kKtt6A9oIc.jpg",
+        "winner": true
+      },
+      {
+        "name": "ध्रुवकुमार शाही",
+        "party": "नेकपा (एमाले)",
+        "votes": "१८८९०",
+        "image": "../npcdn.ratopati.com/election/candidates/2082/dhruvkumar-shahi_aYxwCFpv0S.jpg",
+        "winner": false
+      }
+    ]
+  },
+  {
+    "constituency": "सुर्खेत - २",
+    "link": "constituency/surkhet-2.html",
+    "province": "कर्णाली प्रदेश",
+    "voteDifference": "१४४३४",
+    "voteDifferencePercent": "३०.५७%",
+    "candidates": [
+      {
+        "name": "रमेश कुमार सापकोटा",
+        "party": "राष्ट्रिय स्वतन्त्र पार्टी",
+        "votes": "३०८२६",
+        "image": "../npcdn.ratopati.com/election/candidates/2082/ramesh-kumar-sapkota_WeTkgUTZYi.jpg",
+        "winner": true
+      },
+      {
+        "name": "नारायण कुमार कोइराला",
+        "party": "नेपाली कांग्रेस",
+        "votes": "१६३९२",
+        "image": "../npcdn.ratopati.com/election/candidates/2082/narayan-kumar-koirala_hKGlRRxC7k.jpg",
+        "winner": false
+      }
+    ]
+  },
+  {
+    "constituency": "रूकुम पश्चिम - १",
+    "link": "constituency/rukum-west-1.html",
+    "province": "कर्णाली प्रदेश",
+    "voteDifference": "४९४८",
+    "voteDifferencePercent": "१२.९३%",
+    "candidates": [
+      {
+        "name": "गोपाल शर्मा",
+        "party": "नेपाली कम्युनिष्ट पार्टी",
+        "votes": "२१६०९",
+        "image": "../npcdn.ratopati.com/election/media/upload-new/gopal-sharma_tWJIhSNtgY.jpg",
+        "winner": true
+      },
+      {
+        "name": "राजु के.सी.",
+        "party": "नेपाली कांग्रेस",
+        "votes": "१६६६१",
+        "image": "../npcdn.ratopati.com/election/media/upload-new/raju-kc_ZedTuXMb5T.jpg",
+        "winner": false
+      }
+    ]
+  },
+  {
+    "constituency": "बाजुरा - १",
+    "link": "constituency/bajura-1.html",
+    "province": "सुदूरपश्चिम प्रदेश",
+    "voteDifference": "५४०",
+    "voteDifferencePercent": "१.६%",
+    "candidates": [
+      {
+        "name": "जनक राज गिरी",
+        "party": "नेपाली कांग्रेस",
+        "votes": "१७१७३",
+        "image": "../npcdn.ratopati.com/election/candidates/2082/janak-raj-giri_YtPFeJVYLa.jpg",
+        "winner": true
+      },
+      {
+        "name": "लाल बहादुर थापा",
+        "party": "नेकपा (एमाले)",
+        "votes": "१६६३३",
+        "image": "../npcdn.ratopati.com/election/candidates/2082/lal-bahadur-thapa_IRmag32wGl.jpg",
+        "winner": false
+      }
+    ]
+  },
+  {
+    "constituency": "अछाम - १",
+    "link": "constituency/achham-1.html",
+    "province": "सुदूरपश्चिम प्रदेश",
+    "voteDifference": "५२६",
+    "voteDifferencePercent": "२.५१%",
+    "candidates": [
+      {
+        "name": "भरत कुमार स्वार",
+        "party": "नेपाली कांग्रेस",
+        "votes": "१०७५९",
+        "image": "../npcdn.ratopati.com/election/candidates/2082/bharat-kumar-swar_AtsIuKB5l3.jpg",
+        "winner": true
+      },
+      {
+        "name": "भीम बहादुर रावल",
+        "party": "नेपाली कम्युनिष्ट पार्टी",
+        "votes": "१०२३३",
+        "image": "../npcdn.ratopati.com/election/media/upload-new/bhim-rawal_VhCOEM4cz5.jpg",
+        "winner": false
+      }
+    ]
+  },
+  {
+    "constituency": "अछाम - २",
+    "link": "constituency/achham-2.html",
+    "province": "सुदूरपश्चिम प्रदेश",
+    "voteDifference": "४७२",
+    "voteDifferencePercent": "२.५४%",
+    "candidates": [
+      {
+        "name": "यज्ञ बहादुर बोगटी",
+        "party": "नेकपा (एमाले)",
+        "votes": "९५१८",
+        "image": "../npcdn.ratopati.com/election/candidates/2082/yagya-bahadur-bogati_h7mOWPSsr7.jpg",
+        "winner": true
+      },
+      {
+        "name": "पुष्प बहादुर शाह",
+        "party": "नेपाली कांग्रेस",
+        "votes": "९०४६",
+        "image": "../npcdn.ratopati.com/election/candidates/2082/pushpa-bahadur-shah_jeU2WgGeAs.jpg",
+        "winner": false
+      }
+    ]
+  },
+  {
+    "constituency": "बझाङ - १",
+    "link": "constituency/bajhang-1.html",
+    "province": "सुदूरपश्चिम प्रदेश",
+    "voteDifference": "२२३९",
+    "voteDifferencePercent": "६.४३%",
+    "candidates": [
+      {
+        "name": "ऐन बहादुर महर",
+        "party": "नेकपा (एमाले)",
+        "votes": "१८५४३",
+        "image": "../npcdn.ratopati.com/election/candidates/2082/ain-bahadur-mahar_waZsmG75eZ.jpg",
+        "winner": true
+      },
+      {
+        "name": "प्रकाश रसाइली स्नेही",
+        "party": "नेपाली कांग्रेस",
+        "votes": "१६३०४",
+        "image": "../npcdn.ratopati.com/election/candidates/2082/prakash-rasaili-snehi_gAgcVsoe2X.jpg",
+        "winner": false
+      }
+    ]
+  },
+  {
+    "constituency": "डोटी - १",
+    "link": "constituency/doti-1.html",
+    "province": "सुदूरपश्चिम प्रदेश",
+    "voteDifference": "७८७",
+    "voteDifferencePercent": "२.७१%",
+    "candidates": [
+      {
+        "name": "भरत बहादुर खड्का",
+        "party": "नेपाली कांग्रेस",
+        "votes": "१४८९७",
+        "image": "../npcdn.ratopati.com/election/candidates/2082/bharat-bahadur-khadka_XGiP0EeTmP.jpg",
+        "winner": true
+      },
+      {
+        "name": "दीपक बहादुर धामी",
+        "party": "नेकपा (एमाले)",
+        "votes": "१४११०",
+        "image": "../npcdn.ratopati.com/election/candidates/2082/deepak-bahadur-dhami_b2dX69o7Mm.jpg",
+        "winner": false
+      }
+    ]
+  },
+  {
+    "constituency": "कैलाली - १",
+    "link": "constituency/kailali-1.html",
+    "province": "सुदूरपश्चिम प्रदेश",
+    "voteDifference": "४९५९",
+    "voteDifferencePercent": "१६.१६%",
+    "candidates": [
+      {
+        "name": "कोमल ज्ञवाली",
+        "party": "राष्ट्रिय स्वतन्त्र पार्टी",
+        "votes": "१७८२६",
+        "image": "../npcdn.ratopati.com/election/candidates/2082/komala-gyawali_E3dnhBDNU7.jpg",
+        "winner": true
+      },
+      {
+        "name": "जनकराज चौधरी",
+        "party": "नेपाली कांग्रेस",
+        "votes": "१२८६७",
+        "image": "../npcdn.ratopati.com/election/candidates/2082/janakraj-chaudhary_950J3OkHJC.jpg",
+        "winner": false
+      }
+    ]
+  },
+  {
+    "constituency": "कैलाली - २",
+    "link": "constituency/kailali-2.html",
+    "province": "सुदूरपश्चिम प्रदेश",
+    "voteDifference": "७१०८",
+    "voteDifferencePercent": "२२.९२%",
+    "candidates": [
+      {
+        "name": "केपी खनाल",
+        "party": "राष्ट्रिय स्वतन्त्र पार्टी",
+        "votes": "१९०५७",
+        "image": "../npcdn.ratopati.com/election/media/upload-new/kp-khanal-_fIGWJOTYoZ.jpg",
+        "winner": true
+      },
+      {
+        "name": "पति राम चौधरी",
+        "party": "नागरिक उन्मुक्ति पार्टी, नेपाल(एकल चुनाव चिन्ह)",
+        "votes": "११९४९",
+        "image": "../npcdn.ratopati.com/election/candidates/2082/husband-ram-chaudhary_UHw66XVIyy.jpg",
+        "winner": false
+      }
+    ]
+  },
+  {
+    "constituency": "कैलाली - ३",
+    "link": "constituency/kailali-3.html",
+    "province": "सुदूरपश्चिम प्रदेश",
+    "voteDifference": "८३७६",
+    "voteDifferencePercent": "२५.९%",
+    "candidates": [
+      {
+        "name": "जगत प्रसाद जोशी",
+        "party": "राष्ट्रिय स्वतन्त्र पार्टी",
+        "votes": "२०३५९",
+        "image": "../npcdn.ratopati.com/election/candidates/2082/jagat-prasad-joshi_VoUoJ8YH7P.jpg",
+        "winner": true
+      },
+      {
+        "name": "विरमान चौधरी",
+        "party": "नेपाली कम्युनिष्ट पार्टी",
+        "votes": "११९८३",
+        "image": "../npcdn.ratopati.com/election/candidates/2082/birman-chaudhary_peoTJzdspn.jpg",
+        "winner": false
+      }
+    ]
+  },
+  {
+    "constituency": "कैलाली - ४",
+    "link": "constituency/kailali-4.html",
+    "province": "सुदूरपश्चिम प्रदेश",
+    "voteDifference": "१७२५५",
+    "voteDifferencePercent": "४३.२९%",
+    "candidates": [
+      {
+        "name": "खेम राज कोईराला",
+        "party": "राष्ट्रिय स्वतन्त्र पार्टी",
+        "votes": "२८५५६",
+        "image": "../npcdn.ratopati.com/election/candidates/2082/khem-raj-koirala_O0JkeDNaBK.jpg",
+        "winner": true
+      },
+      {
+        "name": "गोरख बहादुर विष्ट",
+        "party": "नेपाली कांग्रेस",
+        "votes": "११३०१",
+        "image": "../npcdn.ratopati.com/election/candidates/2082/gorakh-bahadur-bista_ic6geHcVgL.jpg",
+        "winner": false
+      }
+    ]
+  },
+  {
+    "constituency": "कैलाली - ५",
+    "link": "constituency/kailali-5.html",
+    "province": "सुदूरपश्चिम प्रदेश",
+    "voteDifference": "१९९९५",
+    "voteDifferencePercent": "४५.५४%",
+    "candidates": [
+      {
+        "name": "आनन्‍द बहादुर चन्‍द",
+        "party": "राष्ट्रिय स्वतन्त्र पार्टी",
+        "votes": "३१९५३",
+        "image": "../npcdn.ratopati.com/election/candidates/2082/ananda-bahadur-chand_GF78flWXSD.jpg",
+        "winner": true
+      },
+      {
+        "name": "नर नारायण शाह",
+        "party": "नेपाली कांग्रेस",
+        "votes": "११९५८",
+        "image": "../npcdn.ratopati.com/election/candidates/2082/nar-narayan-shah_eWoEDQZfOr.jpg",
+        "winner": false
+      }
+    ]
+  },
+  {
+    "constituency": "दार्चुला - १",
+    "link": "constituency/darchula-1.html",
+    "province": "सुदूरपश्चिम प्रदेश",
+    "voteDifference": "३०५५",
+    "voteDifferencePercent": "८.८%",
+    "candidates": [
+      {
+        "name": "गणेश सिंह ठगुन्ना",
+        "party": "नेकपा (एमाले)",
+        "votes": "१८८९१",
+        "image": "../npcdn.ratopati.com/election/candidates/2082/ganesh-singh-thagunna_iLollZGMwM.jpg",
+        "winner": true
+      },
+      {
+        "name": "धर्मानन्द जोशी",
+        "party": "नेपाली कांग्रेस",
+        "votes": "१५८३६",
+        "image": "../npcdn.ratopati.com/election/candidates/2082/dharmananda-joshi_M8kzPRxVrA.jpg",
+        "winner": false
+      }
+    ]
+  },
+  {
+    "constituency": "बैतडी - १",
+    "link": "constituency/baitadi-1.html",
+    "province": "सुदूरपश्चिम प्रदेश",
+    "voteDifference": "३९४०",
+    "voteDifferencePercent": "९.७७%",
+    "candidates": [
+      {
+        "name": "हरि मोहन भण्डारी",
+        "party": "राष्ट्रिय स्वतन्त्र पार्टी",
+        "votes": "२२१३४",
+        "image": "../npcdn.ratopati.com/election/candidates/2082/hari-mohan-bhandari_8xQ0MU7pdr.jpg",
+        "winner": true
+      },
+      {
+        "name": "चतुर बहादुर चन्द",
+        "party": "नेपाली कांग्रेस",
+        "votes": "१८१९४",
+        "image": "../npcdn.ratopati.com/election/candidates/2082/chatur-bahadur-chand_9qLw0t9E2X.jpg",
+        "winner": false
+      }
+    ]
+  },
+  {
+    "constituency": "डडेलधुरा - १",
+    "link": "constituency/dadeldhura-1.html",
+    "province": "सुदूरपश्चिम प्रदेश",
+    "voteDifference": "७०१०",
+    "voteDifferencePercent": "२२.४३%",
+    "candidates": [
+      {
+        "name": "तारा प्रसाद जोशी",
+        "party": "राष्ट्रिय स्वतन्त्र पार्टी",
+        "votes": "१९१३१",
+        "image": "../npcdn.ratopati.com/election/candidates/2082/tara-prasad-joshi_kdrHQxN5iS.jpg",
+        "winner": true
+      },
+      {
+        "name": "नैन सिंह महर",
+        "party": "नेपाली कांग्रेस",
+        "votes": "१२१२१",
+        "image": "../npcdn.ratopati.com/election/media/upload-new/nainsingh-mahar_1U5aHtGzDH.jpg",
+        "winner": false
+      }
+    ]
+  },
+  {
+    "constituency": "कञ्चनपुर - १",
+    "link": "constituency/kanchanpur-1.html",
+    "province": "सुदूरपश्चिम प्रदेश",
+    "voteDifference": "१३२२२",
+    "voteDifferencePercent": "३७.३१%",
+    "candidates": [
+      {
+        "name": "जनक सिंह धामी",
+        "party": "राष्ट्रिय स्वतन्त्र पार्टी",
+        "votes": "२४३३२",
+        "image": "../npcdn.ratopati.com/election/candidates/2082/janak-singh-dhami_br8nE0lzPv.jpg",
+        "winner": true
+      },
+      {
+        "name": "बीना मगर",
+        "party": "नेपाली कम्युनिष्ट पार्टी",
+        "votes": "११११०",
+        "image": "../npcdn.ratopati.com/election/candidates/2082/bina-magar_1AXinaSKaU.jpg",
+        "winner": false
+      }
+    ]
+  },
+  {
+    "constituency": "कञ्चनपुर - २",
+    "link": "constituency/kanchanpur-2.html",
+    "province": "सुदूरपश्चिम प्रदेश",
+    "voteDifference": "२३१२५",
+    "voteDifferencePercent": "५१.६४%",
+    "candidates": [
+      {
+        "name": "दिपक राज बोहरा",
+        "party": "राष्ट्रिय स्वतन्त्र पार्टी",
+        "votes": "३३९५२",
+        "image": "../npcdn.ratopati.com/election/candidates/2082/deepak-raj-bohara_eUyIdwDGlW.jpg",
+        "winner": true
+      },
+      {
+        "name": "नारायण प्रकाश साउद",
+        "party": "नेपाली कांग्रेस",
+        "votes": "१०८२७",
+        "image": "../npcdn.ratopati.com/election/media/upload-new/np-saud_e9hJNznipc.jpg",
+        "winner": false
+      }
+    ]
+  },
+  {
+    "constituency": "कञ्चनपुर - ३",
+    "link": "constituency/kanchanpur-3.html",
+    "province": "सुदूरपश्चिम प्रदेश",
+    "voteDifference": "१७६७५",
+    "voteDifferencePercent": "४८.३४%",
+    "candidates": [
+      {
+        "name": "ज्ञानेन्द्र सिंह महता",
+        "party": "राष्ट्रिय स्वतन्त्र पार्टी",
+        "votes": "२७११८",
+        "image": "../npcdn.ratopati.com/election/candidates/2082/gyanendra-singh-mahata_LnLfM3ID4G.jpg",
+        "winner": true
+      },
+      {
+        "name": "हरि प्रसाद बोहरा",
+        "party": "नेपाली कांग्रेस",
+        "votes": "९४४३",
+        "image": "../npcdn.ratopati.com/election/candidates/2082/hari-prasad-bohara_yHSGwiGCUH.jpg",
+        "winner": false
+      }
+    ]
+  }
+]

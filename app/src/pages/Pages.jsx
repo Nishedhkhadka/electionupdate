@@ -1,5 +1,5 @@
 import { Link, useParams, useNavigate } from "react-router-dom";
-import { useState, useEffect } from "react";
+import { useState, useMemo } from "react";
 import candidatesData from "../../public/data/candidates.json";
 import provinceData from "../../public/data/province.json";
 import districtData from "../../public/data/district.json";
@@ -7,7 +7,7 @@ import constituencyData from "../../public/data/constituency.json";
 import partyData from "../../public/data/party.json";
 import manifestoData from "../../public/data/manifesto.json";
 
-function SiteLayout({ title, description, children }) {
+function SiteLayout({ title, description, children, breadcrumbRight, headerRight }) {
   return (
     <>
       <header>
@@ -137,12 +137,14 @@ function SiteLayout({ title, description, children }) {
                 <span className="sep">/</span>
                 <span>{title}</span>
               </div>
+              {breadcrumbRight}
             </div>
             <div className="page-header flex flex-between flex-middle flex-wrap">
               <div>
                 <h3 className="page-title">{title}</h3>
                 {description ? <p>{description}</p> : null}
               </div>
+              {headerRight}
             </div>
             {children}
           </div>
@@ -158,127 +160,225 @@ function normalizeSlug(slug = "") {
     .replace(/-/g, " ");
 }
 
-export function Candidates() {
-  const [candidates, setCandidates] = useState([]);
-  const [filteredCandidates, setFilteredCandidates] = useState([]);
-  const [searchTerm, setSearchTerm] = useState("");
-  const [partyFilter, setPartyFilter] = useState("");
+function toNepaliNumber(value) {
+  const nepaliDigits = ["०", "१", "२", "३", "४", "५", "६", "७", "८", "९"];
+  return String(value ?? 0).replace(/\d/g, (digit) => nepaliDigits[Number(digit)]);
+}
 
-  useEffect(() => {
-    setCandidates(candidatesData);
-    setFilteredCandidates(candidatesData);
-  }, []);
-
-  useEffect(() => {
-    let results = candidates;
-
-    if (searchTerm) {
-      results = results.filter(
-        (c) =>
-          c.name.toLowerCase().includes(searchTerm.toLowerCase()) ||
-          c.party.toLowerCase().includes(searchTerm.toLowerCase()),
-      );
-    }
-
-    if (partyFilter) {
-      results = results.filter((c) => c.party === partyFilter);
-    }
-
-    setFilteredCandidates(results);
-  }, [searchTerm, partyFilter, candidates]);
-
-  const uniqueParties = [...new Set(candidates.map((c) => c.party))];
+function ConstituencyElectionCard({ constituency, candidatesBySlug, partyByName }) {
+  const sortedCandidates = [...constituency.candidates].sort(
+    (a, b) => (b.votes || 0) - (a.votes || 0),
+  );
+  const shareUrl = `${window.location.origin}/constituency/${constituency.slug}`;
+  const shareText = encodeURIComponent(
+    `${constituency.name} को ताजा मत परिणाम`,
+  );
 
   return (
-    <SiteLayout
-      title="उम्मेदवारहरु"
-      description="Search candidates, constituencies, and party results from Nepal Election 2082."
-    >
-      <div className="candidate-search-section">
-        <div style={{ marginBottom: "20px" }}>
-          <input
-            type="text"
-            placeholder="उम्मेदवार नाम वा पार्टी खोज्नुहोस्..."
-            value={searchTerm}
-            onChange={(e) => setSearchTerm(e.target.value)}
-            style={{
-              width: "100%",
-              padding: "10px",
-              marginBottom: "10px",
-              border: "1px solid #ccc",
-              borderRadius: "4px",
-              fontFamily: "'Mukta', sans-serif",
-            }}
-          />
-          <select
-            value={partyFilter}
-            onChange={(e) => setPartyFilter(e.target.value)}
-            style={{
-              width: "100%",
-              padding: "10px",
-              border: "1px solid #ccc",
-              borderRadius: "4px",
-              fontFamily: "'Mukta', sans-serif",
-            }}
-          >
-            <option value="">सबै पार्टीहरु</option>
-            {uniqueParties.map((party) => (
-              <option key={party} value={party}>
-                {party}
-              </option>
-            ))}
-          </select>
-        </div>
+    <div className="election-card col4">
+      <div className="candidate-card-header">
+        <h3>
+          <Link to={`/constituency/${constituency.slug}`}>
+            {constituency.name}
+          </Link>
+        </h3>
+        <Link to={`/district/${constituency.district_slug}`}>
+          <span className="small">{constituency.district_name}</span>
+        </Link>
       </div>
+      <div className="mx-height">
+        {sortedCandidates.map((candidate) => {
+          const info = candidatesBySlug.get(candidate.slug);
+          const party = partyByName.get(info?.party);
+          const partyLogo = info?.partyLogo || party?.logo;
 
-      <div className="candidate-list" style={{ marginTop: "20px" }}>
-        {filteredCandidates.length > 0 ? (
-          <table style={{ width: "100%", borderCollapse: "collapse" }}>
-            <thead>
-              <tr
-                style={{
-                  borderBottom: "2px solid #ddd",
-                  backgroundColor: "#f5f5f5",
-                }}
-              >
-                <th style={{ padding: "10px", textAlign: "left" }}>नाम</th>
-                <th style={{ padding: "10px", textAlign: "left" }}>पार्टी</th>
-                <th style={{ padding: "10px", textAlign: "left" }}>जेष्ठता</th>
-              </tr>
-            </thead>
-            <tbody>
-              {filteredCandidates.map((candidate) => (
-                <tr
-                  key={candidate.slug}
-                  style={{ borderBottom: "1px solid #eee" }}
-                >
-                  <td style={{ padding: "10px" }}>
-                    <Link
-                      to={`/candidate/${candidate.slug}`}
-                      style={{ color: "#0066cc", textDecoration: "none" }}
-                    >
+          return (
+            <div
+              key={candidate.slug}
+              className={`candidate-row${candidate.is_winner ? " candidate-win" : ""}`}
+            >
+              <div className="candidate-media">
+                <Link to={`/candidate/${candidate.slug}`}>
+                  <img
+                    className="candidate-photo"
+                    src={info?.image || "/assets/images/placeholder.png"}
+                    alt={candidate.name}
+                  />
+                </Link>
+                <div>
+                  <h3 className="title">
+                    <Link to={`/candidate/${candidate.slug}`}>
                       {candidate.name}
                     </Link>
-                  </td>
-                  <td style={{ padding: "10px" }}>{candidate.party}</td>
-                  <td style={{ padding: "10px" }}>{candidate.jobTitle}</td>
-                </tr>
+                  </h3>
+                  {info?.party || ""}
+                </div>
+              </div>
+              <div className="candidate-detail">
+                <div className="votes">
+                  {toNepaliNumber(candidate.votes || 0)}
+                  {candidate.is_winner ? (
+                    <img src="/assets/img/win-tick.png" alt="win-tick" />
+                  ) : null}
+                </div>
+                {party && partyLogo && partyLogo !== "#" ? (
+                  <Link className="party" to={`/party/${party.slug}`}>
+                    <img
+                      className="party-flag"
+                      src={partyLogo}
+                      alt={info?.party}
+                      onError={(e) => {
+                        e.target.onerror = null;
+                        e.target.style.display = "none";
+                      }}
+                    />
+                  </Link>
+                ) : null}
+              </div>
+            </div>
+          );
+        })}
+      </div>
+      <div className="load-more">
+        <Link className="more" to={`/constituency/${constituency.slug}`}>
+          विस्तृत विवरण
+        </Link>
+        <div className="share-links">
+          <a
+            href={`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(shareUrl)}&title=${shareText}`}
+            target="_blank"
+            rel="noreferrer noopener"
+          >
+            <img
+              src="https://www.ratopati.com/build/img/facebook.svg"
+              alt="facebook"
+            />
+          </a>
+          <a
+            href={`https://twitter.com/intent/tweet?url=${encodeURIComponent(shareUrl)}&text=${shareText}&hashtags=Election2082,Ratopati,ElectionUpdate`}
+            target="_blank"
+            rel="noreferrer noopener"
+          >
+            <img
+              src="https://www.ratopati.com/build/img/twitter-x.svg"
+              alt="twitter"
+            />
+          </a>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+export function Candidates() {
+  const [provinceFilter, setProvinceFilter] = useState("");
+  const [districtFilter, setDistrictFilter] = useState("");
+  const [appliedProvince, setAppliedProvince] = useState("");
+  const [appliedDistrict, setAppliedDistrict] = useState("");
+
+  const candidatesBySlug = useMemo(
+    () => new Map(candidatesData.map((c) => [c.slug, c])),
+    [],
+  );
+
+  const partyByName = useMemo(
+    () => new Map(partyData.map((p) => [p.name, p])),
+    [],
+  );
+
+  const availableDistricts = useMemo(() => {
+    if (!provinceFilter) {
+      return districtData;
+    }
+    return districtData.filter((d) => d.province_slug === provinceFilter);
+  }, [provinceFilter]);
+
+  const filteredConstituencies = useMemo(() => {
+    return constituencyData.filter((constituency) => {
+      if (appliedProvince && constituency.province_slug !== appliedProvince) {
+        return false;
+      }
+      if (appliedDistrict && constituency.district_slug !== appliedDistrict) {
+        return false;
+      }
+      return true;
+    });
+  }, [appliedProvince, appliedDistrict]);
+
+  const handleProvinceChange = (value) => {
+    setProvinceFilter(value);
+    setDistrictFilter("");
+  };
+
+  const handleFilterSubmit = (event) => {
+    event.preventDefault();
+    setAppliedProvince(provinceFilter);
+    setAppliedDistrict(districtFilter);
+  };
+
+  const filterBar = (
+    <div className="heading-title-wrap flex flex-between flex-wrap flex-middle">
+      <form onSubmit={handleFilterSubmit}>
+        <div className="filter-row">
+          <div className="select-box">
+            <select
+              className="state select"
+              name="province_id"
+              id="province_id"
+              value={provinceFilter}
+              onChange={(e) => handleProvinceChange(e.target.value)}
+            >
+              <option value="">प्रदेश</option>
+              {provinceData.map((province) => (
+                <option key={province.slug} value={province.slug}>
+                  {province.name}
+                </option>
               ))}
-            </tbody>
-          </table>
-        ) : (
-          <p>कुनै उम्मेदवार फेला परेन</p>
-        )}
-        <p
-          style={{
-            marginTop: "20px",
-            fontSize: "12px",
-            color: "#666",
-            fontFamily: "'Mukta', sans-serif",
-          }}
-        >
-          कुल उम्मेदवारहरु: {filteredCandidates.length}
-        </p>
+            </select>
+          </div>
+          <div className="select-box">
+            <select
+              name="district_id"
+              className="district select"
+              id="district_id"
+              value={districtFilter}
+              onChange={(e) => setDistrictFilter(e.target.value)}
+            >
+              <option value="">जिल्ला</option>
+              {availableDistricts.map((district) => (
+                <option key={district.slug} value={district.slug}>
+                  {district.name}
+                </option>
+              ))}
+            </select>
+          </div>
+          <div className="select-box">
+            <button type="submit" className="btn-submit">
+              <span>खोज्नुहोस</span>
+            </button>
+          </div>
+        </div>
+      </form>
+    </div>
+  );
+
+  return (
+    <SiteLayout title="उम्मेदवारहरु" headerRight={filterBar}>
+      <div className="local__election">
+        <div className="candidate--lists dn-grid dn-grid-small">
+          {filteredConstituencies.length > 0 ? (
+            filteredConstituencies.map((constituency) => (
+              <ConstituencyElectionCard
+                key={constituency.slug}
+                constituency={constituency}
+                candidatesBySlug={candidatesBySlug}
+                partyByName={partyByName}
+              />
+            ))
+          ) : (
+            <p>कुनै निर्वाचन क्षेत्र फेला परेन</p>
+          )}
+        </div>
       </div>
     </SiteLayout>
   );
