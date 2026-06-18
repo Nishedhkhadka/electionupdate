@@ -6,6 +6,7 @@ import districtData from "../../public/data/district.json";
 import constituencyData from "../../public/data/constituency.json";
 import partyData from "../../public/data/party.json";
 import manifestoData from "../../public/data/manifesto.json";
+import hotSeatsData from "../../public/data/hot-seats.json";
 
 function SiteLayout({ title, description, children, breadcrumbRight, headerRight }) {
   return (
@@ -385,14 +386,216 @@ export function Candidates() {
 }
 
 export function HotSeats() {
+  const [districtFilter, setDistrictFilter] = useState("");
+
+  // Get unique districts from hot seats data
+  const hotseatConstituencies = useMemo(() => {
+    return hotSeatsData.map((hs) => {
+      const match = constituencyData.find((c) => c.name === hs.constituency);
+      return { ...hs, district: match?.district_name || "" };
+    });
+  }, []);
+
+  const uniqueDistricts = useMemo(() => {
+    const districts = [
+      ...new Set(hotseatConstituencies.map((hs) => hs.district)),
+    ].filter(Boolean).sort();
+    return districts;
+  }, [hotseatConstituencies]);
+
+  const filteredHotSeats = useMemo(() => {
+    if (!districtFilter) return hotseatConstituencies;
+    return hotseatConstituencies.filter((hs) => hs.district === districtFilter);
+  }, [districtFilter, hotseatConstituencies]);
+
+  const filterBar = (
+    <div style={{ display: "flex", gap: "10px", alignItems: "center" }}>
+      <select
+        value={districtFilter}
+        onChange={(e) => setDistrictFilter(e.target.value)}
+        style={{
+          padding: "8px 12px",
+          borderRadius: "4px",
+          border: "1px solid #ddd",
+          fontSize: "14px",
+        }}
+      >
+        <option value="">जिल्ला</option>
+        {uniqueDistricts.map((district) => (
+          <option key={district} value={district}>
+            {district}
+          </option>
+        ))}
+      </select>
+      <button
+        onClick={() => setDistrictFilter("")}
+        style={{
+          padding: "8px 20px",
+          backgroundColor: "#bf1e2e",
+          color: "#fff",
+          border: "none",
+          borderRadius: "4px",
+          fontWeight: "bold",
+          cursor: "pointer",
+          fontSize: "14px",
+        }}
+      >
+        खोज्नुहोस्
+      </button>
+    </div>
+  );
+
   return (
-    <SiteLayout
-      title="हट सिटहरु"
-      description="View hot seats for the Nepal Election 2082 race."
-    >
-      <p>Hot seats content has been migrated into a React route.</p>
+    <SiteLayout title="हट सिटहरु" headerRight={filterBar}>
+      <div style={{ marginTop: "20px", display: "grid", gridTemplateColumns: "repeat(3, 1fr)", gap: "20px" }}>
+        {filteredHotSeats.length > 0 ? (
+          filteredHotSeats.map((hotSeat) => (
+            <div key={hotSeat.constituency}>
+              <div
+                style={{
+                  backgroundColor: "#f3e8eb",
+                  borderBottom: "3px solid #bf1e2e",
+                  padding: "10px 15px",
+                  marginBottom: "15px",
+                }}
+              >
+                <h3
+                  style={{
+                    margin: 0,
+                    fontSize: "16px",
+                    fontWeight: "bold",
+                    color: "#bf1e2e",
+                  }}
+                >
+                  {hotSeat.constituency}
+                </h3>
+              </div>
+
+              <div
+                style={{
+                  display: "flex",
+                  flexWrap: "nowrap",
+                  gap: "15px",
+                  overflowX: "auto",
+                  paddingBottom: "8px",
+                }}
+              >
+                {hotSeat.candidates.map((candidate, idx) => {
+                  // Look up votes from candidatesData by matching name
+                  const candidateData = candidatesData.find((c) => c.name === candidate.name);
+                  const votes = candidateData?.votes || candidate.votes || 0;
+                  // Fix image URL if it has the malformed ../npcdn prefix
+                  const fixedImageUrl = candidate.image?.replace(/^\.\.\/npcdn\.ratopati\.com/, "https://npcdn.ratopati.com") || "/assets/images/placeholder.png";
+
+                  return (
+                    <div
+                      key={idx}
+                      style={{
+                        textAlign: "center",
+                        padding: "12px",
+                      }}
+                    >
+                      <div
+                        style={{
+                          width: "90px",
+                          height: "90px",
+                          margin: "0 auto 10px",
+                          borderRadius: "50%",
+                          background: "linear-gradient(180deg, #ffeef0, #f8dfe0)",
+                          display: "flex",
+                          alignItems: "center",
+                          justifyContent: "center",
+                          overflow: "hidden",
+                          border: "1px solid rgba(0,0,0,0.04)",
+                          position: "relative",
+                        }}
+                      >
+                        <img
+                          src={fixedImageUrl}
+                          alt={candidate.name}
+                          style={{
+                            width: "76px",
+                            height: "76px",
+                            borderRadius: "50%",
+                            objectFit: "cover",
+                            border: "4px solid #fff",
+                          }}
+                          onError={(e) => {
+                            e.target.onerror = null;
+                            e.target.src = "/assets/images/placeholder.png";
+                          }}
+                        />
+                        {candidate.winner && (
+                          <img
+                            src="/assets/img/win-tick.png"
+                            alt="winner"
+                            style={{
+                              position: "absolute",
+                              bottom: "-2px",
+                              right: "-2px",
+                              width: "24px",
+                              height: "24px",
+                            }}
+                          />
+                        )}
+                      </div>
+
+                      <h4
+                        style={{
+                          fontSize: "12px",
+                          fontWeight: "600",
+                          margin: "6px 0",
+                          color: "#333",
+                        }}
+                      >
+                        {candidate.name}
+                      </h4>
+                      <p
+                        style={{
+                          fontSize: "11px",
+                          color: "#666",
+                          margin: "2px 0",
+                        }}
+                      >
+                        {candidate.party}
+                      </p>
+                      <div
+                        style={{
+                          fontSize: "16px",
+                          fontWeight: "700",
+                          color: "#2c9a6b",
+                          marginTop: "6px",
+                        }}
+                      >
+                        {toNepaliNumber(votes)}
+                      </div>
+                    </div>
+                  );
+                })}
+              </div>
+            </div>
+          ))
+        ) : (
+          <p>कुनै हट सिट फेला परेन</p>
+        )}
+      </div>
     </SiteLayout>
   );
+}
+
+function getManifestoImage(manifestoId) {
+  const imageMap = {
+    "1": "/election/media/party-manifesto/pratibaddatapatra-pralo-pa_E1AqsXAJyr.jpg",
+    "2": "/election/media/party-manifesto/congress-manifesto-082_vcRT3VJKFK.jpg",
+    "3": "/election/media/party-manifesto/nepali-communist-manifesto_7Yi5M2ya8I.jpg",
+    "4": "/election/media/party-manifesto/rsp-bachapatra_N3Q271hh8R.jpg",
+    "5": "/election/media/party-manifesto/unp_election_menifesto_book_2082_LXbjETeuoP.jpg",
+    "6": "/election/media/party-manifesto/uml-election-manifesto_ilAJhqpl3m.jpg",
+    "7": "/election/media/party-manifesto/rpp_c9PJTTVU6z.jpg",
+    "8": "/election/media/party-manifesto/nepal-majdur-kisan-party_07xDyXZ0vI.jpg",
+    "9": "/election/media/party-manifesto/rastriya_janamorcha_manifesto_2082_CRDSjZ6jBd.jpg",
+  };
+  return imageMap[manifestoId] || "/assets/images/placeholder.png";
 }
 
 export function Manifesto() {
@@ -402,50 +605,74 @@ export function Manifesto() {
       description="Read the major party manifestos and policy platforms in the 2082 election."
     >
       <div
-        className="dn-grid dn-grid-small"
+        className="manifesto-grid"
         style={{
           marginTop: "20px",
           display: "grid",
-          gridTemplateColumns: "repeat(auto-fill, minmax(280px, 1fr))",
+          gridTemplateColumns: "repeat(auto-fill, minmax(240px, 1fr))",
           gap: "20px",
         }}
       >
         {manifestoData.map((manifesto) => (
           <div
             key={manifesto.id}
+            className="manifesto-card"
             style={{
               border: "1px solid #ddd",
               borderRadius: "8px",
-              padding: "20px",
+              overflow: "hidden",
               backgroundColor: "#fff",
-              textAlign: "center",
-              boxShadow: "0 2px 4px rgba(0,0,0,0.05)",
+              boxShadow: "0 2px 6px rgba(0,0,0,0.08)",
             }}
           >
-            <h3
-              style={{
-                fontSize: "18px",
-                fontWeight: "bold",
-                marginBottom: "15px",
-                color: "#333",
-              }}
-            >
-              {manifesto.party_name}
-            </h3>
-            <Link
-              to={`/manifesto/${manifesto.id}`}
-              style={{
-                display: "inline-block",
-                padding: "8px 16px",
-                backgroundColor: "#bf1e2e",
-                color: "#fff",
-                textDecoration: "none",
-                borderRadius: "4px",
-                fontWeight: "bold",
-              }}
-            >
-              घोषणा पत्र हेर्नुहोस्
-            </Link>
+            <div style={{ position: "relative", overflow: "hidden" }}>
+              <Link to={`/manifesto/${manifesto.id}`} style={{ display: "block" }}>
+                <img
+                  src={getManifestoImage(manifesto.id)}
+                  alt={manifesto.party_name}
+                  style={{
+                    width: "100%",
+                    height: "240px",
+                    objectFit: "cover",
+                    transition: "transform 0.3s ease",
+                  }}
+                  onError={(e) => {
+                    e.target.src = "/assets/images/placeholder.png";
+                  }}
+                />
+              </Link>
+            </div>
+            <div style={{ padding: "16px", textAlign: "center" }}>
+              <h3
+                style={{
+                  fontSize: "14px",
+                  fontWeight: "600",
+                  marginBottom: "12px",
+                  color: "#333",
+                  minHeight: "40px",
+                  display: "flex",
+                  alignItems: "center",
+                  justifyContent: "center",
+                }}
+              >
+                {manifesto.party_name}
+              </h3>
+              <Link
+                to={`/manifesto/${manifesto.id}`}
+                style={{
+                  display: "inline-block",
+                  padding: "8px 16px",
+                  backgroundColor: "#bf1e2e",
+                  color: "#fff",
+                  textDecoration: "none",
+                  borderRadius: "4px",
+                  fontWeight: "bold",
+                  fontSize: "13px",
+                }}
+              >
+                घोषणा पत्र हेर्नुहोस्
+              </Link>
+            </div>
           </div>
         ))}
       </div>
@@ -563,33 +790,41 @@ export function PopularCandidates() {
       title="चर्चित उम्मेदवारहरु"
       description="See the most popular candidates from the 2082 election."
     >
-      <div className="candidate-list" style={{ marginTop: "20px" }}>
-        <table style={{ width: "100%", borderCollapse: "collapse" }}>
-          <thead>
-            <tr style={{ borderBottom: "2px solid #ddd", backgroundColor: "#f5f5f5" }}>
-              <th style={{ padding: "10px", textAlign: "left" }}>नाम</th>
-              <th style={{ padding: "10px", textAlign: "left" }}>निर्वाचन क्षेत्र</th>
-              <th style={{ padding: "10px", textAlign: "left" }}>पार्टी</th>
-              <th style={{ padding: "10px", textAlign: "right" }}>प्राप्त मत</th>
-            </tr>
-          </thead>
-          <tbody>
-            {popularCandidates.map((candidate) => (
-              <tr key={candidate.slug} style={{ borderBottom: "1px solid #eee" }}>
-                <td style={{ padding: "10px" }}>
-                  <Link to={`/candidate/${candidate.slug}`} style={{ color: "#0066cc", textDecoration: "none", fontWeight: "bold" }}>
-                    {candidate.name}
-                  </Link>
-                </td>
-                <td style={{ padding: "10px" }}>{candidate.constituency}</td>
-                <td style={{ padding: "10px" }}>{candidate.party}</td>
-                <td style={{ padding: "10px", textAlign: "right", fontWeight: "bold", color: "#bf1e2e" }}>
-                  {candidate.votes?.toLocaleString() || "०"}
-                </td>
-              </tr>
-            ))}
-          </tbody>
-        </table>
+      <div className="popular-grid" style={{ marginTop: "20px" }}>
+        {popularCandidates.map((candidate) => (
+          <div key={candidate.slug} className="popular-card">
+            <div className="popular-card-inner">
+              <div className="photo-wrap">
+                <Link to={`/candidate/${candidate.slug}`}>
+                  <div className="photo-circle">
+                    <img
+                      src={candidate.image || "/assets/images/placeholder.png"}
+                      alt={candidate.name}
+                      onError={(e) => { e.target.onerror = null; e.target.src = "/assets/images/placeholder.png"; }}
+                    />
+                  </div>
+                </Link>
+              </div>
+
+              <div className="card-body">
+                <h4 className="candidate-name">
+                  <Link to={`/candidate/${candidate.slug}`}>{candidate.name}</Link>
+                </h4>
+                <div className="candidate-meta">{candidate.party}</div>
+                <div className="constituency-pill">{candidate.constituency}</div>
+              </div>
+
+              <div className="card-footer">
+                <div className="votes">{toNepaliNumber(candidate.votes || 0)}</div>
+                {candidate.isWinner ? (
+                  <img src="/assets/img/win-tick.png" alt="winner" className="winner-badge" style={{ width: "30px", height: "30px" }} />
+                ) : candidate.partyLogo ? (
+                  <img src={candidate.partyLogo} alt={candidate.party} className="party-badge" onError={(e)=>{e.target.style.display='none'}} />
+                ) : null}
+              </div>
+            </div>
+          </div>
+        ))}
       </div>
     </SiteLayout>
   );

@@ -347,3 +347,65 @@
   unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
   font-display: swap;
 }
+
+/* Popular candidates card grid */
+.popular-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+.popular-card {
+  background: #fff;
+  border: 1px solid #eee;
+  border-radius: 8px;
+  padding: 18px 14px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.04);
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+}
+
+.popular-card-inner {
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.photo-wrap { margin-bottom: 12px; }
+.photo-circle {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  background: linear-gradient(180deg,#ffeef0,#f8dfe0);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  border: 1px solid rgba(0,0,0,0.04);
+}
+.photo-circle img {
+  width: 92px;
+  height: 92px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 6px solid #fff;
+}
+
+.candidate-name { margin: 6px 0 4px 0; font-size: 15px; }
+.candidate-name a { color: #bf1e2e; text-decoration: none; font-weight: 600; }
+.candidate-meta { font-size: 12px; color: #666; margin-bottom: 6px; }
+.constituency-pill { display:inline-block; background:#f3f3f3; color:#666; padding:6px 10px; border-radius:16px; font-size:12px; margin-bottom:10px; }
+
+.card-footer { display:flex; align-items:center; gap:10px; justify-content:center; margin-top:auto; }
+.votes { font-size:20px; font-weight:700; color:#2c9a6b; }
+.winner-badge { width:20px; height:20px; }
+.party-badge { width:22px; height:22px; border-radius:50%; object-fit:cover; }
+
+@media (max-width: 640px) {
+  .photo-circle { width:100px; height:100px; }
+  .photo-circle img { width:72px; height:72px; }
+}
+
