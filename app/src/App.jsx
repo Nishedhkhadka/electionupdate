@@ -19,11 +19,13 @@ import {
   Winner,
   NotFound,
 } from "./pages/Pages";
+import NepalMap from "./components/map/map.jsx";
 
 export default function App() {
   return (
     <Routes>
       <Route path="/" element={<Home />} />
+      <Route path = "/map" element={<NepalMap />} />
       <Route path="/index.html" element={<Home />} />
       <Route path="/about" element={<About />} />
       <Route path="/candidates" element={<Candidates />} />
