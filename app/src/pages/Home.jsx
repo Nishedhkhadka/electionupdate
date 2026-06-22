@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import { useState, useEffect } from "react";
 import NepalMap from "../components/map/map";
+import { ChevronDown } from "lucide-react";
 
 export default function Home() {
   const [selectedProvince, setSelectedProvince] = useState("");
@@ -183,7 +184,7 @@ export default function Home() {
               </li>
               <li>
                 <a href="#" onClick={(e) => e.preventDefault()}>
-                  निर्वाचन
+                  निर्वाचन <ChevronDown size={16} />
                 </a>
                 <ul>
                   <li>
