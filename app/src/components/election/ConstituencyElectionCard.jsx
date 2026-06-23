@@ -5,10 +5,14 @@ export default function ConstituencyElectionCard({
   constituency,
   candidatesBySlug,
   partyByName,
+  limit,
 }) {
-  const sortedCandidates = [...constituency.candidates].sort(
+  let sortedCandidates = [...constituency.candidates].sort(
     (a, b) => (b.votes || 0) - (a.votes || 0),
   );
+  if (limit) {
+    sortedCandidates = sortedCandidates.slice(0, limit);
+  }
   const shareUrl = `${window.location.origin}/constituency/${constituency.slug}`;
   const shareText = encodeURIComponent(
     `${constituency.name} को ताजा मत परिणाम`,

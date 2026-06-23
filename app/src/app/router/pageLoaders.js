@@ -23,7 +23,7 @@ export const pageLoaders = {
   Candidate: () => import("../../pages/Candidate"),
   Winner: () => import("../../pages/Winner"),
   NotFound: () => import("../../pages/NotFound"),
-  Map: () => import("../../components/map/map.jsx"),
+  Map: () => import("../../components/map/NepalMap.jsx"),
 };
 
 export const lazyPages = Object.fromEntries(

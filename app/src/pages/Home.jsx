@@ -1,8 +1,16 @@
 import { useState, useEffect } from "react";
-import NepalMap from "../components/map/map";
+import NepalMap from "../components/map/NepalMap.jsx";
 import { MainLayout } from "../layouts/MainLayout";
+import { toNepaliNumber } from "../utils";
+import { useRef } from "react";
+import { BadgeCheck } from "lucide-react";
 
 export default function Home() {
+	const idleTimerRef = useRef(null);
+
+	const isMapHoveredRef = useRef(false);
+	const isPopupHoveredRef = useRef(false);
+
 	const [selectedProvince, setSelectedProvince] = useState("");
 	const [selectedDistrict, setSelectedDistrict] = useState("");
 	const [selectedConstituency, setSelectedConstituency] = useState("");
@@ -97,6 +105,60 @@ export default function Home() {
 			color: "#f0d105",
 		},
 	];
+
+	const handleConstituencyHover = (data) => {
+		isMapHoveredRef.current = true;
+
+		if (idleTimerRef.current) {
+			clearTimeout(idleTimerRef.current);
+			idleTimerRef.current = null;
+		}
+
+		setHoveredConstituency(data);
+	};
+
+	const handleConstituencyLeave = () => {
+		isMapHoveredRef.current = false;
+
+		startIdleCheck();
+	};
+
+	const handlePopupEnter = () => {
+		isPopupHoveredRef.current = true;
+
+		if (idleTimerRef.current) {
+			clearTimeout(idleTimerRef.current);
+		}
+	};
+
+	const handlePopupLeave = () => {
+		isPopupHoveredRef.current = false;
+
+		startIdleCheck();
+	};
+
+	const startIdleCheck = () => {
+		// only hide if BOTH are inactive
+		if (isMapHoveredRef.current || isPopupHoveredRef.current) {
+			return;
+		}
+
+		if (idleTimerRef.current) {
+			clearTimeout(idleTimerRef.current);
+		}
+
+		idleTimerRef.current = setTimeout(() => {
+			// re-check before hiding (safety)
+			if (!isMapHoveredRef.current && !isPopupHoveredRef.current) {
+				setHoveredConstituency(null);
+			}
+		}, 4000); // ⬅️ adjust time (3–6 sec recommended)
+	};
+
+	const legendItems = parties.map((p) => ({
+		name: p.name,
+		color: p.color,
+	}));
 
 	const handleSubmit = (e) => {
 		e.preventDefault();
@@ -239,21 +301,61 @@ export default function Home() {
 							>
 								<div className="spinner-wrapper flex flex-middle flex-center">
 									<NepalMap
-										onConstituencyHover={setHoveredConstituency}
+										onConstituencyHover={handleConstituencyHover}
+										onConstituencyLeave={handleConstituencyLeave}
 										constituenciesData={constituenciesData}
 									/>
+									<div
+										style={{
+											position: "absolute",
+											bottom: "20px",
+											left: "20px",
+											background: "rgba(255,255,255,0.95)",
+											padding: "10px 14px",
+											borderRadius: "8px",
+											boxShadow: "0 2px 10px rgba(0,0,0,0.15)",
+											zIndex: 200,
+											fontSize: "13px",
+											maxWidth: "260px",
+										}}
+									>
+										{legendItems.map((item, idx) => (
+											<div
+												key={idx}
+												style={{
+													display: "flex",
+													alignItems: "center",
+													gap: "8px",
+													marginBottom: "6px",
+												}}
+											>
+												<span
+													style={{
+														width: "12px",
+														height: "12px",
+														backgroundColor: item.color,
+														borderRadius: "2px",
+														display: "inline-block",
+													}}
+												/>
+												<span>{item.name}</span>
+											</div>
+										))}
+									</div>
 								</div>
 							</div>
 							{/* Hovered Constituency Candidates Card */}
 							{hoveredConstituency && (
 								<div
+									onMouseEnter={handlePopupEnter}
+									onMouseLeave={handlePopupLeave}
 									style={{
 										position: "absolute",
-										right: "20px",
+										right: "50px",
 										top: "250px",
 										transform: "translateY(-50%)",
-										width: "320px",
-                    height: "auto",
+										width: "350px",
+										height: "auto",
 										background: "#fff",
 										borderRadius: "6px",
 										overflow: "hidden",
@@ -356,6 +458,9 @@ export default function Home() {
 												{/* Votes */}
 												<div
 													style={{
+														display: "flex",
+														flexDirection: "row",
+														alignItems: "flex-end",
 														textAlign: "right",
 														minWidth: "90px",
 													}}
@@ -367,7 +472,7 @@ export default function Home() {
 															fontSize: "24px",
 														}}
 													>
-														{candidate.votes.toLocaleString()}
+														{toNepaliNumber(candidate.votes)}
 													</div>
 
 													{idx === 0 && (
@@ -376,9 +481,10 @@ export default function Home() {
 																color: "#43a047",
 																fontSize: "14px",
 																fontWeight: 700,
+																paddingLeft: "4px",
 															}}
 														>
-															विजेता
+															<BadgeCheck />
 														</div>
 													)}
 												</div>
