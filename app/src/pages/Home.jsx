@@ -1,5 +1,5 @@
-import { useState, useEffect, useRef } from "react";
-import { Link } from "react-router-dom";
+import { useState, useEffect, useMemo, useRef } from "react";
+import { Link, useNavigate } from "react-router-dom";
 import NepalMap from "../components/map/NepalMap.jsx";
 import { MainLayout } from "../layouts/MainLayout";
 import ProportionalResultsSection from "../components/home/ProportionalResultsSection.jsx";
@@ -7,10 +7,14 @@ import ProvinceResultsSection from "../components/home/ProvinceResultsSection.js
 import HotSeatsPreviewSection from "../components/home/HotSeatsPreviewSection.jsx";
 import PopularCandidatesPreviewSection from "../components/home/PopularCandidatesPreviewSection.jsx";
 import AllCandidatesPreviewSection from "../components/home/AllCandidatesPreviewSection.jsx";
+import constituencyData from "../data/constituency.json";
+import provinceData from "../data/province.json";
 import { toNepaliNumber } from "../utils";
+import { districtsForProvince, provinceRouteSlug } from "../utils/geoUtils";
 import { BadgeCheck } from "lucide-react";
 
 export default function Home() {
+	const navigate = useNavigate();
 	const idleTimerRef = useRef(null);
 
 	const isMapHoveredRef = useRef(false);
@@ -39,15 +43,20 @@ export default function Home() {
 			.catch((err) => console.error("Error loading candidates data:", err));
 	}, []);
 
-	const provinces = [
-		{ id: 1, name: "कोशी प्रदेश" },
-		{ id: 2, name: "मधेस प्रदेश" },
-		{ id: 3, name: "बागमती प्रदेश" },
-		{ id: 4, name: "गण्डकी प्रदेश" },
-		{ id: 5, name: "लुम्बिनी प्रदेश" },
-		{ id: 6, name: "कर्णाली प्रदेश" },
-		{ id: 7, name: "सुदूरपश्चिम प्रदेश" },
-	];
+	const availableDistricts = useMemo(
+		() => districtsForProvince(selectedProvince),
+		[selectedProvince],
+	);
+
+	const availableConstituencies = useMemo(() => {
+		if (!selectedDistrict) {
+			return [];
+		}
+
+		return constituencyData.filter(
+			(constituency) => constituency.district_slug === selectedDistrict,
+		);
+	}, [selectedDistrict]);
 
 	const parties = [
 		{
@@ -176,7 +185,31 @@ export default function Home() {
 
 	const handleSubmit = (e) => {
 		e.preventDefault();
-		// TODO: Handle search submission
+
+		let url = "";
+
+		if (selectedConstituency) {
+			url = `/constituency/${selectedConstituency}`;
+		} else if (selectedDistrict) {
+			url = `/district/${selectedDistrict}`;
+		} else if (selectedProvince) {
+			url = `/province/${provinceRouteSlug(selectedProvince)}`;
+		}
+
+		if (url) {
+			window.open(url, "_blank", "noopener,noreferrer");
+		}
+	};
+
+	const handleProvinceChange = (value) => {
+		setSelectedProvince(value);
+		setSelectedDistrict("");
+		setSelectedConstituency("");
+	};
+
+	const handleDistrictChange = (value) => {
+		setSelectedDistrict(value);
+		setSelectedConstituency("");
 	};
 
 	const candidateMap = new Map(
@@ -249,13 +282,13 @@ export default function Home() {
 									name="province_id"
 									className="form-control"
 									value={selectedProvince}
-									onChange={(e) => setSelectedProvince(e.target.value)}
+									onChange={(e) => handleProvinceChange(e.target.value)}
 								>
 									<option value="">प्रदेश</option>
-									{provinces.map((province) => (
+									{provinceData.map((province) => (
 										<option
-											key={province.id}
-											value={province.id}
+											key={province.slug}
+											value={province.slug}
 										>
 											{province.name}
 										</option>
@@ -270,9 +303,17 @@ export default function Home() {
 									className="form-control"
 									disabled={!selectedProvince}
 									value={selectedDistrict}
-									onChange={(e) => setSelectedDistrict(e.target.value)}
+									onChange={(e) => handleDistrictChange(e.target.value)}
 								>
 									<option value="">जिल्ला</option>
+									{availableDistricts.map((district) => (
+										<option
+											key={district.slug}
+											value={district.slug}
+										>
+											{district.name}
+										</option>
+									))}
 								</select>
 							</div>
 
@@ -286,6 +327,14 @@ export default function Home() {
 									onChange={(e) => setSelectedConstituency(e.target.value)}
 								>
 									<option value="">निर्वाचन क्षेत्र छान्नुहोस्</option>
+									{availableConstituencies.map((constituency) => (
+										<option
+											key={constituency.slug}
+											value={constituency.slug}
+										>
+											{constituency.name}
+										</option>
+									))}
 								</select>
 							</div>
 
