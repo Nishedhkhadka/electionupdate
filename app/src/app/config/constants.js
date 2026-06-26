@@ -12,6 +12,7 @@ export const MANIFESTO_IMAGES = {
   7: "/election/media/party-manifesto/rpp_c9PJTTVU6z.jpg",
   8: "/election/media/party-manifesto/nepal-majdur-kisan-party_07xDyXZ0vI.jpg",
   9: "/election/media/party-manifesto/rastriya_janamorcha_manifesto_2082_CRDSjZ6jBd.jpg",
+  10: "/election/media/party-manifesto/shram-sanskriti-party_jrxdNsjzjb.jpg",
 };
 
 export const getManifestoImage = (manifestoId) =>

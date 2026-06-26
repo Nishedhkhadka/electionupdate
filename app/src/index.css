@@ -409,3 +409,220 @@
   .photo-circle img { width:72px; height:72px; }
 }
 
+.party-detail-page .candidate-detail-wrapper {
+  position: static;
+  top: auto;
+}
+
+.party-detail-page .candidate-detail-wrapper .page-header {
+  position: static;
+  z-index: auto;
+  width: auto;
+  padding-right: 18px;
+}
+
+.party-detail-page .candidate-detail-wrapper .page-header .votes {
+  position: static;
+}
+
+.party-detail-page .flex.flex-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 24px;
+}
+
+.party-detail-page .candidate-bio .candidate-featured-img img {
+  max-width: 180px;
+  max-height: 180px;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+}
+
+.party-detail-page .candidate-info .contentarea {
+  padding: 0 4px 8px;
+}
+
+.all-parties-candidates.section {
+  position: relative;
+  z-index: 1;
+  background: #fff;
+}
+
+.all-parties-candidates .heading-title-wrap .counter {
+  font-size: 14px;
+  font-weight: 700;
+  color: #bf1e2e;
+}
+
+.black-overlay {
+  display: none !important;
+}
+
+.manifesto-intro {
+  margin: 0 0 20px;
+  color: #666;
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+.manifesto-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 18px;
+}
+
+.manifesto-card {
+  background: #fff;
+  border: 1px solid rgba(191, 30, 46, 0.12);
+  border-radius: 14px;
+  overflow: hidden;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.06);
+  display: flex;
+  flex-direction: column;
+}
+
+.manifesto-card-cover {
+  position: relative;
+  background: linear-gradient(180deg, #fff5f5, #fff);
+  min-height: 220px;
+}
+
+.manifesto-card-image {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  display: block;
+}
+
+.manifesto-card-logo {
+  position: absolute;
+  right: 12px;
+  bottom: -18px;
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  background: #fff;
+  border: 2px solid #f1e6e9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+  overflow: hidden;
+}
+
+.manifesto-card-logo img {
+  max-width: 38px;
+  max-height: 38px;
+  object-fit: contain;
+}
+
+.manifesto-card-body {
+  padding: 28px 16px 16px;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.manifesto-card-title {
+  margin: 0 0 14px;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.45;
+  color: #991d2b;
+  min-height: 42px;
+}
+
+.manifesto-card-actions {
+  display: flex;
+  gap: 8px;
+  margin-top: auto;
+}
+
+.manifesto-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 14px;
+  border-radius: 999px;
+  font-size: 12px;
+  font-weight: 700;
+  text-decoration: none;
+  border: 1px solid transparent;
+  cursor: pointer;
+}
+
+.manifesto-btn-primary {
+  background: #bf1e2e;
+  color: #fff;
+  flex: 1;
+}
+
+.manifesto-btn-secondary {
+  background: #fff;
+  color: #bf1e2e;
+  border-color: rgba(191, 30, 46, 0.25);
+  min-width: 64px;
+}
+
+.manifesto-detail-header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 16px;
+  padding-bottom: 14px;
+  border-bottom: 2px solid rgba(191, 30, 46, 0.15);
+}
+
+.manifesto-detail-title {
+  margin: 0;
+  font-size: 22px;
+  color: #991d2b;
+  line-height: 1.35;
+}
+
+.manifesto-detail-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.manifesto-pdf-viewer {
+  background: #f5f5f5;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  overflow: hidden;
+  min-height: 80vh;
+}
+
+.manifesto-pdf-viewer iframe {
+  width: 100%;
+  height: 85vh;
+  border: none;
+  display: block;
+  background: #fff;
+}
+
+@media (max-width: 640px) {
+  .manifesto-grid {
+    grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+    gap: 12px;
+  }
+
+  .manifesto-card-cover,
+  .manifesto-card-image {
+    min-height: 180px;
+    height: 180px;
+  }
+
+  .manifesto-detail-title {
+    font-size: 18px;
+  }
+
+  .manifesto-pdf-viewer iframe {
+    height: 70vh;
+  }
+}

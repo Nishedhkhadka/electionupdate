@@ -1,97 +1,79 @@
-import { Link, useParams, useNavigate } from "react-router-dom";
-import { useState, useMemo, useEffect } from "react";
-import candidatesData from "../../public/data/candidates.json";
-import provinceData from "../../public/data/province.json";
-import districtData from "../../public/data/district.json";
-import constituencyData from "../../public/data/constituency.json";
+import { Link } from "react-router-dom";
+import { useMemo } from "react";
 import partyData from "../../public/data/party.json";
 import manifestoData from "../../public/data/manifesto.json";
-import hotSeatsData from "../../public/data/hot-seats.json";
-import voteDifferenceData from "../../public/data/vote-difference.json";
 import { MainLayout } from "../layouts/MainLayout";
-import ConstituencyElectionCard from "../components/election/ConstituencyElectionCard";
-import { toNepaliNumber } from "../utils";
-import { districtsForProvince, provinceRouteSlug, cleanRouteSlug } from "../utils/geoUtils";
 import { fixImageUrl } from "../utils/imageUtils";
 import { getManifestoImage } from "../app/config/constants";
 
+function getPartyLogo(party) {
+  if (!party?.logo || party.logo === "#") {
+    return "/assets/images/placeholder.png";
+  }
+  return fixImageUrl(party.logo.startsWith("/") ? party.logo : `/${party.logo}`);
+}
+
 export default function Manifesto() {
+  const partyBySlug = useMemo(
+    () => new Map(partyData.map((party) => [party.slug, party])),
+    [],
+  );
+
   return (
     <MainLayout
       title="घोषणा पत्र"
-      description="Read the major party manifestos and policy platforms in the 2082 election."
+      description="२०८२ प्रतिनिधि सभा निर्वाचनका प्रमुख दलहरूका घोषणा पत्र र बाचापत्र।"
     >
-      <div
-        className="manifesto-grid"
-        style={{
-          marginTop: "20px",
-          display: "grid",
-          gridTemplateColumns: "repeat(auto-fill, minmax(240px, 1fr))",
-          gap: "20px",
-        }}
-      >
-        {manifestoData.map((manifesto) => (
-          <div
-            key={manifesto.id}
-            className="manifesto-card"
-            style={{
-              border: "1px solid #ddd",
-              borderRadius: "8px",
-              overflow: "hidden",
-              backgroundColor: "#fff",
-              boxShadow: "0 2px 6px rgba(0,0,0,0.08)",
-            }}
-          >
-            <div style={{ position: "relative", overflow: "hidden" }}>
-              <Link to={`/manifesto/${manifesto.id}`} style={{ display: "block" }}>
+      <p className="manifesto-intro">
+        तलका दलहरूका घोषणा पत्र हेर्न वा डाउनलोड गर्न सक्नुहुन्छ।
+      </p>
+
+      <div className="manifesto-grid">
+        {manifestoData.map((manifesto) => {
+          const party = manifesto.party_slug
+            ? partyBySlug.get(manifesto.party_slug)
+            : null;
+          const coverImage = getManifestoImage(manifesto.id);
+          const partyLogo = party ? getPartyLogo(party) : "/assets/images/placeholder.png";
+
+          return (
+            <article key={manifesto.id} className="manifesto-card">
+              <div className="manifesto-card-cover">
                 <img
-                  src={getManifestoImage(manifesto.id)}
+                  src={coverImage}
                   alt={manifesto.party_name}
-                  style={{
-                    width: "100%",
-                    height: "240px",
-                    objectFit: "cover",
-                    transition: "transform 0.3s ease",
-                  }}
-                  onError={(e) => {
-                    e.target.src = "/assets/images/placeholder.png";
+                  className="manifesto-card-image"
+                  onError={(event) => {
+                    event.currentTarget.onerror = null;
+                    event.currentTarget.src = partyLogo;
                   }}
                 />
-              </Link>
-            </div>
-            <div style={{ padding: "16px", textAlign: "center" }}>
-              <h3
-                style={{
-                  fontSize: "14px",
-                  fontWeight: "600",
-                  marginBottom: "12px",
-                  color: "#333",
-                  minHeight: "40px",
-                  display: "flex",
-                  alignItems: "center",
-                  justifyContent: "center",
-                }}
-              >
-                {manifesto.party_name}
-              </h3>
-              <Link
-                to={`/manifesto/${manifesto.id}`}
-                style={{
-                  display: "inline-block",
-                  padding: "8px 16px",
-                  backgroundColor: "#bf1e2e",
-                  color: "#fff",
-                  textDecoration: "none",
-                  borderRadius: "4px",
-                  fontWeight: "bold",
-                  fontSize: "13px",
-                }}
-              >
-                घोषणा पत्र हेर्नुहोस्
-              </Link>
-            </div>
-          </div>
-        ))}
+                <div className="manifesto-card-logo">
+                  <img src={partyLogo} alt="" />
+                </div>
+              </div>
+
+              <div className="manifesto-card-body">
+                <h3 className="manifesto-card-title">{manifesto.party_name}</h3>
+
+                <div className="manifesto-card-actions">
+                  <Link to={`/manifesto/${manifesto.id}`} className="manifesto-btn manifesto-btn-primary">
+                    हेर्नुहोस्
+                  </Link>
+                  <a
+                    href={manifesto.pdf_url}
+                    download
+                    target="_blank"
+                    rel="noreferrer noopener"
+                    className="manifesto-btn manifesto-btn-secondary"
+                  >
+                    PDF
+                  </a>
+                </div>
+              </div>
+            </article>
+          );
+        })}
       </div>
     </MainLayout>
   );

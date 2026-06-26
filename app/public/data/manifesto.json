@@ -2,46 +2,61 @@
   {
     "id": "1",
     "party_name": "प्रगतिशील लोकतान्त्रिक पार्टी",
-    "pdf_url": "https://npcdn.ratopati.com/election/media/party-manifesto/pratibaddatapatra-pralo-pa_z2uurfA9vd.pdf#toolbar=0&navpanes=0"
+    "party_slug": "pragatishil-loktantrik-party",
+    "pdf_url": "/assets/manifesto-pdf/pratibaddatapatra-pralo-pa_z2uurfA9vd.pdf"
   },
   {
     "id": "2",
     "party_name": "नेपाली कांग्रेसको प्रतिज्ञा",
-    "pdf_url": "https://npcdn.ratopati.com/election/media/party-manifesto/congress-manifesto-082_KN1ocBH71V.pdf#toolbar=0&navpanes=0"
+    "party_slug": "nepali-congress",
+    "pdf_url": "/assets/manifesto-pdf/congress-manifesto.pdf"
   },
   {
     "id": "3",
-    "party_name": "नेपाली कम्युनिस्ट पार्टीको प्रतिबद्धता पत्र",
-    "pdf_url": "https://npcdn.ratopati.com/election/media/party-manifesto/nepali-comminish-manifesto_w5jXdrbOgu.pdf#toolbar=0&navpanes=0"
+    "party_name": "नेपाली कम्यunist पार्टीको प्रतिबद्धता पत्र",
+    "party_slug": "nepali-communist-party",
+    "pdf_url": "/assets/manifesto-pdf/nepali-comminish-manifesto_w5jXdrbOgu.pdf"
   },
   {
     "id": "4",
     "party_name": "राष्ट्रिय स्वतन्त्र पार्टी बाचापत्र",
-    "pdf_url": "https://npcdn.ratopati.com/election/media/party-manifesto/rsp-bachapatra_2WcYZjcwmz.pdf#toolbar=0&navpanes=0"
+    "party_slug": "rastriya-swatantra-party",
+    "pdf_url": "/assets/manifesto-pdf/rsp_manifesto.pdf"
   },
   {
     "id": "5",
     "party_name": "उज्यालो नेपाल पार्टीको घोषणापत्र",
-    "pdf_url": "https://npcdn.ratopati.com/election/media/party-manifesto/unp_election_menifesto_book_2082_NSPU4ZIQcy.pdf#toolbar=0&navpanes=0"
+    "party_slug": "ujyalo-nepal-party",
+    "pdf_url": "/assets/manifesto-pdf/unp_election_menifesto_book_2082_NSPU4ZIQcy.pdf"
   },
   {
     "id": "6",
     "party_name": "नेकपा (एमाले)को घोषणा पत्र",
-    "pdf_url": "https://npcdn.ratopati.com/election/media/party-manifesto/uml-election-manifesto-2082_auaX8nnINW.pdf#toolbar=0&navpanes=0"
+    "party_slug": "cpn-uml",
+    "pdf_url": "/assets/manifesto-pdf/uml_manifesto.pdf"
   },
   {
     "id": "7",
     "party_name": "राष्ट्रिय प्रजातन्त्र पार्टी",
-    "pdf_url": "https://npcdn.ratopati.com/election/media/party-manifesto/rpp_6oZiuXCsRH.pdf#toolbar=0&navpanes=0"
+    "party_slug": "rastriya-prajatantra-party",
+    "pdf_url": "/assets/manifesto-pdf/rpp_6oZiuXCsRH.pdf"
   },
   {
     "id": "8",
     "party_name": "नेपाल मजदुर किसान पार्टी",
-    "pdf_url": "https://npcdn.ratopati.com/election/media/party-manifesto/nepal-majdur-kisan-party_7yuj6ob4mw.pdf#toolbar=0&navpanes=0"
+    "party_slug": "nepal-majadur-kisan-party",
+    "pdf_url": "/assets/manifesto-pdf/nepal-majdur-kisan-party_7yuj6ob4mw.pdf"
   },
   {
     "id": "9",
     "party_name": "राष्ट्रिय जनमोर्चा घोषणापत्र",
-    "pdf_url": "https://npcdn.ratopati.com/election/media/party-manifesto/rastriya_janamorcha_manifesto_2082_ywghQkI4N4.pdf#toolbar=0&navpanes=0"
+    "party_slug": "rastriya-janamorcha",
+    "pdf_url": "/assets/manifesto-pdf/rastriya_janamorcha_manifesto_2082_ywghQkI4N4.pdf"
+  },
+  {
+    "id": "10",
+    "party_name": "श्रम संस्कृति पार्टीको घोषणापत्र",
+    "party_slug": "shram-samskriti-party",
+    "pdf_url": "/assets/manifesto-pdf/ssp.pdf"
   }
 ]

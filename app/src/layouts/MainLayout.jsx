@@ -9,8 +9,12 @@ export function MainLayout({
   title,
   description,
   children,
+  secondaryChildren,
   breadcrumbRight,
   headerRight,
+  breadcrumb,
+  hidePageHeader = false,
+  contentClassName = "",
   bare = false,
 }) {
   return (
@@ -130,21 +134,28 @@ export function MainLayout({
               <div className="backward flex flex-wrap flex-between flex-middle">
                 <div className="breadcrumb">
                   <Link to="/">प्रतिनिधि सभा निर्वाचन २०८२</Link>
-                  <span className="sep">/</span>
-                  <span>{title}</span>
+                  {breadcrumb ?? (
+                    <>
+                      <span className="sep">/</span>
+                      <span>{title}</span>
+                    </>
+                  )}
                 </div>
                 {breadcrumbRight}
               </div>
-              <div className="page-header flex flex-between flex-middle flex-wrap">
-                <div>
-                  <h3 className="page-title">{title}</h3>
-                  {description ? <p>{description}</p> : null}
+              {!hidePageHeader ? (
+                <div className="page-header flex flex-between flex-middle flex-wrap">
+                  <div>
+                    <h3 className="page-title">{title}</h3>
+                    {description ? <p>{description}</p> : null}
+                  </div>
+                  {headerRight}
                 </div>
-                {headerRight}
-              </div>
-              {children}
+              ) : null}
+              <div className={contentClassName}>{children}</div>
             </div>
           </section>
+          {secondaryChildren}
         </div>
       )}
     </>

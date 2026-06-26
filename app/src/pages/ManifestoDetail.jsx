@@ -1,24 +1,16 @@
-import { Link, useParams, useNavigate } from "react-router-dom";
-import { useState, useMemo, useEffect } from "react";
-import candidatesData from "../../public/data/candidates.json";
-import provinceData from "../../public/data/province.json";
-import districtData from "../../public/data/district.json";
-import constituencyData from "../../public/data/constituency.json";
-import partyData from "../../public/data/party.json";
+import { Link, useParams } from "react-router-dom";
 import manifestoData from "../../public/data/manifesto.json";
-import hotSeatsData from "../../public/data/hot-seats.json";
-import voteDifferenceData from "../../public/data/vote-difference.json";
 import { MainLayout } from "../layouts/MainLayout";
-import ConstituencyElectionCard from "../components/election/ConstituencyElectionCard";
-import { toNepaliNumber } from "../utils";
-import { districtsForProvince, provinceRouteSlug, cleanRouteSlug } from "../utils/geoUtils";
-import { fixImageUrl } from "../utils/imageUtils";
-import { getManifestoImage } from "../app/config/constants";
+
+function getPdfViewerUrl(pdfUrl) {
+  const base = pdfUrl.split("#")[0];
+  return `${base}#toolbar=1&navpanes=0&view=FitH`;
+}
 
 export default function ManifestoDetail() {
   const { id } = useParams();
   const cleanId = id?.replace(/\.html$/i, "");
-  const manifesto = manifestoData.find((m) => m.id === cleanId);
+  const manifesto = manifestoData.find((item) => item.id === cleanId);
 
   if (!manifesto) {
     return (
@@ -28,14 +20,44 @@ export default function ManifestoDetail() {
     );
   }
 
+  const breadcrumb = (
+    <>
+      <span className="sep">/</span>
+      <Link to="/manifesto">घोषणा पत्र</Link>
+      <span className="sep">/</span>
+      <span>{manifesto.party_name}</span>
+    </>
+  );
+
   return (
-    <MainLayout title={manifesto.party_name}>
-      <div className="pdf-viewer" style={{ marginTop: "20px" }}>
+    <MainLayout
+      title={manifesto.party_name}
+      hidePageHeader
+      breadcrumb={breadcrumb}
+    >
+      <div className="manifesto-detail-header">
+        <h2 className="manifesto-detail-title">{manifesto.party_name}</h2>
+        <div className="manifesto-detail-actions">
+          <a
+            href={manifesto.pdf_url}
+            download
+            target="_blank"
+            rel="noreferrer noopener"
+            className="manifesto-btn manifesto-btn-primary"
+          >
+            PDF डाउनलोड
+          </a>
+          <Link to="/manifesto" className="manifesto-btn manifesto-btn-secondary">
+            सूचीमा फर्कनुहोस्
+          </Link>
+        </div>
+      </div>
+
+      <div className="manifesto-pdf-viewer">
         <iframe
-          src={manifesto.pdf_url}
-          style={{ width: "100%", height: "920px", border: "none" }}
+          src={getPdfViewerUrl(manifesto.pdf_url)}
           title={manifesto.party_name}
-        ></iframe>
+        />
       </div>
     </MainLayout>
   );
