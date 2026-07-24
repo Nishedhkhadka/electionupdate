@@ -2,8 +2,8 @@
   {
     "slug": "achham",
     "name": "अछाम",
-    "province_slug": "koshi-province",
-    "province_name": "कोशी प्रदेश",
+    "province_slug": "sudurpashchim-province",
+    "province_name": "सुदूरपश्चिम प्रदेश",
     "map_image": "/election/media/map/achham_XROMOoFsS2.png",
     "description": "अछाम जिल्लामा कुल मतदाता १६५३३५ रहेका छन्, जसमा पुरुष ८२०३४, महिला ८३३०१ र अन्य ० मतदाता समावेश छन्। यस जिल्ला सुदूरपश्चिम प्रदेशमा पर्दछ। यस जिल्लाअन्तर्गत २ प्रतिनिधि सभा निर्वाचन क्षेत्रहरू रहेका छन्।",
     "voters": {
@@ -20,8 +20,8 @@
   {
     "slug": "arghakhanchi",
     "name": "अर्घाखाँची",
-    "province_slug": "koshi-province",
-    "province_name": "कोशी प्रदेश",
+    "province_slug": "lumbini-province",
+    "province_name": "लुम्बिनी प्रदेश",
     "map_image": "/election/media/map/arghakhachi_IyAu6FxOqV.png",
     "description": "अर्घाखाँची जिल्लामा कुल मतदाता १७१६५२ रहेका छन्, जसमा पुरुष ८७१५७, महिला ८४४९५ र अन्य ० मतदाता समावेश छन्। यस जिल्ला लुम्बिनी प्रदेशमा पर्दछ। यस जिल्लाअन्तर्गत १ प्रतिनिधि सभा निर्वाचन क्षेत्रहरू रहेका छन्।",
     "voters": {
@@ -37,8 +37,8 @@
   {
     "slug": "baglung",
     "name": "बाग्लुङ",
-    "province_slug": "koshi-province",
-    "province_name": "कोशी प्रदेश",
+    "province_slug": "gandaki-province",
+    "province_name": "गण्डकी प्रदेश",
     "map_image": "/election/media/map/baglung_tiB0nMZwlE.png",
     "description": "बाग्लुङ जिल्लामा कुल मतदाता १९३३८० रहेका छन्, जसमा पुरुष ९४८०६, महिला ९८५७४ र अन्य ० मतदाता समावेश छन्। यस जिल्ला गण्डकी प्रदेशमा पर्दछ। यस जिल्लाअन्तर्गत २ प्रतिनिधि सभा निर्वाचन क्षेत्रहरू रहेका छन्।",
     "voters": {
@@ -55,8 +55,8 @@
   {
     "slug": "baitadi",
     "name": "बैतडी",
-    "province_slug": "koshi-province",
-    "province_name": "कोशी प्रदेश",
+    "province_slug": "sudurpashchim-province",
+    "province_name": "सुदूरपश्चिम प्रदेश",
     "map_image": "/election/media/map/baidati_EctGfptM9t.png",
     "description": "बैतडी जिल्लामा कुल मतदाता १५६३७० रहेका छन्, जसमा पुरुष ७८९८७, महिला ७७३८३ र अन्य ० मतदाता समावेश छन्। यस जिल्ला सुदूरपश्चिम प्रदेशमा पर्दछ। यस जिल्लाअन्तर्गत १ प्रतिनिधि सभा निर्वाचन क्षेत्रहरू रहेका छन्।",
     "voters": {
@@ -72,8 +72,8 @@
   {
     "slug": "bajhang",
     "name": "बझाङ",
-    "province_slug": "koshi-province",
-    "province_name": "कोशी प्रदेश",
+    "province_slug": "sudurpashchim-province",
+    "province_name": "सुदूरपश्चिम प्रदेश",
     "map_image": "/election/media/map/bajhang_AUn9TtYW3h.png",
     "description": "बझाङ जिल्लामा कुल मतदाता १२६९०३ रहेका छन्, जसमा पुरुष ६४६१४, महिला ६२२८९ र अन्य ० मतदाता समावेश छन्। यस जिल्ला सुदूरपश्चिम प्रदेशमा पर्दछ। यस जिल्लाअन्तर्गत १ प्रतिनिधि सभा निर्वाचन क्षेत्रहरू रहेका छन्।",
     "voters": {
@@ -89,8 +89,8 @@
   {
     "slug": "bajura",
     "name": "बाजुरा",
-    "province_slug": "koshi-province",
-    "province_name": "कोशी प्रदेश",
+    "province_slug": "sudurpashchim-province",
+    "province_name": "सुदूरपश्चिम प्रदेश",
     "map_image": "/election/media/map/bajura_GdYhLuQVsr.png",
     "description": "बाजुरा जिल्लामा कुल मतदाता ८७८५९ रहेका छन्, जसमा पुरुष ४५४२८, महिला ४२४३१ र अन्य ० मतदाता समावेश छन्। यस जिल्ला सुदूरपश्चिम प्रदेशमा पर्दछ। यस जिल्लाअन्तर्गत १ प्रतिनिधि सभा निर्वाचन क्षेत्रहरू रहेका छन्।",
     "voters": {
@@ -106,8 +106,8 @@
   {
     "slug": "banke",
     "name": "बाँके",
-    "province_slug": "koshi-province",
-    "province_name": "कोशी प्रदेश",
+    "province_slug": "lumbini-province",
+    "province_name": "लुम्बिनी प्रदेश",
     "map_image": "/election/media/map/banke_gdd2PC5EfY.png",
     "description": "बाँके जिल्लामा कुल मतदाता ३५०३६२ रहेका छन्, जसमा पुरुष १७८१३९, महिला १७२२२३ र अन्य ० मतदाता समावेश छन्। यस जिल्ला लुम्बिनी प्रदेशमा पर्दछ। यस जिल्लाअन्तर्गत ३ प्रतिनिधि सभा निर्वाचन क्षेत्रहरू रहेका छन्।",
     "voters": {
@@ -125,8 +125,8 @@
   {
     "slug": "bara",
     "name": "बारा",
-    "province_slug": "koshi-province",
-    "province_name": "कोशी प्रदेश",
+    "province_slug": "madhesh-province",
+    "province_name": "मधेस प्रदेश",
     "map_image": "/election/media/map/bara_KfuiH2zUrg.png",
     "description": "बारा जिल्लामा कुल मतदाता ४६५७७२ रहेका छन्, जसमा पुरुष २५५७६३, महिला २१०००९ र अन्य ० मतदाता समावेश छन्। यस जिल्ला मधेस प्रदेशमा पर्दछ। यस जिल्लाअन्तर्गत ४ प्रतिनिधि सभा निर्वाचन क्षेत्रहरू रहेका छन्।",
     "voters": {
@@ -145,8 +145,8 @@
   {
     "slug": "bardiya",
     "name": "बर्दिया",
-    "province_slug": "koshi-province",
-    "province_name": "कोशी प्रदेश",
+    "province_slug": "lumbini-province",
+    "province_name": "लुम्बिनी प्रदेश",
     "map_image": "/election/media/map/bardiya_AapvdXXhwx.png",
     "description": "बर्दिया जिल्लामा कुल मतदाता ३२३२६० रहेका छन्, जसमा पुरुष १५९३८७, महिला १६३८७३ र अन्य ० मतदाता समावेश छन्। यस जिल्ला लुम्बिनी प्रदेशमा पर्दछ। यस जिल्लाअन्तर्गत २ प्रतिनिधि सभा निर्वाचन क्षेत्रहरू रहेका छन्।",
     "voters": {
@@ -163,8 +163,8 @@
   {
     "slug": "bhaktapur",
     "name": "भक्तपुर",
-    "province_slug": "koshi-province",
-    "province_name": "कोशी प्रदेश",
+    "province_slug": "bagmati-province",
+    "province_name": "बागमती प्रदेश",
     "map_image": "/election/media/map/bhaktapur_6MNJvegcjD.png",
     "description": "भक्तपुर जिल्लामा कुल मतदाता २०५४०५ रहेका छन्, जसमा पुरुष १००१४०, महिला १०५२६५ र अन्य ० मतदाता समावेश छन्। यस जिल्ला बागमती प्रदेशमा पर्दछ। यस जिल्लाअन्तर्गत २ प्रतिनिधि सभा निर्वाचन क्षेत्रहरू रहेका छन्।",
     "voters": {
@@ -198,8 +198,8 @@
   {
     "slug": "chitwan",
     "name": "चितवन",
-    "province_slug": "koshi-province",
-    "province_name": "कोशी प्रदेश",
+    "province_slug": "bagmati-province",
+    "province_name": "बागमती प्रदेश",
     "map_image": "/election/media/map/chitwan_ljJpf1V7eR.png",
     "description": "चितवन जिल्लामा कुल मतदाता ४४२०८० रहेका छन्, जसमा पुरुष २१७३१४, महिला २२४७६६ र अन्य ० मतदाता समावेश छन्। यस जिल्ला बागमती प्रदेशमा पर्दछ। यस जिल्लाअन्तर्गत ३ प्रतिनिधि सभा निर्वाचन क्षेत्रहरू रहेका छन्।",
     "voters": {
@@ -217,8 +217,8 @@
   {
     "slug": "dadeldhura",
     "name": "डडेलधुरा",
-    "province_slug": "koshi-province",
-    "province_name": "कोशी प्रदेश",
+    "province_slug": "sudurpashchim-province",
+    "province_name": "सुदूरपश्चिम प्रदेश",
     "map_image": "/election/media/map/dadeldhura_SH65bZcpvk.png",
     "description": "डडेलधुरा जिल्लामा कुल मतदाता ९३४०३ रहेका छन्, जसमा पुरुष ४६९५७, महिला ४६४४६ र अन्य ० मतदाता समावेश छन्। यस जिल्ला सुदूरपश्चिम प्रदेशमा पर्दछ। यस जिल्लाअन्तर्गत १ प्रतिनिधि सभा निर्वाचन क्षेत्रहरू रहेका छन्।",
     "voters": {
@@ -234,8 +234,8 @@
   {
     "slug": "dailekh",
     "name": "दैलेख",
-    "province_slug": "koshi-province",
-    "province_name": "कोशी प्रदेश",
+    "province_slug": "karnali-province",
+    "province_name": "कर्णाली प्रदेश",
     "map_image": "/election/media/map/dailekh_ZWYY6TK1Y1.png",
     "description": "दैलेख जिल्लामा कुल मतदाता १६१२०४ रहेका छन्, जसमा पुरुष ८१०९९, महिला ८०१०५ र अन्य ० मतदाता समावेश छन्। यस जिल्ला कर्णाली प्रदेशमा पर्दछ। यस जिल्लाअन्तर्गत २ प्रतिनिधि सभा निर्वाचन क्षेत्रहरू रहेका छन्।",
     "voters": {
@@ -252,8 +252,8 @@
   {
     "slug": "dang",
     "name": "दाङ",
-    "province_slug": "koshi-province",
-    "province_name": "कोशी प्रदेश",
+    "province_slug": "lumbini-province",
+    "province_name": "लुम्बिनी प्रदेश",
     "map_image": "/election/media/map/dang_RTjDdtmzCS.png",
     "description": "दाङ जिल्लामा कुल मतदाता ४३१६८३ रहेका छन्, जसमा पुरुष २१३३८०, महिला २१८३०३ र अन्य ० मतदाता समावेश छन्। यस जिल्ला लुम्बिनी प्रदेशमा पर्दछ। यस जिल्लाअन्तर्गत ३ प्रतिनिधि सभा निर्वाचन क्षेत्रहरू रहेका छन्।",
     "voters": {
@@ -271,8 +271,8 @@
   {
     "slug": "darchula",
     "name": "दार्चुला",
-    "province_slug": "koshi-province",
-    "province_name": "कोशी प्रदेश",
+    "province_slug": "sudurpashchim-province",
+    "province_name": "सुदूरपश्चिम प्रदेश",
     "map_image": "/election/media/map/darchula_riPj690RTb.png",
     "description": "दार्चुला जिल्लामा कुल मतदाता ९२९४८ रहेका छन्, जसमा पुरुष ४७७५५, महिला ४५१९३ र अन्य ० मतदाता समावेश छन्। यस जिल्ला सुदूरपश्चिम प्रदेशमा पर्दछ। यस जिल्लाअन्तर्गत १ प्रतिनिधि सभा निर्वाचन क्षेत्रहरू रहेका छन्।",
     "voters": {
@@ -288,8 +288,8 @@
   {
     "slug": "dhading",
     "name": "धादिङ",
-    "province_slug": "koshi-province",
-    "province_name": "कोशी प्रदेश",
+    "province_slug": "bagmati-province",
+    "province_name": "बागमती प्रदेश",
     "map_image": "/election/media/map/dhading_s7mKpOla2V.png",
     "description": "धादिङ जिल्लामा कुल मतदाता २७५२७८ रहेका छन्, जसमा पुरुष १४१०१९, महिला १३४२५९ र अन्य ० मतदाता समावेश छन्। यस जिल्ला बागमती प्रदेशमा पर्दछ। यस जिल्लाअन्तर्गत २ प्रतिनिधि सभा निर्वाचन क्षेत्रहरू रहेका छन्।",
     "voters": {
@@ -323,8 +323,8 @@
   {
     "slug": "dhanusha",
     "name": "धनुषा",
-    "province_slug": "koshi-province",
-    "province_name": "कोशी प्रदेश",
+    "province_slug": "madhesh-province",
+    "province_name": "मधेस प्रदेश",
     "map_image": "/election/media/map/dhanusha_q5fkKustdz.png",
     "description": "धनुषा जिल्लामा कुल मतदाता ५१४५६१ रहेका छन्, जसमा पुरुष २७६१२६, महिला २३८४३५ र अन्य ० मतदाता समावेश छन्। यस जिल्ला मधेस प्रदेशमा पर्दछ। यस जिल्लाअन्तर्गत ४ प्रतिनिधि सभा निर्वाचन क्षेत्रहरू रहेका छन्।",
     "voters": {
@@ -343,8 +343,8 @@
   {
     "slug": "dolakha",
     "name": "दोलखा",
-    "province_slug": "koshi-province",
-    "province_name": "कोशी प्रदेश",
+    "province_slug": "bagmati-province",
+    "province_name": "बागमती प्रदेश",
     "map_image": "/election/media/map/dolkha_7P4rN3yNje.png",
     "description": "दोलखा जिल्लामा कुल मतदाता १७०३२१ रहेका छन्, जसमा पुरुष ८७१६१, महिला ८३१६० र अन्य ० मतदाता समावेश छन्। यस जिल्ला बागमती प्रदेशमा पर्दछ। यस जिल्लाअन्तर्गत १ प्रतिनिधि सभा निर्वाचन क्षेत्रहरू रहेका छन्।",
     "voters": {
@@ -360,8 +360,8 @@
   {
     "slug": "dolpa",
     "name": "डोल्पा",
-    "province_slug": "koshi-province",
-    "province_name": "कोशी प्रदेश",
+    "province_slug": "karnali-province",
+    "province_name": "कर्णाली प्रदेश",
     "map_image": "/election/media/map/dolpo_DFqbmNpJgY.png",
     "description": "डोल्पा जिल्लामा कुल मतदाता २४११५ रहेका छन्, जसमा पुरुष ११९२८, महिला १२१८७ र अन्य ० मतदाता समावेश छन्। यस जिल्ला कर्णाली प्रदेशमा पर्दछ। यस जिल्लाअन्तर्गत १ प्रतिनिधि सभा निर्वाचन क्षेत्रहरू रहेका छन्।",
     "voters": {
@@ -377,8 +377,8 @@
   {
     "slug": "doti",
     "name": "डोटी",
-    "province_slug": "koshi-province",
-    "province_name": "कोशी प्रदेश",
+    "province_slug": "sudurpashchim-province",
+    "province_name": "सुदूरपश्चिम प्रदेश",
     "map_image": "/election/media/map/doti_fz43NkUuMx.png",
     "description": "डोटी जिल्लामा कुल मतदाता १२८३९९ रहेका छन्, जसमा पुरुष ६१५७८, महिला ६६८२१ र अन्य ० मतदाता समावेश छन्। यस जिल्ला सुदूरपश्चिम प्रदेशमा पर्दछ। यस जिल्लाअन्तर्गत १ प्रतिनिधि सभा निर्वाचन क्षेत्रहरू रहेका छन्।",
     "voters": {
@@ -394,8 +394,8 @@
   {
     "slug": "gorkha",
     "name": "गोरखा",
-    "province_slug": "koshi-province",
-    "province_name": "कोशी प्रदेश",
+    "province_slug": "gandaki-province",
+    "province_name": "गण्डकी प्रदेश",
     "map_image": "/election/media/map/gorkha_ZvIv7Vmo8u.png",
     "description": "गोरखा जिल्लामा कुल मतदाता २२९०५७ रहेका छन्, जसमा पुरुष ११४८३७, महिला ११४२२० र अन्य ० मतदाता समावेश छन्। यस जिल्ला गण्डकी प्रदेशमा पर्दछ। यस जिल्लाअन्तर्गत २ प्रतिनिधि सभा निर्वाचन क्षेत्रहरू रहेका छन्।",
     "voters": {
@@ -412,8 +412,8 @@
   {
     "slug": "gulmi",
     "name": "गुल्मी",
-    "province_slug": "koshi-province",
-    "province_name": "कोशी प्रदेश",
+    "province_slug": "lumbini-province",
+    "province_name": "लुम्बिनी प्रदेश",
     "map_image": "/election/media/map/gulmi_Nz17OxYstw.png",
     "description": "गुल्मी जिल्लामा कुल मतदाता २२९५४७ रहेका छन्, जसमा पुरुष ११४३३७, महिला ११५२१० र अन्य ० मतदाता समावेश छन्। यस जिल्ला लुम्बिनी प्रदेशमा पर्दछ। यस जिल्लाअन्तर्गत २ प्रतिनिधि सभा निर्वाचन क्षेत्रहरू रहेका छन्।",
     "voters": {
@@ -430,8 +430,8 @@
   {
     "slug": "humla",
     "name": "हुम्ला",
-    "province_slug": "koshi-province",
-    "province_name": "कोशी प्रदेश",
+    "province_slug": "karnali-province",
+    "province_name": "कर्णाली प्रदेश",
     "map_image": "/election/media/map/humla_XpMyyhRgi0.png",
     "description": "हुम्ला जिल्लामा कुल मतदाता ३४३७२ रहेका छन्, जसमा पुरुष १८०२१, महिला १६३५१ र अन्य ० मतदाता समावेश छन्। यस जिल्ला कर्णाली प्रदेशमा पर्दछ। यस जिल्लाअन्तर्गत १ प्रतिनिधि सभा निर्वाचन क्षेत्रहरू रहेका छन्।",
     "voters": {
@@ -465,8 +465,8 @@
   {
     "slug": "jajarkot",
     "name": "जाजरकोट",
-    "province_slug": "koshi-province",
-    "province_name": "कोशी प्रदेश",
+    "province_slug": "karnali-province",
+    "province_name": "कर्णाली प्रदेश",
     "map_image": "/election/media/map/jajarkot_cc5GkmxjNZ.png",
     "description": "जाजरकोट जिल्लामा कुल मतदाता १०७०८९ रहेका छन्, जसमा पुरुष ५६७०५, महिला ५०३८४ र अन्य ० मतदाता समावेश छन्। यस जिल्ला कर्णाली प्रदेशमा पर्दछ। यस जिल्लाअन्तर्गत १ प्रतिनिधि सभा निर्वाचन क्षेत्रहरू रहेका छन्।",
     "voters": {
@@ -503,8 +503,8 @@
   {
     "slug": "jumla",
     "name": "जुम्ला",
-    "province_slug": "koshi-province",
-    "province_name": "कोशी प्रदेश",
+    "province_slug": "karnali-province",
+    "province_name": "कर्णाली प्रदेश",
     "map_image": "/election/media/map/jumla_05Phd6IFWQ.png",
     "description": "जुम्ला जिल्लामा कुल मतदाता ७१७३९ रहेका छन्, जसमा पुरुष ३७४५९, महिला ३४२८० र अन्य ० मतदाता समावेश छन्। यस जिल्ला कर्णाली प्रदेशमा पर्दछ। यस जिल्लाअन्तर्गत १ प्रतिनिधि सभा निर्वाचन क्षेत्रहरू रहेका छन्।",
     "voters": {
@@ -520,8 +520,8 @@
   {
     "slug": "kailali",
     "name": "कैलाली",
-    "province_slug": "koshi-province",
-    "province_name": "कोशी प्रदेश",
+    "province_slug": "sudurpashchim-province",
+    "province_name": "सुदूरपश्चिम प्रदेश",
     "map_image": "/election/media/map/kailali_dM5C4JX5w6.png",
     "description": "कैलाली जिल्लामा कुल मतदाता ५५१०४१ रहेका छन्, जसमा पुरुष २७०७९८, महिला २८०२४३ र अन्य ० मतदाता समावेश छन्। यस जिल्ला सुदूरपश्चिम प्रदेशमा पर्दछ। यस जिल्लाअन्तर्गत ५ प्रतिनिधि सभा निर्वाचन क्षेत्रहरू रहेका छन्।",
     "voters": {
@@ -541,8 +541,8 @@
   {
     "slug": "kalikot",
     "name": "कालिकोट",
-    "province_slug": "koshi-province",
-    "province_name": "कोशी प्रदेश",
+    "province_slug": "karnali-province",
+    "province_name": "कर्णाली प्रदेश",
     "map_image": "/election/media/map/kalikot_U5TuBNBeut.png",
     "description": "कालिकोट जिल्लामा कुल मतदाता ८४६४६ रहेका छन्, जसमा पुरुष ४४६०३, महिला ४००४३ र अन्य ० मतदाता समावेश छन्। यस जिल्ला कर्णाली प्रदेशमा पर्दछ। यस जिल्लाअन्तर्गत १ प्रतिनिधि सभा निर्वाचन क्षेत्रहरू रहेका छन्।",
     "voters": {
@@ -558,8 +558,8 @@
   {
     "slug": "kanchanpur",
     "name": "कञ्चनपुर",
-    "province_slug": "koshi-province",
-    "province_name": "कोशी प्रदेश",
+    "province_slug": "sudurpashchim-province",
+    "province_name": "सुदूरपश्चिम प्रदेश",
     "map_image": "/election/media/map/kanchanpur_FXFlMMveLG.png",
     "description": "कञ्चनपुर जिल्लामा कुल मतदाता ३१४३८४ रहेका छन्, जसमा पुरुष १५४०६८, महिला १६०३१६ र अन्य ० मतदाता समावेश छन्। यस जिल्ला सुदूरपश्चिम प्रदेशमा पर्दछ। यस जिल्लाअन्तर्गत ३ प्रतिनिधि सभा निर्वाचन क्षेत्रहरू रहेका छन्।",
     "voters": {
@@ -577,8 +577,8 @@
   {
     "slug": "kapilvastu",
     "name": "कपिलबस्तु",
-    "province_slug": "koshi-province",
-    "province_name": "कोशी प्रदेश",
+    "province_slug": "lumbini-province",
+    "province_name": "लुम्बिनी प्रदेश",
     "map_image": "/election/media/map/kapilbastu_iJcFjaO9R8.png",
     "description": "कपिलबस्तु जिल्लामा कुल मतदाता ३९६२६१ रहेका छन्, जसमा पुरुष २११८४६, महिला १८४४१५ र अन्य ० मतदाता समावेश छन्। यस जिल्ला लुम्बिनी प्रदेशमा पर्दछ। यस जिल्लाअन्तर्गत ३ प्रतिनिधि सभा निर्वाचन क्षेत्रहरू रहेका छन्।",
     "voters": {
@@ -596,8 +596,8 @@
   {
     "slug": "kaski",
     "name": "कास्की",
-    "province_slug": "koshi-province",
-    "province_name": "कोशी प्रदेश",
+    "province_slug": "gandaki-province",
+    "province_name": "गण्डकी प्रदेश",
     "map_image": "/election/media/map/kaski_GTAlKXj2tA.png",
     "description": "कास्की जिल्लामा कुल मतदाता ३०८५६८ रहेका छन्, जसमा पुरुष १४८४१५, महिला १६०१५३ र अन्य ० मतदाता समावेश छन्। यस जिल्ला गण्डकी प्रदेशमा पर्दछ। यस जिल्लाअन्तर्गत ३ प्रतिनिधि सभा निर्वाचन क्षेत्रहरू रहेका छन्।",
     "voters": {
@@ -615,8 +615,8 @@
   {
     "slug": "kathmandu",
     "name": "काठमाडौं",
-    "province_slug": "koshi-province",
-    "province_name": "कोशी प्रदेश",
+    "province_slug": "bagmati-province",
+    "province_name": "बागमती प्रदेश",
     "map_image": "/election/media/map/ktm-1_PpAivpzoZg.png",
     "description": "काठमाडौं जिल्लामा कुल मतदाता ७१०७०१ रहेका छन्, जसमा पुरुष ३४४१९४, महिला ३६६५०७ र अन्य ० मतदाता समावेश छन्। यस जिल्ला बागमती प्रदेशमा पर्दछ। यस जिल्लाअन्तर्गत १० प्रतिनिधि सभा निर्वाचन क्षेत्रहरू रहेका छन्।",
     "voters": {
@@ -641,8 +641,8 @@
   {
     "slug": "kavrepalanchok",
     "name": "काभ्रेपलाञ्चोक",
-    "province_slug": "koshi-province",
-    "province_name": "कोशी प्रदेश",
+    "province_slug": "bagmati-province",
+    "province_name": "बागमती प्रदेश",
     "map_image": "/election/media/map/kavre_ZcWlm6prMi.png",
     "description": "काभ्रेपलाञ्चोक जिल्लामा कुल मतदाता ३२६६०९ रहेका छन्, जसमा पुरुष १६७४९९, महिला १५९११० र अन्य ० मतदाता समावेश छन्। यस जिल्ला बागमती प्रदेशमा पर्दछ। यस जिल्लाअन्तर्गत २ प्रतिनिधि सभा निर्वाचन क्षेत्रहरू रहेका छन्।",
     "voters": {
@@ -676,8 +676,8 @@
   {
     "slug": "lalitpur",
     "name": "ललितपुर",
-    "province_slug": "koshi-province",
-    "province_name": "कोशी प्रदेश",
+    "province_slug": "bagmati-province",
+    "province_name": "बागमती प्रदेश",
     "map_image": "/election/media/map/lalitpur_g1T8O7BtGA.png",
     "description": "ललितपुर जिल्लामा कुल मतदाता २६९२५६ रहेका छन्, जसमा पुरुष १३१५४९, महिला १३७७०७ र अन्य ० मतदाता समावेश छन्। यस जिल्ला बागमती प्रदेशमा पर्दछ। यस जिल्लाअन्तर्गत ३ प्रतिनिधि सभा निर्वाचन क्षेत्रहरू रहेका छन्।",
     "voters": {
@@ -695,8 +695,8 @@
   {
     "slug": "lamjung",
     "name": "लमजुङ",
-    "province_slug": "koshi-province",
-    "province_name": "कोशी प्रदेश",
+    "province_slug": "gandaki-province",
+    "province_name": "गण्डकी प्रदेश",
     "map_image": "/election/media/map/lamjung_XTqexqRCXV.png",
     "description": "लमजुङ जिल्लामा कुल मतदाता १३७१२४ रहेका छन्, जसमा पुरुष ६७६००, महिला ६९५२४ र अन्य ० मतदाता समावेश छन्। यस जिल्ला गण्डकी प्रदेशमा पर्दछ। यस जिल्लाअन्तर्गत १ प्रतिनिधि सभा निर्वाचन क्षेत्रहरू रहेका छन्।",
     "voters": {
@@ -712,8 +712,8 @@
   {
     "slug": "mahottari",
     "name": "महोत्तरी",
-    "province_slug": "koshi-province",
-    "province_name": "कोशी प्रदेश",
+    "province_slug": "madhesh-province",
+    "province_name": "मधेस प्रदेश",
     "map_image": "/election/media/map/mahotari_Xy4OTha0Od.png",
     "description": "महोत्तरी जिल्लामा कुल मतदाता ४३१२८० रहेका छन्, जसमा पुरुष २३५१८३, महिला १९६०९७ र अन्य ० मतदाता समावेश छन्। यस जिल्ला मधेस प्रदेशमा पर्दछ। यस जिल्लाअन्तर्गत ४ प्रतिनिधि सभा निर्वाचन क्षेत्रहरू रहेका छन्।",
     "voters": {
@@ -732,8 +732,8 @@
   {
     "slug": "makwanpur",
     "name": "मकवानपुर",
-    "province_slug": "koshi-province",
-    "province_name": "कोशी प्रदेश",
+    "province_slug": "bagmati-province",
+    "province_name": "बागमती प्रदेश",
     "map_image": "/election/media/map/makawanpur_nnsKDTtYsC.png",
     "description": "मकवानपुर जिल्लामा कुल मतदाता ३१५३२९ रहेका छन्, जसमा पुरुष १६१९५३, महिला १५३३७६ र अन्य ० मतदाता समावेश छन्। यस जिल्ला बागमती प्रदेशमा पर्दछ। यस जिल्लाअन्तर्गत २ प्रतिनिधि सभा निर्वाचन क्षेत्रहरू रहेका छन्।",
     "voters": {
@@ -750,8 +750,8 @@
   {
     "slug": "manang",
     "name": "मनाङ",
-    "province_slug": "koshi-province",
-    "province_name": "कोशी प्रदेश",
+    "province_slug": "gandaki-province",
+    "province_name": "गण्डकी प्रदेश",
     "map_image": "/election/media/map/manang_NfjSpjuoH3.png",
     "description": "मनाङ जिल्लामा कुल मतदाता ७००० रहेका छन्, जसमा पुरुष ३३७७, महिला ३६२३ र अन्य ० मतदाता समावेश छन्। यस जिल्ला गण्डकी प्रदेशमा पर्दछ। यस जिल्लाअन्तर्गत १ प्रतिनिधि सभा निर्वाचन क्षेत्रहरू रहेका छन्।",
     "voters": {
@@ -789,8 +789,8 @@
   {
     "slug": "mugu",
     "name": "मुगु",
-    "province_slug": "koshi-province",
-    "province_name": "कोशी प्रदेश",
+    "province_slug": "karnali-province",
+    "province_name": "कर्णाली प्रदेश",
     "map_image": "/election/media/map/mugu_CoFxBf3Z18.png",
     "description": "मुगु जिल्लामा कुल मतदाता ३६०३१ रहेका छन्, जसमा पुरुष १८५९८, महिला १७४३३ र अन्य ० मतदाता समावेश छन्। यस जिल्ला कर्णाली प्रदेशमा पर्दछ। यस जिल्लाअन्तर्गत १ प्रतिनिधि सभा निर्वाचन क्षेत्रहरू रहेका छन्।",
     "voters": {
@@ -806,8 +806,8 @@
   {
     "slug": "mustang",
     "name": "मुस्ताङ",
-    "province_slug": "koshi-province",
-    "province_name": "कोशी प्रदेश",
+    "province_slug": "gandaki-province",
+    "province_name": "गण्डकी प्रदेश",
     "map_image": "/election/media/map/mustang_CHHw1mBKWD.png",
     "description": "मुस्ताङ जिल्लामा कुल मतदाता ११३२७ रहेका छन्, जसमा पुरुष ५५५९, महिला ५७६८ र अन्य ० मतदाता समावेश छन्। यस जिल्ला गण्डकी प्रदेशमा पर्दछ। यस जिल्लाअन्तर्गत १ प्रतिनिधि सभा निर्वाचन क्षेत्रहरू रहेका छन्।",
     "voters": {
@@ -823,8 +823,8 @@
   {
     "slug": "myagdi",
     "name": "म्याग्दी",
-    "province_slug": "koshi-province",
-    "province_name": "कोशी प्रदेश",
+    "province_slug": "gandaki-province",
+    "province_name": "गण्डकी प्रदेश",
     "map_image": "/election/media/map/myagdi_BtSwlBYRes.png",
     "description": "म्याग्दी जिल्लामा कुल मतदाता ८६३९६ रहेका छन्, जसमा पुरुष ४२३३२, महिला ४४०६४ र अन्य ० मतदाता समावेश छन्। यस जिल्ला गण्डकी प्रदेशमा पर्दछ। यस जिल्लाअन्तर्गत १ प्रतिनिधि सभा निर्वाचन क्षेत्रहरू रहेका छन्।",
     "voters": {
@@ -840,8 +840,8 @@
   {
     "slug": "nawalparasi-east",
     "name": "नवलपुर",
-    "province_slug": "koshi-province",
-    "province_name": "कोशी प्रदेश",
+    "province_slug": "gandaki-province",
+    "province_name": "गण्डकी प्रदेश",
     "map_image": "/election/media/map/pawalparasi-purba_vtEwdgy7qq.png",
     "description": "नवलपुर जिल्लामा कुल मतदाता २६८५२२ रहेका छन्, जसमा पुरुष १२९०५४, महिला १३९४६८ र अन्य ० मतदाता समावेश छन्। यस जिल्ला गण्डकी प्रदेशमा पर्दछ। यस जिल्लाअन्तर्गत २ प्रतिनिधि सभा निर्वाचन क्षेत्रहरू रहेका छन्।",
     "voters": {
@@ -858,8 +858,8 @@
   {
     "slug": "nawalparasi-west",
     "name": "नवलपरासी",
-    "province_slug": "koshi-province",
-    "province_name": "कोशी प्रदेश",
+    "province_slug": "lumbini-province",
+    "province_name": "लुम्बिनी प्रदेश",
     "map_image": "/election/media/map/nawalparasi-pachim_ducTl6AygL.png",
     "description": "नवलपरासी जिल्लामा कुल मतदाता २५४१५३ रहेका छन्, जसमा पुरुष १२९१८३, महिला १२४९७० र अन्य ० मतदाता समावेश छन्। यस जिल्ला लुम्बिनी प्रदेशमा पर्दछ। यस जिल्लाअन्तर्गत २ प्रतिनिधि सभा निर्वाचन क्षेत्रहरू रहेका छन्।",
     "voters": {
@@ -876,8 +876,8 @@
   {
     "slug": "nuwakot",
     "name": "नुवाकोट",
-    "province_slug": "koshi-province",
-    "province_name": "कोशी प्रदेश",
+    "province_slug": "bagmati-province",
+    "province_name": "बागमती प्रदेश",
     "map_image": "/election/media/map/nuwakot_JyAneAAsXk.png",
     "description": "नुवाकोट जिल्लामा कुल मतदाता २४७८६५ रहेका छन्, जसमा पुरुष १२८८९०, महिला ११८९७५ र अन्य ० मतदाता समावेश छन्। यस जिल्ला बागमती प्रदेशमा पर्दछ। यस जिल्लाअन्तर्गत २ प्रतिनिधि सभा निर्वाचन क्षेत्रहरू रहेका छन्।",
     "voters": {
@@ -911,8 +911,8 @@
   {
     "slug": "palpa",
     "name": "पाल्पा",
-    "province_slug": "koshi-province",
-    "province_name": "कोशी प्रदेश",
+    "province_slug": "lumbini-province",
+    "province_name": "लुम्बिनी प्रदेश",
     "map_image": "/election/media/map/palpa_qXUk6oNPMm.png",
     "description": "पाल्पा जिल्लामा कुल मतदाता २०७४३६ रहेका छन्, जसमा पुरुष १०१८९३, महिला १०५५४३ र अन्य ० मतदाता समावेश छन्। यस जिल्ला लुम्बिनी प्रदेशमा पर्दछ। यस जिल्लाअन्तर्गत २ प्रतिनिधि सभा निर्वाचन क्षेत्रहरू रहेका छन्।",
     "voters": {
@@ -946,8 +946,8 @@
   {
     "slug": "parbat",
     "name": "पर्वत",
-    "province_slug": "koshi-province",
-    "province_name": "कोशी प्रदेश",
+    "province_slug": "gandaki-province",
+    "province_name": "गण्डकी प्रदेश",
     "map_image": "/election/media/map/parbat_SyoS7ipgPm.png",
     "description": "पर्वत जिल्लामा कुल मतदाता १२५४६५ रहेका छन्, जसमा पुरुष ६२६००, महिला ६२८६५ र अन्य ० मतदाता समावेश छन्। यस जिल्ला गण्डकी प्रदेशमा पर्दछ। यस जिल्लाअन्तर्गत १ प्रतिनिधि सभा निर्वाचन क्षेत्रहरू रहेका छन्।",
     "voters": {
@@ -963,8 +963,8 @@
   {
     "slug": "parsa",
     "name": "पर्सा",
-    "province_slug": "koshi-province",
-    "province_name": "कोशी प्रदेश",
+    "province_slug": "madhesh-province",
+    "province_name": "मधेस प्रदेश",
     "map_image": "/election/media/map/parsa_9bqoxlnjPZ.png",
     "description": "पर्सा जिल्लामा कुल मतदाता ३७६४९८ रहेका छन्, जसमा पुरुष २१२०७७, महिला १६४४२१ र अन्य ० मतदाता समावेश छन्। यस जिल्ला मधेस प्रदेशमा पर्दछ। यस जिल्लाअन्तर्गत ४ प्रतिनिधि सभा निर्वाचन क्षेत्रहरू रहेका छन्।",
     "voters": {
@@ -983,8 +983,8 @@
   {
     "slug": "pyuthan",
     "name": "प्यूठान",
-    "province_slug": "koshi-province",
-    "province_name": "कोशी प्रदेश",
+    "province_slug": "lumbini-province",
+    "province_name": "लुम्बिनी प्रदेश",
     "map_image": "/election/media/map/pyuthan_6vaUUNMnqu.png",
     "description": "प्यूठान जिल्लामा कुल मतदाता १६५४०५ रहेका छन्, जसमा पुरुष ८१३६६, महिला ८४०३९ र अन्य ० मतदाता समावेश छन्। यस जिल्ला लुम्बिनी प्रदेशमा पर्दछ। यस जिल्लाअन्तर्गत १ प्रतिनिधि सभा निर्वाचन क्षेत्रहरू रहेका छन्।",
     "voters": {
@@ -1000,8 +1000,8 @@
   {
     "slug": "ramechhap",
     "name": "रामेछाप",
-    "province_slug": "koshi-province",
-    "province_name": "कोशी प्रदेश",
+    "province_slug": "bagmati-province",
+    "province_name": "बागमती प्रदेश",
     "map_image": "/election/media/map/ramechap_yywVngk4er.png",
     "description": "रामेछाप जिल्लामा कुल मतदाता १८७९५२ रहेका छन्, जसमा पुरुष ९६८९२, महिला ९१०६० र अन्य ० मतदाता समावेश छन्। यस जिल्ला बागमती प्रदेशमा पर्दछ। यस जिल्लाअन्तर्गत १ प्रतिनिधि सभा निर्वाचन क्षेत्रहरू रहेका छन्।",
     "voters": {
@@ -1017,8 +1017,8 @@
   {
     "slug": "rasuwa",
     "name": "रसुवा",
-    "province_slug": "koshi-province",
-    "province_name": "कोशी प्रदेश",
+    "province_slug": "bagmati-province",
+    "province_name": "बागमती प्रदेश",
     "map_image": "/election/media/map/rasuwa_oPHpI2zYvx.png",
     "description": "रसुवा जिल्लामा कुल मतदाता ४१४७० रहेका छन्, जसमा पुरुष २११४१, महिला २०३२९ र अन्य ० मतदाता समावेश छन्। यस जिल्ला बागमती प्रदेशमा पर्दछ। यस जिल्लाअन्तर्गत १ प्रतिनिधि सभा निर्वाचन क्षेत्रहरू रहेका छन्।",
     "voters": {
@@ -1034,8 +1034,8 @@
   {
     "slug": "rautahat",
     "name": "रौतहट",
-    "province_slug": "koshi-province",
-    "province_name": "कोशी प्रदेश",
+    "province_slug": "madhesh-province",
+    "province_name": "मधेस प्रदेश",
     "map_image": "/election/media/map/rauthat_lm3q9qNJUg.png",
     "description": "रौतहट जिल्लामा कुल मतदाता ४३६६१० रहेका छन्, जसमा पुरुष २४०२६७, महिला १९६३४३ र अन्य ० मतदाता समावेश छन्। यस जिल्ला मधेस प्रदेशमा पर्दछ। यस जिल्लाअन्तर्गत ४ प्रतिनिधि सभा निर्वाचन क्षेत्रहरू रहेका छन्।",
     "voters": {
@@ -1054,8 +1054,8 @@
   {
     "slug": "rolpa",
     "name": "रोल्पा",
-    "province_slug": "koshi-province",
-    "province_name": "कोशी प्रदेश",
+    "province_slug": "lumbini-province",
+    "province_name": "लुम्बिनी प्रदेश",
     "map_image": "/election/media/map/rolpa_PTGySCrc6m.png",
     "description": "रोल्पा जिल्लामा कुल मतदाता १४९५९७ रहेका छन्, जसमा पुरुष ७४६९०, महिला ७४९०७ र अन्य ० मतदाता समावेश छन्। यस जिल्ला लुम्बिनी प्रदेशमा पर्दछ। यस जिल्लाअन्तर्गत १ प्रतिनिधि सभा निर्वाचन क्षेत्रहरू रहेका छन्।",
     "voters": {
@@ -1071,8 +1071,8 @@
   {
     "slug": "rukum-east",
     "name": "रूकुम पूर्व",
-    "province_slug": "koshi-province",
-    "province_name": "कोशी प्रदेश",
+    "province_slug": "lumbini-province",
+    "province_name": "लुम्बिनी प्रदेश",
     "map_image": "/election/media/map/rukum-purba_QZMJdL5jHI.png",
     "description": "रूकुम पूर्व जिल्लामा कुल मतदाता ३४७७२ रहेका छन्, जसमा पुरुष १७५८२, महिला १७१९० र अन्य ० मतदाता समावेश छन्। यस जिल्ला लुम्बिनी प्रदेशमा पर्दछ। यस जिल्लाअन्तर्गत १ प्रतिनिधि सभा निर्वाचन क्षेत्रहरू रहेका छन्।",
     "voters": {
@@ -1088,8 +1088,8 @@
   {
     "slug": "rukum-west",
     "name": "रूकुम पश्चिम",
-    "province_slug": "koshi-province",
-    "province_name": "कोशी प्रदेश",
+    "province_slug": "karnali-province",
+    "province_name": "कर्णाली प्रदेश",
     "map_image": "/election/media/map/rukum-pachim_OZkkjzMRMT.png",
     "description": "रूकुम पश्चिम जिल्लामा कुल मतदाता १०६६५९ रहेका छन्, जसमा पुरुष ५४२६३, महिला ५२३९६ र अन्य ० मतदाता समावेश छन्। यस जिल्ला कर्णाली प्रदेशमा पर्दछ। यस जिल्लाअन्तर्गत १ प्रतिनिधि सभा निर्वाचन क्षेत्रहरू रहेका छन्।",
     "voters": {
@@ -1105,8 +1105,8 @@
   {
     "slug": "rupandehi",
     "name": "रूपन्देही",
-    "province_slug": "koshi-province",
-    "province_name": "कोशी प्रदेश",
+    "province_slug": "lumbini-province",
+    "province_name": "लुम्बिनी प्रदेश",
     "map_image": "/election/media/map/ruphendhi_goJofGrJpX.png",
     "description": "रूपन्देही जिल्लामा कुल मतदाता ६७२५१४ रहेका छन्, जसमा पुरुष ३४६२०३, महिला ३२६३११ र अन्य ० मतदाता समावेश छन्। यस जिल्ला लुम्बिनी प्रदेशमा पर्दछ। यस जिल्लाअन्तर्गत ५ प्रतिनिधि सभा निर्वाचन क्षेत्रहरू रहेका छन्।",
     "voters": {
@@ -1126,8 +1126,8 @@
   {
     "slug": "salyan",
     "name": "सल्यान",
-    "province_slug": "koshi-province",
-    "province_name": "कोशी प्रदेश",
+    "province_slug": "karnali-province",
+    "province_name": "कर्णाली प्रदेश",
     "map_image": "/election/media/map/salyan_O9vZs4emYY.png",
     "description": "सल्यान जिल्लामा कुल मतदाता १६२४४९ रहेका छन्, जसमा पुरुष ८३३२१, महिला ७९१२८ र अन्य ० मतदाता समावेश छन्। यस जिल्ला कर्णाली प्रदेशमा पर्दछ। यस जिल्लाअन्तर्गत १ प्रतिनिधि सभा निर्वाचन क्षेत्रहरू रहेका छन्।",
     "voters": {
@@ -1160,8 +1160,8 @@
   {
     "slug": "saptari",
     "name": "सप्तरी",
-    "province_slug": "koshi-province",
-    "province_name": "कोशी प्रदेश",
+    "province_slug": "madhesh-province",
+    "province_name": "मधेस प्रदेश",
     "map_image": "/election/media/map/saptari_Q0zSgoFOb8.png",
     "description": "सप्तरी जिल्लामा कुल मतदाता ४४६३७९ रहेका छन्, जसमा पुरुष २३३०९६, महिला २१३२८३ र अन्य ० मतदाता समावेश छन्। यस जिल्ला मधेस प्रदेशमा पर्दछ। यस जिल्लाअन्तर्गत ४ प्रतिनिधि सभा निर्वाचन क्षेत्रहरू रहेका छन्।",
     "voters": {
@@ -1180,8 +1180,8 @@
   {
     "slug": "sarlahi",
     "name": "सर्लाही",
-    "province_slug": "koshi-province",
-    "province_name": "कोशी प्रदेश",
+    "province_slug": "madhesh-province",
+    "province_name": "मधेस प्रदेश",
     "map_image": "/election/media/map/sarahali_Oo4MViAmjU.png",
     "description": "सर्लाही जिल्लामा कुल मतदाता ५११५९५ रहेका छन्, जसमा पुरुष २७८८३७, महिला २३२७५८ र अन्य ० मतदाता समावेश छन्। यस जिल्ला मधेस प्रदेशमा पर्दछ। यस जिल्लाअन्तर्गत ४ प्रतिनिधि सभा निर्वाचन क्षेत्रहरू रहेका छन्।",
     "voters": {
@@ -1200,8 +1200,8 @@
   {
     "slug": "sindhuli",
     "name": "सिन्धुली",
-    "province_slug": "koshi-province",
-    "province_name": "कोशी प्रदेश",
+    "province_slug": "bagmati-province",
+    "province_name": "बागमती प्रदेश",
     "map_image": "/election/media/map/sindhuli_4fwEcS0En7.png",
     "description": "सिन्धुली जिल्लामा कुल मतदाता २१५०१९ रहेका छन्, जसमा पुरुष १११३२४, महिला १०३६९५ र अन्य ० मतदाता समावेश छन्। यस जिल्ला बागमती प्रदेशमा पर्दछ। यस जिल्लाअन्तर्गत २ प्रतिनिधि सभा निर्वाचन क्षेत्रहरू रहेका छन्।",
     "voters": {
@@ -1218,8 +1218,8 @@
   {
     "slug": "sindhupalchok",
     "name": "सिन्धुपाल्चोक",
-    "province_slug": "koshi-province",
-    "province_name": "कोशी प्रदेश",
+    "province_slug": "bagmati-province",
+    "province_name": "बागमती प्रदेश",
     "map_image": "/election/media/map/shindhupalchok_HZfA1QgzbU.png",
     "description": "सिन्धुपाल्चोक जिल्लामा कुल मतदाता २७४९९८ रहेका छन्, जसमा पुरुष १४३३०२, महिला १३१६९६ र अन्य ० मतदाता समावेश छन्। यस जिल्ला बागमती प्रदेशमा पर्दछ। यस जिल्लाअन्तर्गत २ प्रतिनिधि सभा निर्वाचन क्षेत्रहरू रहेका छन्।",
     "voters": {
@@ -1236,8 +1236,8 @@
   {
     "slug": "siraha",
     "name": "सिराहा",
-    "province_slug": "koshi-province",
-    "province_name": "कोशी प्रदेश",
+    "province_slug": "madhesh-province",
+    "province_name": "मधेस प्रदेश",
     "map_image": "/election/media/map/siraha_TTyBxhV4zK.png",
     "description": "सिराहा जिल्लामा कुल मतदाता ४५३६४३ रहेका छन्, जसमा पुरुष २४१६१५, महिला २१२०२८ र अन्य ० मतदाता समावेश छन्। यस जिल्ला मधेस प्रदेशमा पर्दछ। यस जिल्लाअन्तर्गत ४ प्रतिनिधि सभा निर्वाचन क्षेत्रहरू रहेका छन्।",
     "voters": {
@@ -1293,8 +1293,8 @@
   {
     "slug": "surkhet",
     "name": "सुर्खेत",
-    "province_slug": "koshi-province",
-    "province_name": "कोशी प्रदेश",
+    "province_slug": "karnali-province",
+    "province_name": "कर्णाली प्रदेश",
     "map_image": "/election/media/map/surkhet_eOIma9dHVg.png",
     "description": "सुर्खेत जिल्लामा कुल मतदाता २४८९४३ रहेका छन्, जसमा पुरुष १२१८८९, महिला १२७०५४ र अन्य ० मतदाता समावेश छन्। यस जिल्ला कर्णाली प्रदेशमा पर्दछ। यस जिल्लाअन्तर्गत २ प्रतिनिधि सभा निर्वाचन क्षेत्रहरू रहेका छन्।",
     "voters": {
@@ -1311,8 +1311,8 @@
   {
     "slug": "syangja",
     "name": "स्याङजा",
-    "province_slug": "koshi-province",
-    "province_name": "कोशी प्रदेश",
+    "province_slug": "gandaki-province",
+    "province_name": "गण्डकी प्रदेश",
     "map_image": "/election/media/map/syanjha_AD1X7cw3xf.png",
     "description": "स्याङजा जिल्लामा कुल मतदाता २४८८१५ रहेका छन्, जसमा पुरुष १२२४६४, महिला १२६३५१ र अन्य ० मतदाता समावेश छन्। यस जिल्ला गण्डकी प्रदेशमा पर्दछ। यस जिल्लाअन्तर्गत २ प्रतिनिधि सभा निर्वाचन क्षेत्रहरू रहेका छन्।",
     "voters": {
@@ -1329,8 +1329,8 @@
   {
     "slug": "tanahun",
     "name": "तनहुँ",
-    "province_slug": "koshi-province",
-    "province_name": "कोशी प्रदेश",
+    "province_slug": "gandaki-province",
+    "province_name": "गण्डकी प्रदेश",
     "map_image": "/election/media/map/tanahu_R9qd4CxG62.png",
     "description": "तनहुँ जिल्लामा कुल मतदाता २५४३९७ रहेका छन्, जसमा पुरुष १२३४९१, महिला १३०९०६ र अन्य ० मतदाता समावेश छन्। यस जिल्ला गण्डकी प्रदेशमा पर्दछ। यस जिल्लाअन्तर्गत २ प्रतिनिधि सभा निर्वाचन क्षेत्रहरू रहेका छन्।",
     "voters": {

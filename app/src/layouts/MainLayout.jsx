@@ -1,4 +1,4 @@
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import { Link } from "react-router-dom";
 import { ChevronDown, Menu, Search, X } from "lucide-react";
 import Header from "../components/ui/Header/Header";
@@ -30,7 +30,7 @@ export function MainLayout({
   const [searchQuery, setSearchQuery] = useState("");
 
   const [href, setHref] = useState(window.location.href);
-  window.onchange = () => setHref(window.location.href);
+  useEffect(() => setHref(window.location.href),[window.location.href]);
   const [temp, setTemp] = useState(
     districtData.find((e) =>
       e?.slug.includes(href.split("/")[-1 + href.split("/").length]),

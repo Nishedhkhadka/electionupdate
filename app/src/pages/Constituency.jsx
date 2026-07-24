@@ -26,6 +26,44 @@ export default function Constituency() {
   const cleanSlug = slug?.replace(/\.html$/i, "");
 
   const constituency = constituencyData.find((c) => c.slug === cleanSlug);
+  
+  const navigate = useNavigate();
+
+const [provinceFilter, setProvinceFilter] = useState("");
+const [districtFilter, setDistrictFilter] = useState("");
+const [constituencyFilter, setConstituencyFilter] = useState("");
+
+const availableDistricts = useMemo(
+  () => districtData.filter((d) => d.province_slug === provinceFilter),
+  [provinceFilter]
+);
+const availableConstituencies = useMemo(
+  () =>
+    constituencyData.filter(
+      (c) => c.district_slug === districtFilter
+    ),
+  [districtFilter]
+  
+);
+
+
+const handleProvinceChange = (value) => {
+  setProvinceFilter(value);
+  setDistrictFilter("");
+  setConstituencyFilter("");
+};
+const handleDistrictChange = (value) => {
+  setDistrictFilter(value);
+  setConstituencyFilter("");
+};
+const handleFilterSubmit = (e) => {
+
+  
+
+  if (constituencyFilter) {
+    navigate(`/constituency/${constituencyFilter}`);
+  }
+};
 
   if (!constituency) {
     return (
@@ -34,14 +72,125 @@ export default function Constituency() {
       </MainLayout>
     );
   }
-
+const districtConstituencies = constituencyData.filter(
+  (c) => c.district_slug === constituency.district_slug
+);
   // Sort candidates by votes descending
   const sortedCandidates = [...constituency.candidates].sort(
     (a, b) => (b.votes || 0) - (a.votes || 0),
   );
+  
+
+  const candidatesBySlug = useMemo(
+    () => new Map(candidatesData.map((c) => [c.slug, c])),
+    [],
+  );
+
+  const partyByName = useMemo(
+    () => new Map(partyData.map((p) => [p.name, p])),
+    [],
+  );
+
+const filterBar = (
+  <form
+    onSubmit={handleFilterSubmit}
+    className="filter-bar"
+    style={{
+      display: "flex",
+      alignItems: "center",
+      gap: "10px",
+      flexWrap: "wrap",
+    }}
+  >
+    {/* Province */}
+    <select
+      style={{
+        padding: "8px 25px 10px 16px",
+        borderRadius: "8px",
+        fontSize: "16px",
+        fontWeight: "500",
+        border: "1px solid rgba(12,12,13,.09)",
+        backgroundColor: "rgba(204,204,204,.28)",
+      }}
+      value={provinceFilter}
+      onChange={(e) => handleProvinceChange(e.target.value)}
+    >
+      <option value="">प्रदेश</option>
+
+      {provinceData.map((province) => (
+        <option key={province.slug} value={province.slug}>
+          {province.name}
+        </option>
+      ))}
+    </select>
+
+    {/* District */}
+    <select
+      style={{
+        padding: "8px 25px 10px 16px",
+        borderRadius: "8px",
+        fontSize: "16px",
+        fontWeight: "500",
+        border: "1px solid rgba(12,12,13,.09)",
+        backgroundColor: "rgba(204,204,204,.28)",
+      }}
+      value={districtFilter}
+      onChange={(e) => handleDistrictChange(e.target.value)}
+    >
+      <option value="">जिल्ला</option>
+
+      {availableDistricts.map((district) => (
+        <option key={district.slug} value={district.slug}>
+          {district.name}
+        </option>
+      ))}
+    </select>
+
+    {/* Constituency */}
+    <select
+      style={{
+        padding: "8px 25px 10px 16px",
+        borderRadius: "8px",
+        fontSize: "16px",
+        fontWeight: "500",
+        border: "1px solid rgba(12,12,13,.09)",
+        backgroundColor: "rgba(204,204,204,.28)",
+      }}
+      value={constituencyFilter}
+      onChange={(e) => setConstituencyFilter(e.target.value)}
+    >
+      <option value="">निर्वाचन क्षेत्र</option>
+
+      {availableConstituencies.map((item) => (
+        <option key={item.slug} value={item.slug}>
+          {item.name}
+        </option>
+      ))}
+    </select>
+
+    <button
+      type="submit"
+      
+      style={{
+        backgroundColor: "#bf1e2e",
+        color: "#fff",
+        padding: "8px 12px",
+        borderRadius: "4px",
+        border: "none",
+        fontSize: "14px",
+        cursor: "pointer",
+        fontWeight: "bold",
+      }}
+    >
+
+      खोज्नुहोस्
+    </button>
+  </form>
+);
+
 
   return (
-    <MainLayout title={constituency.name}>
+    <MainLayout title={constituency.name} headerRight={filterBar}>
       <div className="district-detail" style={{ marginBottom: "30px" }}>
         <div className="dn-grid">
           <div className="col8">
@@ -94,6 +243,13 @@ export default function Constituency() {
           </div>
 
           <div className="col4">
+          <div
+              className="heading-title"
+              style={{ textAlign: "center", marginTop: "20px" }}
+            >
+              {" "}
+              मतदाता विवरण
+            </div>
             <ul className="stats">
               <li
                 style={{
@@ -103,7 +259,7 @@ export default function Constituency() {
                 }}
               >
                 <img
-                  src="/assets/img/vote.png"
+                  src="/assets/images/vote.png"
                   alt=""
                   style={{ maxWidth: "40px", marginRight: "15px" }}
                 />
@@ -128,7 +284,7 @@ export default function Constituency() {
                 }}
               >
                 <img
-                  src="/assets/img/man.png"
+                  src="/assets/images/man.png"
                   alt=""
                   style={{ maxWidth: "40px", marginRight: "15px" }}
                 />
@@ -147,7 +303,7 @@ export default function Constituency() {
               </li>
               <li style={{ display: "flex", alignItems: "center" }}>
                 <img
-                  src="/assets/img/woman.png"
+                  src="/assets/images/woman.png"
                   alt=""
                   style={{ maxWidth: "40px", marginRight: "15px" }}
                 />
