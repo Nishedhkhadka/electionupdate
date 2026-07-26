@@ -1,0 +1,164 @@
+/* hotseats.css */
+
+/* Main Grid Layout:
+   >= 811px: 3 cards per row
+   >= 520px: 2 cards per row
+   < 520px: 1 card per row
+*/
+.hot-seats-grid {
+  margin-top: 20px;
+  display: grid;
+  gap: 20px;
+  grid-template-columns: 1fr;
+}
+
+@media (min-width: 520px) {
+  .hot-seats-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 811px) {
+  .hot-seats-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* Card Styling */
+.hot-seat-card {
+  background-color: #fff;
+  border: 1px solid #e5e7eb;
+  border-radius: 6px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.hot-seat-header {
+  background-color: #f3e8eb;
+  border-bottom: 3px solid #bf1e2e;
+  padding: 10px 15px;
+  margin-bottom: 15px;
+}
+
+.hot-seat-title {
+  margin: 0;
+  font-size: 16px;
+  font-weight: bold;
+  color: #bf1e2e;
+}
+
+.hot-seat-candidates {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 6px;
+  padding: 0 6px 12px;
+  align-items: start;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.hot-seat-candidate-link {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+  min-width: 0;
+  height: 100%;
+}
+
+.hot-seat-candidate-card {
+  text-align: center;
+  padding: 8px 4px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  box-sizing: border-box;
+  min-width: 0;
+}
+
+/* Responsive Avatar Container - Squeezes proportionally when width is small */
+.hot-seat-avatar-wrapper {
+  width: 100%;
+  max-width: 90px;
+  aspect-ratio: 1 / 1;
+  margin: 0 auto 10px;
+  border-radius: 50%;
+  background: linear-gradient(180deg, #ffeef0, #f8dfe0);
+  border: 1px solid rgba(0, 0, 0, 0.04);
+  position: relative;
+  flex-shrink: 0;
+}
+
+.hot-seat-avatar-img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid #fff;
+  position: absolute;
+  left: 0;
+  top: 0;
+  box-sizing: border-box;
+}
+
+.hot-seat-party-logo {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  object-fit: cover;
+  z-index: 1;
+}
+
+/* Text elements: Wrap text to increase height when width is small */
+.hot-seat-candidate-name {
+  font-size: 12px;
+  font-weight: 600;
+  margin: 6px 0 2px;
+  color: #333;
+  word-break: break-word;
+  overflow-wrap: break-word;
+  line-height: 1.3;
+  width: 100%;
+}
+
+.hot-seat-candidate-party {
+  font-size: 11px;
+  color: #666;
+  margin: 2px 0 6px;
+  word-break: break-word;
+  overflow-wrap: break-word;
+  line-height: 1.2;
+  width: 100%;
+}
+
+.hot-seat-votes-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: auto;
+  width: 100%;
+  position: relative;
+}
+
+.hot-seat-votes {
+  font-size: 15px;
+  font-weight: 700;
+  margin-top: 4px;
+  text-align: center;
+}
+
+.hot-seat-winner-tick {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  width: 16px;
+  height: 16px;
+  object-fit: contain;
+}

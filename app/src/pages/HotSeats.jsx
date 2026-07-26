@@ -18,6 +18,7 @@ import {
 } from "../utils/geoUtils";
 import { fixImageUrl } from "../utils/imageUtils";
 import { getManifestoImage } from "../app/config/constants";
+import "./hotseats.css";
 
 export default function HotSeats() {
 	const [districtFilter, setDistrictFilter] = useState("");
@@ -89,50 +90,19 @@ export default function HotSeats() {
 			title="हट सिटहरु"
 			headerRight={filterBar}
 		>
-			<div
-				style={{
-					marginTop: "20px",
-					display: "grid",
-					gridTemplateColumns: "repeat(3, 1fr)",
-					gap: "20px",
-				}}
-			>
+			<div className="hot-seats-grid">
 				{filteredHotSeats.length > 0 ? (
 					filteredHotSeats.map((hotSeat) => (
-						<div key={hotSeat.constituency}>
-							<div
-								style={{
-									backgroundColor: "#f3e8eb",
-									borderBottom: "3px solid #bf1e2e",
-									padding: "10px 15px",
-									marginBottom: "15px",
-								}}
-							>
+						<div key={hotSeat.constituency} className="hot-seat-card">
+							<div className="hot-seat-header">
 								<Link to={`/constituency/${constituencyData.find(e=> e?.name === hotSeat?.constituency)?.slug}`}>
-									<h3
-										
-										style={{
-											margin: 0,
-											fontSize: "16px",
-											fontWeight: "bold",
-											color: "#bf1e2e",
-										}}
-									>
+									<h3 className="hot-seat-title">
 										{hotSeat.constituency }
 									</h3>
 								</Link>
-								
 							</div>
 
-							<div
-								style={{
-									display: "flex",
-									flexWrap: "nowrap",
-									gap: "15px",
-									overflowX: "auto",
-									paddingBottom: "8px",
-								}}
-							>
+							<div className="hot-seat-candidates">
 								{hotSeat.candidates.map((candidate, idx) => {
 									// Look up votes from candidatesData by matching name
 									const candidateData = candidatesData.find(
@@ -147,118 +117,50 @@ export default function HotSeats() {
 											"https://npcdn.ratopati.com",
 										) || "/assets/images/placeholder.png";
 									
-									
-									
-
 									return (
-										<Link to={`/candidate/${candidateData.slug}`}>
-										<div
-											key={idx}
-											style={{
-												textAlign: "center",
-												padding: "12px",
-												position: "relative",
-											}}
-										>
-											<div
-											style={{
-												width: "90px",
-												height: "90px",
-												margin: "0 auto 10px",
-												borderRadius: "50%",
-												background: "linear-gradient(180deg, #ffeef0, #f8dfe0)",
-												
-												border: "1px solid rgba(0,0,0,0.04)",
-												position: "relative",
-											}}
-											>
-											
-											<img
-												src={fixedImageUrl}
-												alt={candidate.name}
-												style={{
-												width: "90px",
-												height: "90px",
-												borderRadius: "50%",
-												objectFit: "cover",
-												border: "4px solid #fff",
-												position: "absolute",
-												left: "0",
-												top: "0",
-												}}
-												onError={(e) => {
-												e.target.onerror = null;
-												e.target.src = "/assets/images/placeholder.png";
-												}}
-											/>
-											
-											
-											<img
-												src={candidateData?.partyLogo}
-												alt="Center overlay"
-												style={{
-												position: "absolute",
-												top: "100%",
-												left: "50%",
-												transform: "translate(-50%, -50%)",
-												width: "20px", 
-												height: "20px", 
-												borderRadius: "50%", 
-												objectFit: "cover",
-												zIndex: 1, 
-												}}
-											/>
-											</div>
-                      							
-
-											<h4
-												style={{
-													fontSize: "12px",
-													fontWeight: "600",
-													margin: "6px 0",
-													color: "#333",
-												}}
-											>
-												{candidate.name}
-											</h4>
-											<p
-												style={{
-													fontSize: "11px",
-													color: "#666",
-													margin: "2px 0",
-												}}
-											>
-												{candidate.party}
-											</p>
-											<div className="flex">
-												<div
-													style={{
-														fontSize: "16px",
-														fontWeight: "700",
-														color: candidate.winner? "#2c9a6b": "#000000",
-														marginTop: "6px",
-														textAlign: "center",
-														marginLeft:"10px"
-													}}
-												>
-													{toNepaliNumber(votes)}
-												</div>
-												{candidate.winner && (
+										<Link to={`/candidate/${candidateData?.slug}`} key={idx} className="hot-seat-candidate-link">
+											<div className="hot-seat-candidate-card">
+												<div className="hot-seat-avatar-wrapper">
 													<img
-														src="/assets/img/win-tick.png"
-														alt="winner"
-														
-														style={{
-															position: "absolute",
-															bottom: "12px",
-															right: "16px",
-															objectFit: "contain",
-															
+														src={fixedImageUrl}
+														alt={candidate.name}
+														className="hot-seat-avatar-img"
+														onError={(e) => {
+															e.target.onerror = null;
+															e.target.src = "/assets/images/placeholder.png";
 														}}
 													/>
-												)}
+													<img
+														src={candidateData?.partyLogo}
+														alt="Center overlay"
+														className="hot-seat-party-logo"
+													/>
+												</div>
+
+												<h4 className="hot-seat-candidate-name">
+													{candidate.name}
+												</h4>
+												<p className="hot-seat-candidate-party">
+													{candidate.party}
+												</p>
+												<div className="flex hot-seat-votes-container">
+													<div
+														className="hot-seat-votes"
+														style={{
+															color: candidate.winner ? "#2c9a6b" : "#000000",
+														}}
+													>
+														{toNepaliNumber(votes)}
+													</div>
+													{candidate.winner && (
+														<img
+															src="/assets/img/win-tick.png"
+															alt="winner"
+															className="hot-seat-winner-tick"
+														/>
+													)}
+												</div>
 											</div>
-										</div>
 										</Link>
 									);
 								})}
