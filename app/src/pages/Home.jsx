@@ -500,7 +500,7 @@ export default function Home() {
                     style={{
                       display: "flex",
                       flexWrap: "wrap",
-                      justifyContent: "center",
+                     
                       gap: "16px",
                       padding: "16px 10px",
                       marginTop: "10px",
