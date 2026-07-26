@@ -8,7 +8,7 @@ import constituencyData from "../data/constituency.json";
 import districtData from "../data/district.json";
 import partyData from "../data/party.json";
 import { cleanRouteSlug } from "../utils";
-import { useParams } from "react-router-dom";
+import { useParams, useLocation } from "react-router-dom";
 
 /**
  * MainLayout Component
@@ -28,21 +28,24 @@ export function MainLayout({
 }) {
   const [isMobileNavOpen, setIsMobileNavOpen] = useState(false);
   const [searchQuery, setSearchQuery] = useState("");
+  const location = useLocation();
+  const [href, setHref] = useState(location?.pathname || window.location.href);
 
-  const [href, setHref] = useState(window.location.href);
-  useEffect(() => setHref(window.location.href),[window.location.href]);
-  const [temp, setTemp] = useState(
-    districtData.find((e) =>
-      e?.slug.includes(href.split("/")[-1 + href.split("/").length]),
+  let temp = districtData.find((e) =>
+    e?.slug.includes(href.split("/")[-1 + href.split("/").length]),
+  );
+
+  let temp1 = districtData.find((e) =>
+    e?.slug.includes(
+      href.split("/")[-1 + href.split("/").length].split("-")[0],
     ),
   );
-  const [temp1, setTemp1] = useState(
-    districtData.find((e) =>
-      e?.slug.includes(
-        href.split("/")[-1 + href.split("/").length].split("-")[0],
-      ),
-    ),
-  );
+
+  useEffect(() => {
+    setHref(location?.pathname || window.location.href);
+  }, [location]);
+
+  console.log("1", temp, "2", temp1, "3", href, 4, location.pathname);
 
   const searchResults = useMemo(() => {
     const query = searchQuery.trim().toLowerCase();
