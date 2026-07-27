@@ -53,14 +53,14 @@ export default function PopularCandidates() {
 
           return (b.votes || 0) - (a.votes || 0);
         }),
-    []
+    [],
   );
 
   const getCandidateHref = (candidate) => `/candidate/${candidate.slug}`;
 
   const getConstituencyHref = (candidate) => {
     const constituencySlug = constituencySlugByName.get(
-      normalizeName(candidate.constituency)
+      normalizeName(candidate.constituency),
     );
 
     return constituencySlug ? `/constituency/${constituencySlug}` : null;
@@ -87,7 +87,7 @@ export default function PopularCandidates() {
             onClick={() => navigate(getCandidateHref(candidate))}
             style={{ cursor: "pointer" }}
           >
-            <div className="popular-card-inner">
+            <div className="popular-card-inner parent">
               {candidate.isWinner && (
                 <span className="popular-card-check" aria-hidden="true">
                   <img src="/assets/img/win-tick.png" alt="" />
@@ -134,7 +134,7 @@ export default function PopularCandidates() {
 
               <div className="card-body">
                 <h4
-                  className="candidate-name"
+                  className="candidate-name glowText"
                   style={{ color: "black" }}
                 >
                   {candidate.name}

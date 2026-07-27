@@ -380,7 +380,7 @@ export default function Party() {
                       className="heading-title"
                       style={{ marginBottom: "15px", fontSize: "21px" }}
                     >
-                      <span>विजयी उम्मेदवारहरु</span>
+                      <span>चर्चित उम्मेदवारहरु</span>
                     </h2>
                     <Link to={"/popular-candidates"}>
                       {" "}
