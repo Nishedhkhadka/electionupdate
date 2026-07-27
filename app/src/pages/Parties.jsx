@@ -50,6 +50,7 @@ export default function Parties() {
               textAlign: "center",
               boxShadow: "0 2px 4px rgba(0,0,0,0.05)",
             }}
+            className="parent"
           >
             <img
               src={party.logo || "/assets/images/placeholder.png"}
@@ -70,6 +71,7 @@ export default function Parties() {
                 margin: "0 0 4px",
                 pointerEvents: "none",
               }}
+              className="glowText"
             >
               {party.name}
             </h3>
