@@ -60,7 +60,9 @@ export default function ProportionalResultsSection() {
             marginBottom: "10px",
           }}
         >
-          <div></div>
+          <div className="heading-title">
+            समानुपातिक मतगणना
+          </div>
           <Link
             className="btn"
             to="/parties"
