@@ -188,7 +188,7 @@ const filterBar = (
   </form>
 );
 
-
+debugger
   return (
     <MainLayout title={constituency.name} headerRight={filterBar}>
       <div className="district-detail" style={{ marginBottom: "30px" }}>
