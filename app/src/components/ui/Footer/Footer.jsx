@@ -4,6 +4,8 @@ import { Mail, Phone, MessageCircle, Globe } from "lucide-react";
 import Whatsapp from "../../../../public/images/whatsapp.svg";
 
 const Footer = () => {
+  const now = new Date();
+
   return (
     <>
       <footer className="footer">
@@ -221,15 +223,7 @@ const Footer = () => {
               </div>
 
               <div className="download-app">
-                <h2>
-                  <a
-                    href="https://www.jointwithus.com.np"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    Download App
-                  </a>
-                </h2>
+                <h2>Download App</h2>
 
                 <div className="store-buttons">
                   <a
@@ -263,7 +257,7 @@ const Footer = () => {
 
       <div className="footer-bottom">
         <div className="footer-bottom-container">
-          <div>2025, All Rights Reserved.</div>
+          <div>{now.getFullYear()}, All Rights Reserved.</div>
 
           <div className="developer-info">
             Design & Developed by
