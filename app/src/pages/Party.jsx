@@ -236,6 +236,7 @@ export default function Party() {
                               alignItems: "center",
                               background: "#fff",
                             }}
+                            className="parent"
                           >
                             <div
                               style={{
@@ -257,6 +258,7 @@ export default function Party() {
                                   color: "rgba(0, 0, 0, 0.7882352941)",
                                   fontWeight: "700",
                                 }}
+                                className="glowText"
                               >
                                 {e?.constituency}
                               </p>
