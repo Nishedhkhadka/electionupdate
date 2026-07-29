@@ -1110,12 +1110,13 @@ body.show__search--modal .global-search-form {
     align-items: center;
     min-height: 24px;
     padding: 2px 8px;
-    background: #bf1e2e;
+    background: rgb(37,99,345);
     border-top: 1px solid rgba(255, 255, 255, 0.22);
   }
 
   .mobile-nav-toggle {
     display: inline-flex;
+    
     width: 22px;
     height: 22px;
     padding: 0;
