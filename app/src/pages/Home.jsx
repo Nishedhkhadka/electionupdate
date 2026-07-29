@@ -620,8 +620,9 @@ export default function Home() {
                         }}
                       >
                         {/* Candidate Image */}
+                        
                         <img
-                          src={candidate.image || "/placeholder-user.jpg"}
+                          src={candidate.image}
                           alt={candidate.name}
                           style={{
                             width: "36px",

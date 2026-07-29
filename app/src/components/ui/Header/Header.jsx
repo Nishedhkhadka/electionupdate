@@ -4,6 +4,9 @@ import { Link } from "react-router-dom";
 
 const Header = () => {
   const [nepaliTime, setNepaliTime] = useState("लोड हुँदैछ...");
+  const [isCompactHeader, setIsCompactHeader] = useState(() =>
+    typeof window !== "undefined" ? window.innerWidth <= 1024 : false,
+  );
 
   useEffect(() => {
     const nepaliDays = [
@@ -133,177 +136,207 @@ const Header = () => {
     return () => clearInterval(interval);
   }, []);
 
-  return (
-    <div
-      style={{
-        backgroundColor: "#08a222",
-        height: "170px",
-        display: "flex",
-        alignItems: "center",
-        justifyContent: "space-between",
-        padding: "0px 0px 0px 20px",
-        boxSizing: "border-box",
-      }}
-    >
-      {/* LEFT */}
-      <div
-        style={{
-          display: "flex",
-          alignItems: "center",
-          gap: "20px",
-          width: "30%",
-        }}
-      >
-        <img
-          src="/gif/ओमकार.gif"
-          alt=""
-          style={{
-            height: "120px",
-            width: "auto",
-          }}
-        />
+  useEffect(() => {
+    const handleResize = () => setIsCompactHeader(window.innerWidth <= 1024);
 
-        <div>
+    handleResize();
+    window.addEventListener("resize", handleResize);
+
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
+
+  return (
+    <div className="header-wrapper">
+      {!isCompactHeader ? (
+        <div className="header-left">
           <img
-            src="/gif/स्वागत छ.gif"
+            src="/gif/ओमकार.gif"
             alt=""
             style={{
-              height: "85px",
-              marginBottom: "10px",
+              height: "120px",
+              width: "auto",
             }}
           />
 
-          <Link to="/" style={{ textDecoration: "none" }}>
-            <div
+          <div className="header-brand">
+            <img
+              src="/gif/स्वागत छ.gif"
+              alt=""
               style={{
-                fontSize: "22px",
-                fontWeight: "600",
-                color: "#000",
-                
-                lineHeight: "1.2",
+                height: "85px",
+                marginBottom: "10px",
               }}
-            >
-              JOIN WITH US
-            </div>
+            />
 
-            <div
-              style={{
-                fontSize: "22px",
-                color: "#000",
-                lineHeight: "1.2",
-                marginBottom:"8px",
-                
-              }}
-            >
-              (जोइन्ट विथ अस)
-            </div>
-          </Link>
-        </div>
-      </div>
+            <Link to="/" style={{ textDecoration: "none" }}>
+              <div
+                style={{
+                  fontSize: "22px",
+                  fontWeight: "600",
+                  color: "#000",
+                  lineHeight: "1.2",
+                }}
+              >
+                JOIN WITH US
+              </div>
 
-      {/* CENTER */}
-      <div
-        style={{
-          width: "40%",
-          display: "flex",
-          justifyContent: "center",
-          alignItems: "center",
-          gap: "15px",
-          paddingRight: "100px",
-        }}
-      >
-        <img
-          src="/images/khaiKHo.png"
-          alt=""
-          style={{
-            height: "140px",
-            width: "auto",
-          }}
-        />
-
-        <img
-          src="/gif/Flag.gif"
-          alt=""
-          style={{
-            height: "90px",
-            width: "auto",
-          }}
-        />
-
-        <img
-          src="/images/लोगो.png"
-          alt=""
-          style={{
-            height: "90px",
-            width: "auto",
-          }}
-        />
-
-        <img
-          src="/gif/Flag.gif"
-          alt=""
-          style={{
-            height: "90px",
-            width: "auto",
-            transform: "scaleX(-1)",
-          }}
-        />
-
-        <img
-          src="/images/khaiKHo.png"
-          alt=""
-          style={{
-            height: "140px",
-            width: "auto",
-          }}
-        />
-      </div>
-
-      {/* RIGHT */}
-      <div style={{ height: "100%",  display: "flex" }}>
-        <div
-          style={{
-            backgroundColor: "#2563eb",
-            color: "#fff",
-
-            borderRadius: "10px 0 0 10px",
-            padding: "10px 10px",
-            margin: "8px 0px",
-            display: "flex",
-            flexDirection: "column",
-            justifyContent: "center",
-            alignItems: "center",
-            textAlign: "center",
-            fontSize: "14px",
-            marginRight: "0",
-          }}
-        >
-          <div style={{ fontWeight: "bold", fontSize: "16px" }}>
-            Transaction Hour:
+              <div
+                style={{
+                  fontSize: "22px",
+                  color: "#000",
+                  lineHeight: "1.2",
+                  marginBottom: "8px",
+                }}
+              >
+                (जोइन्ट विथ अस)
+              </div>
+            </Link>
           </div>
-          <div>10:00 AM to 3:00 PM (Sun To Thu)</div>
-          <div>10:00 AM to 2:00 PM (Fri)</div>
-          <div style={{ marginTop: "5px" }}>{nepaliTime}</div>
-          <a
-            href="https://jointwithus.com.np/register"
-            target="_blank"
-            rel="noopener noreferrer"
-            style={{ textDecoration: "none", color: "inherit" }}
-          >
-            <h2
-              className="membership-title"
+        </div>
+      ) : null}
+
+      <div className="header-center">
+        {isCompactHeader ? (
+          <div className="header-brand-mobile">
+            <Link to="/" style={{ textDecoration: "none" }}>
+              <div
+                style={{
+                  fontSize: "22px",
+                  fontWeight: "600",
+                  color: "#000",
+                  lineHeight: "1.2",
+                }}
+              >
+                JOIN WITH US
+              </div>
+
+              <div
+                style={{
+                  fontSize: "22px",
+                  color: "#000",
+                  lineHeight: "1.2",
+                  marginBottom: "8px",
+                }}
+              >
+                (जोइन्ट विथ अस)
+              </div>
+            </Link>
+          </div>
+        ) : (
+          <>
+            <img
+              src="/images/khaiKHo.png"
+              alt=""
               style={{
-                fontWeight: "1000",
-                marginTop: "5px",
-                cursor: "pointer",
+                height: "140px",
+                width: "auto",
+              }}
+            />
+
+            <img
+              src="/gif/Flag.gif"
+              alt=""
+              style={{
+                height: "90px",
+                width: "auto",
+              }}
+            />
+
+            <img
+              src="/images/लोगो.png"
+              alt=""
+              style={{
+                height: "90px",
+                width: "auto",
+              }}
+            />
+
+            <img
+              src="/gif/Flag.gif"
+              alt=""
+              style={{
+                height: "90px",
+                width: "auto",
+                transform: "scaleX(-1)",
+              }}
+            />
+
+            <img
+              src="/images/khaiKHo.png"
+              alt=""
+              style={{
+                height: "140px",
+                width: "auto",
+              }}
+            />
+          </>
+        )}
+      </div>
+
+      {!isCompactHeader ? (
+        <div className="header-right">
+          <div
+            style={{
+              backgroundColor: "#2563eb",
+              color: "#fff",
+              width: "330px", // Fixed width
+              minWidth: "330px",
+              borderRadius: "10px 0 0 10px",
+              padding: "10px 10px",
+              margin: "8px 0px",
+              display: "flex",
+              flexDirection: "column",
+              justifyContent: "center",
+              alignItems: "center",
+              textAlign: "center",
+              fontSize: "14px",
+              padding: "0 12px",
+            }}
+          >
+            <div
+              className="transaction"
+              style={{
+                fontWeight: "bold",
                 fontSize: "16px",
+                
               }}
             >
-              Membership Form
-            </h2>
-          </a>
+              Transaction Hour:
+            </div>
+            <div
+              className="time-1"
+              
+            >
+              10:00 AM to 3:00 PM (Sun To Thu)
+            </div>
+            <div
+              className="time-2"
+           
+            >
+              10:00 AM to 2:00 PM (Fri)
+            </div>
+            <div style={{ marginTop: "5px" }}>{nepaliTime}</div>
+            <a
+              href="https://jointwithus.com.np/register"
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{ textDecoration: "none", color: "inherit" }}
+            >
+              <h2
+                className="membership-title"
+                style={{
+                  fontWeight: "1000",
+                  marginTop: "5px",
+                  cursor: "pointer",
+                  fontSize: "16px",
+                }}
+              >
+                Membership Form
+              </h2>
+            </a>
+          </div>
         </div>
-      </div>
+      ) : null}
     </div>
   );
 };

@@ -1386,6 +1386,15 @@ body.show__search--modal .global-search-form {
   }
 }
 
-.membership-title:hover {
+.membership-title:hover{
+   color: rgb(231, 183, 60);
+}
+.time-1:hover{
+   color: rgb(231, 183, 60);
+}
+.time-2:hover{
+   color: rgb(231, 183, 60);
+}
+.transaction:hover {
   color: rgb(231, 183, 60);
 }
