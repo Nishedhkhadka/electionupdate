@@ -264,11 +264,11 @@ h6 {
 }
 
 .navigation {
-  color: white;
-  background: #bf1e2e;
-  z-index: 3;
-  position: sticky;
-  top: 0;
+    color: white;
+    background:rgb(37, 99, 345);
+    z-index: 3;
+    position: sticky;
+    top: 0;
 }
 
 .navigation .menu-container {
