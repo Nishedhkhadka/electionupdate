@@ -202,7 +202,11 @@ export default function ProvinceResultsSection() {
           }}
         >
           {firstRowCards.map(({ province, results }) => (
-            <div key={province.slug} style={{ display: "flex" }}>
+            <div
+              key={province.slug}
+              className="translate-y-card"
+              style={{ display: "flex" }}
+            >
               <div
                 style={{
                   display: "flex",
