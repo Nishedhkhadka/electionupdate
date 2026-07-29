@@ -21,7 +21,7 @@ export default function NepalMap({
       return districtToConstituenciesMap[groupId][0];
     }
 
-    const match = groupId.match(/^([a-z]+)(\d+)?$/);
+    const match =  groupId.match(/^([a-z-]+)(\d+)?$/);
     if (!match) {
       return null;
     }
