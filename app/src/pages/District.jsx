@@ -67,70 +67,83 @@ export default function District() {
     [],
   );
 
- const filterBar = (
-  <div className="heading-title-wrap flex flex-between flex-wrap flex-middle">
-     <form
-    onSubmit={handleFilterSubmit}
-    className="filter-bar"
-    style={{
-      display: "flex",
-      alignItems: "center",
-      gap: "10px",
-      flexWrap: "wrap",
-    }}
-  >
-    <select
-    style={{padding:"8px 25px 10px 16px", borderRadius:"8px", fontSize:"16px", fontWeight:"500", border:"1px solid rgba(12, 12, 13, 0.0901960784)", backgroundColor:"rgba(204, 204, 204, 0.2784313725)"}}
-      value={provinceFilter}
-      onChange={(e) => handleProvinceChange(e.target.value)}
-    >
-      <option value="">प्रदेश</option>
+  const filterBar = (
+    <div className="heading-title-wrap flex flex-between flex-wrap flex-middle">
+      <form
+        onSubmit={handleFilterSubmit}
+        className="filter-bar"
+        style={{
+          display: "flex",
+          alignItems: "center",
+          gap: "10px",
+          flexWrap: "wrap",
+        }}
+      >
+        <select
+          style={{
+            padding: "8px 25px 10px 16px",
+            borderRadius: "8px",
+            fontSize: "16px",
+            fontWeight: "500",
+            border: "1px solid rgba(12, 12, 13, 0.0901960784)",
+            backgroundColor: "rgba(204, 204, 204, 0.2784313725)",
+          }}
+          value={provinceFilter}
+          onChange={(e) => handleProvinceChange(e.target.value)}
+        >
+          <option value="">प्रदेश</option>
 
-      {provinceData.map((province) => (
-        <option key={province.slug} value={province.slug}>
-          {province.name}
-        </option>
-      ))}
-    </select>
+          {provinceData.map((province) => (
+            <option key={province.slug} value={province.slug}>
+              {province.name}
+            </option>
+          ))}
+        </select>
 
-    <select
-    offset={-100}
-      style={{padding:"8px 25px 10px 16px", borderRadius:"8px", fontSize:"16px", fontWeight:"500", border:"1px solid rgba(12, 12, 13, 0.0901960784)", backgroundColor:"rgba(204, 204, 204, 0.2784313725)" }}
-      value={districtFilter}
-      onChange={(e) => setDistrictFilter(e.target.value)}
-    >
-      <option value="">जिल्ला</option>
+        <select
+          offset={-100}
+          style={{
+            padding: "8px 25px 10px 16px",
+            borderRadius: "8px",
+            fontSize: "16px",
+            fontWeight: "500",
+            border: "1px solid rgba(12, 12, 13, 0.0901960784)",
+            backgroundColor: "rgba(204, 204, 204, 0.2784313725)",
+          }}
+          value={districtFilter}
+          onChange={(e) => setDistrictFilter(e.target.value)}
+        >
+          <option value="">जिल्ला</option>
 
-      {availableDistricts.map((district) => (
-        <option key={district.slug} value={district.slug}>
-          {district.name}
-        </option>
-      ))}
-    </select>
+          {availableDistricts.map((district) => (
+            <option key={district.slug} value={district.slug}>
+              {district.name}
+            </option>
+          ))}
+        </select>
 
-    <button
-      animate={{ scale: 1.2 }}
-      type="submit"
-      style={{
-        backgroundColor: "#bf1e2e",
-        color: "#fff",
-        padding: "8px 12px",
-        borderRadius: "4px",
-        border: "none",
-        fontSize: "14px",
-        cursor: "pointer",
-        fontWeight: "bold",
-      }}
-    >
-      खोज्नुहोस्
-    </button>
-  </form>
-  </div>
- 
-);
-  
+        <button
+          animate={{ scale: 1.2 }}
+          type="submit"
+          style={{
+            backgroundColor: "#bf1e2e",
+            color: "#fff",
+            padding: "8px 12px",
+            borderRadius: "4px",
+            border: "none",
+            fontSize: "14px",
+            cursor: "pointer",
+            fontWeight: "bold",
+          }}
+        >
+          खोज्नुहोस्
+        </button>
+      </form>
+    </div>
+  );
+
   return (
-    <MainLayout  title={district.name}  headerRight={filterBar}>
+    <MainLayout title={district.name} headerRight={filterBar}>
       <div className="district-detail" style={{ marginBottom: "30px" }}>
         <div className="dn-grid">
           <div className="col8">
@@ -269,10 +282,10 @@ export default function District() {
           निर्वाचन क्षेत्रहरू
         </h3>
         <div
-          className="candidate--lists dn-grid dn-grid-small"
+          className="candidate-lists dn-grid dn-grid-small"
           style={{
             display: "grid",
-            gridTemplateColumns: "repeat(auto-fill, minmax(320px, 1fr))",
+            gridTemplateColumns: "repeat(auto-fit, minmax(220px, 1fr))",
             gap: "20px",
           }}
         >
